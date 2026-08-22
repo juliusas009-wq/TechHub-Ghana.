@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-22T20:20:26.214989+00:00",
+  "updated": "2026-08-22T20:49:08.431978+00:00",
   "articles": [
+    {
+      "title": "Will the DOJ’s investigation into a16z spook other VCs?",
+      "summary": "On the latest episode of Equity, we wonder why the DOJ is investigating startup board seats.",
+      "link": "https://techcrunch.com/2026/08/22/will-the-dojs-investigation-into-a16z-spook-other-vcs/",
+      "date": "Sat, 22 Aug 2026 20:24:20 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
       "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
@@ -152,14 +160,6 @@
       "date": "Fri, 21 Aug 2026 16:01:54 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "Oura faces lawsuit accusing it of misleading consumers about sleep-tracking accuracy",
-      "summary": "The lawsuit alleges that Oura rings are unable to measure any of the physiological signals needed to assess sleep quality or determine sleep stages.",
-      "link": "https://techcrunch.com/2026/08/21/oura-faces-lawsuit-accusing-it-of-misleading-consumers-about-sleep-tracking-accuracy/",
-      "date": "Fri, 21 Aug 2026 14:39:24 +0000",
-      "source": "TechCrunch",
-      "category": "Cloud Computing"
     },
     {
       "title": "The Download: threats from space mirrors and credit for AI drugs",
