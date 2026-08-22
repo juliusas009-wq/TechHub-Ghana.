@@ -1,5 +1,72 @@
 {
-    "updatedAt": "",
-    "source": "TechHub Ghana",
-    "articles": []
+  "updatedAt": "2026-08-22T22:14:00Z",
+  "source": "TechHub Ghana",
+  "articles": [
+    {
+      "id": "ghana-gmet-digital-assessment-2026",
+      "title": "Ghana's GMET Digital Assessment Highlights ICT, Cybersecurity and Data Gaps",
+      "description": "A digital maturity assessment is highlighting ICT, cybersecurity and data gaps at Ghana's Ghana Meteorological Agency as the institution works to modernise its digital infrastructure and improve service delivery.",
+      "category": "Ghana Tech",
+      "author": "TechHub Ghana",
+      "source": "Tech Africa News",
+      "publishedAt": "2026-08-20T00:00:00Z",
+      "image": "images/ghana-tech.jpg",
+      "url": "https://techafricanews.com/2026/08/20/dmi-assessment-highlights-ict-cybersecurity-and-data-gaps-at-ghanas-gmet/"
+    },
+    {
+      "id": "ghana-national-ict-week-2026",
+      "title": "NITA Launches 2026 National ICT Week to Accelerate Digital Transformation",
+      "description": "Ghana's National Information Technology Agency has launched the 2026 National ICT Week celebration as part of efforts to promote digital transformation and strengthen the country's technology ecosystem.",
+      "category": "Ghana Tech",
+      "author": "TechHub Ghana",
+      "source": "The Business & Financial Times",
+      "publishedAt": "2026-08-03T00:00:00Z",
+      "image": "images/ghana-tech.jpg",
+      "url": "https://thebftonline.com/article/nita-launches-2026-national-ict-week-to-accelerate-digital-transformation"
+    },
+    {
+      "id": "ghana-ai-governance-2026",
+      "title": "Ghana Technology Leader Launches Book on AI Governance and Cybersecurity",
+      "description": "A new publication explores artificial intelligence governance, cybersecurity, risk management and responsible AI as Ghana continues to expand discussions around safe and responsible technology adoption.",
+      "category": "AI",
+      "author": "TechHub Ghana",
+      "source": "Tech Review Africa",
+      "publishedAt": "2026-08-02T00:00:00Z",
+      "image": "images/ai-news.jpg",
+      "url": "https://techreviewafrica.com/news/6812/dr-samuel-boateng-launches-beyond-breach-where-ai-meets-governance-at-virtual-ceremony"
+    },
+    {
+      "id": "ghana-ai-public-sector-training-2026",
+      "title": "Ghana Begins National AI Training Programme to Boost Public Sector Innovation",
+      "description": "Ghana has begun a national artificial intelligence training programme designed to help public-sector workers understand and responsibly use AI while considering issues such as privacy, cybersecurity, misinformation and algorithmic bias.",
+      "category": "AI",
+      "author": "TechHub Ghana",
+      "source": "Tech Africa News",
+      "publishedAt": "2026-03-26T00:00:00Z",
+      "image": "images/ai-news.jpg",
+      "url": "https://techafricanews.com/2026/03/26/ghana-begins-national-ai-training-programme-to-boost-public-sector-innovation/"
+    },
+    {
+      "id": "ghana-tech-law-reforms-2026",
+      "title": "Ghana Pushes Tech-Law Reforms to Support AI, FinTech and Cybersecurity Growth",
+      "description": "Ghana is working to strengthen technology-related regulatory frameworks covering fintech, e-commerce, data protection, cybersecurity and artificial intelligence.",
+      "category": "Ghana Tech",
+      "author": "TechHub Ghana",
+      "source": "Tech Africa News",
+      "publishedAt": "2026-02-04T00:00:00Z",
+      "image": "images/ghana-tech.jpg",
+      "url": "https://techafricanews.com/2026/02/04/ghana-pushes-tech-law-reforms-to-support-ai-fintech-and-cybersecurity-growth/"
+    },
+    {
+      "id": "ghana-digital-msme-platform-2026",
+      "title": "Digital Platform Supports Ghanaian MSMEs With Registration, Tax and Business Services",
+      "description": "A digital platform developed in coordination with the Ghana Revenue Authority is designed to give Ghanaian micro, small and medium-sized businesses access to registration, accounting, VAT payment, tax filing and compliance services.",
+      "category": "FinTech",
+      "author": "TechHub Ghana",
+      "source": "Tech Africa News",
+      "publishedAt": "2026-05-25T00:00:00Z",
+      "image": "images/fintech-news.jpg",
+      "url": "https://techafricanews.com/2026/05/25/trident-begins-commercial-rollout-of-ghana-revenue-authority-digital-msme-platform/"
+    }
+  ]
 }
