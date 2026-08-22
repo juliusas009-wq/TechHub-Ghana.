@@ -1,59 +1,70 @@
 /* =========================================================
    TECHHUB GHANA
-   GHANA TECH AUTOMATIC NEWS + SEARCH + FILTER
+   GHANA TECH AUTOMATIC NEWS SYSTEM
+   SEARCH + FILTER + LIVE JSON NEWS
 ========================================================= */
 
 document.addEventListener("DOMContentLoaded", function () {
 
     /* =====================================================
-       ELEMENTS
+       1. ELEMENTS
     ====================================================== */
 
-    const searchInput = document.getElementById("ghanaSearch");
-    const topSearch = document.getElementById("siteSearch");
-    const searchButton = document.querySelector("#searchForm button");
+    const searchInput =
+        document.getElementById("ghanaSearch");
 
-    const filters = document.querySelectorAll(".ghana-filter");
+    const topSearch =
+        document.getElementById("siteSearch");
 
-    const newsGrid = document.getElementById("ghanaNewsGrid");
-    const featured = document.getElementById("ghanaFeatured");
+    const searchButton =
+        document.querySelector("#searchForm button");
 
-    const message = document.getElementById("ghanaSearchMessage");
-    const noResults = document.getElementById("noGhanaNews");
-    const newsSection = document.getElementById("ghanaNews");
+    const localSearchButton =
+        document.getElementById("ghanaSearchBtn");
 
-    const trendingLinks = document.querySelectorAll(
-        ".ghana-trending-grid a[data-trending]"
-    );
+    const filters =
+        document.querySelectorAll(".ghana-filter");
 
-    const countElement = document.getElementById("ghanaNewsCount");
+    const newsGrid =
+        document.getElementById("ghanaNewsGrid");
 
-    const featuredImage = document.getElementById("featuredImage");
-    const featuredCategory = document.getElementById("featuredCategory");
-    const featuredTitle = document.getElementById("featuredTitle");
-    const featuredDescription = document.getElementById("featuredDescription");
-    const featuredDate = document.getElementById("featuredDate");
-    const featuredAuthor = document.getElementById("featuredAuthor");
-    const featuredReadBtn = document.getElementById("featuredReadBtn");
+    const featured =
+        document.getElementById("ghanaFeatured");
+
+    const message =
+        document.getElementById("ghanaSearchMessage");
+
+    const noResults =
+        document.getElementById("noGhanaNews");
+
+    const newsSection =
+        document.getElementById("ghanaNews");
+
+    const countElement =
+        document.getElementById("ghanaNewsCount");
+
+    const trendingLinks =
+        document.querySelectorAll(
+            ".ghana-trending-grid a[data-trending]"
+        );
 
 
     /* =====================================================
-       STATE
+       2. SETTINGS
     ====================================================== */
+
+    const NEWS_FILE =
+        "data/ghana-tech-news.json";
 
     let currentCategory = "All";
+
     let allArticles = [];
 
-
-    /* =====================================================
-       CONFIGURATION
-    ====================================================== */
-
-    const NEWS_FILE = "ghana-tech-news.json";
+    let isLoading = false;
 
 
     /* =====================================================
-       NORMALIZE TEXT
+       3. NORMALIZE TEXT
     ====================================================== */
 
     function normalize(value) {
@@ -66,8 +77,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     /* =====================================================
-       ESCAPE HTML
-       Prevents article data from injecting HTML/JS.
+       4. ESCAPE HTML
+       
+       Protects the page when news content comes
+       from an external RSS source.
     ====================================================== */
 
     function escapeHTML(value) {
@@ -83,400 +96,321 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     /* =====================================================
-       DATE FORMAT
+       5. REMOVE HTML FROM DESCRIPTIONS
+    ====================================================== */
+
+    function cleanText(value) {
+
+        const temporary =
+            document.createElement("div");
+
+        temporary.innerHTML =
+            String(value || "");
+
+        return temporary.textContent
+            .replace(/\s+/g, " ")
+            .trim();
+
+    }
+
+
+    /* =====================================================
+       6. SHORTEN DESCRIPTION
+    ====================================================== */
+
+    function shortenText(
+        text,
+        maximumLength = 150
+    ) {
+
+        const clean =
+            cleanText(text);
+
+        if (clean.length <= maximumLength) {
+
+            return clean;
+
+        }
+
+        return (
+            clean.substring(
+                0,
+                maximumLength
+            ).trim() + "..."
+        );
+
+    }
+
+
+    /* =====================================================
+       7. FORMAT DATE
     ====================================================== */
 
     function formatDate(value) {
 
         if (!value) {
-            return "Recently";
+
+            return "Today";
+
         }
 
-        const date = new Date(value);
+        const date =
+            new Date(value);
 
         if (Number.isNaN(date.getTime())) {
-            return "Recently";
+
+            return "Today";
+
         }
 
-        return new Intl.DateTimeFormat("en-GH", {
-            year: "numeric",
-            month: "short",
-            day: "numeric"
-        }).format(date);
+        const now =
+            new Date();
 
-    }
+        const difference =
+            now.getTime() -
+            date.getTime();
 
-
-    /* =====================================================
-       FALLBACK IMAGE
-    ====================================================== */
-
-    function getFallbackImage(category) {
-
-        const categoryText = normalize(category);
-
-        if (categoryText.includes("artificial")) {
-            return "images/ai-news.jpg";
-        }
-
-        if (categoryText.includes("cyber")) {
-            return "images/cyber-news.jpg";
-        }
-
-        if (categoryText.includes("program")) {
-            return "images/web-news.jpg";
-        }
-
-        if (categoryText.includes("cloud")) {
-            return "images/cloud-news.jpg";
-        }
-
-        return "images/ghana-tech.jpg";
-
-    }
-
-
-    /* =====================================================
-       SAFE ARTICLE URL
-    ====================================================== */
-
-    function getArticleURL(article) {
-
-        const url = String(article.url || "").trim();
-
-        if (
-            url.startsWith("https://") ||
-            url.startsWith("http://")
-        ) {
-            return url;
-        }
-
-        return "#";
-
-    }
-
-
-    /* =====================================================
-       LOAD NEWS
-    ====================================================== */
-
-    async function loadNews() {
-
-        if (!newsGrid) {
-            return;
-        }
-
-        showLoading();
-
-        try {
-
-            const response = await fetch(
-                NEWS_FILE + "?v=" + Date.now(),
-                {
-                    cache: "no-store"
-                }
+        const minutes =
+            Math.floor(
+                difference / 60000
             );
 
-            if (!response.ok) {
-                throw new Error(
-                    "News file returned HTTP " + response.status
-                );
-            }
-
-            const data = await response.json();
-
-            if (!data || !Array.isArray(data.articles)) {
-                throw new Error(
-                    "Invalid news data format."
-                );
-            }
-
-            allArticles = data.articles
-                .filter(function (article) {
-                    return article &&
-                        article.title &&
-                        article.url;
-                })
-                .slice(0, 50);
-
-            renderNews();
-
-        } catch (error) {
-
-            console.error(
-                "TechHub Ghana news error:",
-                error
+        const hours =
+            Math.floor(
+                difference / 3600000
             );
 
-            allArticles = [];
+        const days =
+            Math.floor(
+                difference / 86400000
+            );
 
-            newsGrid.innerHTML = "";
 
-            if (message) {
-                message.textContent =
-                    "Ghana Tech news could not be loaded right now. Please try again later.";
-            }
+        if (minutes < 1) {
 
-            if (noResults) {
-                noResults.style.display = "block";
-            }
-
-            if (countElement) {
-                countElement.textContent = "0";
-            }
+            return "Just now";
 
         }
 
-    }
+        if (minutes < 60) {
 
+            return (
+                minutes +
+                " min" +
+                (minutes === 1 ? "" : "s") +
+                " ago"
+            );
 
-    /* =====================================================
-       SHOW LOADING
-    ====================================================== */
-
-    function showLoading() {
-
-        if (!newsGrid) {
-            return;
         }
 
-        newsGrid.innerHTML = `
-            <div class="news-loading">
-                <div class="loading-spinner"></div>
+        if (hours < 24) {
 
-                <p>
-                    Loading the latest Ghana Tech stories...
-                </p>
-            </div>
-        `;
+            return (
+                hours +
+                " hour" +
+                (hours === 1 ? "" : "s") +
+                " ago"
+            );
 
-        if (noResults) {
-            noResults.style.display = "none";
         }
 
-    }
+        if (days === 1) {
 
+            return "Yesterday";
 
-    /* =====================================================
-       GET FILTERED ARTICLES
-    ====================================================== */
+        }
 
-    function getFilteredArticles() {
+        if (days < 7) {
 
-        const searchTerm = normalize(
-            searchInput
-                ? searchInput.value
-                : ""
+            return (
+                days +
+                " days ago"
+            );
+
+        }
+
+        return date.toLocaleDateString(
+            "en-GH",
+            {
+                day: "numeric",
+                month: "short",
+                year: "numeric"
+            }
         );
 
-        return allArticles.filter(function (article) {
-
-            const category = normalize(
-                article.category
-            );
-
-            const title = normalize(
-                article.title
-            );
-
-            const description = normalize(
-                article.description
-            );
-
-            const source = normalize(
-                article.source
-            );
-
-            const combinedText =
-                title +
-                " " +
-                description +
-                " " +
-                source +
-                " " +
-                category;
-
-
-            const categoryMatch =
-                currentCategory === "All" ||
-                category === normalize(currentCategory);
-
-
-            const searchMatch =
-                searchTerm === "" ||
-                combinedText.includes(searchTerm);
-
-
-            return categoryMatch && searchMatch;
-
-        });
-
     }
 
 
     /* =====================================================
-       RENDER NEWS
+       8. CATEGORY ICON
     ====================================================== */
 
-    function renderNews() {
+    function getCategoryIcon(category) {
 
-        if (!newsGrid) {
-            return;
-        }
-
-        const articles = getFilteredArticles();
-
-        newsGrid.innerHTML = "";
+        const value =
+            normalize(category);
 
 
-        /* =================================================
-           UPDATE FEATURED STORY
-        ================================================== */
+        if (
+            value.includes("artificial") ||
+            value === "ai"
+        ) {
 
-        updateFeaturedStory(articles);
-
-
-        /* =================================================
-           NO RESULTS
-        ================================================== */
-
-        if (articles.length === 0) {
-
-            if (noResults) {
-                noResults.style.display = "block";
-            }
-
-            updateStatus(0);
-
-            return;
+            return "🤖";
 
         }
 
+        if (
+            value.includes("cyber")
+        ) {
 
-        if (noResults) {
-            noResults.style.display = "none";
+            return "🔐";
+
         }
 
+        if (
+            value.includes("fintech") ||
+            value.includes("finance") ||
+            value.includes("mobile money")
+        ) {
 
-        /* =================================================
-           CREATE NEWS CARDS
-        ================================================== */
+            return "💳";
 
-        articles.forEach(function (article) {
+        }
 
-            const card = createNewsCard(article);
+        if (
+            value.includes("startup")
+        ) {
 
-            newsGrid.appendChild(card);
+            return "🚀";
 
-        });
+        }
 
+        if (
+            value.includes("innovation")
+        ) {
 
-        updateStatus(articles.length);
+            return "💡";
+
+        }
+
+        return "🇬🇭";
 
     }
 
 
     /* =====================================================
-       CREATE NEWS CARD
+       9. CATEGORY NAME
+    ====================================================== */
+
+    function getCategoryName(category) {
+
+        const value =
+            String(category || "").trim();
+
+        if (!value) {
+
+            return "Ghana Technology";
+
+        }
+
+        return value;
+
+    }
+
+
+    /* =====================================================
+       10. CREATE NEWS CARD
     ====================================================== */
 
     function createNewsCard(article) {
 
-        const card = document.createElement("article");
-
-        card.className = "ghana-news-card";
-
-        card.dataset.category =
-            article.category || "Ghana Technology";
-
-        card.dataset.title =
-            article.title || "";
-
-
-        const image =
-            article.image ||
-            getFallbackImage(article.category);
-
-
         const title =
-            escapeHTML(article.title);
+            article.title ||
+            "Ghana Technology News";
 
         const description =
-            escapeHTML(
+            shortenText(
                 article.description ||
-                "Read the latest technology story from Ghana."
+                "Latest technology news and digital innovation stories from Ghana."
             );
 
         const category =
-            escapeHTML(
-                article.category ||
-                "Ghana Technology"
-            );
-
-        const source =
-            escapeHTML(
-                article.source ||
-                "TechHub Ghana"
+            getCategoryName(
+                article.category
             );
 
         const date =
-            formatDate(article.publishedAt);
+            formatDate(
+                article.published
+            );
 
         const url =
-            getArticleURL(article);
+            article.url ||
+            "#";
+
+        const icon =
+            getCategoryIcon(
+                category
+            );
+
+
+        const card =
+            document.createElement("article");
+
+        card.className =
+            "ghana-news-card";
+
+
+        card.dataset.category =
+            category;
+
+        card.dataset.title =
+            title;
 
 
         card.innerHTML = `
 
-            <a
-                href="${escapeHTML(url)}"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Read ${title}"
+            <div
+                class="ghana-news-card-image"
+                style="
+                    aspect-ratio:16/9;
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    background:linear-gradient(
+                        135deg,
+                        #071a3d,
+                        #0b5cff
+                    );
+                    color:#ffffff;
+                    font-size:3rem;
+                "
+                aria-hidden="true"
             >
-
-                <img
-                    src="${escapeHTML(image)}"
-                    alt="${title}"
-                    loading="lazy"
-                    decoding="async"
-                    onerror="this.onerror=null;this.src='images/ghana-tech.jpg';"
-                >
-
-            </a>
-
+                ${icon}
+            </div>
 
             <div class="ghana-news-card-content">
 
                 <span class="ghana-news-card-category">
-                    ${category}
+                    ${escapeHTML(category)}
                 </span>
 
-
                 <h3>
-                    ${title}
+                    ${escapeHTML(title)}
                 </h3>
 
-
                 <p>
-                    ${description}
+                    ${escapeHTML(description)}
                 </p>
-
 
                 <div class="ghana-news-card-meta">
 
                     <span>
-                        ${escapeHTML(source)}
-                    </span>
-
-                    <span>
+                        <i class="fa-regular fa-clock"></i>
                         ${escapeHTML(date)}
                     </span>
-
-                </div>
-
-
-                <div style="margin-top:12px;">
 
                     <a
                         class="read-more"
@@ -484,20 +418,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-
                         Read More
-
-                        <i
-                            class="fa-solid fa-arrow-right"
-                            aria-hidden="true"
-                        ></i>
-
+                        <i class="fa-solid fa-arrow-right"></i>
                     </a>
 
                 </div>
 
             </div>
-
         `;
 
 
@@ -507,144 +434,537 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     /* =====================================================
-       UPDATE FEATURED STORY
+       11. DISPLAY NEWS ARTICLES
     ====================================================== */
 
-    function updateFeaturedStory(articles) {
+    function displayArticles() {
 
-        if (!featured || articles.length === 0) {
+        if (!newsGrid) {
+
             return;
+
         }
 
-        const article = articles[0];
 
-        const image =
-            article.image ||
-            getFallbackImage(article.category);
+        newsGrid.innerHTML = "";
+
+
+        if (!allArticles.length) {
+
+            showNoNews();
+
+            return;
+
+        }
+
+
+        allArticles.forEach(
+            function (article) {
+
+                const card =
+                    createNewsCard(article);
+
+                newsGrid.appendChild(card);
+
+            }
+        );
+
+
+        if (noResults) {
+
+            noResults.style.display =
+                "none";
+
+        }
+
+    }
+
+
+    /* =====================================================
+       12. UPDATE FEATURED STORY
+    ====================================================== */
+
+    function updateFeaturedStory() {
+
+        if (!featured || !allArticles.length) {
+
+            return;
+
+        }
+
+
+        const article =
+            allArticles[0];
+
 
         const category =
-            article.category ||
-            "Ghana Technology";
+            getCategoryName(
+                article.category
+            );
 
         const title =
             article.title ||
             "Latest Ghana Technology News";
 
         const description =
-            article.description ||
-            "The latest technology developments and digital innovation from Ghana.";
-
-        const source =
-            article.source ||
-            "TechHub Ghana";
-
-        const date =
-            formatDate(article.publishedAt);
+            shortenText(
+                article.description ||
+                "Discover the latest technology and digital innovation stories from Ghana.",
+                240
+            );
 
         const url =
-            getArticleURL(article);
+            article.url ||
+            "#";
 
 
-        if (featuredImage) {
+        const categoryElement =
+            document.getElementById(
+                "featuredCategory"
+            );
 
-            featuredImage.src = image;
+        const titleElement =
+            document.getElementById(
+                "featuredTitle"
+            );
 
-            featuredImage.alt =
+        const descriptionElement =
+            document.getElementById(
+                "featuredDescription"
+            );
+
+
+        if (categoryElement) {
+
+            categoryElement.textContent =
+                getCategoryIcon(category) +
+                " " +
+                category;
+
+        }
+
+
+        if (titleElement) {
+
+            titleElement.textContent =
                 title;
 
         }
 
 
-        if (featuredCategory) {
+        if (descriptionElement) {
 
-            featuredCategory.textContent =
-                "🇬🇭 " + category;
-
-        }
-
-
-        if (featuredTitle) {
-
-            featuredTitle.textContent =
-                title;
-
-        }
-
-
-        if (featuredDescription) {
-
-            featuredDescription.textContent =
+            descriptionElement.textContent =
                 description;
 
         }
 
 
-        if (featuredDate) {
+        /* =================================================
+           FIND FEATURED READ BUTTON
+        ================================================== */
 
-            featuredDate.innerHTML = `
-                <i
-                    class="fa-regular fa-calendar"
-                    aria-hidden="true"
-                ></i>
-
-                ${escapeHTML(date)}
-            `;
-
-        }
+        const featuredButton =
+            featured.querySelector(
+                ".read-btn"
+            );
 
 
-        if (featuredAuthor) {
+        if (featuredButton) {
 
-            featuredAuthor.innerHTML = `
-                <i
-                    class="fa-regular fa-building"
-                    aria-hidden="true"
-                ></i>
+            featuredButton.href =
+                url;
 
-                ${escapeHTML(source)}
-            `;
+            featuredButton.target =
+                "_blank";
+
+            featuredButton.rel =
+                "noopener noreferrer";
 
         }
 
 
-        if (featuredReadBtn) {
+        /* =================================================
+           UPDATE FEATURED DATE / SOURCE
+        ================================================== */
 
-            if (url === "#") {
+        const infoItems =
+            featured.querySelectorAll(
+                ".article-info span"
+            );
 
-                featuredReadBtn.removeAttribute("target");
 
-            } else {
+        if (infoItems.length > 0) {
 
-                featuredReadBtn.target = "_blank";
-                featuredReadBtn.rel =
-                    "noopener noreferrer";
-
-            }
-
-            featuredReadBtn.href = url;
+            infoItems[0].innerHTML =
+                `<i class="fa-regular fa-calendar"></i>
+                 ${escapeHTML(
+                     formatDate(
+                         article.published
+                     )
+                 )}`;
 
         }
 
 
-        featured.style.display = "";
+        if (infoItems.length > 1) {
+
+            infoItems[1].innerHTML =
+                `<i class="fa-regular fa-user"></i>
+                 ${escapeHTML(
+                     article.source ||
+                     "TechHub Ghana"
+                 )}`;
+
+        }
 
     }
 
 
     /* =====================================================
-       UPDATE STATUS
+       13. SHOW LOADING
     ====================================================== */
 
-    function updateStatus(visibleArticles) {
+    function showLoading() {
 
-        const totalArticles =
-            allArticles.length;
+        if (!newsGrid) {
+
+            return;
+
+        }
+
+
+        isLoading = true;
+
+
+        newsGrid.innerHTML = `
+
+            <div class="news-loading">
+
+                <div
+                    class="loading-spinner"
+                    aria-hidden="true"
+                ></div>
+
+                <p>
+                    Loading the latest Ghana Tech stories...
+                </p>
+
+            </div>
+
+        `;
+
+
+        if (message) {
+
+            message.textContent =
+                "Ghana Tech stories are loading...";
+
+        }
+
+
+        if (noResults) {
+
+            noResults.style.display =
+                "none";
+
+        }
+
+    }
+
+
+    /* =====================================================
+       14. SHOW NO NEWS
+    ====================================================== */
+
+    function showNoNews() {
+
+        isLoading = false;
+
+
+        if (newsGrid) {
+
+            newsGrid.innerHTML = "";
+
+        }
+
+
+        if (noResults) {
+
+            noResults.style.display =
+                "block";
+
+        }
+
+
+        if (message) {
+
+            message.textContent =
+                "No Ghana Tech stories are available right now.";
+
+        }
+
+
+        if (countElement) {
+
+            countElement.textContent =
+                "0";
+
+        }
+
+    }
+
+
+    /* =====================================================
+       15. SHOW ERROR
+    ====================================================== */
+
+    function showError() {
+
+        isLoading = false;
+
+
+        if (newsGrid) {
+
+            newsGrid.innerHTML = `
+
+                <div class="news-loading">
+
+                    <div
+                        style="
+                            font-size:2rem;
+                            margin-bottom:12px;
+                        "
+                        aria-hidden="true"
+                    >
+                        ⚠️
+                    </div>
+
+                    <h3>
+                        Unable to load Ghana Tech news
+                    </h3>
+
+                    <p>
+                        Please check your internet connection
+                        and try again.
+                    </p>
+
+                </div>
+
+            `;
+
+        }
+
+
+        if (message) {
+
+            message.textContent =
+                "Unable to load the latest Ghana Tech stories.";
+
+        }
+
+    }
+
+
+    /* =====================================================
+       16. FILTER ARTICLES
+    ====================================================== */
+
+    function filterArticles() {
+
+        if (!newsGrid) {
+
+            return;
+
+        }
+
+
+        const cards =
+            newsGrid.querySelectorAll(
+                ".ghana-news-card"
+            );
+
 
         const searchTerm =
-            searchInput
-                ? searchInput.value.trim()
-                : "";
+            normalize(
+                searchInput
+                    ? searchInput.value
+                    : ""
+            );
 
+
+        let visibleArticles = 0;
+
+
+        cards.forEach(
+            function (article) {
+
+                const category =
+                    normalize(
+                        article.dataset.category
+                    );
+
+                const title =
+                    normalize(
+                        article.dataset.title
+                    );
+
+                const content =
+                    normalize(
+                        article.textContent
+                    );
+
+
+                const categoryMatch =
+                    currentCategory === "All" ||
+                    category.includes(
+                        normalize(
+                            currentCategory
+                        )
+                    );
+
+
+                const searchMatch =
+                    searchTerm === "" ||
+                    title.includes(
+                        searchTerm
+                    ) ||
+                    content.includes(
+                        searchTerm
+                    ) ||
+                    category.includes(
+                        searchTerm
+                    );
+
+
+                if (
+                    categoryMatch &&
+                    searchMatch
+                ) {
+
+                    article.style.display =
+                        "";
+
+                    visibleArticles++;
+
+                } else {
+
+                    article.style.display =
+                        "none";
+
+                }
+
+            }
+        );
+
+
+        /* =================================================
+           NO RESULTS
+        ================================================== */
+
+        if (noResults) {
+
+            if (
+                !isLoading &&
+                cards.length > 0 &&
+                visibleArticles === 0
+            ) {
+
+                noResults.style.display =
+                    "block";
+
+            } else {
+
+                noResults.style.display =
+                    "none";
+
+            }
+
+        }
+
+
+        /* =================================================
+           STATUS MESSAGE
+        ================================================== */
+
+        if (message) {
+
+            if (isLoading) {
+
+                message.textContent =
+                    "Ghana Tech stories are loading...";
+
+            } else if (
+                cards.length === 0
+            ) {
+
+                message.textContent =
+                    "No Ghana Tech stories are available.";
+
+            } else if (
+                visibleArticles === 0
+            ) {
+
+                message.textContent =
+                    "No Ghana Tech stories match your search.";
+
+            } else if (
+                searchTerm !== ""
+            ) {
+
+                message.textContent =
+                    visibleArticles +
+                    " result" +
+                    (
+                        visibleArticles === 1
+                            ? ""
+                            : "s"
+                    ) +
+                    ' found for "' +
+                    searchInput.value.trim() +
+                    '".';
+
+            } else if (
+                currentCategory !== "All"
+            ) {
+
+                const activeButton =
+                    document.querySelector(
+                        ".ghana-filter.active"
+                    );
+
+
+                const categoryName =
+                    activeButton
+                        ? activeButton.textContent.trim()
+                        : currentCategory;
+
+
+                message.textContent =
+                    visibleArticles +
+                    " stor" +
+                    (
+                        visibleArticles === 1
+                            ? "y"
+                            : "ies"
+                    ) +
+                    " in " +
+                    categoryName +
+                    ".";
+
+            } else {
+
+                message.textContent =
+                    "Showing the latest Ghana Tech stories.";
+
+            }
+
+        }
+
+
+        /* =================================================
+           STORY COUNT
+        ================================================== */
 
         if (countElement) {
 
@@ -653,122 +973,184 @@ document.addEventListener("DOMContentLoaded", function () {
 
         }
 
-
-        if (!message) {
-            return;
-        }
+    }
 
 
-        if (totalArticles === 0) {
+    /* =====================================================
+       17. LOAD NEWS JSON
+    ====================================================== */
 
-            message.textContent =
-                "No Ghana Tech stories are available right now.";
+    async function loadNews() {
 
-            return;
-
-        }
-
-
-        if (visibleArticles === 0) {
-
-            message.textContent =
-                "No Ghana Tech stories match your search.";
-
-            return;
-
-        }
+        showLoading();
 
 
-        if (searchTerm !== "") {
+        try {
 
-            message.textContent =
-                visibleArticles +
-                " result" +
-                (visibleArticles === 1 ? "" : "s") +
-                ' found for "' +
-                searchTerm +
-                '".';
-
-            return;
-
-        }
-
-
-        if (currentCategory !== "All") {
-
-            const activeButton =
-                document.querySelector(
-                    ".ghana-filter.active"
+            const response =
+                await fetch(
+                    NEWS_FILE +
+                    "?v=" +
+                    Date.now(),
+                    {
+                        cache: "no-store"
+                    }
                 );
 
 
-            const categoryName =
-                activeButton
-                    ? activeButton.textContent.trim()
-                    : currentCategory;
+            if (!response.ok) {
+
+                throw new Error(
+                    "News file could not be loaded."
+                );
+
+            }
 
 
-            message.textContent =
-                visibleArticles +
-                " stor" +
-                (visibleArticles === 1
-                    ? "y"
-                    : "ies") +
-                " in " +
-                categoryName +
-                ".";
+            const data =
+                await response.json();
 
-            return;
+
+            if (
+                !data ||
+                !Array.isArray(
+                    data.articles
+                )
+            ) {
+
+                throw new Error(
+                    "Invalid news data."
+                );
+
+            }
+
+
+            allArticles =
+                data.articles
+                    .filter(
+                        function (article) {
+
+                            return (
+                                article &&
+                                article.title &&
+                                article.url
+                            );
+
+                        }
+                    );
+
+
+            /* =================================================
+               SORT NEWEST FIRST
+            ================================================== */
+
+            allArticles.sort(
+                function (a, b) {
+
+                    const dateA =
+                        new Date(
+                            a.published || 0
+                        ).getTime();
+
+                    const dateB =
+                        new Date(
+                            b.published || 0
+                        ).getTime();
+
+                    return dateB - dateA;
+
+                }
+            );
+
+
+            /* =================================================
+               DISPLAY
+            ================================================== */
+
+            displayArticles();
+
+            updateFeaturedStory();
+
+
+            isLoading = false;
+
+
+            filterArticles();
+
+
+            console.log(
+                "TechHub Ghana:",
+                allArticles.length,
+                "news stories loaded."
+            );
+
+
+            if (data.updatedAt) {
+
+                console.log(
+                    "News last updated:",
+                    data.updatedAt
+                );
+
+            }
+
+        } catch (error) {
+
+            console.error(
+                "TechHub Ghana news error:",
+                error
+            );
+
+            showError();
 
         }
-
-
-        message.textContent =
-            "Showing " +
-            visibleArticles +
-            " Ghana Tech stor" +
-            (visibleArticles === 1
-                ? "y."
-                : "ies.");
 
     }
 
 
     /* =====================================================
-       CATEGORY BUTTONS
+       18. CATEGORY BUTTONS
     ====================================================== */
 
-    filters.forEach(function (button) {
+    filters.forEach(
+        function (button) {
 
-        button.addEventListener(
-            "click",
-            function () {
+            button.addEventListener(
+                "click",
+                function () {
 
-                filters.forEach(function (item) {
+                    filters.forEach(
+                        function (item) {
 
-                    item.classList.remove("active");
+                            item.classList.remove(
+                                "active"
+                            );
 
-                });
-
-
-                button.classList.add("active");
-
-
-                currentCategory =
-                    button.dataset.category ||
-                    "All";
+                        }
+                    );
 
 
-                renderNews();
+                    button.classList.add(
+                        "active"
+                    );
 
-            }
-        );
 
-    });
+                    currentCategory =
+                        button.dataset.category ||
+                        "All";
+
+
+                    filterArticles();
+
+                }
+            );
+
+        }
+    );
 
 
     /* =====================================================
-       LIVE SEARCH
+       19. LIVE SEARCH
     ====================================================== */
 
     if (searchInput) {
@@ -777,7 +1159,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "input",
             function () {
 
-                renderNews();
+                filterArticles();
 
             }
         );
@@ -786,14 +1168,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     /* =====================================================
-       LOCAL SEARCH BUTTON
+       20. LOCAL SEARCH BUTTON
     ====================================================== */
-
-    const localSearchButton =
-        document.getElementById(
-            "ghanaSearchBtn"
-        );
-
 
     if (localSearchButton) {
 
@@ -801,14 +1177,17 @@ document.addEventListener("DOMContentLoaded", function () {
             "click",
             function () {
 
-                renderNews();
+                filterArticles();
+
 
                 if (newsSection) {
 
-                    newsSection.scrollIntoView({
-                        behavior: "smooth",
-                        block: "start"
-                    });
+                    newsSection.scrollIntoView(
+                        {
+                            behavior: "smooth",
+                            block: "start"
+                        }
+                    );
 
                 }
 
@@ -819,13 +1198,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     /* =====================================================
-       HEADER SEARCH
+       21. HEADER SEARCH
     ====================================================== */
 
     function performHeaderSearch() {
 
-        if (!topSearch || !searchInput) {
+        if (
+            !topSearch ||
+            !searchInput
+        ) {
+
             return;
+
         }
 
 
@@ -834,7 +1218,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         if (value === "") {
+
             return;
+
         }
 
 
@@ -846,31 +1232,41 @@ document.addEventListener("DOMContentLoaded", function () {
             "All";
 
 
-        filters.forEach(function (button) {
+        filters.forEach(
+            function (button) {
 
-            button.classList.remove("active");
+                button.classList.remove(
+                    "active"
+                );
 
 
-            if (
-                button.dataset.category === "All"
-            ) {
+                if (
+                    normalize(
+                        button.dataset.category
+                    ) === "all"
+                ) {
 
-                button.classList.add("active");
+                    button.classList.add(
+                        "active"
+                    );
+
+                }
 
             }
+        );
 
-        });
 
-
-        renderNews();
+        filterArticles();
 
 
         if (newsSection) {
 
-            newsSection.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            });
+            newsSection.scrollIntoView(
+                {
+                    behavior: "smooth",
+                    block: "start"
+                }
+            );
 
         }
 
@@ -899,7 +1295,9 @@ document.addEventListener("DOMContentLoaded", function () {
             "keydown",
             function (event) {
 
-                if (event.key === "Enter") {
+                if (
+                    event.key === "Enter"
+                ) {
 
                     event.preventDefault();
 
@@ -914,68 +1312,207 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     /* =====================================================
-       TRENDING LINKS
+       22. TRENDING LINKS
     ====================================================== */
 
-    trendingLinks.forEach(function (link) {
+    trendingLinks.forEach(
+        function (link) {
 
-        link.addEventListener(
-            "click",
-            function () {
+            link.addEventListener(
+                "click",
+                function (event) {
 
-                const trendingCategory =
-                    link.dataset.trending;
-
-
-                if (!trendingCategory) {
-                    return;
-                }
+                    event.preventDefault();
 
 
-                currentCategory =
-                    trendingCategory;
+                    const trendingCategory =
+                        link.dataset.trending;
 
 
-                filters.forEach(function (button) {
+                    if (!trendingCategory) {
 
-                    button.classList.remove(
-                        "active"
-                    );
-
-
-                    if (
-                        normalize(
-                            button.dataset.category
-                        ) ===
-                        normalize(
-                            trendingCategory
-                        )
-                    ) {
-
-                        button.classList.add(
-                            "active"
-                        );
+                        return;
 
                     }
 
-                });
+
+                    currentCategory =
+                        trendingCategory;
 
 
-                if (searchInput) {
-                    searchInput.value = "";
+                    filters.forEach(
+                        function (button) {
+
+                            button.classList.remove(
+                                "active"
+                            );
+
+
+                            if (
+                                normalize(
+                                    button.dataset.category
+                                ) ===
+                                normalize(
+                                    trendingCategory
+                                )
+                            ) {
+
+                                button.classList.add(
+                                    "active"
+                                );
+
+                            }
+
+                        }
+                    );
+
+
+                    if (searchInput) {
+
+                        searchInput.value =
+                            "";
+
+                    }
+
+
+                    filterArticles();
+
                 }
+            );
 
-
-                renderNews();
-
-            }
-        );
-
-    });
+        }
+    );
 
 
     /* =====================================================
-       LOAD NEWS
+       23. AUTO REFRESH
+       
+       Check the JSON every 10 minutes.
+       
+       GitHub Actions updates the JSON separately.
+    ====================================================== */
+
+    setInterval(
+        async function () {
+
+            try {
+
+                const response =
+                    await fetch(
+                        NEWS_FILE +
+                        "?v=" +
+                        Date.now(),
+                        {
+                            cache: "no-store"
+                        }
+                    );
+
+
+                if (!response.ok) {
+
+                    return;
+
+                }
+
+
+                const data =
+                    await response.json();
+
+
+                if (
+                    !data ||
+                    !Array.isArray(
+                        data.articles
+                    )
+                ) {
+
+                    return;
+
+                }
+
+
+                const newArticles =
+                    data.articles.filter(
+                        function (article) {
+
+                            return (
+                                article &&
+                                article.title &&
+                                article.url
+                            );
+
+                        }
+                    );
+
+
+                const oldFirstArticle =
+                    allArticles.length
+                        ? allArticles[0].url
+                        : "";
+
+
+                const newFirstArticle =
+                    newArticles.length
+                        ? newArticles[0].url
+                        : "";
+
+
+                /* =================================================
+                   ONLY REBUILD PAGE IF NEW NEWS EXISTS
+                ================================================== */
+
+                if (
+                    newFirstArticle &&
+                    newFirstArticle !==
+                    oldFirstArticle
+                ) {
+
+                    allArticles =
+                        newArticles.sort(
+                            function (a, b) {
+
+                                return (
+                                    new Date(
+                                        b.published || 0
+                                    ).getTime() -
+                                    new Date(
+                                        a.published || 0
+                                    ).getTime()
+                                );
+
+                            }
+                        );
+
+
+                    displayArticles();
+
+                    updateFeaturedStory();
+
+                    filterArticles();
+
+
+                    console.log(
+                        "TechHub Ghana: New stories detected."
+                    );
+
+                }
+
+            } catch (error) {
+
+                console.warn(
+                    "Automatic news refresh failed:",
+                    error
+                );
+
+            }
+
+        },
+        10 * 60 * 1000
+    );
+
+
+    /* =====================================================
+       24. INITIAL LOAD
     ====================================================== */
 
     loadNews();
