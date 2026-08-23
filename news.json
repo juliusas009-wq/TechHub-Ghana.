@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-23T18:58:13.779772+00:00",
+  "updated": "2026-08-23T19:27:36.145937+00:00",
   "articles": [
+    {
+      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+      "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+      "link": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+      "date": "Sun, 23 Aug 2026 19:14:08 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "TechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions",
       "summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
@@ -150,14 +158,6 @@
       "summary": "The $225 Pebble Time 2 pairs quirky watch faces and apps with physical buttons, an e-paper display, weeks of battery life, and a playful hacker spirit.",
       "link": "https://techcrunch.com/2026/08/21/the-225-pebble-time-2-is-a-refreshingly-fun-smartwatch/",
       "date": "Fri, 21 Aug 2026 19:57:46 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
-      "summary": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
-      "link": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
-      "date": "Fri, 21 Aug 2026 19:43:39 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
