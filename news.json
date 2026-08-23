@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-23T19:47:02.315793+00:00",
+  "updated": "2026-08-23T20:20:42.944850+00:00",
   "articles": [
+    {
+      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+      "summary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
+      "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+      "date": "Sun, 23 Aug 2026 20:01:36 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Uber faces fine of nearly $1B over automated driver suspensions",
       "summary": "The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR.",
@@ -152,14 +160,6 @@
       "date": "Fri, 21 Aug 2026 20:58:07 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "TikTok reaches $400M settlement over children’s privacy lawsuit",
-      "summary": "Two years after the U.S. Department of Justice alleged that TikTok violated the Children’s Online Privacy Protection Act, it has reached a $400 million settlement.",
-      "link": "https://techcrunch.com/2026/08/21/tiktok-reaches-400m-settlement-over-childrens-privacy-lawsuit/",
-      "date": "Fri, 21 Aug 2026 20:25:21 +0000",
-      "source": "TechCrunch",
-      "category": "Cloud Computing"
     },
     {
       "title": "The Download: threats from space mirrors and credit for AI drugs",
