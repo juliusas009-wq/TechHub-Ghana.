@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-23T14:49:26.207824+00:00",
+  "updated": "2026-08-23T15:20:30.328193+00:00",
   "articles": [
+    {
+      "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
+      "summary": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
+      "link": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "date": "Sun, 23 Aug 2026 15:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders",
       "summary": "Flipkart's quick-commerce venture is delivering 1.1 million to 1.2 million orders a day, nearly triple its November volume.",
@@ -150,14 +158,6 @@
       "summary": "Tesla's solar roof was an experiment that never really caught on for the company. But does that mean the concept of roof-integrated solar is dead?",
       "link": "https://techcrunch.com/2026/08/21/teslas-solar-roof-is-dead-heres-what-went-wrong/",
       "date": "Fri, 21 Aug 2026 18:09:53 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Waymo hands over documents in NHTSA’s child collision probe",
-      "summary": "The responses to NHTSA's questions so far are redacted entirely, citing \"confidential business information.\"",
-      "link": "https://techcrunch.com/2026/08/21/waymo-hands-over-documents-in-nhtsas-child-collision-probe/",
-      "date": "Fri, 21 Aug 2026 17:49:58 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
