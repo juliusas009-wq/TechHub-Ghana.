@@ -22,17 +22,22 @@
 
     <meta
         name="description"
-        content="TechHub Ghana Privacy Policy. Learn how TechHub Ghana handles information, cookies, AI Assistant requests, newsletter subscriptions and website usage."
+        content="TechHub Ghana Privacy Policy. Learn how TechHub Ghana handles information, cookies, AI Assistant requests, AI services, newsletter subscriptions and website usage."
     >
 
     <meta
-        name="robots"
-        content="index, follow"
+        name="keywords"
+        content="TechHub Ghana privacy policy, TechHub Ghana data privacy, privacy policy Ghana, AI Assistant privacy, website privacy"
     >
 
     <meta
         name="author"
         content="TechHub Ghana"
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
     >
 
     <link
@@ -43,6 +48,82 @@
     <title>
         Privacy Policy | TechHub Ghana
     </title>
+
+
+    <!-- =========================================================
+         OPEN GRAPH
+    ========================================================== -->
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:title"
+        content="Privacy Policy | TechHub Ghana"
+    >
+
+    <meta
+        property="og:description"
+        content="Learn how TechHub Ghana handles information, AI requests, newsletter subscriptions, cookies and website usage."
+    >
+
+    <meta
+        property="og:url"
+        content="https://juliusas009-wq.github.io/TechHub-Ghana/privacy.html"
+    >
+
+    <meta
+        property="og:site_name"
+        content="TechHub Ghana"
+    >
+
+    <meta
+        property="og:image"
+        content="https://juliusas009-wq.github.io/TechHub-Ghana/images/logo.png"
+    >
+
+    <meta
+        property="og:image:alt"
+        content="TechHub Ghana logo"
+    >
+
+
+    <!-- =========================================================
+         TWITTER / X
+    ========================================================== -->
+
+    <meta
+        name="twitter:card"
+        content="summary"
+    >
+
+    <meta
+        name="twitter:title"
+        content="Privacy Policy | TechHub Ghana"
+    >
+
+    <meta
+        name="twitter:description"
+        content="Learn how TechHub Ghana handles information, AI requests, cookies and website usage."
+    >
+
+    <meta
+        name="twitter:image"
+        content="https://juliusas009-wq.github.io/TechHub-Ghana/images/logo.png"
+    >
+
+
+    <!-- =========================================================
+         FAVICON
+    ========================================================== -->
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="images/logo.png"
+    >
 
 
     <!-- =========================================================
@@ -88,10 +169,17 @@
 
     <!-- =========================================================
          PRIVACY PAGE STYLES
-         Uses TechHub Ghana standard responsive spacing.
+         Follows TechHub Ghana CSS spacing standard:
+         Desktop: 15px
+         Tablet/mobile: 10px
+         Small phones: 8px
     ========================================================== -->
 
     <style>
+
+        /* =====================================================
+           PAGE SAFETY
+        ====================================================== */
 
         html,
         body {
@@ -108,11 +196,18 @@
         }
 
 
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
         /* =====================================================
-           STANDARD SIDE SPACING
+           STANDARD PRIVACY SIDE SPACING
         ====================================================== */
 
-        .privacy-container {
+        .privacy-container,
+        .privacy-hero-content {
             width: calc(100% - 30px);
             max-width: 1100px;
 
@@ -127,24 +222,19 @@
 
         .privacy-hero {
             padding: 70px 0 45px;
+
+            color: #ffffff;
+
             background:
                 linear-gradient(
                     135deg,
                     #0b5cff,
                     #063ca6
                 );
-
-            color: #ffffff;
         }
 
 
         .privacy-hero-content {
-            width: calc(100% - 30px);
-            max-width: 1100px;
-
-            margin-left: auto;
-            margin-right: auto;
-
             text-align: center;
         }
 
@@ -164,11 +254,16 @@
             background: rgba(255, 255, 255, 0.15);
 
             font-size: 30px;
+
+            box-shadow:
+                0 10px 25px rgba(0, 0, 0, 0.12);
         }
 
 
         .privacy-hero h1 {
             margin: 0 0 14px;
+
+            color: #ffffff;
 
             font-size: clamp(2rem, 5vw, 3.4rem);
 
@@ -176,16 +271,31 @@
         }
 
 
-        .privacy-hero p {
+        .privacy-hero > .privacy-hero-content > p {
             max-width: 760px;
 
-            margin: 0 auto;
+            margin-left: auto;
+            margin-right: auto;
 
             font-size: 1rem;
 
             line-height: 1.8;
+        }
 
-            opacity: 0.92;
+
+        .privacy-hero-description {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+
+        .privacy-updated {
+            margin-top: 16px !important;
+            margin-bottom: 0 !important;
+
+            font-size: 0.88rem !important;
+
+            opacity: 0.85;
         }
 
 
@@ -199,13 +309,15 @@
 
 
         .privacy-card {
-            background: #ffffff;
+            width: 100%;
 
-            border-radius: 18px;
+            margin-bottom: 24px;
 
             padding: 35px;
 
-            margin-bottom: 24px;
+            background: #ffffff;
+
+            border-radius: 18px;
 
             box-shadow:
                 0 8px 30px rgba(15, 23, 42, 0.07);
@@ -234,6 +346,8 @@
             color: #1f2937;
 
             font-size: 1.05rem;
+
+            line-height: 1.4;
         }
 
 
@@ -265,7 +379,14 @@
         .privacy-card li {
             margin-bottom: 10px;
 
+            font-size: 0.96rem;
+
             line-height: 1.75;
+        }
+
+
+        .privacy-card li:last-child {
+            margin-bottom: 0;
         }
 
 
@@ -275,13 +396,13 @@
 
 
         /* =====================================================
-           INFORMATION BOX
+           INFORMATION NOTICE
         ====================================================== */
 
         .privacy-notice {
-            padding: 20px;
+            margin: 20px 0 22px;
 
-            margin-bottom: 24px;
+            padding: 20px;
 
             border-left: 4px solid #0b5cff;
 
@@ -295,6 +416,32 @@
             margin: 0;
 
             color: #1e3a8a;
+
+            line-height: 1.75;
+        }
+
+
+        /* =====================================================
+           SECURITY NOTICE
+        ====================================================== */
+
+        .privacy-warning {
+            margin: 20px 0;
+
+            padding: 20px;
+
+            border-left: 4px solid #f59e0b;
+
+            border-radius: 10px;
+
+            background: #fffbeb;
+        }
+
+
+        .privacy-warning p {
+            margin: 0;
+
+            color: #92400e;
 
             line-height: 1.75;
         }
@@ -318,29 +465,116 @@
         }
 
 
-        /* =====================================================
-           LAST UPDATED
-        ====================================================== */
+        .privacy-card a:focus-visible {
+            outline: 3px solid rgba(11, 92, 255, 0.25);
 
-        .privacy-updated {
-            margin-top: 12px;
+            outline-offset: 3px;
 
-            font-size: 0.88rem !important;
-
-            color: #6b7280 !important;
+            border-radius: 4px;
         }
 
 
         /* =====================================================
-           MOBILE
+           TABLE OF CONTENTS
+        ====================================================== */
+
+        .privacy-toc {
+            margin-bottom: 24px;
+
+            padding: 28px 35px;
+
+            background: #ffffff;
+
+            border-radius: 18px;
+
+            box-shadow:
+                0 8px 30px rgba(15, 23, 42, 0.07);
+        }
+
+
+        .privacy-toc h2 {
+            margin: 0 0 15px;
+
+            color: #111827;
+
+            font-size: 1.3rem;
+        }
+
+
+        .privacy-toc ul {
+            margin: 0;
+
+            padding-left: 22px;
+        }
+
+
+        .privacy-toc li {
+            margin-bottom: 8px;
+
+            line-height: 1.6;
+        }
+
+
+        .privacy-toc li:last-child {
+            margin-bottom: 0;
+        }
+
+
+        .privacy-toc a {
+            color: #0b5cff;
+
+            text-decoration: none;
+
+            font-weight: 500;
+        }
+
+
+        .privacy-toc a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* =====================================================
+           LAST UPDATED
+        ====================================================== */
+
+        .privacy-footer-note {
+            margin-top: 30px;
+
+            text-align: center;
+
+            color: #6b7280;
+
+            font-size: 0.88rem;
+
+            line-height: 1.7;
+        }
+
+
+        /* =====================================================
+           MOBILE — 768PX
+           Standard side spacing: 10px
         ====================================================== */
 
         @media (max-width: 768px) {
 
+            html,
+            body {
+                width: 100%;
+                max-width: 100%;
+                overflow-x: hidden;
+            }
+
+
+            .top-bar {
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+
+
             .privacy-container,
             .privacy-hero-content {
                 width: calc(100% - 20px);
-
                 max-width: none;
             }
 
@@ -366,14 +600,34 @@
                 font-size: 1.3rem;
             }
 
+
+            .privacy-card p,
+            .privacy-card li {
+                font-size: 0.94rem;
+            }
+
+
+            .privacy-toc {
+                padding: 25px 20px;
+
+                border-radius: 15px;
+            }
+
         }
 
 
         /* =====================================================
-           SMALL PHONES
+           SMALL PHONES — 480PX
+           Standard side spacing: 8px
         ====================================================== */
 
         @media (max-width: 480px) {
+
+            .top-bar {
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
 
             .privacy-container,
             .privacy-hero-content {
@@ -390,6 +644,8 @@
                 width: 58px;
                 height: 58px;
 
+                margin-bottom: 16px;
+
                 border-radius: 15px;
 
                 font-size: 25px;
@@ -401,8 +657,15 @@
             }
 
 
-            .privacy-hero p {
-                font-size: 0.9rem;
+            .privacy-hero-description {
+                font-size: 0.9rem !important;
+
+                line-height: 1.7 !important;
+            }
+
+
+            .privacy-updated {
+                font-size: 0.8rem !important;
             }
 
 
@@ -430,6 +693,23 @@
                 line-height: 1.75;
             }
 
+
+            .privacy-card ul {
+                padding-left: 19px;
+            }
+
+
+            .privacy-toc {
+                padding: 22px 16px;
+
+                border-radius: 13px;
+            }
+
+
+            .privacy-toc h2 {
+                font-size: 1.15rem;
+            }
+
         }
 
     </style>
@@ -453,7 +733,7 @@
 
 
     <!-- =========================================================
-         HEADER
+         SITE HEADER
     ========================================================== -->
 
     <header
@@ -624,7 +904,7 @@
 
 
     <!-- =========================================================
-         MAIN
+         MAIN CONTENT
     ========================================================== -->
 
     <main id="main-content">
@@ -656,11 +936,12 @@
                 </h1>
 
 
-                <p>
+                <p class="privacy-hero-description">
                     Your privacy matters to TechHub Ghana.
-                    This page explains what information may be
-                    collected when you use our website and how
-                    that information may be used.
+                    This policy explains what information may be
+                    collected when you use our website, how certain
+                    services process information and the choices
+                    available to you.
                 </p>
 
 
@@ -677,16 +958,114 @@
              PRIVACY CONTENT
         ====================================================== -->
 
-        <section class="privacy-section">
+        <section
+            class="privacy-section"
+            aria-label="TechHub Ghana Privacy Policy"
+        >
 
             <div class="privacy-container">
+
+
+                <!-- =================================================
+                     TABLE OF CONTENTS
+                ================================================== -->
+
+                <nav
+                    class="privacy-toc"
+                    aria-label="Privacy Policy sections"
+                >
+
+                    <h2>
+                        Privacy Policy Contents
+                    </h2>
+
+                    <ul>
+
+                        <li>
+                            <a href="#introduction">
+                                Introduction
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#information">
+                                Information We May Collect
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#ai-assistant">
+                                AI Assistant and AI Services
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#newsletter">
+                                Newsletter
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#cookies">
+                                Cookies and Similar Technologies
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#third-party">
+                                Third-Party Services
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#tools">
+                                Digital Tools
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#security">
+                                Data Security
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#rights">
+                                Your Choices and Rights
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#external-links">
+                                External Websites
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#changes">
+                                Changes to This Policy
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#contact">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
 
 
                 <!-- =================================================
                      INTRODUCTION
                 ================================================== -->
 
-                <div class="privacy-card">
+                <div
+                    class="privacy-card"
+                    id="introduction"
+                >
 
                     <h2>
                         1. Introduction
@@ -701,9 +1080,17 @@
                     </p>
 
                     <p>
-                        By using TechHub Ghana, you acknowledge
-                        the practices described in this Privacy
-                        Policy.
+                        This Privacy Policy explains how information
+                        may be handled when you visit or use
+                        TechHub Ghana.
+                    </p>
+
+                    <p>
+                        By using the website, you acknowledge the
+                        practices described in this policy. If you
+                        do not agree with these practices, you may
+                        choose not to use the relevant features or
+                        the website.
                     </p>
 
                 </div>
@@ -713,45 +1100,58 @@
                      INFORMATION WE COLLECT
                 ================================================== -->
 
-                <div class="privacy-card">
+                <div
+                    class="privacy-card"
+                    id="information"
+                >
 
                     <h2>
                         2. Information We May Collect
                     </h2>
 
                     <p>
-                        Depending on how you use the website,
-                        TechHub Ghana may receive limited
-                        information such as:
+                        The type of information involved depends on
+                        how you use TechHub Ghana. Information may
+                        include:
                     </p>
 
                     <ul>
 
                         <li>
-                            Information you voluntarily provide,
-                            such as an email address when using
-                            a newsletter subscription form.
+                            <strong>Information you provide:</strong>
+                            such as an email address if you voluntarily
+                            subscribe to a newsletter or contact us.
                         </li>
 
                         <li>
-                            Text that you voluntarily submit to
-                            our AI Assistant for processing.
+                            <strong>AI requests:</strong>
+                            text or other content that you voluntarily
+                            submit to the TechHub Ghana AI Assistant.
                         </li>
 
                         <li>
-                            Basic technical information that may
-                            be provided automatically by your
-                            browser, hosting provider or security
-                            services.
+                            <strong>Technical information:</strong>
+                            information that may be automatically
+                            available to website infrastructure,
+                            hosting or security services, such as
+                            IP address, browser type, device information
+                            and request information.
                         </li>
 
                         <li>
-                            Website usage information that may be
-                            collected through analytics or similar
-                            technologies if such services are enabled.
+                            <strong>Usage information:</strong>
+                            information about how visitors interact
+                            with the website when analytics or similar
+                            technologies are enabled.
                         </li>
 
                     </ul>
+
+                    <p>
+                        TechHub Ghana does not intentionally ask users
+                        to provide unnecessary sensitive personal
+                        information.
+                    </p>
 
                 </div>
 
@@ -760,40 +1160,81 @@
                      AI ASSISTANT
                 ================================================== -->
 
-                <div class="privacy-card">
+                <div
+                    class="privacy-card"
+                    id="ai-assistant"
+                >
 
                     <h2>
-                        3. AI Assistant Privacy
+                        3. AI Assistant and AI Services
                     </h2>
 
                     <p>
-                        TechHub Ghana provides an AI Assistant that
-                        can help users rewrite, summarize, correct
-                        grammar and improve text.
+                        TechHub Ghana provides AI-powered features
+                        that may help users rewrite, summarize,
+                        improve, explain or otherwise process text.
                     </p>
 
                     <div class="privacy-notice">
 
                         <p>
                             <strong>Important:</strong>
-                            Do not submit passwords, banking details,
-                            private identification numbers or other
-                            highly sensitive information to the AI
-                            Assistant.
+                            Do not submit passwords, bank card
+                            information, banking credentials,
+                            government identification numbers,
+                            private account credentials or other
+                            highly sensitive information to the
+                            AI Assistant.
                         </p>
 
                     </div>
 
+                    <h3>
+                        How AI requests are processed
+                    </h3>
+
                     <p>
-                        Text submitted to the AI Assistant is sent
-                        to our AI processing service so that the
-                        requested operation can be performed.
+                        When you submit a request to the TechHub Ghana
+                        AI Assistant, the information required to
+                        process that request may be sent through the
+                        TechHub Ghana AI backend to an AI processing
+                        service.
+                    </p>
+
+                    <p>
+                        TechHub Ghana currently uses Cloudflare Workers
+                        AI for AI model processing through an AI binding
+                        configured on the TechHub Ghana AI Worker.
+                    </p>
+
+                    <p>
+                        The AI Assistant should therefore be treated
+                        as an online processing service. Users should
+                        only submit information they are comfortable
+                        sending for processing.
                     </p>
 
                     <p>
                         TechHub Ghana does not intentionally request
                         sensitive personal information through the
                         AI Assistant.
+                    </p>
+
+                    <h3>
+                        AI Search
+                    </h3>
+
+                    <p>
+                        TechHub Ghana may also use AI Search or related
+                        search infrastructure to help users find or
+                        retrieve relevant website information.
+                    </p>
+
+                    <p>
+                        Search requests may be processed by the
+                        services required to provide the search
+                        functionality. Users should avoid entering
+                        confidential information into search fields.
                     </p>
 
                 </div>
@@ -803,7 +1244,10 @@
                      NEWSLETTER
                 ================================================== -->
 
-                <div class="privacy-card">
+                <div
+                    class="privacy-card"
+                    id="newsletter"
+                >
 
                     <h2>
                         4. Newsletter Information
@@ -818,12 +1262,17 @@
                     <p>
                         Your email address may be used to send
                         technology news, tutorials, website updates
-                        and information about new tools.
+                        and information about new digital tools.
                     </p>
 
                     <p>
-                        You may unsubscribe from marketing or
-                        newsletter communications where an
+                        We do not recommend entering another person's
+                        email address without their permission.
+                    </p>
+
+                    <p>
+                        You may unsubscribe from newsletter or
+                        marketing communications where an
                         unsubscribe option is provided.
                     </p>
 
@@ -834,54 +1283,101 @@
                      COOKIES
                 ================================================== -->
 
-                <div class="privacy-card">
+                <div
+                    class="privacy-card"
+                    id="cookies"
+                >
 
                     <h2>
                         5. Cookies and Similar Technologies
                     </h2>
 
                     <p>
-                        TechHub Ghana may use cookies or similar
-                        browser technologies where necessary for
-                        website functionality, security, preferences
-                        or analytics.
+                        TechHub Ghana may use cookies, local storage
+                        or similar browser technologies where required
+                        for website functionality, preferences,
+                        security or analytics.
                     </p>
 
                     <p>
-                        Third-party services used by the website may
-                        also use their own technologies according to
-                        their respective privacy policies.
+                        Some website features may store information
+                        locally in your browser. Such information may
+                        include preferences or temporary application
+                        data.
+                    </p>
+
+                    <p>
+                        Third-party services integrated into the
+                        website may also use cookies or similar
+                        technologies according to their own policies.
+                    </p>
+
+                    <p>
+                        You can manage cookies through your browser
+                        settings. Disabling certain technologies may
+                        affect some website features.
                     </p>
 
                 </div>
 
 
                 <!-- =================================================
-                     THIRD PARTY SERVICES
+                     THIRD-PARTY SERVICES
                 ================================================== -->
 
-                <div class="privacy-card">
+                <div
+                    class="privacy-card"
+                    id="third-party"
+                >
 
                     <h2>
                         6. Third-Party Services
                     </h2>
 
                     <p>
-                        Some TechHub Ghana features may depend on
-                        third-party services. These may include
-                        hosting, fonts, icons, AI processing,
-                        analytics or other technical services.
+                        Some TechHub Ghana features depend on external
+                        technology providers. These may include
+                        website hosting, security, AI processing,
+                        search, fonts, icons, analytics and other
+                        technical services.
+                    </p>
+
+                    <h3>
+                        Cloudflare
+                    </h3>
+
+                    <p>
+                        TechHub Ghana uses Cloudflare services for
+                        certain website and AI infrastructure. This
+                        may include Cloudflare Workers and Workers AI.
+                    </p>
+
+                    <h3>
+                        Google Fonts
+                    </h3>
+
+                    <p>
+                        The website may load fonts from Google Fonts.
+                        Your browser may make a request to Google's
+                        servers when these fonts are loaded.
+                    </p>
+
+                    <h3>
+                        Font Awesome
+                    </h3>
+
+                    <p>
+                        The website may load icons from Font Awesome's
+                        content delivery infrastructure. Your browser
+                        may make a request to that service when the
+                        resources are loaded.
                     </p>
 
                     <p>
-                        These third parties may process limited
-                        technical information or information required
-                        to provide their services.
-                    </p>
-
-                    <p>
-                        Their handling of information is governed by
-                        their own terms and privacy policies.
+                        Third-party services operate under their own
+                        terms and privacy policies. TechHub Ghana is
+                        not responsible for privacy practices outside
+                        our control.
                     </p>
 
                 </div>
@@ -891,7 +1387,10 @@
                      DIGITAL TOOLS
                 ================================================== -->
 
-                <div class="privacy-card">
+                <div
+                    class="privacy-card"
+                    id="tools"
+                >
 
                     <h2>
                         7. Digital Tools
@@ -904,17 +1403,31 @@
                     </p>
 
                     <p>
-                        Whenever possible, these tools are designed
-                        to process information directly in your
-                        browser rather than sending it to a server.
+                        Where a tool is designed to perform its work
+                        directly in your browser, the information
+                        entered into that tool may remain on your
+                        device and may not need to be sent to our
+                        servers.
                     </p>
 
+                    <div class="privacy-warning">
+
+                        <p>
+                            <strong>Security reminder:</strong>
+                            Even when a tool is designed for local
+                            browser processing, avoid entering
+                            confidential information unless you
+                            understand exactly how that specific
+                            tool works.
+                        </p>
+
+                    </div>
+
                     <p>
-                        However, users should always avoid entering
-                        confidential information into any online
-                        tool unless the tool specifically requires
-                        it and clearly explains how the information
-                        is handled.
+                        Some tools or features may require server-side
+                        processing. Where this occurs, information
+                        necessary to provide the feature may be sent
+                        to the relevant service.
                     </p>
 
                 </div>
@@ -924,21 +1437,31 @@
                      DATA SECURITY
                 ================================================== -->
 
-                <div class="privacy-card">
+                <div
+                    class="privacy-card"
+                    id="security"
+                >
 
                     <h2>
                         8. Data Security
                     </h2>
 
                     <p>
-                        We take reasonable steps to protect
+                        We take reasonable measures to protect
                         information handled through TechHub Ghana.
                     </p>
 
                     <p>
-                        However, no website, internet transmission
-                        or electronic storage system can be guaranteed
-                        to be completely secure.
+                        However, no website, internet transmission,
+                        cloud service or electronic storage system
+                        can be guaranteed to be completely secure.
+                    </p>
+
+                    <p>
+                        For this reason, you should avoid submitting
+                        passwords, financial credentials or other
+                        highly sensitive information through ordinary
+                        website forms or AI features.
                     </p>
 
                 </div>
@@ -955,14 +1478,20 @@
                     </h2>
 
                     <p>
-                        TechHub Ghana is intended for general
-                        technology learning and information.
+                        TechHub Ghana provides general technology
+                        education, news and digital tools.
                     </p>
 
                     <p>
-                        We do not intentionally collect personal
-                        information from children for purposes that
-                        require such collection.
+                        We do not intentionally seek to collect
+                        sensitive personal information from children.
+                    </p>
+
+                    <p>
+                        If you believe that a child has submitted
+                        personal information to TechHub Ghana that
+                        should not have been submitted, please contact
+                        us so that we can review the situation.
                     </p>
 
                 </div>
@@ -972,16 +1501,20 @@
                      YOUR RIGHTS
                 ================================================== -->
 
-                <div class="privacy-card">
+                <div
+                    class="privacy-card"
+                    id="rights"
+                >
 
                     <h2>
                         10. Your Choices and Rights
                     </h2>
 
                     <p>
-                        Depending on applicable law, you may have
-                        rights concerning personal information
-                        associated with you.
+                        Depending on applicable law and the type of
+                        information involved, you may have rights
+                        concerning personal information associated
+                        with you.
                     </p>
 
                     <ul>
@@ -1002,12 +1535,17 @@
                         </li>
 
                         <li>
-                            You can contact TechHub Ghana regarding
-                            questions about information submitted
-                            through the website.
+                            You can contact TechHub Ghana with
+                            questions or requests concerning
+                            information you have submitted to us.
                         </li>
 
                     </ul>
+
+                    <p>
+                        Requests may be subject to verification and
+                        applicable legal requirements.
+                    </p>
 
                 </div>
 
@@ -1016,7 +1554,10 @@
                      EXTERNAL LINKS
                 ================================================== -->
 
-                <div class="privacy-card">
+                <div
+                    class="privacy-card"
+                    id="external-links"
+                >
 
                     <h2>
                         11. External Websites
@@ -1024,14 +1565,24 @@
 
                     <p>
                         TechHub Ghana may contain links to external
-                        websites, services or resources.
+                        websites, applications, services or resources.
                     </p>
 
                     <p>
-                        We are not responsible for the privacy
-                        practices, security or content of external
-                        websites. We recommend reviewing the privacy
-                        policy of any external service you visit.
+                        External websites have their own privacy
+                        practices, terms and security policies.
+                    </p>
+
+                    <p>
+                        TechHub Ghana is not responsible for the
+                        privacy practices, security or content of
+                        external websites.
+                    </p>
+
+                    <p>
+                        We recommend reviewing the privacy policy of
+                        any external service before providing it with
+                        personal information.
                     </p>
 
                 </div>
@@ -1041,7 +1592,10 @@
                      POLICY CHANGES
                 ================================================== -->
 
-                <div class="privacy-card">
+                <div
+                    class="privacy-card"
+                    id="changes"
+                >
 
                     <h2>
                         12. Changes to This Privacy Policy
@@ -1058,6 +1612,12 @@
                         will be published on this page.
                     </p>
 
+                    <p>
+                        The "Last updated" date at the top of this
+                        page indicates when the policy was most
+                        recently revised.
+                    </p>
+
                 </div>
 
 
@@ -1065,7 +1625,10 @@
                      CONTACT
                 ================================================== -->
 
-                <div class="privacy-card">
+                <div
+                    class="privacy-card"
+                    id="contact"
+                >
 
                     <h2>
                         13. Contact TechHub Ghana
@@ -1080,16 +1643,27 @@
                     <p>
 
                         <a href="contact.html">
+
                             Contact TechHub Ghana
+
                             <i
                                 class="fa-solid fa-arrow-right"
                                 aria-hidden="true"
                             ></i>
+
                         </a>
 
                     </p>
 
                 </div>
+
+
+                <p class="privacy-footer-note">
+                    This Privacy Policy describes TechHub Ghana's
+                    website practices and is intended to provide
+                    general information to visitors. It does not
+                    replace professional legal advice.
+                </p>
 
             </div>
 
@@ -1195,7 +1769,7 @@
 
 
             <!-- =================================================
-                 TOOLS
+                 POPULAR TOOLS
             ================================================== -->
 
             <div class="footer-column">
@@ -1248,7 +1822,10 @@
                 <ul>
 
                     <li>
-                        <a href="privacy.html">
+                        <a
+                            href="privacy.html"
+                            aria-current="page"
+                        >
                             Privacy Policy
                         </a>
                     </li>
@@ -1281,6 +1858,7 @@
             <p>
 
                 ©
+
                 <span id="footerYear">
                     2026
                 </span>
@@ -1331,7 +1909,7 @@
 
 
     <!-- =========================================================
-         JAVASCRIPT
+         MAIN JAVASCRIPT
     ========================================================== -->
 
     <script
