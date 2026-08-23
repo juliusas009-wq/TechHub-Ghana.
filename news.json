@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-23T02:43:48.926649+00:00",
+  "updated": "2026-08-23T03:49:29.700844+00:00",
   "articles": [
+    {
+      "title": "Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders",
+      "summary": "Flipkart's quick-commerce venture is delivering 1.1 million to 1.2 million orders a day, nearly triple its November volume.",
+      "link": "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/",
+      "date": "Sun, 23 Aug 2026 03:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
       "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
@@ -150,14 +158,6 @@
       "summary": "The responses to NHTSA's questions so far are redacted entirely, citing \"confidential business information.\"",
       "link": "https://techcrunch.com/2026/08/21/waymo-hands-over-documents-in-nhtsas-child-collision-probe/",
       "date": "Fri, 21 Aug 2026 17:49:58 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Why is the DOJ investigating Andreessen Horowitz’s board seats?",
-      "summary": "Andreessen Horowitz has two partners sitting on the boards of companies that now&#160;compete with each other: Ben Horowitz at Databricks and Martin Casado at&#160;Fivetran. Nothing too scandalous on the surface, except&#160;the Department of&#160;Justice&#160;has&#160;reportedly&#160;been investigating the arrangement&#160;for&#160;almost&#160;a&#160;year, dusting&#160;off a 112-year-old antitrust&#160;law&#160;that&#8217;s&#160;rarely used against VCs.&#160; Board conflicts&#160;aren&#8217;t&#160;exactly new, and these companies&#160;weren&#8217;t&#160;necessarily direct competitors when a16z first invested [&#8230;]",
-      "link": "https://techcrunch.com/video/why-is-the-doj-investigating-andreessen-horowitzs-board-seats/",
-      "date": "Fri, 21 Aug 2026 16:53:39 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
