@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-23T19:27:36.145937+00:00",
+  "updated": "2026-08-23T19:47:02.315793+00:00",
   "articles": [
+    {
+      "title": "Uber faces fine of nearly $1B over automated driver suspensions",
+      "summary": "The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR.",
+      "link": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
+      "date": "Sun, 23 Aug 2026 19:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
       "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
@@ -152,14 +160,6 @@
       "date": "Fri, 21 Aug 2026 20:25:21 +0000",
       "source": "TechCrunch",
       "category": "Cloud Computing"
-    },
-    {
-      "title": "The $225 Pebble Time 2 is a refreshingly fun smartwatch",
-      "summary": "The $225 Pebble Time 2 pairs quirky watch faces and apps with physical buttons, an e-paper display, weeks of battery life, and a playful hacker spirit.",
-      "link": "https://techcrunch.com/2026/08/21/the-225-pebble-time-2-is-a-refreshingly-fun-smartwatch/",
-      "date": "Fri, 21 Aug 2026 19:57:46 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
     },
     {
       "title": "The Download: threats from space mirrors and credit for AI drugs",
