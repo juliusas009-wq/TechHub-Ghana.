@@ -3,58 +3,670 @@
 
 <head>
 
+    <!-- =========================================================
+         BASIC DOCUMENT SETUP
+    ========================================================== -->
+
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    >
 
-    <meta name="description"
-          content="Login to your TechHub Ghana account to access your dashboard and personalized features.">
+    <meta
+        name="theme-color"
+        content="#0b5cff"
+    >
 
-    <meta name="author"
-          content="TechHub Ghana">
+    <meta
+        name="description"
+        content="Login to your TechHub Ghana account and access your personalized technology dashboard."
+    >
+
+    <meta
+        name="keywords"
+        content="TechHub Ghana login, technology Ghana, TechHub account, student technology"
+    >
+
+    <meta
+        name="author"
+        content="TechHub Ghana"
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
 
     <title>Login | TechHub Ghana</title>
 
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
 
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
+    <!-- =========================================================
+         GOOGLE FONTS
+    ========================================================== -->
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-          rel="stylesheet">
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
 
-    <link rel="stylesheet"
-          href="style.css">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
 
-    <link rel="icon"
-          href="images/logo.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =========================================================
+         FONT AWESOME
+    ========================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+
+    <!-- =========================================================
+         MAIN STYLESHEET
+    ========================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+
+    <!-- =========================================================
+         FAVICON
+    ========================================================== -->
+
+    <link
+        rel="icon"
+        href="images/logo.png"
+        type="image/png"
+    >
+
+
+    <!-- =========================================================
+         PAGE STANDARDIZATION
+         MATCHES TECHHUB GHANA CONTACT/TUTORIAL STANDARD
+    ========================================================== -->
+
+    <style>
+
+        /* =====================================================
+           BASIC WIDTH PROTECTION
+        ====================================================== */
+
+        html,
+        body {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        /* =====================================================
+           SCREEN READER ONLY
+        ====================================================== */
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+
+        /* =====================================================
+           MAIN CONTENT SPACING
+        ====================================================== */
+
+        main {
+            width: 100%;
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+
+        /* =====================================================
+           HEADER LOGO STANDARD
+        ====================================================== */
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            min-width: 0;
+            text-decoration: none;
+        }
+
+
+        .logo > a {
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+
+        .logo img {
+            width: 56px;
+            height: 56px;
+            min-width: 56px;
+            max-width: 56px;
+            object-fit: contain;
+            display: block;
+            border-radius: 12px;
+        }
+
+
+        .logo-text {
+            min-width: 0;
+        }
+
+
+        .logo-text h1,
+        .logo-text p {
+            display: block;
+        }
+
+
+        .logo-text h1 {
+            white-space: nowrap;
+        }
+
+
+        .logo-text p {
+            white-space: nowrap;
+        }
+
+
+        /* =====================================================
+           TOP BAR
+        ====================================================== */
+
+        .top-bar {
+            width: 100%;
+            max-width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        /* =====================================================
+           SEARCH
+        ====================================================== */
+
+        .search-box {
+            min-width: 0;
+            max-width: 100%;
+        }
+
+
+        .search-box input {
+            min-width: 0;
+            max-width: 100%;
+        }
+
+
+        /* =====================================================
+           BREAKING NEWS
+        ====================================================== */
+
+        .breaking-news {
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+
+        /* =====================================================
+           LOGIN SECTION
+        ====================================================== */
+
+        .login-section {
+            min-height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+
+        /* =====================================================
+           LOGIN BOX
+        ====================================================== */
+
+        .login-box {
+            width: 100%;
+            max-width: 470px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 38px 34px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+
+        /* =====================================================
+           LOGIN LOGO
+        ====================================================== */
+
+        .login-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 18px;
+        }
+
+
+        .login-logo img {
+            width: 76px;
+            height: 76px;
+            object-fit: contain;
+            border-radius: 16px;
+        }
+
+
+        /* =====================================================
+           LOGIN HEADING
+        ====================================================== */
+
+        .login-box h2 {
+            margin-bottom: 8px;
+        }
+
+
+        .login-subtitle {
+            margin-bottom: 28px;
+        }
+
+
+        /* =====================================================
+           FORM
+        ====================================================== */
+
+        .login-box form {
+            width: 100%;
+            text-align: left;
+        }
+
+
+        .form-group {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+
+        .form-group input {
+            width: 100%;
+            min-height: 50px;
+            padding: 12px 15px;
+            border-radius: 10px;
+            outline: none;
+            font-family: inherit;
+            font-size: 0.95rem;
+            transition:
+                border-color 0.2s ease,
+                box-shadow 0.2s ease;
+        }
+
+
+        .form-group input:focus {
+            border-color: #0b5cff;
+            box-shadow: 0 0 0 3px rgba(11, 92, 255, 0.12);
+        }
+
+
+        /* =====================================================
+           LOGIN BUTTON
+        ====================================================== */
+
+        .login-btn {
+            width: 100%;
+            min-height: 52px;
+            border: none;
+            border-radius: 10px;
+            font-family: inherit;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition:
+                transform 0.2s ease,
+                opacity 0.2s ease,
+                box-shadow 0.2s ease;
+        }
+
+
+        .login-btn:hover {
+            transform: translateY(-1px);
+        }
+
+
+        .login-btn:active {
+            transform: translateY(0);
+        }
+
+
+        /* =====================================================
+           ERROR MESSAGE
+        ====================================================== */
+
+        .form-error {
+            min-height: 22px;
+            margin: 0 0 15px;
+            font-size: 0.88rem;
+            font-weight: 500;
+            text-align: center;
+        }
+
+
+        /* =====================================================
+           LOGIN FOOTER
+        ====================================================== */
+
+        .login-footer {
+            margin-top: 25px;
+            text-align: center;
+        }
+
+
+        .login-footer p {
+            margin-bottom: 5px;
+        }
+
+
+        .login-footer a,
+        .back-home {
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+
+        .back-home {
+            display: inline-block;
+            margin-top: 22px;
+        }
+
+
+        /* =====================================================
+           FOOTER
+        ====================================================== */
+
+        footer {
+            width: 100%;
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+
+        .footer-grid,
+        .copyright {
+            width: 100%;
+            max-width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        /* =====================================================
+           MOBILE
+        ====================================================== */
+
+        @media (max-width: 768px) {
+
+            main {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+
+            .top-bar {
+                width: 100%;
+                max-width: 100%;
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+
+
+            .logo {
+                gap: 9px;
+                max-width: calc(100% - 58px);
+            }
+
+
+            .logo img {
+                width: 44px;
+                height: 44px;
+                min-width: 44px;
+                max-width: 44px;
+            }
+
+
+            .logo-text {
+                min-width: 0;
+                overflow: hidden;
+            }
+
+
+            .logo-text h1 {
+                font-size: 1rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+
+            .logo-text p {
+                font-size: 0.58rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+
+            .search-box {
+                min-width: 0;
+                max-width: 100%;
+            }
+
+
+            .login-section {
+                min-height: auto;
+                padding-top: 45px;
+                padding-bottom: 45px;
+            }
+
+
+            .login-box {
+                max-width: 500px;
+                padding: 32px 25px;
+            }
+
+
+            footer {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+        }
+
+
+        /* =====================================================
+           SMALL PHONES
+        ====================================================== */
+
+        @media (max-width: 480px) {
+
+            main {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+
+
+            .top-bar {
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+
+            .logo {
+                gap: 8px;
+            }
+
+
+            .logo img {
+                width: 40px;
+                height: 40px;
+                min-width: 40px;
+                max-width: 40px;
+            }
+
+
+            .logo-text h1 {
+                font-size: 0.92rem;
+            }
+
+
+            .logo-text p {
+                font-size: 0.52rem;
+            }
+
+
+            .login-section {
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+
+            .login-box {
+                padding: 28px 18px;
+                border-radius: 16px;
+            }
+
+
+            .login-logo img {
+                width: 64px;
+                height: 64px;
+            }
+
+
+            .login-box h2 {
+                font-size: 1.35rem;
+            }
+
+
+            .login-subtitle {
+                font-size: 0.86rem;
+            }
+
+
+            .form-group input {
+                min-height: 48px;
+                font-size: 0.9rem;
+            }
+
+
+            .login-btn {
+                min-height: 50px;
+            }
+
+
+            footer {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+
+        }
+
+    </style>
 
 </head>
 
 
-<body>
+<body id="top">
 
 
-<!-- ================= HEADER ================= -->
+<!-- =========================================================
+     SKIP LINK
+========================================================== -->
 
-<header class="main-header">
+<a
+    class="skip-link"
+    href="#main-content"
+>
+    Skip to main content
+</a>
+
+
+<!-- =========================================================
+     HEADER
+========================================================== -->
+
+<header
+    class="main-header"
+    id="siteHeader"
+>
+
+
+    <!-- =====================================================
+         TOP BAR
+    ====================================================== -->
 
     <div class="top-bar">
 
-        <div class="logo">
 
-            <a href="index.html"
-               aria-label="TechHub Ghana Home">
+        <!-- LOGO -->
 
-                <img src="images/logo.png"
-                     alt="TechHub Ghana Logo">
+        <a
+            href="index.html"
+            class="logo"
+            aria-label="TechHub Ghana home"
+        >
 
-            </a>
+            <img
+                src="images/logo.png"
+                alt="TechHub Ghana logo"
+                width="56"
+                height="56"
+                decoding="async"
+            >
 
-            <div>
+
+            <div class="logo-text">
 
                 <h1>
                     TechHub Ghana
@@ -66,88 +678,207 @@
 
             </div>
 
-        </div>
+        </a>
 
 
         <!-- SEARCH -->
 
-        <form class="search-box"
-              role="search"
-              action="news.html">
+        <form
+            class="search-box"
+            role="search"
+            action="news.html"
+        >
 
-            <label for="site-search"
-                   class="sr-only">
-
+            <label
+                for="siteSearch"
+                class="sr-only"
+            >
                 Search TechHub Ghana
-
             </label>
 
+
             <input
-                id="site-search"
                 type="search"
+                id="siteSearch"
                 name="q"
                 placeholder="Search technology..."
-                autocomplete="off">
+                autocomplete="off"
+            >
 
-            <button type="submit"
-                    aria-label="Search">
 
-                🔍
+            <button
+                type="submit"
+                id="searchBtn"
+                aria-label="Search TechHub Ghana"
+            >
+
+                <i
+                    class="fa-solid fa-magnifying-glass"
+                    aria-hidden="true"
+                ></i>
 
             </button>
 
         </form>
 
+
+        <!-- DARK MODE -->
+
+        <button
+            type="button"
+            id="darkModeBtn"
+            class="dark-mode-btn"
+            aria-label="Toggle dark mode"
+            title="Toggle dark mode"
+        >
+
+            🌙
+
+        </button>
+
     </div>
 
 
-    <!-- MOBILE MENU BUTTON -->
+    <!-- =====================================================
+         MOBILE MENU BUTTON
+    ====================================================== -->
 
     <button
-        class="menu-btn"
         type="button"
-        onclick="toggleMenu()"
+        class="menu-btn"
+        id="menuBtn"
         aria-label="Open navigation menu"
         aria-controls="navMenu"
-        aria-expanded="false">
+        aria-expanded="false"
+    >
 
         ☰
 
     </button>
 
 
-    <!-- NAVIGATION -->
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
 
-    <nav id="navMenu"
-         aria-label="Main navigation">
+    <nav
+        id="navMenu"
+        aria-label="Main navigation"
+    >
 
         <a href="index.html">
+
+            <i
+                class="fa-solid fa-house"
+                aria-hidden="true"
+            ></i>
+
             Home
+
         </a>
+
+
+        <a href="ghana-tech.html">
+
+            🇬🇭 Ghana Tech
+
+        </a>
+
 
         <a href="news.html">
+
+            <i
+                class="fa-regular fa-newspaper"
+                aria-hidden="true"
+            ></i>
+
             News
+
         </a>
+
 
         <a href="tutorials.html">
+
+            <i
+                class="fa-solid fa-graduation-cap"
+                aria-hidden="true"
+            ></i>
+
             Tutorials
+
         </a>
+
 
         <a href="tools.html">
+
+            <i
+                class="fa-solid fa-toolbox"
+                aria-hidden="true"
+            ></i>
+
             Tools
+
         </a>
+
+
+        <a href="gpa.html">
+
+            🎓 GPA
+
+        </a>
+
+
+        <a href="qr-generator.html">
+
+            📱 QR Generator
+
+        </a>
+
+
+        <a href="ai-assistant.html">
+
+            🤖 AI Assistant
+
+        </a>
+
 
         <a href="about.html">
+
+            <i
+                class="fa-solid fa-circle-info"
+                aria-hidden="true"
+            ></i>
+
             About
+
         </a>
+
 
         <a href="contact.html">
+
+            <i
+                class="fa-solid fa-envelope"
+                aria-hidden="true"
+            ></i>
+
             Contact
+
         </a>
 
-        <a href="login.html"
-           class="active">
+
+        <a
+            href="login.html"
+            class="active"
+            aria-current="page"
+        >
+
+            <i
+                class="fa-solid fa-right-to-bracket"
+                aria-hidden="true"
+            ></i>
+
             Login
+
         </a>
 
     </nav>
@@ -155,44 +886,116 @@
 </header>
 
 
-<!-- ================= BREAKING NEWS ================= -->
+<!-- =========================================================
+     BREAKING NEWS / SITE BAR
+========================================================== -->
 
-<div class="breaking-news">
+<section
+    class="breaking-news"
+    aria-label="TechHub Ghana updates"
+>
 
-    <marquee>
-        📢 TechHub Ghana • Technology • Learning • Innovation • Digital Tools
-    </marquee>
+    <div class="breaking-inner">
 
-</div>
+        <div class="breaking-label">
+
+            <i
+                class="fa-solid fa-bolt"
+                aria-hidden="true"
+            ></i>
+
+            TECHHUB
+
+        </div>
 
 
-<!-- ================= LOGIN ================= -->
+        <div class="breaking-content">
 
-<main class="login-section">
+            <div class="breaking-track">
 
-    <div class="login-box">
+                <span>
+                    Technology
+                </span>
+
+                <span>
+                    Learning
+                </span>
+
+                <span>
+                    Innovation
+                </span>
+
+                <span>
+                    Digital Tools
+                </span>
+
+                <span>
+                    Ghana Tech
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     LOGIN MAIN
+========================================================== -->
+
+<main
+    id="main-content"
+    class="login-section"
+>
+
+
+    <section
+        class="login-box"
+        aria-labelledby="loginTitle"
+    >
+
+
+        <!-- LOGIN LOGO -->
 
         <div class="login-logo">
 
             <img
                 src="images/logo.png"
-                alt="TechHub Ghana">
+                alt="TechHub Ghana"
+                width="76"
+                height="76"
+            >
 
         </div>
 
 
-        <h2>
+        <!-- HEADING -->
+
+        <h2 id="loginTitle">
+
             Welcome Back 👋
+
         </h2>
 
 
         <p class="login-subtitle">
+
             Login to your TechHub Ghana account
+
         </p>
 
 
-        <form id="loginForm"
-              novalidate>
+        <!-- =================================================
+             LOGIN FORM
+        ================================================== -->
+
+        <form
+            id="loginForm"
+            novalidate
+        >
 
 
             <!-- EMAIL -->
@@ -200,8 +1003,11 @@
             <div class="form-group">
 
                 <label for="loginEmail">
+
                     Email Address
+
                 </label>
+
 
                 <input
                     type="email"
@@ -209,7 +1015,8 @@
                     name="email"
                     placeholder="Enter your email"
                     autocomplete="email"
-                    required>
+                    required
+                >
 
             </div>
 
@@ -219,8 +1026,11 @@
             <div class="form-group">
 
                 <label for="loginPassword">
+
                     Password
+
                 </label>
+
 
                 <input
                     type="password"
@@ -228,30 +1038,37 @@
                     name="password"
                     placeholder="Enter your password"
                     autocomplete="current-password"
-                    required>
+                    required
+                >
 
             </div>
 
 
-            <!-- ERROR MESSAGE -->
+            <!-- ERROR -->
 
-            <p id="loginError"
-               class="form-error"
-               role="alert"
-               aria-live="polite">
-            </p>
+            <p
+                id="loginError"
+                class="form-error"
+                role="alert"
+                aria-live="polite"
+            ></p>
 
 
             <!-- LOGIN BUTTON -->
 
             <button
                 type="submit"
-                class="login-btn">
+                class="login-btn"
+            >
 
-                🔐 Login
+                <i
+                    class="fa-solid fa-right-to-bracket"
+                    aria-hidden="true"
+                ></i>
+
+                Login
 
             </button>
-
 
         </form>
 
@@ -264,8 +1081,11 @@
                 Don't have an account?
             </p>
 
+
             <a href="signup.html">
+
                 Create an Account →
+
             </a>
 
         </div>
@@ -273,34 +1093,43 @@
 
         <!-- BACK HOME -->
 
-        <a href="index.html"
-           class="back-home">
+        <a
+            href="index.html"
+            class="back-home"
+        >
 
             ← Back to TechHub Ghana
 
         </a>
 
-    </div>
+    </section>
 
 </main>
 
 
-<!-- ================= FOOTER ================= -->
+<!-- =========================================================
+     FOOTER
+========================================================== -->
 
 <footer>
+
 
     <div class="footer-grid">
 
 
-        <div>
+        <!-- COMPANY -->
+
+        <div class="footer-column">
 
             <h3>
                 TechHub Ghana
             </h3>
 
+
             <p>
                 Technology • Learning • Innovation
             </p>
+
 
             <p>
                 Your platform for technology news,
@@ -310,80 +1139,111 @@
         </div>
 
 
-        <div>
+        <!-- QUICK LINKS -->
+
+        <div class="footer-column">
 
             <h3>
                 Quick Links
             </h3>
 
+
             <p>
+
                 <a href="index.html">
                     Home
                 </a>
+
             </p>
 
+
             <p>
+
                 <a href="news.html">
                     News
                 </a>
+
             </p>
 
+
             <p>
+
                 <a href="tutorials.html">
                     Tutorials
                 </a>
+
             </p>
 
+
             <p>
+
                 <a href="tools.html">
                     Digital Tools
                 </a>
+
             </p>
 
         </div>
 
 
-        <div>
+        <!-- ACCOUNT -->
+
+        <div class="footer-column">
 
             <h3>
                 Account
             </h3>
 
+
             <p>
+
                 <a href="login.html">
                     Login
                 </a>
+
             </p>
 
+
             <p>
+
                 <a href="signup.html">
                     Create Account
                 </a>
+
             </p>
 
+
             <p>
+
                 <a href="dashboard.html">
                     Dashboard
                 </a>
+
             </p>
 
         </div>
 
 
-        <div>
+        <!-- CONTACT -->
+
+        <div class="footer-column">
 
             <h3>
                 Contact
             </h3>
 
+
             <p>
                 🇬🇭 Ghana
             </p>
 
+
             <p>
+
                 <a href="contact.html">
                     Contact TechHub Ghana
                 </a>
+
             </p>
 
         </div>
@@ -404,47 +1264,119 @@
 </footer>
 
 
-<!-- ================= JAVASCRIPT ================= -->
+<!-- =========================================================
+     MAIN JAVASCRIPT
+========================================================== -->
 
-<script src="dashboard.js"></script>
+<script src="script.js" defer></script>
 
+
+<!-- =========================================================
+     LOGIN JAVASCRIPT
+========================================================== -->
 
 <script>
 
-    /* ===============================
-       MOBILE MENU
-    =============================== */
+document.addEventListener(
+    "DOMContentLoaded",
+    function () {
 
-    function toggleMenu() {
 
-        const nav =
+        /* =====================================================
+           MOBILE MENU
+        ====================================================== */
+
+        const menuButton =
+            document.getElementById("menuBtn");
+
+        const navMenu =
             document.getElementById("navMenu");
 
-        const button =
-            document.querySelector(".menu-btn");
 
-        nav.classList.toggle("show");
+        if (
+            menuButton &&
+            navMenu
+        ) {
 
-        const isOpen =
-            nav.classList.contains("show");
+            menuButton.addEventListener(
+                "click",
+                function () {
 
-        button.setAttribute(
-            "aria-expanded",
-            isOpen
-        );
-
-    }
+                    navMenu.classList.toggle("show");
 
 
-    /* ===============================
-       LOGIN
-    =============================== */
-
-    const loginForm =
-        document.getElementById("loginForm");
+                    const isOpen =
+                        navMenu.classList.contains("show");
 
 
-    if (loginForm) {
+                    menuButton.setAttribute(
+                        "aria-expanded",
+                        String(isOpen)
+                    );
+
+
+                    menuButton.setAttribute(
+                        "aria-label",
+                        isOpen
+                            ? "Close navigation menu"
+                            : "Open navigation menu"
+                    );
+
+                }
+            );
+
+
+            /* Close menu when a link is selected */
+
+            navMenu
+                .querySelectorAll("a")
+                .forEach(function (link) {
+
+                    link.addEventListener(
+                        "click",
+                        function () {
+
+                            navMenu.classList.remove("show");
+
+                            menuButton.setAttribute(
+                                "aria-expanded",
+                                "false"
+                            );
+
+                            menuButton.setAttribute(
+                                "aria-label",
+                                "Open navigation menu"
+                            );
+
+                        }
+                    );
+
+                });
+
+        }
+
+
+        /* =====================================================
+           LOGIN
+        ====================================================== */
+
+        const loginForm =
+            document.getElementById("loginForm");
+
+        const loginEmail =
+            document.getElementById("loginEmail");
+
+        const loginPassword =
+            document.getElementById("loginPassword");
+
+        const loginError =
+            document.getElementById("loginError");
+
+
+        if (!loginForm) {
+            return;
+        }
+
 
         loginForm.addEventListener(
             "submit",
@@ -453,49 +1385,130 @@
                 event.preventDefault();
 
 
+                /* Clear previous error */
+
+                loginError.textContent = "";
+
+
+                /* Get values */
+
                 const email =
-                    document
-                    .getElementById("loginEmail")
-                    .value
-                    .trim()
-                    .toLowerCase();
+                    loginEmail.value
+                        .trim()
+                        .toLowerCase();
 
 
                 const password =
-                    document
-                    .getElementById("loginPassword")
-                    .value;
+                    loginPassword.value;
 
+
+                /* =================================================
+                   VALIDATION
+                ================================================== */
+
+                if (!email) {
+
+                    loginError.textContent =
+                        "Please enter your email address.";
+
+                    loginEmail.focus();
+
+                    return;
+
+                }
+
+
+                if (!loginEmail.checkValidity()) {
+
+                    loginError.textContent =
+                        "Please enter a valid email address.";
+
+                    loginEmail.focus();
+
+                    return;
+
+                }
+
+
+                if (!password) {
+
+                    loginError.textContent =
+                        "Please enter your password.";
+
+                    loginPassword.focus();
+
+                    return;
+
+                }
+
+
+                /* =================================================
+                   GET ACCOUNT CREATED DURING SIGNUP
+                ================================================== */
+
+                const savedUser =
+                    localStorage.getItem(
+                        "techhubUser"
+                    );
+
+
+                if (!savedUser) {
+
+                    loginError.textContent =
+                        "No TechHub Ghana account was found. Please create an account first.";
+
+                    return;
+
+                }
+
+
+                let user;
+
+
+                try {
+
+                    user =
+                        JSON.parse(savedUser);
+
+                } catch (error) {
+
+                    loginError.textContent =
+                        "Your account information is corrupted. Please create your account again.";
+
+                    localStorage.removeItem(
+                        "techhubUser"
+                    );
+
+                    return;
+
+                }
+
+
+                /* =================================================
+                   CHECK LOGIN DETAILS
+                ================================================== */
+
+                const savedUsername =
+                    user.username || "";
 
                 const savedEmail =
-                    localStorage.getItem("userEmail");
-
+                    (user.email || "")
+                        .trim()
+                        .toLowerCase();
 
                 const savedPassword =
-                    localStorage.getItem("userPassword");
+                    user.password || "";
 
-
-                const error =
-                    document.getElementById("loginError");
-
-
-                /* Clear previous error */
-
-                error.textContent = "";
-
-
-                /* Check account */
 
                 if (
                     email === savedEmail &&
                     password === savedPassword
                 ) {
 
-                    /*
-                     * Store login status.
-                     * dashboard.js can use this to protect
-                     * the dashboard page.
-                     */
+
+                    /* =============================================
+                       LOGIN SUCCESS
+                    ============================================== */
 
                     localStorage.setItem(
                         "loggedIn",
@@ -503,27 +1516,47 @@
                     );
 
 
+                    localStorage.setItem(
+                        "currentUser",
+                        JSON.stringify({
+                            username: savedUsername,
+                            email: savedEmail
+                        })
+                    );
+
+
+                    /* Clear error */
+
+                    loginError.textContent = "";
+
+
+                    /* Redirect */
+
                     window.location.href =
                         "dashboard.html";
+
 
                     return;
 
                 }
 
 
-                /* Incorrect credentials */
+                /* =================================================
+                   LOGIN FAILED
+                ================================================== */
 
-                error.textContent =
+                loginError.textContent =
                     "Incorrect email or password.";
 
             }
         );
 
     }
+);
 
 </script>
 
 
 </body>
 
-  </html>
+</html>
