@@ -3,349 +3,2195 @@
 
 <head>
 
+    <!-- =====================================================
+         BASIC DOCUMENT SETUP
+    ====================================================== -->
+
     <meta charset="UTF-8">
 
     <meta
         name="viewport"
-        content="width=device-width, initial-scale=1.0"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     >
 
-    <title>Signup | TechHub Ghana</title>
+    <meta
+        name="theme-color"
+        content="#0b5cff"
+    >
 
-    <link rel="stylesheet" href="style.css">
+    <title>Create Account | TechHub Ghana</title>
+
+    <meta
+        name="description"
+        content="Create your TechHub Ghana account and access technology tutorials, digital tools, news and learning resources."
+    >
+
+    <meta
+        name="author"
+        content="TechHub Ghana"
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MASTER STYLESHEET
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+
+    <!-- =====================================================
+         PAGE-SPECIFIC SIGNUP STYLES
+    ====================================================== -->
+
+    <style>
+
+        /* =================================================
+           BASIC WIDTH PROTECTION
+        ================================================== */
+
+        html,
+        body {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        /* =================================================
+           HEADER STANDARD
+        ================================================== */
+
+        .main-header {
+            width: 100%;
+            max-width: 100%;
+        }
+
+
+        .top-bar {
+            width: 100%;
+            max-width: 100%;
+        }
+
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            min-width: 0;
+            text-decoration: none;
+        }
+
+
+        .logo img {
+            width: 56px;
+            height: 56px;
+            min-width: 56px;
+            max-width: 56px;
+            object-fit: contain;
+            display: block;
+        }
+
+
+        .logo-text {
+            min-width: 0;
+        }
+
+
+        .logo-text h1,
+        .logo-text p {
+            display: block;
+        }
+
+
+        .logo-text h1 {
+            white-space: nowrap;
+        }
+
+
+        .logo-text p {
+            white-space: nowrap;
+        }
+
+
+        /* =================================================
+           SEARCH PROTECTION
+        ================================================== */
+
+        .search-box {
+            min-width: 0;
+            max-width: 100%;
+        }
+
+
+        .search-box input {
+            min-width: 0;
+        }
+
+
+        /* =================================================
+           SIGNUP PAGE
+        ================================================== */
+
+        .signup-page {
+            min-height: calc(100vh - 180px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 15px;
+            background:
+                radial-gradient(
+                    circle at top left,
+                    rgba(11, 92, 255, 0.10),
+                    transparent 35%
+                ),
+                radial-gradient(
+                    circle at bottom right,
+                    rgba(0, 180, 255, 0.08),
+                    transparent 35%
+                ),
+                #f4f7fb;
+        }
+
+
+        .signup-wrapper {
+            width: 100%;
+            max-width: 1050px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background: #ffffff;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow:
+                0 20px 60px rgba(15, 23, 42, 0.12);
+            border: 1px solid rgba(15, 23, 42, 0.06);
+        }
+
+
+        /* =================================================
+           LEFT INFORMATION PANEL
+        ================================================== */
+
+        .signup-info {
+            position: relative;
+            padding: 55px 45px;
+            color: #ffffff;
+            background:
+                linear-gradient(
+                    135deg,
+                    #063bb8 0%,
+                    #0b5cff 55%,
+                    #008cff 100%
+                );
+            overflow: hidden;
+        }
+
+
+        .signup-info::before {
+            content: "";
+            position: absolute;
+            width: 240px;
+            height: 240px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.08);
+            top: -90px;
+            right: -80px;
+        }
+
+
+        .signup-info::after {
+            content: "";
+            position: absolute;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.06);
+            bottom: -80px;
+            left: -60px;
+        }
+
+
+        .signup-info-content {
+            position: relative;
+            z-index: 2;
+        }
+
+
+        .signup-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 14px;
+            border-radius: 30px;
+            background: rgba(255, 255, 255, 0.14);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+            margin-bottom: 25px;
+        }
+
+
+        .signup-info h2 {
+            margin: 0 0 18px;
+            font-size: 2.15rem;
+            line-height: 1.2;
+            font-weight: 800;
+        }
+
+
+        .signup-info > .signup-info-content > p {
+            margin: 0 0 30px;
+            color: rgba(255, 255, 255, 0.88);
+            line-height: 1.8;
+            font-size: 0.96rem;
+        }
+
+
+        .signup-benefits {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            gap: 18px;
+        }
+
+
+        .signup-benefits li {
+            display: flex;
+            align-items: flex-start;
+            gap: 13px;
+            color: rgba(255, 255, 255, 0.95);
+            line-height: 1.6;
+            font-size: 0.9rem;
+        }
+
+
+        .signup-benefits i {
+            width: 32px;
+            height: 32px;
+            min-width: 32px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.14);
+            color: #ffffff;
+            margin-top: 2px;
+        }
+
+
+        /* =================================================
+           FORM PANEL
+        ================================================== */
+
+        .signup-form-panel {
+            padding: 50px 45px;
+            background: #ffffff;
+        }
+
+
+        .signup-form-header {
+            margin-bottom: 30px;
+        }
+
+
+        .signup-form-header h1 {
+            margin: 0 0 8px;
+            color: #111827;
+            font-size: 1.8rem;
+            font-weight: 800;
+            line-height: 1.25;
+        }
+
+
+        .signup-form-header p {
+            margin: 0;
+            color: #6b7280;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+
+        /* =================================================
+           FORM
+        ================================================== */
+
+        .signup-form {
+            width: 100%;
+        }
+
+
+        .form-group {
+            margin-bottom: 19px;
+        }
+
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #1f2937;
+            font-size: 0.86rem;
+            font-weight: 600;
+        }
+
+
+        .input-wrapper {
+            position: relative;
+        }
+
+
+        .input-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #7b8798;
+            pointer-events: none;
+            z-index: 2;
+        }
+
+
+        .form-group input {
+            width: 100%;
+            height: 50px;
+            padding: 0 15px 0 45px;
+            border: 1px solid #d8dee8;
+            border-radius: 11px;
+            outline: none;
+            background: #ffffff;
+            color: #1f2937;
+            font-family: "Poppins", Arial, sans-serif;
+            font-size: 0.88rem;
+            transition:
+                border-color 0.2s ease,
+                box-shadow 0.2s ease,
+                background 0.2s ease;
+        }
+
+
+        .form-group input::placeholder {
+            color: #9ca3af;
+        }
+
+
+        .form-group input:focus {
+            border-color: #0b5cff;
+            box-shadow: 0 0 0 4px rgba(11, 92, 255, 0.10);
+        }
+
+
+        .form-group input.input-error {
+            border-color: #dc2626;
+        }
+
+
+        .form-group input.input-success {
+            border-color: #16a34a;
+        }
+
+
+        /* =================================================
+           PASSWORD TOGGLE
+        ================================================== */
+
+        .password-toggle {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 38px;
+            height: 38px;
+            border: 0;
+            background: transparent;
+            color: #6b7280;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+
+        .password-toggle:hover {
+            background: #f1f5f9;
+            color: #0b5cff;
+        }
+
+
+        #password {
+            padding-right: 52px;
+        }
+
+
+        /* =================================================
+           PASSWORD STRENGTH
+        ================================================== */
+
+        .password-strength {
+            margin-top: 9px;
+        }
+
+
+        .strength-bar {
+            width: 100%;
+            height: 5px;
+            background: #e5e7eb;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+
+        .strength-fill {
+            width: 0;
+            height: 100%;
+            border-radius: inherit;
+            transition:
+                width 0.25s ease,
+                background 0.25s ease;
+        }
+
+
+        .strength-text {
+            display: block;
+            margin-top: 6px;
+            font-size: 0.72rem;
+            color: #6b7280;
+        }
+
+
+        /* =================================================
+           TERMS
+        ================================================== */
+
+        .terms {
+            display: flex;
+            align-items: flex-start;
+            gap: 9px;
+            margin: 7px 0 20px;
+        }
+
+
+        .terms input {
+            width: 16px;
+            height: 16px;
+            margin-top: 3px;
+            accent-color: #0b5cff;
+            cursor: pointer;
+        }
+
+
+        .terms label {
+            margin: 0;
+            color: #6b7280;
+            font-size: 0.75rem;
+            line-height: 1.55;
+            cursor: pointer;
+        }
+
+
+        .terms a {
+            color: #0b5cff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+
+        .terms a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* =================================================
+           ERROR MESSAGE
+        ================================================== */
+
+        .form-message {
+            display: none;
+            margin-bottom: 18px;
+            padding: 12px 14px;
+            border-radius: 9px;
+            font-size: 0.78rem;
+            line-height: 1.5;
+        }
+
+
+        .form-message.error {
+            display: block;
+            color: #991b1b;
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+        }
+
+
+        .form-message.success {
+            display: block;
+            color: #166534;
+            background: #f0fdf4;
+            border: 1px solid #bbf7d0;
+        }
+
+
+        /* =================================================
+           CREATE ACCOUNT BUTTON
+        ================================================== */
+
+        .signup-button {
+            width: 100%;
+            min-height: 51px;
+            border: none;
+            border-radius: 11px;
+            padding: 13px 20px;
+            background:
+                linear-gradient(
+                    135deg,
+                    #0b5cff,
+                    #0646c7
+                );
+            color: #ffffff;
+            font-family: "Poppins", Arial, sans-serif;
+            font-size: 0.9rem;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow:
+                0 8px 20px rgba(11, 92, 255, 0.20);
+            transition:
+                transform 0.2s ease,
+                box-shadow 0.2s ease,
+                opacity 0.2s ease;
+        }
+
+
+        .signup-button:hover {
+            transform: translateY(-2px);
+            box-shadow:
+                0 12px 25px rgba(11, 92, 255, 0.28);
+        }
+
+
+        .signup-button:active {
+            transform: translateY(0);
+        }
+
+
+        .signup-button:disabled {
+            opacity: 0.65;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+
+        /* =================================================
+           LOGIN LINK
+        ================================================== */
+
+        .login-link {
+            margin: 22px 0 0;
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.8rem;
+        }
+
+
+        .login-link a {
+            color: #0b5cff;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* =================================================
+           SECURITY NOTE
+        ================================================== */
+
+        .security-note {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 7px;
+            margin-top: 18px;
+            color: #8a94a3;
+            font-size: 0.7rem;
+        }
+
+
+        .security-note i {
+            color: #16a34a;
+        }
+
+
+        /* =================================================
+           FOOTER
+        ================================================== */
+
+        footer {
+            width: 100%;
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+
+        .copyright {
+            width: 100%;
+            max-width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        /* =================================================
+           DARK MODE
+        ================================================== */
+
+        body.dark-mode .signup-page,
+        body.dark .signup-page {
+            background:
+                radial-gradient(
+                    circle at top left,
+                    rgba(11, 92, 255, 0.12),
+                    transparent 35%
+                ),
+                #0b1220;
+        }
+
+
+        body.dark-mode .signup-wrapper,
+        body.dark .signup-wrapper {
+            background: #111827;
+            border-color: rgba(255, 255, 255, 0.06);
+        }
+
+
+        body.dark-mode .signup-form-panel,
+        body.dark .signup-form-panel {
+            background: #111827;
+        }
+
+
+        body.dark-mode .signup-form-header h1,
+        body.dark .signup-form-header h1 {
+            color: #f9fafb;
+        }
+
+
+        body.dark-mode .signup-form-header p,
+        body.dark .signup-form-header p,
+        body.dark-mode .form-group label,
+        body.dark .form-group label {
+            color: #cbd5e1;
+        }
+
+
+        body.dark-mode .form-group input,
+        body.dark .form-group input {
+            background: #0f172a;
+            color: #f8fafc;
+            border-color: #334155;
+        }
+
+
+        body.dark-mode .form-group input::placeholder,
+        body.dark .form-group input::placeholder {
+            color: #64748b;
+        }
+
+
+        body.dark-mode .terms label,
+        body.dark .terms label,
+        body.dark-mode .login-link,
+        body.dark .login-link {
+            color: #94a3b8;
+        }
+
+
+        body.dark-mode .password-toggle:hover,
+        body.dark .password-toggle:hover {
+            background: #1e293b;
+        }
+
+
+        body.dark-mode .strength-bar,
+        body.dark .strength-bar {
+            background: #334155;
+        }
+
+
+        /* =================================================
+           TABLET
+        ================================================== */
+
+        @media (max-width: 900px) {
+
+            .signup-wrapper {
+                max-width: 700px;
+                grid-template-columns: 1fr;
+            }
+
+
+            .signup-info {
+                padding: 38px 35px;
+            }
+
+
+            .signup-info h2 {
+                font-size: 1.8rem;
+            }
+
+
+            .signup-benefits {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+
+
+            .signup-form-panel {
+                padding: 40px 35px;
+            }
+
+        }
+
+
+        /* =================================================
+           MOBILE
+        ================================================== */
+
+        @media (max-width: 768px) {
+
+            .top-bar {
+                width: 100%;
+                max-width: 100%;
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+
+
+            .logo {
+                gap: 9px;
+                max-width: calc(100% - 58px);
+            }
+
+
+            .logo img {
+                width: 44px;
+                height: 44px;
+                min-width: 44px;
+                max-width: 44px;
+            }
+
+
+            .logo-text {
+                min-width: 0;
+                overflow: hidden;
+            }
+
+
+            .logo-text h1 {
+                font-size: 1rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+
+            .logo-text p {
+                font-size: 0.58rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+
+            .header-right {
+                min-width: 0;
+            }
+
+
+            .search-box {
+                min-width: 0;
+                max-width: 100%;
+            }
+
+
+            .signup-page {
+                min-height: auto;
+                padding: 35px 10px 45px;
+            }
+
+
+            .signup-wrapper {
+                border-radius: 18px;
+            }
+
+
+            .signup-info {
+                padding: 35px 25px;
+            }
+
+
+            .signup-info h2 {
+                font-size: 1.65rem;
+            }
+
+
+            .signup-info > .signup-info-content > p {
+                font-size: 0.86rem;
+            }
+
+
+            .signup-benefits {
+                grid-template-columns: 1fr;
+            }
+
+
+            .signup-form-panel {
+                padding: 35px 25px;
+            }
+
+
+            footer {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+        }
+
+
+        /* =================================================
+           SMALL PHONES
+        ================================================== */
+
+        @media (max-width: 480px) {
+
+            .top-bar {
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+
+            .logo {
+                gap: 8px;
+            }
+
+
+            .logo img {
+                width: 40px;
+                height: 40px;
+                min-width: 40px;
+                max-width: 40px;
+            }
+
+
+            .logo-text h1 {
+                font-size: 0.92rem;
+            }
+
+
+            .logo-text p {
+                font-size: 0.52rem;
+            }
+
+
+            .signup-page {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+
+
+            .signup-info {
+                padding: 30px 20px;
+            }
+
+
+            .signup-info h2 {
+                font-size: 1.45rem;
+            }
+
+
+            .signup-info > .signup-info-content > p {
+                font-size: 0.82rem;
+            }
+
+
+            .signup-form-panel {
+                padding: 30px 20px;
+            }
+
+
+            .signup-form-header h1 {
+                font-size: 1.5rem;
+            }
+
+
+            .signup-form-header p {
+                font-size: 0.82rem;
+            }
+
+
+            .form-group input {
+                height: 48px;
+                font-size: 0.83rem;
+            }
+
+
+            footer {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+
+        }
+
+
+        /* =================================================
+           REDUCED MOTION
+        ================================================== */
+
+        @media (prefers-reduced-motion: reduce) {
+
+            *,
+            *::before,
+            *::after {
+                scroll-behavior: auto !important;
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+
+        }
+
+    </style>
 
 </head>
 
 
-<body>
+<body id="top">
 
 
-<header class="main-header">
+    <!-- =====================================================
+         SKIP LINK
+    ====================================================== -->
 
-    <div class="top-bar">
+    <a
+        href="#main-content"
+        class="skip-link"
+    >
+        Skip to main content
+    </a>
 
-        <a href="index.html" class="logo">
 
-            <img
-                src="images/logo.png"
-                alt="TechHub Ghana Logo"
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header
+        class="main-header"
+        id="siteHeader"
+    >
+
+        <div class="top-bar">
+
+
+            <!-- LOGO -->
+
+            <a
+                href="index.html"
+                class="logo"
+                aria-label="TechHub Ghana home"
             >
 
-            <div class="logo-text">
+                <img
+                    src="images/logo.png"
+                    alt="TechHub Ghana logo"
+                    width="56"
+                    height="56"
+                    decoding="async"
+                >
 
-                <h1>
-                    TechHub Ghana
-                </h1>
 
-                <p>
-                    Technology • Learning • Innovation
-                </p>
+                <div class="logo-text">
+
+                    <h1>
+                        TechHub Ghana
+                    </h1>
+
+                    <p>
+                        Technology • Learning • Innovation
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- HEADER RIGHT -->
+
+            <div class="header-right">
+
+
+                <!-- SEARCH -->
+
+                <div class="search-box">
+
+                    <label
+                        for="siteSearch"
+                        class="sr-only"
+                    >
+                        Search TechHub Ghana
+                    </label>
+
+
+                    <input
+                        type="search"
+                        id="siteSearch"
+                        placeholder="Search TechHub Ghana..."
+                        autocomplete="off"
+                        aria-label="Search TechHub Ghana"
+                    >
+
+
+                    <button
+                        type="button"
+                        id="searchBtn"
+                        aria-label="Search"
+                    >
+
+                        <i
+                            class="fa-solid fa-magnifying-glass"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+                </div>
+
+
+                <!-- DARK MODE -->
+
+                <button
+                    type="button"
+                    id="darkModeBtn"
+                    class="dark-mode-btn"
+                    aria-label="Toggle dark mode"
+                    title="Toggle dark mode"
+                >
+                    🌙
+                </button>
 
             </div>
-
-        </a>
-
-
-        <div class="search-box">
-
-            <input
-                type="search"
-                id="siteSearch"
-                placeholder="Search TechHub Ghana..."
-            >
-
-            <button
-                type="button"
-                id="searchBtn"
-            >
-                🔍
-            </button>
 
         </div>
 
 
+        <!-- MOBILE MENU -->
+
         <button
             type="button"
-            id="darkModeBtn"
+            class="menu-btn"
+            id="menuBtn"
+            aria-label="Open navigation menu"
+            aria-controls="navMenu"
+            aria-expanded="false"
         >
-            🌙
+            ☰
         </button>
 
-    </div>
 
+        <!-- NAVIGATION -->
 
-    <button
-        type="button"
-        class="menu-btn"
-        id="menuBtn"
-        aria-expanded="false"
-    >
-        ☰
-    </button>
+        <nav
+            id="navMenu"
+            aria-label="Main navigation"
+        >
 
-
-    <nav id="navMenu">
-
-        <a href="index.html">
-            Home
-        </a>
-
-        <a href="ghana-tech.html">
-            🇬🇭 Ghana Tech
-        </a>
-
-        <a href="news.html">
-            News
-        </a>
-
-        <a href="tutorials.html">
-            Tutorials
-        </a>
-
-        <a href="tools.html">
-            Tools
-        </a>
-
-        <a href="gpa.html">
-            GPA
-        </a>
-
-        <a href="qr-generator.html">
-            QR Generator
-        </a>
-
-        <a href="ai-assistant.html">
-            AI Assistant
-        </a>
-
-        <a href="about.html">
-            About
-        </a>
-
-        <a href="contact.html">
-            Contact
-        </a>
-
-    </nav>
-
-</header>
-
-
-<section class="login-section">
-
-    <div class="login-box">
-
-        <h2>
-            Create Account
-        </h2>
-
-        <p>
-            Join TechHub Ghana today.
-        </p>
-
-
-        <form id="signupForm">
-
-
-            <label for="username">
-                Full Name
-            </label>
-
-            <input
-                type="text"
-                id="username"
-                placeholder="Enter your name"
-                required
-            >
-
-
-            <label for="email">
-                Email
-            </label>
-
-            <input
-                type="email"
-                id="email"
-                placeholder="Enter your email"
-                required
-            >
-
-
-            <label for="password">
-                Password
-            </label>
-
-            <input
-                type="password"
-                id="password"
-                placeholder="Create password"
-                minlength="6"
-                required
-            >
-
-
-            <button type="submit">
-                Create Account
-            </button>
-
-        </form>
-
-
-        <p style="margin-top:20px;">
-
-            Already have an account?
-
-            <a href="login.html">
-                Login
+            <a href="index.html">
+                <i
+                    class="fa-solid fa-house"
+                    aria-hidden="true"
+                ></i>
+                Home
             </a>
 
+
+            <a href="ghana-tech.html">
+                🇬🇭 Ghana Tech
+            </a>
+
+
+            <a href="news.html">
+                <i
+                    class="fa-regular fa-newspaper"
+                    aria-hidden="true"
+                ></i>
+                News
+            </a>
+
+
+            <a href="tutorials.html">
+                <i
+                    class="fa-solid fa-graduation-cap"
+                    aria-hidden="true"
+                ></i>
+                Tutorials
+            </a>
+
+
+            <a href="tools.html">
+                <i
+                    class="fa-solid fa-toolbox"
+                    aria-hidden="true"
+                ></i>
+                Tools
+            </a>
+
+
+            <a href="gpa.html">
+                🎓 GPA
+            </a>
+
+
+            <a href="qr-generator.html">
+                📱 QR Generator
+            </a>
+
+
+            <a href="ai-assistant.html">
+                🤖 AI Assistant
+            </a>
+
+
+            <a href="about.html">
+                <i
+                    class="fa-solid fa-circle-info"
+                    aria-hidden="true"
+                ></i>
+                About
+            </a>
+
+
+            <a href="contact.html">
+                <i
+                    class="fa-solid fa-envelope"
+                    aria-hidden="true"
+                ></i>
+                Contact
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main
+        id="main-content"
+        class="signup-page"
+    >
+
+        <div class="signup-wrapper">
+
+
+            <!-- =================================================
+                 INFORMATION PANEL
+            ================================================== -->
+
+            <section class="signup-info">
+
+                <div class="signup-info-content">
+
+                    <span class="signup-badge">
+
+                        <i
+                            class="fa-solid fa-user-plus"
+                            aria-hidden="true"
+                        ></i>
+
+                        JOIN TECHHUB GHANA
+
+                    </span>
+
+
+                    <h2>
+                        Start Your Technology Journey
+                    </h2>
+
+
+                    <p>
+
+                        Create your free TechHub Ghana
+                        account and stay connected with
+                        technology, tutorials, digital tools
+                        and useful learning resources.
+
+                    </p>
+
+
+                    <ul class="signup-benefits">
+
+                        <li>
+
+                            <i
+                                class="fa-solid fa-graduation-cap"
+                                aria-hidden="true"
+                            ></i>
+
+                            <span>
+                                Access practical technology
+                                tutorials and learning resources.
+                            </span>
+
+                        </li>
+
+
+                        <li>
+
+                            <i
+                                class="fa-solid fa-newspaper"
+                                aria-hidden="true"
+                            ></i>
+
+                            <span>
+                                Stay updated with technology
+                                news and developments.
+                            </span>
+
+                        </li>
+
+
+                        <li>
+
+                            <i
+                                class="fa-solid fa-toolbox"
+                                aria-hidden="true"
+                            ></i>
+
+                            <span>
+                                Use useful digital tools built
+                                for students and beginners.
+                            </span>
+
+                        </li>
+
+
+                        <li>
+
+                            <i
+                                class="fa-solid fa-lightbulb"
+                                aria-hidden="true"
+                            ></i>
+
+                            <span>
+                                Learn, practice and improve
+                                your digital skills.
+                            </span>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 SIGNUP FORM
+            ================================================== -->
+
+            <section class="signup-form-panel">
+
+                <div class="signup-form-header">
+
+                    <h1>
+                        Create Your Account
+                    </h1>
+
+
+                    <p>
+                        Fill in your details below to get started.
+                    </p>
+
+                </div>
+
+
+                <div
+                    id="formMessage"
+                    class="form-message"
+                    role="alert"
+                    aria-live="polite"
+                ></div>
+
+
+                <form
+                    id="signupForm"
+                    class="signup-form"
+                    novalidate
+                >
+
+
+                    <!-- FULL NAME -->
+
+                    <div class="form-group">
+
+                        <label for="username">
+                            Full Name
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i
+                                class="fa-solid fa-user input-icon"
+                                aria-hidden="true"
+                            ></i>
+
+
+                            <input
+                                type="text"
+                                id="username"
+                                name="username"
+                                placeholder="Enter your full name"
+                                autocomplete="name"
+                                maxlength="80"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i
+                                class="fa-solid fa-envelope input-icon"
+                                aria-hidden="true"
+                            ></i>
+
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email address"
+                                autocomplete="email"
+                                maxlength="120"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PASSWORD -->
+
+                    <div class="form-group">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+
+                        <div class="input-wrapper">
+
+                            <i
+                                class="fa-solid fa-lock input-icon"
+                                aria-hidden="true"
+                            ></i>
+
+
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                placeholder="Create a strong password"
+                                autocomplete="new-password"
+                                minlength="6"
+                                maxlength="100"
+                                required
+                            >
+
+
+                            <button
+                                type="button"
+                                class="password-toggle"
+                                id="passwordToggle"
+                                aria-label="Show password"
+                                title="Show password"
+                            >
+
+                                <i
+                                    class="fa-solid fa-eye"
+                                    aria-hidden="true"
+                                ></i>
+
+                            </button>
+
+                        </div>
+
+
+                        <!-- PASSWORD STRENGTH -->
+
+                        <div class="password-strength">
+
+                            <div class="strength-bar">
+
+                                <div
+                                    class="strength-fill"
+                                    id="strengthFill"
+                                ></div>
+
+                            </div>
+
+
+                            <span
+                                class="strength-text"
+                                id="strengthText"
+                            >
+                                Password strength
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- TERMS -->
+
+                    <div class="terms">
+
+                        <input
+                            type="checkbox"
+                            id="terms"
+                            name="terms"
+                            required
+                        >
+
+
+                        <label for="terms">
+
+                            I agree to the TechHub Ghana
+                            <a href="terms.html">
+                                Terms and Conditions
+                            </a>
+                            and
+                            <a href="privacy.html">
+                                Privacy Policy
+                            </a>.
+
+                        </label>
+
+                    </div>
+
+
+                    <!-- SUBMIT -->
+
+                    <button
+                        type="submit"
+                        class="signup-button"
+                        id="signupButton"
+                    >
+
+                        <i
+                            class="fa-solid fa-user-plus"
+                            aria-hidden="true"
+                        ></i>
+
+                        Create Account
+
+                    </button>
+
+                </form>
+
+
+                <!-- LOGIN -->
+
+                <p class="login-link">
+
+                    Already have an account?
+
+                    <a href="login.html">
+                        Login here
+                    </a>
+
+                </p>
+
+
+                <!-- SECURITY -->
+
+                <div class="security-note">
+
+                    <i
+                        class="fa-solid fa-shield-halved"
+                        aria-hidden="true"
+                    ></i>
+
+                    Your information is handled securely.
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <p class="copyright">
+
+            © 2026 TechHub Ghana.
+            All Rights Reserved.
+
         </p>
 
-    </div>
-
-</section>
+    </footer>
 
 
-<footer>
+    <!-- =====================================================
+         MAIN JAVASCRIPT
+    ====================================================== -->
 
-    <p class="copyright">
-        © 2026 TechHub Ghana. All Rights Reserved.
-    </p>
-
-</footer>
+    <script src="script.js" defer></script>
 
 
-<script src="script.js"></script>
+    <!-- =====================================================
+         SIGNUP JAVASCRIPT
+    ====================================================== -->
+
+    <script>
+
+        document.addEventListener(
+            "DOMContentLoaded",
+            function () {
 
 
-<script>
+                /* =================================================
+                   ELEMENTS
+                ================================================== */
 
-document.addEventListener(
-    "DOMContentLoaded",
-    function () {
-
-        const form =
-            document.getElementById(
-                "signupForm"
-            );
-
-
-        form.addEventListener(
-            "submit",
-            function (event) {
-
-                event.preventDefault();
+                const form =
+                    document.getElementById(
+                        "signupForm"
+                    );
 
 
                 const username =
                     document.getElementById(
                         "username"
-                    ).value.trim();
+                    );
 
 
                 const email =
                     document.getElementById(
                         "email"
-                    ).value.trim();
+                    );
 
 
                 const password =
                     document.getElementById(
                         "password"
-                    ).value;
-
-
-                if (
-                    !username ||
-                    !email ||
-                    !password
-                ) {
-
-                    alert(
-                        "Please complete all fields."
                     );
 
-                    return;
 
-                }
-
-
-                if (password.length < 6) {
-
-                    alert(
-                        "Password must contain at least 6 characters."
+                const terms =
+                    document.getElementById(
+                        "terms"
                     );
 
-                    return;
 
-                }
-
-
-                const users =
-                    JSON.parse(
-                        localStorage.getItem(
-                            "techhubUsers"
-                        )
-                    ) || [];
+                const passwordToggle =
+                    document.getElementById(
+                        "passwordToggle"
+                    );
 
 
-                const exists =
-                    users.some(
-                        function (user) {
+                const strengthFill =
+                    document.getElementById(
+                        "strengthFill"
+                    );
 
-                            return (
-                                user.email.toLowerCase() ===
-                                email.toLowerCase()
+
+                const strengthText =
+                    document.getElementById(
+                        "strengthText"
+                    );
+
+
+                const formMessage =
+                    document.getElementById(
+                        "formMessage"
+                    );
+
+
+                const signupButton =
+                    document.getElementById(
+                        "signupButton"
+                    );
+
+
+                /* =================================================
+                   SHOW / HIDE PASSWORD
+                ================================================== */
+
+                if (passwordToggle && password) {
+
+                    passwordToggle.addEventListener(
+                        "click",
+                        function () {
+
+                            const isPassword =
+                                password.type === "password";
+
+
+                            password.type =
+                                isPassword
+                                    ? "text"
+                                    : "password";
+
+
+                            const icon =
+                                passwordToggle.querySelector(
+                                    "i"
+                                );
+
+
+                            if (icon) {
+
+                                icon.className =
+                                    isPassword
+                                        ? "fa-solid fa-eye-slash"
+                                        : "fa-solid fa-eye";
+
+                            }
+
+
+                            passwordToggle.setAttribute(
+                                "aria-label",
+                                isPassword
+                                    ? "Hide password"
+                                    : "Show password"
+                            );
+
+
+                            passwordToggle.setAttribute(
+                                "title",
+                                isPassword
+                                    ? "Hide password"
+                                    : "Show password"
                             );
 
                         }
                     );
 
+                }
 
-                if (exists) {
 
-                    alert(
-                        "An account with this email already exists."
-                    );
+                /* =================================================
+                   PASSWORD STRENGTH
+                ================================================== */
 
-                    return;
+                function updatePasswordStrength() {
+
+                    if (
+                        !password ||
+                        !strengthFill ||
+                        !strengthText
+                    ) {
+                        return;
+                    }
+
+
+                    const value =
+                        password.value;
+
+
+                    if (!value) {
+
+                        strengthFill.style.width =
+                            "0%";
+
+                        strengthText.textContent =
+                            "Password strength";
+
+                        return;
+
+                    }
+
+
+                    let score = 0;
+
+
+                    if (value.length >= 6) {
+                        score++;
+                    }
+
+
+                    if (value.length >= 10) {
+                        score++;
+                    }
+
+
+                    if (/[A-Z]/.test(value)) {
+                        score++;
+                    }
+
+
+                    if (/[a-z]/.test(value)) {
+                        score++;
+                    }
+
+
+                    if (/[0-9]/.test(value)) {
+                        score++;
+                    }
+
+
+                    if (/[^A-Za-z0-9]/.test(value)) {
+                        score++;
+                    }
+
+
+                    if (score <= 2) {
+
+                        strengthFill.style.width =
+                            "30%";
+
+                        strengthText.textContent =
+                            "Weak password";
+
+                    } else if (score <= 4) {
+
+                        strengthFill.style.width =
+                            "65%";
+
+                        strengthText.textContent =
+                            "Medium password";
+
+                    } else {
+
+                        strengthFill.style.width =
+                            "100%";
+
+                        strengthText.textContent =
+                            "Strong password";
+
+                    }
 
                 }
 
 
-                users.push({
+                if (password) {
 
-                    username: username,
+                    password.addEventListener(
+                        "input",
+                        updatePasswordStrength
+                    );
 
-                    email: email,
-
-                    password: password
-
-                });
-
-
-                localStorage.setItem(
-                    "techhubUsers",
-                    JSON.stringify(users)
-                );
+                }
 
 
-                alert(
-                    "Account created successfully! 🎉"
-                );
+                /* =================================================
+                   FORM MESSAGE
+                ================================================== */
+
+                function showMessage(
+                    message,
+                    type
+                ) {
+
+                    if (!formMessage) {
+                        return;
+                    }
 
 
-                window.location.href =
-                    "login.html";
+                    formMessage.textContent =
+                        message;
+
+
+                    formMessage.className =
+                        "form-message " + type;
+
+                }
+
+
+                function clearMessage() {
+
+                    if (!formMessage) {
+                        return;
+                    }
+
+
+                    formMessage.textContent =
+                        "";
+
+
+                    formMessage.className =
+                        "form-message";
+
+                }
+
+
+                /* =================================================
+                   EMAIL VALIDATION
+                ================================================== */
+
+                function validEmail(
+                    emailValue
+                ) {
+
+                    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+                        .test(emailValue);
+
+                }
+
+
+                /* =================================================
+                   FORM SUBMISSION
+                ================================================== */
+
+                if (form) {
+
+                    form.addEventListener(
+                        "submit",
+                        function (event) {
+
+                            event.preventDefault();
+
+                            clearMessage();
+
+
+                            const nameValue =
+                                username.value.trim();
+
+
+                            const emailValue =
+                                email.value
+                                    .trim()
+                                    .toLowerCase();
+
+
+                            const passwordValue =
+                                password.value;
+
+
+                            /* =============================
+                               NAME
+                            ============================== */
+
+                            if (
+                                nameValue.length < 2
+                            ) {
+
+                                showMessage(
+                                    "Please enter your full name.",
+                                    "error"
+                                );
+
+
+                                username.focus();
+
+                                return;
+
+                            }
+
+
+                            /* =============================
+                               EMAIL
+                            ============================== */
+
+                            if (
+                                !validEmail(
+                                    emailValue
+                                )
+                            ) {
+
+                                showMessage(
+                                    "Please enter a valid email address.",
+                                    "error"
+                                );
+
+
+                                email.focus();
+
+                                return;
+
+                            }
+
+
+                            /* =============================
+                               PASSWORD
+                            ============================== */
+
+                            if (
+                                passwordValue.length < 6
+                            ) {
+
+                                showMessage(
+                                    "Password must contain at least 6 characters.",
+                                    "error"
+                                );
+
+
+                                password.focus();
+
+                                return;
+
+                            }
+
+
+                            /* =============================
+                               TERMS
+                            ============================== */
+
+                            if (
+                                !terms.checked
+                            ) {
+
+                                showMessage(
+                                    "Please accept the Terms and Conditions and Privacy Policy.",
+                                    "error"
+                                );
+
+
+                                terms.focus();
+
+                                return;
+
+                            }
+
+
+                            /* =============================
+                               GET EXISTING USERS
+                            ============================== */
+
+                            let users = [];
+
+
+                            try {
+
+                                users =
+                                    JSON.parse(
+                                        localStorage.getItem(
+                                            "techhubUsers"
+                                        )
+                                    ) || [];
+
+
+                                if (
+                                    !Array.isArray(
+                                        users
+                                    )
+                                ) {
+
+                                    users = [];
+
+                                }
+
+                            } catch (error) {
+
+                                users = [];
+
+                            }
+
+
+                            /* =============================
+                               CHECK DUPLICATE EMAIL
+                            ============================== */
+
+                            const exists =
+                                users.some(
+                                    function (user) {
+
+                                        return (
+                                            user &&
+                                            typeof user.email === "string" &&
+                                            user.email
+                                                .toLowerCase()
+                                                .trim() ===
+                                            emailValue
+                                        );
+
+                                    }
+                                );
+
+
+                            if (exists) {
+
+                                showMessage(
+                                    "An account with this email already exists. Please login instead.",
+                                    "error"
+                                );
+
+
+                                email.focus();
+
+                                return;
+
+                            }
+
+
+                            /* =============================
+                               CREATE USER
+                            ============================== */
+
+                            users.push({
+
+                                username:
+                                    nameValue,
+
+                                email:
+                                    emailValue,
+
+                                password:
+                                    passwordValue
+
+                            });
+
+
+                            try {
+
+                                localStorage.setItem(
+                                    "techhubUsers",
+                                    JSON.stringify(
+                                        users
+                                    )
+                                );
+
+                            } catch (error) {
+
+                                showMessage(
+                                    "Unable to create your account on this device. Please try again.",
+                                    "error"
+                                );
+
+                                return;
+
+                            }
+
+
+                            /* =============================
+                               SUCCESS
+                            ============================== */
+
+                            signupButton.disabled =
+                                true;
+
+
+                            showMessage(
+                                "Account created successfully! Redirecting to login...",
+                                "success"
+                            );
+
+
+                            form.reset();
+
+
+                            if (strengthFill) {
+
+                                strengthFill.style.width =
+                                    "0%";
+
+                            }
+
+
+                            if (strengthText) {
+
+                                strengthText.textContent =
+                                    "Password strength";
+
+                            }
+
+
+                            setTimeout(
+                                function () {
+
+                                    window.location.href =
+                                        "login.html";
+
+                                },
+                                1200
+                            );
+
+                        }
+                    );
+
+                }
 
             }
         );
 
-    }
-);
-
-</script>
+    </script>
 
 
 </body>
-</html>
+
+    </html>
