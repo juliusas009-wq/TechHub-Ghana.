@@ -2,12 +2,11 @@
    TECHHUB GHANA
    FINAL MASTER STYLESHEET
    Version: 2026
-========================================================= */
-
+   ========================================================= */
 
 /* =========================================================
    1. RESET & GLOBAL SETTINGS
-========================================================= */
+   ========================================================= */
 
 *,
 *::before,
@@ -26,17 +25,12 @@ html {
 
 body {
     position: relative;
-
     width: 100%;
     min-width: 0;
-
     font-family: "Poppins", Arial, sans-serif;
-
     background: #f4f7fb;
     color: #172033;
-
     line-height: 1.6;
-
     overflow-x: hidden;
 }
 
@@ -79,13 +73,11 @@ ol {
     color: #ffffff;
 }
 
-
 /* =========================================================
    2. CSS VARIABLES
-========================================================= */
+   ========================================================= */
 
 :root {
-
     /* Primary */
     --primary: #0b5cff;
     --primary-dark: #0848c7;
@@ -117,14 +109,11 @@ ol {
     --border-dark: #d4dbe5;
 
     /* Shadows */
-    --shadow-sm:
-        0 4px 15px rgba(15, 23, 42, 0.06);
+    --shadow-sm: 0 4px 15px rgba(15, 23, 42, 0.06);
 
-    --shadow:
-        0 10px 35px rgba(15, 23, 42, 0.08);
+    --shadow: 0 10px 35px rgba(15, 23, 42, 0.08);
 
-    --shadow-lg:
-        0 20px 55px rgba(15, 23, 42, 0.12);
+    --shadow-lg: 0 20px 55px rgba(15, 23, 42, 0.12);
 
     /* Radius */
     --radius-sm: 10px;
@@ -133,24 +122,24 @@ ol {
 
     /* Layout */
     --container: 1180px;
-    --page-gap: 18px;
+
+    /* TechHub Ghana standard page boundary */
+    --page-gap: 15px;
 
     /* Transition */
     --transition: 0.25s ease;
 }
 
-
 /* =========================================================
    3. PAGE BOUNDARY
    Small visual line on both sides of the website
-========================================================= */
+   ========================================================= */
 
 body::before,
 body::after {
     content: "";
 
     position: fixed;
-
     top: 0;
     bottom: 0;
 
@@ -159,7 +148,6 @@ body::after {
     background: rgba(11, 92, 255, 0.13);
 
     pointer-events: none;
-
     z-index: 9999;
 }
 
@@ -171,10 +159,9 @@ body::after {
     right: var(--page-gap);
 }
 
-
 /* =========================================================
    4. ACCESSIBILITY
-========================================================= */
+   ========================================================= */
 
 .sr-only {
     position: absolute;
@@ -219,14 +206,13 @@ body::after {
     top: 20px;
 }
 
-
 /* =========================================================
    5. GLOBAL CONTAINERS
-========================================================= */
+   ========================================================= */
 
 .section-container {
     width: min(
-        calc(100% - 40px),
+        calc(100% - 30px),
         var(--container)
     );
 
@@ -242,10 +228,9 @@ body::after {
     background: var(--surface-alt);
 }
 
-
 /* =========================================================
    6. HEADER
-========================================================= */
+   ========================================================= */
 
 .site-header {
     position: sticky;
@@ -264,14 +249,13 @@ body::after {
     -webkit-backdrop-filter: blur(14px);
 }
 
-
 /* =========================================================
    7. TOP BAR
-========================================================= */
+   ========================================================= */
 
 .top-bar {
     width: min(
-        calc(100% - 40px),
+        calc(100% - 30px),
         var(--container)
     );
 
@@ -287,10 +271,9 @@ body::after {
     gap: 25px;
 }
 
-
 /* =========================================================
    8. LOGO
-========================================================= */
+   ========================================================= */
 
 .logo {
     display: flex;
@@ -303,10 +286,10 @@ body::after {
 }
 
 .logo-image {
-    width: 42px;
-    height: 42px;
+    width: 56px;
+    height: 56px;
 
-    flex: 0 0 42px;
+    flex: 0 0 56px;
 
     display: flex;
 
@@ -315,7 +298,7 @@ body::after {
 
     overflow: hidden;
 
-    border-radius: 11px;
+    border-radius: 12px;
 
     background: var(--primary-light);
 
@@ -363,10 +346,9 @@ body::after {
     white-space: nowrap;
 }
 
-
 /* =========================================================
    9. SEARCH
-========================================================= */
+   ========================================================= */
 
 .search-box {
     width: min(400px, 42vw);
@@ -443,10 +425,9 @@ body::after {
     color: #fff;
 }
 
-
 /* =========================================================
    10. MOBILE MENU BUTTON
-========================================================= */
+   ========================================================= */
 
 .menu-btn {
     width: 42px;
@@ -503,10 +484,9 @@ body::after {
     transform: translateY(-7px) rotate(-45deg);
 }
 
-
 /* =========================================================
    11. MAIN NAVIGATION
-========================================================= */
+   ========================================================= */
 
 .main-nav {
     width: 100%;
@@ -518,7 +498,7 @@ body::after {
 
 .nav-inner {
     width: min(
-        calc(100% - 40px),
+        calc(100% - 30px),
         var(--container)
     );
 
@@ -602,10 +582,9 @@ body::after {
     font-size: 16px;
 }
 
-
 /* =========================================================
    12. BREAKING NEWS
-========================================================= */
+   ========================================================= */
 
 .breaking-news {
     width: 100%;
@@ -619,7 +598,7 @@ body::after {
 
 .breaking-inner {
     width: min(
-        calc(100% - 40px),
+        calc(100% - 30px),
         var(--container)
     );
 
@@ -726,10 +705,9 @@ body::after {
     }
 }
 
-
 /* =========================================================
    13. HERO
-========================================================= */
+   ========================================================= */
 
 .hero {
     position: relative;
@@ -773,7 +751,7 @@ body::after {
     z-index: 1;
 
     width: min(
-        calc(100% - 40px),
+        calc(100% - 30px),
         var(--container)
     );
 
@@ -870,10 +848,9 @@ body::after {
     gap: 11px;
 }
 
-
 /* =========================================================
    14. BUTTONS
-========================================================= */
+   ========================================================= */
 
 .btn {
     min-height: 46px;
@@ -934,10 +911,9 @@ body::after {
     color: var(--primary);
 }
 
-
 /* =========================================================
    15. HERO STATS
-========================================================= */
+   ========================================================= */
 
 .hero-stats {
     margin-top: 36px;
@@ -987,10 +963,9 @@ body::after {
     font-weight: 500;
 }
 
-
 /* =========================================================
    16. HERO IMAGE
-========================================================= */
+   ========================================================= */
 
 .hero-image-wrapper {
     position: relative;
@@ -1049,7 +1024,7 @@ body::after {
 
     backdrop-filter: blur(10px);
 
-    border: 1px solid rgba(255,255,255,0.6);
+    border: 1px solid rgba(255, 255, 255, 0.6);
 
     box-shadow: var(--shadow);
 }
@@ -1143,10 +1118,9 @@ body::after {
     }
 }
 
-
 /* =========================================================
    17. TRENDING
-========================================================= */
+   ========================================================= */
 
 .trending-section {
     padding: 32px 0 0;
@@ -1299,10 +1273,9 @@ body::after {
     text-decoration: underline;
 }
 
-
 /* =========================================================
    18. SECTION HEADINGS
-========================================================= */
+   ========================================================= */
 
 .section-heading {
     margin-bottom: 30px;
@@ -1380,10 +1353,9 @@ body::after {
     margin-right: auto;
 }
 
-
 /* =========================================================
    19. CARD GRID
-========================================================= */
+   ========================================================= */
 
 .card-grid {
     display: grid;
@@ -1394,10 +1366,9 @@ body::after {
     gap: 17px;
 }
 
-
 /* =========================================================
    20. TOOL CARDS
-========================================================= */
+   ========================================================= */
 
 .tool-card {
     position: relative;
@@ -1436,7 +1407,6 @@ body::after {
     display: flex;
 
     align-items: center;
-
     justify-content: space-between;
 
     gap: 10px;
@@ -1520,10 +1490,9 @@ body::after {
     gap: 10px;
 }
 
-
 /* =========================================================
    21. NEWS LAYOUT
-========================================================= */
+   ========================================================= */
 
 .news-layout {
     display: grid;
@@ -1545,10 +1514,9 @@ body::after {
     min-width: 0;
 }
 
-
 /* =========================================================
    22. NEWS CARDS
-========================================================= */
+   ========================================================= */
 
 .news-card {
     display: grid;
@@ -1688,10 +1656,9 @@ body::after {
     text-decoration: underline;
 }
 
-
 /* =========================================================
    23. NEWS SIDEBAR
-========================================================= */
+   ========================================================= */
 
 .news-sidebar {
     padding: 19px;
@@ -1809,10 +1776,9 @@ body::after {
     transform: translateY(-2px);
 }
 
-
 /* =========================================================
    24. TUTORIAL GRID
-========================================================= */
+   ========================================================= */
 
 .tutorial-grid {
     display: grid;
@@ -1933,10 +1899,9 @@ body::after {
     text-decoration: underline;
 }
 
-
 /* =========================================================
    25. TECHNOLOGY CARDS
-========================================================= */
+   ========================================================= */
 
 .technology-card {
     min-height: 265px;
@@ -1954,10 +1919,9 @@ body::after {
     flex: 1;
 }
 
-
 /* =========================================================
    26. WHY TECHHUB
-========================================================= */
+   ========================================================= */
 
 .why-grid {
     grid-template-columns:
@@ -1976,13 +1940,14 @@ body::after {
     margin: 0 auto 17px;
 }
 
-
 /* =========================================================
    27. NEWSLETTER
-========================================================= */
+   ========================================================= */
 
 .newsletter {
-    padding: 60px 20px;
+    width: 100%;
+
+    padding: 60px 15px;
 
     background:
         linear-gradient(
@@ -2023,9 +1988,9 @@ body::after {
     align-items: center;
     justify-content: center;
 
-    background: rgba(255,255,255,0.13);
+    background: rgba(255, 255, 255, 0.13);
 
-    border: 1px solid rgba(255,255,255,0.18);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 
     border-radius: 15px;
 
@@ -2113,13 +2078,12 @@ body::after {
     font-size: 8px;
 }
 
-
 /* =========================================================
    28. FOOTER
-========================================================= */
+   ========================================================= */
 
 .site-footer {
-    padding: 60px 20px 0;
+    padding: 60px 15px 0;
 
     background: #0b1220;
 
@@ -2241,7 +2205,7 @@ body::after {
 
     gap: 20px;
 
-    border-top: 1px solid rgba(255,255,255,0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .footer-bottom p {
@@ -2270,10 +2234,9 @@ body::after {
     color: #fff;
 }
 
-
 /* =========================================================
    29. BACK TO TOP
-========================================================= */
+   ========================================================= */
 
 .top-btn {
     position: fixed;
@@ -2329,10 +2292,9 @@ body::after {
     transform: translateY(-3px);
 }
 
-
 /* =========================================================
    30. FOCUS
-========================================================= */
+   ========================================================= */
 
 a:focus-visible,
 button:focus-visible,
@@ -2344,10 +2306,155 @@ select:focus-visible {
     outline-offset: 3px;
 }
 
+/* =========================================================
+   31. ARTICLE PAGE
+   ========================================================= */
+
+/* Main article boundary */
+
+main,
+.article-container,
+.news-hero {
+    width: 100%;
+    max-width: 1400px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Article container */
+
+.article-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Article content */
+
+.article-page {
+    width: 100%;
+    max-width: 1000px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Breadcrumb */
+
+.breadcrumb {
+    margin-bottom: 24px;
+}
+
+/* Article title */
+
+.article-title {
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+/* Article intro */
+
+.article-lead {
+    margin-bottom: 24px;
+}
+
+/* Article meta */
+
+.article-meta {
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+/* Featured image */
+
+.article-hero {
+    margin: 0 0 32px 0;
+}
+
+/* Share area */
+
+.article-share {
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+/* Table of contents */
+
+.article-toc {
+    margin-top: 28px;
+    margin-bottom: 36px;
+}
+
+/* Article sections */
+
+.article-page > article > section {
+    margin-bottom: 42px;
+}
+
+.article-page > article > section h2 {
+    margin-bottom: 16px;
+}
+
+.article-page > article > section p {
+    margin-bottom: 16px;
+}
+
+/* Lists */
+
+.article-page ul {
+    margin-top: 16px;
+    margin-bottom: 20px;
+
+    padding-left: 24px;
+}
+
+.article-page li {
+    margin-bottom: 10px;
+}
+
+/* Highlight / tips boxes */
+
+.highlight-box,
+.tips-box {
+    margin-top: 24px;
+    margin-bottom: 28px;
+}
+
+/* Conclusion */
+
+.article-conclusion {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Author */
+
+.author-box {
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+/* Related articles */
+
+.related-section {
+    margin-top: 44px;
+    margin-bottom: 40px;
+}
+
+.related-section h2 {
+    margin-bottom: 22px;
+}
+
+/* Back to news */
+
+.article-back {
+    margin-top: 36px;
+    margin-bottom: 20px;
+}
 
 /* =========================================================
-   31. TABLET
-========================================================= */
+   32. TABLET — 1050PX
+   ========================================================= */
 
 @media (max-width: 1050px) {
 
@@ -2385,10 +2492,9 @@ select:focus-visible {
     }
 }
 
-
 /* =========================================================
-   32. SMALL LAPTOP / TABLET NAV
-========================================================= */
+   33. SMALL LAPTOP / TABLET NAV — 850PX
+   ========================================================= */
 
 @media (max-width: 850px) {
 
@@ -2470,23 +2576,26 @@ select:focus-visible {
     }
 }
 
-
 /* =========================================================
-   33. MOBILE — 700PX
-========================================================= */
+   34. TABLET / MOBILE STANDARD — 768PX
+   TechHub Ghana standard:
+   - Side spacing: 10px
+   - Logo: 44px
+   - Header top-bar spacing: 16px
+   ========================================================= */
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 
     :root {
-        --page-gap: 8px;
+        --page-gap: 10px;
     }
 
     body::before {
-        left: 8px;
+        left: 10px;
     }
 
     body::after {
-        right: 8px;
+        right: 10px;
     }
 
     .section-container,
@@ -2494,7 +2603,7 @@ select:focus-visible {
     .nav-inner,
     .breaking-inner,
     .hero-content {
-        width: calc(100% - 28px);
+        width: calc(100% - 20px);
 
         max-width: var(--container);
 
@@ -2502,17 +2611,118 @@ select:focus-visible {
         margin-right: auto;
     }
 
-
     /* Header */
 
     .top-bar {
         min-height: 68px;
 
-        gap: 10px;
+        padding: 16px 0;
+
+        gap: 12px;
     }
 
+    /* Standard 768px logo */
 
-    /* Smaller logo */
+    .logo-image {
+        width: 44px;
+        height: 44px;
+
+        flex-basis: 44px;
+
+        border-radius: 11px;
+    }
+
+    .logo-title {
+        font-size: 17px;
+    }
+
+    /* Article */
+
+    .article-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .article-page {
+        width: 100%;
+    }
+
+    .breadcrumb {
+        padding-left: 2px;
+        padding-right: 2px;
+
+        margin-bottom: 20px;
+    }
+
+    .article-title {
+        margin-top: 14px;
+        margin-bottom: 18px;
+    }
+
+    .article-lead {
+        margin-bottom: 22px;
+    }
+
+    .article-meta {
+        margin-top: 18px;
+        margin-bottom: 24px;
+    }
+
+    .article-hero {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 28px;
+    }
+
+    .article-share {
+        margin-top: 18px;
+        margin-bottom: 28px;
+    }
+
+    .article-toc {
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
+    .article-page > article > section {
+        margin-bottom: 36px;
+    }
+
+    .article-page > article > section h2 {
+        margin-bottom: 14px;
+    }
+
+    .article-page > article > section p {
+        margin-bottom: 14px;
+    }
+
+    .highlight-box,
+    .tips-box {
+        margin-top: 20px;
+        margin-bottom: 24px;
+    }
+
+    .author-box {
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+
+    .related-section {
+        margin-top: 36px;
+        margin-bottom: 32px;
+    }
+
+    .article-back {
+        margin-top: 30px;
+        margin-bottom: 16px;
+    }
+}
+
+/* =========================================================
+   35. MOBILE — 700PX
+   ========================================================= */
+
+@media (max-width: 700px) {
 
     .logo {
         min-width: 0;
@@ -2520,13 +2730,6 @@ select:focus-visible {
         max-width: calc(100% - 55px);
 
         flex: 1;
-    }
-
-    .logo-image {
-        width: 40px;
-        height: 40px;
-
-        flex-basis: 40px;
     }
 
     .logo-title {
@@ -2545,13 +2748,11 @@ select:focus-visible {
         display: none;
     }
 
-
     /* Search */
 
     .search-box {
         display: none;
     }
-
 
     /* Hamburger */
 
@@ -2563,7 +2764,6 @@ select:focus-visible {
 
         flex: 0 0 42px;
     }
-
 
     /* Navigation */
 
@@ -2595,7 +2795,7 @@ select:focus-visible {
     .nav-inner {
         width: 100%;
 
-        padding: 8px 14px 12px;
+        padding: 8px 10px 12px;
 
         flex-direction: column;
 
@@ -2624,7 +2824,6 @@ select:focus-visible {
         background: var(--primary-light);
     }
 
-
     /* Breaking news */
 
     .breaking-inner {
@@ -2632,7 +2831,7 @@ select:focus-visible {
 
         min-height: 39px;
 
-        padding: 0 14px;
+        padding: 0 10px;
 
         gap: 8px;
     }
@@ -2655,13 +2854,11 @@ select:focus-visible {
         font-size: 9px;
     }
 
-
     /* Sections */
 
     .section {
         padding: 58px 0;
     }
-
 
     /* Hero */
 
@@ -2672,7 +2869,7 @@ select:focus-visible {
     }
 
     .hero-content {
-        width: calc(100% - 28px);
+        width: calc(100% - 20px);
 
         display: flex;
 
@@ -2741,7 +2938,6 @@ select:focus-visible {
         object-fit: cover;
     }
 
-
     /* Trending */
 
     .trending-section {
@@ -2758,7 +2954,6 @@ select:focus-visible {
         grid-column: auto;
     }
 
-
     /* Headings */
 
     .section-heading {
@@ -2773,7 +2968,6 @@ select:focus-visible {
         align-self: flex-start;
     }
 
-
     /* Cards */
 
     .card-grid {
@@ -2787,7 +2981,6 @@ select:focus-visible {
     .why-grid {
         grid-template-columns: 1fr;
     }
-
 
     /* News */
 
@@ -2815,7 +3008,6 @@ select:focus-visible {
         min-height: 220px;
     }
 
-
     /* Footer */
 
     .footer-grid {
@@ -2835,50 +3027,53 @@ select:focus-visible {
     }
 }
 
-
 /* =========================================================
-   34. SMALL MOBILE — 480PX
-========================================================= */
+   36. SMALL MOBILE — 480PX
+   TechHub Ghana standard:
+   - Side spacing: 8px
+   - Logo: 40px
+   - Header top-bar spacing: 12px
+   ========================================================= */
 
 @media (max-width: 480px) {
 
     :root {
-        --page-gap: 6px;
+        --page-gap: 8px;
     }
 
     body::before {
-        left: 6px;
+        left: 8px;
     }
 
     body::after {
-        right: 6px;
+        right: 8px;
     }
 
     .section-container,
     .hero-content {
-        width: calc(100% - 24px);
+        width: calc(100% - 16px);
     }
 
     .top-bar {
-        width: calc(100% - 24px);
+        width: calc(100% - 16px);
 
-        padding: 8px 0;
+        padding: 12px 0;
     }
 
-
-    /* Logo */
+    /* Standard 480px logo */
 
     .logo-image {
-        width: 38px;
-        height: 38px;
+        width: 40px;
+        height: 40px;
 
-        flex-basis: 38px;
+        flex-basis: 40px;
+
+        border-radius: 10px;
     }
 
     .logo-title {
         font-size: 15px;
     }
-
 
     /* Menu */
 
@@ -2889,6 +3084,54 @@ select:focus-visible {
         flex-basis: 40px;
     }
 
+    /* Article */
+
+    .article-container {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .breadcrumb {
+        margin-bottom: 18px;
+    }
+
+    .article-title {
+        margin-bottom: 16px;
+    }
+
+    .article-meta {
+        margin-bottom: 22px;
+    }
+
+    .article-hero {
+        margin-bottom: 24px;
+    }
+
+    .article-share {
+        margin-bottom: 24px;
+    }
+
+    .article-toc {
+        margin-top: 22px;
+        margin-bottom: 28px;
+    }
+
+    .article-page > article > section {
+        margin-bottom: 32px;
+    }
+
+    .article-page ul {
+        padding-left: 20px;
+    }
+
+    .author-box {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .related-section {
+        margin-top: 32px;
+    }
 
     /* Hero */
 
@@ -2943,7 +3186,6 @@ select:focus-visible {
         min-height: 280px;
     }
 
-
     /* Floating cards */
 
     .hero-card-one {
@@ -2964,7 +3206,6 @@ select:focus-visible {
         transform-origin: top right;
     }
 
-
     /* Trending */
 
     .trending-list {
@@ -2977,13 +3218,11 @@ select:focus-visible {
         justify-content: space-between;
     }
 
-
     /* Headings */
 
     .section-heading h2 {
         font-size: 25px;
     }
-
 
     /* Cards */
 
@@ -2991,11 +3230,10 @@ select:focus-visible {
         padding: 18px;
     }
 
-
     /* Newsletter */
 
     .newsletter {
-        padding: 48px 14px;
+        padding: 48px 8px;
     }
 
     .newsletter-inner {
@@ -3042,6 +3280,12 @@ select:focus-visible {
         text-align: center;
     }
 
+    /* Footer */
+
+    .site-footer {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 
     /* Back to top */
 
@@ -3054,10 +3298,9 @@ select:focus-visible {
     }
 }
 
-
 /* =========================================================
-   35. VERY SMALL PHONES — 360PX
-========================================================= */
+   37. VERY SMALL PHONES — 360PX
+   ========================================================= */
 
 @media (max-width: 360px) {
 
@@ -3066,10 +3309,10 @@ select:focus-visible {
     }
 
     .logo-image {
-        width: 36px;
-        height: 36px;
+        width: 38px;
+        height: 38px;
 
-        flex-basis: 36px;
+        flex-basis: 38px;
     }
 
     .menu-btn {
@@ -3100,10 +3343,9 @@ select:focus-visible {
     }
 }
 
-
 /* =========================================================
-   36. DESKTOP NAVIGATION
-========================================================= */
+   38. DESKTOP NAVIGATION
+   ========================================================= */
 
 @media (min-width: 701px) {
 
@@ -3116,10 +3358,9 @@ select:focus-visible {
     }
 }
 
-
 /* =========================================================
-   37. REDUCED MOTION
-========================================================= */
+   39. REDUCED MOTION
+   ========================================================= */
 
 @media (prefers-reduced-motion: reduce) {
 
@@ -3140,10 +3381,9 @@ select:focus-visible {
     }
 }
 
-
 /* =========================================================
-   38. PRINT
-========================================================= */
+   40. PRINT
+   ========================================================= */
 
 @media print {
 
@@ -3170,403 +3410,3 @@ select:focus-visible {
         padding: 20px 0;
     }
    }
-/* =========================================================
-   TECHHUB GHANA — ARTICLE PAGE SPACING
-   SPACING ONLY
-========================================================= */
-
-/* ---------------------------------------------------------
-   GLOBAL PAGE SIDE SPACING
---------------------------------------------------------- */
-
-main,
-.article-container,
-.section,
-.news-hero,
-.newsletter {
-    width: 100%;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-/* ---------------------------------------------------------
-   ARTICLE CONTAINER
---------------------------------------------------------- */
-
-.article-container {
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
-
-/* ---------------------------------------------------------
-   ARTICLE CONTENT
---------------------------------------------------------- */
-
-.article-page {
-    width: 100%;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-/* ---------------------------------------------------------
-   ARTICLE TITLE
---------------------------------------------------------- */
-
-.article-title {
-    margin-top: 18px;
-    margin-bottom: 20px;
-}
-
-
-/* ---------------------------------------------------------
-   ARTICLE INTRO
---------------------------------------------------------- */
-
-.article-lead {
-    margin-bottom: 24px;
-}
-
-
-/* ---------------------------------------------------------
-   ARTICLE META
---------------------------------------------------------- */
-
-.article-meta {
-    margin-top: 20px;
-    margin-bottom: 28px;
-}
-
-
-/* ---------------------------------------------------------
-   FEATURED IMAGE
---------------------------------------------------------- */
-
-.article-hero {
-    margin: 0 0 32px 0;
-}
-
-
-/* ---------------------------------------------------------
-   SHARE AREA
---------------------------------------------------------- */
-
-.article-share {
-    margin-top: 20px;
-    margin-bottom: 32px;
-}
-
-
-/* ---------------------------------------------------------
-   TABLE OF CONTENTS
---------------------------------------------------------- */
-
-.article-toc {
-    margin-top: 28px;
-    margin-bottom: 36px;
-}
-
-
-/* ---------------------------------------------------------
-   ARTICLE SECTIONS
---------------------------------------------------------- */
-
-.article-page > article > section {
-    margin-bottom: 42px;
-}
-
-.article-page > article > section h2 {
-    margin-bottom: 16px;
-}
-
-.article-page > article > section p {
-    margin-bottom: 16px;
-}
-
-
-/* ---------------------------------------------------------
-   LIST SPACING
---------------------------------------------------------- */
-
-.article-page ul {
-    margin-top: 16px;
-    margin-bottom: 20px;
-    padding-left: 24px;
-}
-
-.article-page li {
-    margin-bottom: 10px;
-}
-
-
-/* ---------------------------------------------------------
-   HIGHLIGHT / TIPS BOXES
---------------------------------------------------------- */
-
-.highlight-box,
-.tips-box {
-    margin-top: 24px;
-    margin-bottom: 28px;
-}
-
-
-/* ---------------------------------------------------------
-   CONCLUSION
---------------------------------------------------------- */
-
-.article-conclusion {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-
-/* ---------------------------------------------------------
-   AUTHOR BOX
---------------------------------------------------------- */
-
-.author-box {
-    margin-top: 42px;
-    margin-bottom: 42px;
-}
-
-
-/* ---------------------------------------------------------
-   RELATED ARTICLES
---------------------------------------------------------- */
-
-.related-section {
-    margin-top: 44px;
-    margin-bottom: 40px;
-}
-
-.related-section h2 {
-    margin-bottom: 22px;
-}
-
-
-/* ---------------------------------------------------------
-   BACK TO NEWS
---------------------------------------------------------- */
-
-.article-back {
-    margin-top: 36px;
-    margin-bottom: 20px;
-}
-
-
-/* =========================================================
-   TABLET
-========================================================= */
-
-@media (max-width: 900px) {
-
-    .article-container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-}
-
-
-/* =========================================================
-   MOBILE
-========================================================= */
-
-@media (max-width: 768px) {
-
-    /* Give the page comfortable space from phone edges */
-
-    .article-container {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-
-
-    /* Keep article from touching screen edges */
-
-    .article-page {
-        width: 100%;
-    }
-
-
-    /* Breadcrumb */
-
-    .breadcrumb {
-        padding-left: 2px;
-        padding-right: 2px;
-        margin-bottom: 20px;
-    }
-
-
-    /* Article title */
-
-    .article-title {
-        margin-top: 14px;
-        margin-bottom: 18px;
-    }
-
-
-    /* Lead paragraph */
-
-    .article-lead {
-        margin-bottom: 22px;
-    }
-
-
-    /* Meta information */
-
-    .article-meta {
-        margin-top: 18px;
-        margin-bottom: 24px;
-    }
-
-
-    /* Hero image */
-
-    .article-hero {
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 28px;
-    }
-
-
-    /* Share buttons */
-
-    .article-share {
-        margin-top: 18px;
-        margin-bottom: 28px;
-    }
-
-
-    /* Table of contents */
-
-    .article-toc {
-        margin-top: 24px;
-        margin-bottom: 32px;
-    }
-
-
-    /* Article sections */
-
-    .article-page > article > section {
-        margin-bottom: 36px;
-    }
-
-
-    /* Section headings */
-
-    .article-page > article > section h2 {
-        margin-bottom: 14px;
-    }
-
-
-    /* Paragraph spacing */
-
-    .article-page > article > section p {
-        margin-bottom: 14px;
-    }
-
-
-    /* Highlight boxes */
-
-    .highlight-box,
-    .tips-box {
-        margin-top: 20px;
-        margin-bottom: 24px;
-    }
-
-
-    /* Author */
-
-    .author-box {
-        margin-top: 36px;
-        margin-bottom: 36px;
-    }
-
-
-    /* Related */
-
-    .related-section {
-        margin-top: 36px;
-        margin-bottom: 32px;
-    }
-
-
-    /* Back button */
-
-    .article-back {
-        margin-top: 30px;
-        margin-bottom: 16px;
-    }
-
-}
-
-
-/* =========================================================
-   SMALL PHONES
-========================================================= */
-
-@media (max-width: 480px) {
-
-    .article-container {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-
-    .breadcrumb {
-        margin-bottom: 18px;
-    }
-
-
-    .article-title {
-        margin-bottom: 16px;
-    }
-
-
-    .article-meta {
-        margin-bottom: 22px;
-    }
-
-
-    .article-hero {
-        margin-bottom: 24px;
-    }
-
-
-    .article-share {
-        margin-bottom: 24px;
-    }
-
-
-    .article-toc {
-        margin-top: 22px;
-        margin-bottom: 28px;
-    }
-
-
-    .article-page > article > section {
-        margin-bottom: 32px;
-    }
-
-
-    .article-page ul {
-        padding-left: 20px;
-    }
-
-
-    .author-box {
-        margin-top: 32px;
-        margin-bottom: 32px;
-    }
-
-
-    .related-section {
-        margin-top: 32px;
-    }
-
-}
