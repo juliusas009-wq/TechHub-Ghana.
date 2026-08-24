@@ -19,14 +19,18 @@
         content="#0b5cff"
     >
 
+    <title>
+        About TechHub Ghana | Technology, Learning & Digital Tools
+    </title>
+
     <meta
         name="description"
-        content="Learn about TechHub Ghana, our mission, technology resources, digital tools and educational goals."
+        content="Learn about TechHub Ghana, our mission, technology resources, digital tools, programming tutorials and educational goals for students and technology enthusiasts."
     >
 
     <meta
         name="keywords"
-        content="TechHub Ghana, about TechHub Ghana, Ghana technology, technology learning, digital tools, programming, Ghana tech"
+        content="TechHub Ghana, About TechHub Ghana, Ghana technology, technology learning, digital tools, programming, Ghana tech, technology tutorials, student technology resources"
     >
 
     <meta
@@ -34,19 +38,43 @@
         content="TechHub Ghana"
     >
 
+    <!-- =========================================================
+         GOOGLE SEARCH ENGINE INDEXING
+    ========================================================== -->
+
     <meta
         name="robots"
+        content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    >
+
+    <meta
+        name="googlebot"
         content="index, follow"
     >
 
+    <!-- =========================================================
+         CANONICAL URL
+         
+         IMPORTANT:
+         This uses the same URL structure as the indexed news.html.
+    ========================================================== -->
+
     <link
         rel="canonical"
-        href="https://juliusas009-wq.github.io/TechHub-Ghana/about.html"
+        href="https://juliusas009-wq.github.io/TechHub-Ghana./about.html"
     >
 
-    <title>
-        About Us | TechHub Ghana
-    </title>
+    <!-- =========================================================
+         GOOGLE SEARCH CONSOLE VERIFICATION
+         
+         Keep the same verified code for the TechHub Ghana
+         Google Search Console property.
+    ========================================================== -->
+
+    <meta
+        name="google-site-verification"
+        content="VxKjLQkOZ_DjoRForIx9ng3cbZoJrQd4xVhIOhxNrto"
+    >
 
 
     <!-- =========================================================
@@ -60,17 +88,17 @@
 
     <meta
         property="og:title"
-        content="About TechHub Ghana"
+        content="About TechHub Ghana | Technology, Learning & Digital Tools"
     >
 
     <meta
         property="og:description"
-        content="Learn about TechHub Ghana, our mission, digital tools, technology resources and educational goals."
+        content="Learn about TechHub Ghana, our mission, digital tools, programming tutorials, technology resources and educational goals."
     >
 
     <meta
         property="og:url"
-        content="https://juliusas009-wq.github.io/TechHub-Ghana/about.html"
+        content="https://juliusas009-wq.github.io/TechHub-Ghana./about.html"
     >
 
     <meta
@@ -80,7 +108,7 @@
 
     <meta
         property="og:image"
-        content="https://juliusas009-wq.github.io/TechHub-Ghana/images/logo.png"
+        content="https://juliusas009-wq.github.io/TechHub-Ghana./images/logo.png"
     >
 
     <meta
@@ -100,17 +128,17 @@
 
     <meta
         name="twitter:title"
-        content="About TechHub Ghana"
+        content="About TechHub Ghana | Technology, Learning & Digital Tools"
     >
 
     <meta
         name="twitter:description"
-        content="Learn about TechHub Ghana, our mission, digital tools and technology resources."
+        content="Learn about TechHub Ghana, our mission, digital tools, programming tutorials and technology resources."
     >
 
     <meta
         name="twitter:image"
-        content="https://juliusas009-wq.github.io/TechHub-Ghana/images/logo.png"
+        content="https://juliusas009-wq.github.io/TechHub-Ghana./images/logo.png"
     >
 
 
@@ -124,9 +152,14 @@
         href="images/logo.png"
     >
 
+    <link
+        rel="apple-touch-icon"
+        href="images/logo.png"
+    >
+
 
     <!-- =========================================================
-         GOOGLE FONT
+         GOOGLE FONTS
     ========================================================== -->
 
     <link
@@ -168,6 +201,20 @@
 
     <!-- =========================================================
          ABOUT PAGE RESPONSIVE OVERRIDES
+         
+         TECHHUB GHANA STANDARD:
+         Desktop: 15px
+         Tablet: 10px
+         Small phones: 8px
+
+         Header:
+         Tablet: 16px
+         Small phones: 12px
+
+         Logo:
+         Desktop: 56px
+         Tablet: 44px
+         Small phones: 40px
     ========================================================== -->
 
     <style>
@@ -198,14 +245,56 @@
 
 
         /* =====================================================
+           ACCESSIBILITY
+        ====================================================== */
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+
+        .skip-link {
+            position: absolute;
+            left: 10px;
+            top: -100px;
+            z-index: 9999;
+
+            padding: 10px 14px;
+
+            background: #0756d6;
+            color: #ffffff;
+
+            text-decoration: none;
+
+            border-radius: 6px;
+        }
+
+
+        .skip-link:focus {
+            top: 10px;
+        }
+
+
+        /* =====================================================
            COMMON LOGO
         ====================================================== */
 
         .logo {
             display: inline-flex;
             align-items: center;
+
             gap: 12px;
+
             min-width: 0;
+
             text-decoration: none;
         }
 
@@ -222,6 +311,8 @@
             justify-content: center;
 
             overflow: hidden;
+
+            border-radius: 12px;
         }
 
 
@@ -231,7 +322,10 @@
             width: 56px !important;
             height: 56px !important;
 
+            min-width: 56px;
             max-width: 56px !important;
+
+            min-height: 56px;
             max-height: 56px !important;
 
             object-fit: contain;
@@ -260,13 +354,16 @@
 
 
         /* =====================================================
-           ABOUT PAGE
+           ABOUT PAGE CONTENT
         ====================================================== */
 
         .about-page {
             width: 100%;
             max-width: 1100px;
-            margin: 0 auto;
+
+            margin-left: auto;
+            margin-right: auto;
+
             padding-left: 15px;
             padding-right: 15px;
         }
@@ -281,7 +378,35 @@
         .about-page .article-page {
             width: 100%;
             max-width: 100%;
-            margin: 0 auto;
+
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        /* =====================================================
+           CONTENT TYPOGRAPHY
+        ====================================================== */
+
+        .about-page h1,
+        .about-page h2 {
+            overflow-wrap: break-word;
+        }
+
+
+        .about-page p,
+        .about-page li {
+            overflow-wrap: break-word;
+        }
+
+
+        .about-page p {
+            line-height: 1.75;
+        }
+
+
+        .about-page ul {
+            padding-left: 24px;
         }
 
 
@@ -292,21 +417,22 @@
         footer {
             width: 100%;
             max-width: 100%;
+
             overflow: hidden;
         }
 
 
         .footer-grid {
-            width: 100%;
+            width: calc(100% - 30px);
             max-width: 1400px;
-            margin: 0 auto;
-            padding-left: 15px;
-            padding-right: 15px;
+
+            margin-left: auto;
+            margin-right: auto;
         }
 
 
         /* =====================================================
-           MOBILE
+           MOBILE / TABLET
         ====================================================== */
 
         @media (max-width: 768px) {
@@ -326,6 +452,7 @@
             .top-bar {
                 width: 100%;
                 max-width: 100%;
+
                 padding-left: 16px;
                 padding-right: 16px;
             }
@@ -333,6 +460,7 @@
 
             .logo {
                 gap: 9px;
+
                 max-width: calc(100% - 58px);
             }
 
@@ -343,6 +471,8 @@
 
                 min-width: 44px;
                 max-width: 44px;
+
+                border-radius: 10px;
             }
 
 
@@ -350,7 +480,10 @@
                 width: 44px !important;
                 height: 44px !important;
 
+                min-width: 44px;
                 max-width: 44px !important;
+
+                min-height: 44px;
                 max-height: 44px !important;
             }
 
@@ -421,6 +554,7 @@
 
             .about-page h2 {
                 font-size: 1.35rem;
+
                 line-height: 1.3;
             }
 
@@ -440,11 +574,10 @@
             ------------------------------------------------ */
 
             .footer-grid {
-                width: 100%;
-                max-width: 100%;
+                width: calc(100% - 20px);
 
-                padding-left: 10px;
-                padding-right: 10px;
+                padding-left: 0;
+                padding-right: 0;
             }
 
         }
@@ -457,7 +590,13 @@
         @media (max-width: 480px) {
 
             .top-bar {
-                padding: 10px 12px;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+
+            .logo {
+                gap: 8px;
             }
 
 
@@ -467,6 +606,8 @@
 
                 min-width: 40px;
                 max-width: 40px;
+
+                border-radius: 9px;
             }
 
 
@@ -474,7 +615,10 @@
                 width: 40px !important;
                 height: 40px !important;
 
+                min-width: 40px;
                 max-width: 40px !important;
+
+                min-height: 40px;
                 max-height: 40px !important;
             }
 
@@ -490,19 +634,64 @@
 
 
             .about-page {
-                padding-left: 10px;
-                padding-right: 10px;
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+
+
+            .about-page h1 {
+                font-size: clamp(
+                    1.65rem,
+                    8vw,
+                    2.2rem
+                );
+            }
+
+
+            .about-page h2 {
+                font-size: 1.25rem;
             }
 
 
             .footer-grid {
-                padding-left: 10px;
-                padding-right: 10px;
+                width: calc(100% - 16px);
             }
 
         }
 
     </style>
+
+
+    <!-- =========================================================
+         STRUCTURED DATA
+    ========================================================== -->
+
+    <script type="application/ld+json">
+
+    {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "About TechHub Ghana",
+        "headline": "About TechHub Ghana",
+        "description": "Learn about TechHub Ghana, our mission, technology resources, digital tools and educational goals.",
+        "url": "https://juliusas009-wq.github.io/TechHub-Ghana./about.html",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "TechHub Ghana",
+            "url": "https://juliusas009-wq.github.io/TechHub-Ghana./"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "TechHub Ghana",
+            "url": "https://juliusas009-wq.github.io/TechHub-Ghana./",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://juliusas009-wq.github.io/TechHub-Ghana./images/logo.png"
+            }
+        }
+    }
+
+    </script>
 
 </head>
 
@@ -1211,6 +1400,7 @@
         defer
     ></script>
 
+
 </body>
 
-    </html>
+</html>
