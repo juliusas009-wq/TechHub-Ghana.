@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-24T19:54:59.464855+00:00",
+  "updated": "2026-08-24T20:28:34.179730+00:00",
   "articles": [
+    {
+      "title": "Showcase your startup at TechCrunch Disrupt 2026 and book an exhibit table while there’s still space",
+      "summary": "Make the most of Disrupt's crowds of potential investors and partners by exhibiting your startup from October 13-15.",
+      "link": "https://techcrunch.com/2026/08/24/showcase-your-startup-at-techcrunch-disrupt-2026-and-book-an-exhibit-table-while-theres-still-space/",
+      "date": "Mon, 24 Aug 2026 20:16:34 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Alabama launches investigation into OpenAI’s hack of Hugging Face",
+      "summary": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging Face, Alabama’s Attorney General announced an investigation into the incident.",
+      "link": "https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/",
+      "date": "Mon, 24 Aug 2026 19:58:17 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
     {
       "title": "Amazon hikes hardware prices by 60 percent, blaming memory shortage",
       "summary": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the costs to its consumers.",
@@ -19,7 +35,7 @@
     },
     {
       "title": "Apply now to host a Side Event at TechCrunch Disrupt 2026",
-      "summary": "Apply before September 4 to be a part of the Disrupt community by hosting your own Side Event.",
+      "summary": "Apply before September 4 to be a part of the TechCrunch Disrupt community by hosting your own Side Event.",
       "link": "https://techcrunch.com/2026/08/24/apply-now-to-host-a-side-event-at-techcrunch-disrupt-2026/",
       "date": "Mon, 24 Aug 2026 19:44:13 +0000",
       "source": "TechCrunch",
@@ -144,22 +160,6 @@
       "date": "Sat, 22 Aug 2026 20:24:20 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
-      "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
-      "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "date": "Sat, 22 Aug 2026 19:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "OpenAI says California should strengthen its AI safety bill",
-      "summary": "OpenAI's global affairs team post also referenced “recent incidents” that “underscore both the need for these protections and the importance of updating them” as new risks emerge.",
-      "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-      "date": "Sat, 22 Aug 2026 16:30:34 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
     },
     {
       "title": "How to encourage smarter AI use in the classroom",
