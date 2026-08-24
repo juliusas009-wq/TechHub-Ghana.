@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-24T13:50:22.444192+00:00",
+  "updated": "2026-08-24T14:40:17.416108+00:00",
   "articles": [
+    {
+      "title": "Brake problems in GM EVs draw greater federal scrutiny",
+      "summary": "In one crash, the driver of a 2024 Blazer EV said they had to \"deliberately steer the vehicle into a concrete curb\" to slow it down and avoid a \"catastrophic intersection collision.\"",
+      "link": "https://techcrunch.com/2026/08/24/brake-problems-in-gm-evs-draw-greater-federal-scrutiny/",
+      "date": "Mon, 24 Aug 2026 14:18:47 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Hugging Face reportedly in talks to be acquired for $13B",
       "summary": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders' feeling of responsibility to community, doubts arise as to whether a sale will happen.",
@@ -154,12 +162,12 @@
       "category": "Technology"
     },
     {
-      "title": "Nvidia partners with data center developer Cloverleaf",
-      "summary": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
-      "link": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-      "date": "Fri, 21 Aug 2026 22:37:38 +0000",
-      "source": "TechCrunch",
-      "category": "Programming"
+      "title": "How to encourage smarter AI use in the classroom",
+      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any&#8230;",
+      "link": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+      "date": "Mon, 24 Aug 2026 14:20:19 +0000",
+      "source": "MIT Technology Review",
+      "category": "Technology"
     },
     {
       "title": "The Download: kids outlearning AI, and space travel agents",
@@ -230,14 +238,6 @@
       "summary": "There’s a hunt for new sources of hydrogen, and the gas (or at least the right conditions to make it) could be hiding beneath our feet. Hydrogen can be used as a fuel in everything from large trucks to planes to steelmaking. It’s often hailed as a climate solution because when burned, it produces water&#8230;",
       "link": "https://www.technologyreview.com/2026/08/20/1142512/geologic-hydrogen-hunt/",
       "date": "Thu, 20 Aug 2026 10:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Unlocking hidden revenue streams with market models",
-      "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name&#8230;",
-      "link": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
-      "date": "Thu, 20 Aug 2026 09:47:22 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
     }
