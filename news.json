@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-24T12:51:12.642500+00:00",
+  "updated": "2026-08-24T13:50:22.444192+00:00",
   "articles": [
+    {
+      "title": "Hugging Face reportedly in talks to be acquired for $13B",
+      "summary": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders' feeling of responsibility to community, doubts arise as to whether a sale will happen.",
+      "link": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+      "date": "Mon, 24 Aug 2026 13:47:26 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "US nutrition startup Berry Street merges with India’s Healthify as GLP-1 trends upwards",
+      "summary": "Berry Street founder Noah Kotlove and Healthify founder Tushar Vashisht will act as co-CEOs of the new entity.",
+      "link": "https://techcrunch.com/2026/08/24/us-nutrition-startup-berry-street-merges-with-indias-healthify-as-glp-1-trends-upwards/",
+      "date": "Mon, 24 Aug 2026 13:45:15 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
       "summary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
@@ -144,22 +160,6 @@
       "date": "Fri, 21 Aug 2026 22:37:38 +0000",
       "source": "TechCrunch",
       "category": "Programming"
-    },
-    {
-      "title": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
-      "summary": "Rillet CEO Nicolas Kopp shared growth numbers at a board meeting and set off a fundraising frenzy from Iconiq, Sequoia and others. Without even trying.",
-      "link": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
-      "date": "Fri, 21 Aug 2026 22:10:01 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams",
-      "summary": "Apple has admitted that some roles are being impacted as it shifts its focus away from certain initiatives.",
-      "link": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
-      "date": "Fri, 21 Aug 2026 20:58:07 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
     },
     {
       "title": "The Download: kids outlearning AI, and space travel agents",
