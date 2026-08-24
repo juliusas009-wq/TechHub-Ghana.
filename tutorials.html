@@ -58,7 +58,7 @@
     >
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;500;600;700;800&display=swap"
         rel="stylesheet"
     >
 
@@ -84,15 +84,34 @@
 
 
     <!-- =====================================================
-         PAGE WIDTH + LOGO STANDARDIZATION
-         MATCHES CONTACT PAGE
+         PAGE-SPECIFIC PROFESSIONAL TUTORIAL STYLES
     ====================================================== -->
 
     <style>
 
-        /* =================================================
+        /* =====================================================
+           ROOT VARIABLES
+        ====================================================== */
+
+        :root {
+            --tutorial-primary: #0b5cff;
+            --tutorial-primary-dark: #0848c7;
+            --tutorial-secondary: #0f172a;
+            --tutorial-text: #1e293b;
+            --tutorial-muted: #64748b;
+            --tutorial-light: #f8fafc;
+            --tutorial-border: #e2e8f0;
+            --tutorial-white: #ffffff;
+            --tutorial-success: #16a34a;
+            --tutorial-radius: 18px;
+            --tutorial-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+            --tutorial-shadow-hover: 0 18px 45px rgba(15, 23, 42, 0.14);
+        }
+
+
+        /* =====================================================
            BASIC WIDTH PROTECTION
-        ================================================== */
+        ====================================================== */
 
         html,
         body {
@@ -115,9 +134,52 @@
         }
 
 
-        /* =================================================
+        button,
+        input {
+            font: inherit;
+        }
+
+
+        /* =====================================================
+           ACCESSIBILITY
+        ====================================================== */
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+
+        .skip-link {
+            position: fixed;
+            top: -100px;
+            left: 15px;
+            z-index: 9999;
+            background: var(--tutorial-primary);
+            color: #ffffff;
+            padding: 10px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+
+        .skip-link:focus {
+            top: 15px;
+        }
+
+
+        /* =====================================================
            MAIN CONTENT SIDE SPACING
-        ================================================== */
+           PROJECT STANDARD
+        ====================================================== */
 
         main {
             width: 100%;
@@ -132,36 +194,14 @@
             max-width: 1400px;
             margin-left: auto;
             margin-right: auto;
+            padding-top: 70px;
+            padding-bottom: 25px;
         }
 
 
-        /* =================================================
-           TUTORIAL GRID WIDTH PROTECTION
-        ================================================== */
-
-        .tutorial-grid,
-        .card-grid,
-        .section-heading {
-            width: 100%;
-            max-width: 100%;
-        }
-
-
-        .tutorial {
-            min-width: 0;
-        }
-
-
-        .tutorial-content {
-            min-width: 0;
-            overflow-wrap: break-word;
-        }
-
-
-        /* =================================================
-           HEADER LOGO
-           SAME AS CONTACT PAGE
-        ================================================== */
+        /* =====================================================
+           HEADER / LOGO STANDARD
+        ====================================================== */
 
         .logo {
             display: inline-flex;
@@ -190,6 +230,7 @@
         .logo-text h1,
         .logo-text p {
             display: block;
+            margin: 0;
         }
 
 
@@ -203,9 +244,9 @@
         }
 
 
-        /* =================================================
-           HEADER SEARCH PROTECTION
-        ================================================== */
+        /* =====================================================
+           HEADER SEARCH
+        ====================================================== */
 
         .search-box {
             min-width: 0;
@@ -218,10 +259,577 @@
         }
 
 
-        /* =================================================
+        /* =====================================================
+           BREAKING / LEARNING BAR
+        ====================================================== */
+
+        .breaking-news {
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+
+        .breaking-inner {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: stretch;
+        }
+
+
+        .breaking-label {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 18px;
+            font-size: 0.78rem;
+            font-weight: 800;
+            letter-spacing: 0.7px;
+            white-space: nowrap;
+        }
+
+
+        .breaking-content {
+            min-width: 0;
+            flex: 1;
+            overflow: hidden;
+        }
+
+
+        .breaking-track {
+            min-width: max-content;
+        }
+
+
+        .breaking-track span {
+            font-weight: 500;
+        }
+
+
+        /* =====================================================
+           PROFESSIONAL HERO
+        ====================================================== */
+
+        .tutorial-hero {
+            position: relative;
+            min-height: 390px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            padding: 65px 55px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            border-radius: 24px;
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(11, 92, 255, 0.97),
+                    rgba(6, 42, 115, 0.98)
+                );
+            box-shadow: 0 18px 50px rgba(11, 92, 255, 0.20);
+        }
+
+
+        .tutorial-hero::before {
+            content: "";
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            right: -100px;
+            top: -130px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+
+        .tutorial-hero::after {
+            content: "";
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            right: 130px;
+            bottom: -170px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+
+        .hero-text {
+            position: relative;
+            z-index: 2;
+            max-width: 760px;
+        }
+
+
+        .hero-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 18px;
+            padding: 8px 14px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.10);
+            color: #ffffff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+
+        .tutorial-hero h2 {
+            margin: 0 0 18px;
+            color: #ffffff;
+            font-size: clamp(2rem, 5vw, 3.7rem);
+            line-height: 1.1;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+
+        .tutorial-hero p {
+            max-width: 680px;
+            margin: 0 0 28px;
+            color: rgba(255, 255, 255, 0.88);
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+
+        .hero-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            min-height: 48px;
+            padding: 12px 22px;
+            border-radius: 10px;
+            background: #ffffff;
+            color: var(--tutorial-primary);
+            text-decoration: none;
+            font-weight: 700;
+            transition:
+                transform 0.25s ease,
+                box-shadow 0.25s ease;
+        }
+
+
+        .hero-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+        }
+
+
+        /* =====================================================
+           SECTION HEADINGS
+        ====================================================== */
+
+        .section-heading {
+            margin-bottom: 28px;
+        }
+
+
+        .section-heading h2 {
+            position: relative;
+            margin: 0 0 10px;
+            color: var(--tutorial-secondary);
+            font-size: clamp(1.45rem, 3vw, 2rem);
+            font-weight: 800;
+            line-height: 1.25;
+        }
+
+
+        .section-heading h2::after {
+            content: "";
+            display: block;
+            width: 48px;
+            height: 4px;
+            margin-top: 12px;
+            border-radius: 10px;
+            background: var(--tutorial-primary);
+        }
+
+
+        .section-intro {
+            max-width: 700px;
+            margin: 0;
+            color: var(--tutorial-muted);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+
+        /* =====================================================
+           TUTORIAL GRID
+        ====================================================== */
+
+        .tutorial-grid {
+            width: 100%;
+            max-width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 24px;
+        }
+
+
+        .tutorial {
+            min-width: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            background: var(--tutorial-white);
+            border: 1px solid var(--tutorial-border);
+            border-radius: var(--tutorial-radius);
+            box-shadow: var(--tutorial-shadow);
+            transition:
+                transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+        }
+
+
+        .tutorial:hover {
+            transform: translateY(-7px);
+            border-color: rgba(11, 92, 255, 0.25);
+            box-shadow: var(--tutorial-shadow-hover);
+        }
+
+
+        .tutorial > img {
+            width: 100%;
+            height: 190px;
+            display: block;
+            object-fit: cover;
+            background: #e2e8f0;
+        }
+
+
+        .tutorial-content {
+            min-width: 0;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 22px;
+            overflow-wrap: break-word;
+        }
+
+
+        /* =====================================================
+           CATEGORY
+        ====================================================== */
+
+        .category {
+            align-self: flex-start;
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 12px;
+            padding: 6px 10px;
+            border-radius: 7px;
+            background: #eff6ff;
+            color: var(--tutorial-primary);
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+
+        /* =====================================================
+           TUTORIAL CARD TEXT
+        ====================================================== */
+
+        .tutorial h3 {
+            margin: 0 0 10px;
+            color: var(--tutorial-secondary);
+            font-size: 1.15rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+
+
+        .tutorial p {
+            margin: 0 0 18px;
+            color: var(--tutorial-muted);
+            font-size: 0.88rem;
+            line-height: 1.7;
+        }
+
+
+        /* =====================================================
+           TUTORIAL INFORMATION
+        ====================================================== */
+
+        .tutorial-info {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px 18px;
+            margin-top: auto;
+            padding-top: 15px;
+            border-top: 1px solid var(--tutorial-border);
+        }
+
+
+        .tutorial-info span {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--tutorial-muted);
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+
+        .tutorial-info i {
+            color: var(--tutorial-primary);
+        }
+
+
+        /* =====================================================
+           START LEARNING BUTTON
+        ====================================================== */
+
+        .read-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 18px;
+            padding: 11px 14px;
+            border-radius: 9px;
+            background: var(--tutorial-primary);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 700;
+            transition:
+                background 0.25s ease,
+                transform 0.25s ease;
+        }
+
+
+        .read-btn:hover {
+            background: var(--tutorial-primary-dark);
+            transform: translateX(2px);
+        }
+
+
+        .read-btn i {
+            transition: transform 0.25s ease;
+        }
+
+
+        .read-btn:hover i {
+            transform: translateX(4px);
+        }
+
+
+        /* =====================================================
+           NO RESULTS
+        ====================================================== */
+
+        .no-results {
+            margin-top: 25px;
+            padding: 45px 20px;
+            text-align: center;
+            border: 1px dashed var(--tutorial-border);
+            border-radius: 16px;
+            background: var(--tutorial-light);
+        }
+
+
+        .no-results i {
+            margin-bottom: 14px;
+            color: var(--tutorial-primary);
+            font-size: 2rem;
+        }
+
+
+        .no-results h3 {
+            margin: 0 0 8px;
+            color: var(--tutorial-secondary);
+        }
+
+
+        .no-results p {
+            margin: 0;
+            color: var(--tutorial-muted);
+            font-size: 0.9rem;
+        }
+
+
+        /* =====================================================
+           WHY LEARN CARDS
+        ====================================================== */
+
+        .card-grid {
+            width: 100%;
+            max-width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 20px;
+        }
+
+
+        .tool-card {
+            min-width: 0;
+            padding: 25px 22px;
+            border: 1px solid var(--tutorial-border);
+            border-radius: 16px;
+            background: var(--tutorial-white);
+            box-shadow: 0 8px 25px rgba(15, 23, 42, 0.05);
+            transition:
+                transform 0.25s ease,
+                box-shadow 0.25s ease;
+        }
+
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--tutorial-shadow);
+        }
+
+
+        .tool-card .icon {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 17px;
+            border-radius: 12px;
+            background: #eff6ff;
+            color: var(--tutorial-primary);
+            font-size: 1.2rem;
+        }
+
+
+        .tool-card h3 {
+            margin: 0 0 9px;
+            color: var(--tutorial-secondary);
+            font-size: 1rem;
+        }
+
+
+        .tool-card p {
+            margin: 0;
+            color: var(--tutorial-muted);
+            font-size: 0.82rem;
+            line-height: 1.7;
+        }
+
+
+        /* =====================================================
+           NEWSLETTER
+        ====================================================== */
+
+        .newsletter {
+            width: 100%;
+            margin-top: 55px;
+            padding: 65px 15px;
+            background:
+                linear-gradient(
+                    135deg,
+                    #eff6ff,
+                    #f8fafc
+                );
+            border-top: 1px solid var(--tutorial-border);
+            border-bottom: 1px solid var(--tutorial-border);
+        }
+
+
+        .newsletter-content {
+            width: 100%;
+            max-width: 760px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+
+        .newsletter-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 58px;
+            height: 58px;
+            margin-bottom: 14px;
+            border-radius: 50%;
+            background: #ffffff;
+            box-shadow: 0 8px 25px rgba(15, 23, 42, 0.08);
+            font-size: 1.45rem;
+        }
+
+
+        .newsletter h2 {
+            margin: 0 0 10px;
+            color: var(--tutorial-secondary);
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 800;
+        }
+
+
+        .newsletter p {
+            max-width: 600px;
+            margin: 0 auto 24px;
+            color: var(--tutorial-muted);
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+
+
+        .newsletter-form {
+            width: 100%;
+            max-width: 590px;
+            margin: 0 auto;
+            display: flex;
+            gap: 10px;
+        }
+
+
+        .newsletter-form input {
+            flex: 1;
+            min-width: 0;
+            height: 50px;
+            padding: 0 16px;
+            border: 1px solid var(--tutorial-border);
+            border-radius: 9px;
+            outline: none;
+            background: #ffffff;
+            color: var(--tutorial-text);
+            transition:
+                border-color 0.2s ease,
+                box-shadow 0.2s ease;
+        }
+
+
+        .newsletter-form input:focus {
+            border-color: var(--tutorial-primary);
+            box-shadow: 0 0 0 3px rgba(11, 92, 255, 0.12);
+        }
+
+
+        .newsletter-form button {
+            height: 50px;
+            padding: 0 22px;
+            border: 0;
+            border-radius: 9px;
+            background: var(--tutorial-primary);
+            color: #ffffff;
+            cursor: pointer;
+            font-weight: 700;
+            transition: background 0.25s ease;
+        }
+
+
+        .newsletter-form button:hover {
+            background: var(--tutorial-primary-dark);
+        }
+
+
+        /* =====================================================
            FOOTER SIDE SPACING
-           SAME AS CONTACT PAGE
-        ================================================== */
+        ====================================================== */
 
         footer {
             width: 100%;
@@ -240,25 +848,45 @@
         }
 
 
-        /* =================================================
-           BREAKING NEWS WIDTH PROTECTION
-        ================================================== */
+        /* =====================================================
+           FOCUS STATES
+        ====================================================== */
 
-        .breaking-news {
-            width: 100%;
-            max-width: 100%;
-            overflow: hidden;
+        a:focus-visible,
+        button:focus-visible,
+        input:focus-visible {
+            outline: 3px solid rgba(11, 92, 255, 0.35);
+            outline-offset: 3px;
         }
 
 
-        .breaking-content {
-            min-width: 0;
+        /* =====================================================
+           TABLET
+        ====================================================== */
+
+        @media (max-width: 1024px) {
+
+            .tutorial-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+
+            .card-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+
+            .tutorial-hero {
+                min-height: 350px;
+                padding: 50px 40px;
+            }
+
         }
 
 
-        /* =================================================
+        /* =====================================================
            MOBILE
-        ================================================== */
+        ====================================================== */
 
         @media (max-width: 768px) {
 
@@ -271,6 +899,8 @@
             .section {
                 width: 100%;
                 max-width: 100%;
+                padding-top: 50px;
+                padding-bottom: 20px;
             }
 
 
@@ -327,10 +957,93 @@
             }
 
 
+            .breaking-inner {
+                max-width: 100%;
+            }
+
+
+            .breaking-label {
+                padding: 10px 12px;
+                font-size: 0.7rem;
+            }
+
+
+            .tutorial-hero {
+                min-height: 330px;
+                margin-top: 20px;
+                padding: 45px 28px;
+                border-radius: 18px;
+            }
+
+
+            .tutorial-hero h2 {
+                font-size: 2.15rem;
+            }
+
+
+            .tutorial-hero p {
+                font-size: 0.88rem;
+                line-height: 1.7;
+            }
+
+
             .tutorial-grid,
             .card-grid {
                 width: 100%;
                 max-width: 100%;
+            }
+
+
+            .tutorial-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 16px;
+            }
+
+
+            .card-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 15px;
+            }
+
+
+            .tutorial > img {
+                height: 165px;
+            }
+
+
+            .tutorial-content {
+                padding: 17px;
+            }
+
+
+            .tutorial h3 {
+                font-size: 1rem;
+            }
+
+
+            .tutorial p {
+                font-size: 0.8rem;
+            }
+
+
+            .tutorial-info {
+                gap: 8px 12px;
+            }
+
+
+            .newsletter {
+                padding: 50px 10px;
+            }
+
+
+            .newsletter-form {
+                flex-direction: column;
+            }
+
+
+            .newsletter-form input,
+            .newsletter-form button {
+                width: 100%;
             }
 
 
@@ -342,9 +1055,9 @@
         }
 
 
-        /* =================================================
+        /* =====================================================
            SMALL PHONES
-        ================================================== */
+        ====================================================== */
 
         @media (max-width: 480px) {
 
@@ -383,9 +1096,118 @@
             }
 
 
+            .breaking-label {
+                padding: 9px 10px;
+            }
+
+
+            .breaking-label i {
+                display: none;
+            }
+
+
+            .tutorial-hero {
+                min-height: 310px;
+                padding: 35px 20px;
+                border-radius: 16px;
+            }
+
+
+            .hero-label {
+                font-size: 0.63rem;
+                padding: 7px 10px;
+            }
+
+
+            .tutorial-hero h2 {
+                font-size: 1.75rem;
+                letter-spacing: -0.5px;
+            }
+
+
+            .tutorial-hero p {
+                font-size: 0.82rem;
+            }
+
+
+            .hero-btn {
+                width: 100%;
+            }
+
+
+            .section-heading {
+                margin-bottom: 20px;
+            }
+
+
+            .section-heading h2 {
+                font-size: 1.35rem;
+            }
+
+
+            .section-intro {
+                font-size: 0.82rem;
+            }
+
+
+            .tutorial-grid {
+                grid-template-columns: 1fr;
+                gap: 18px;
+            }
+
+
+            .card-grid {
+                grid-template-columns: 1fr;
+                gap: 14px;
+            }
+
+
+            .tutorial > img {
+                height: 190px;
+            }
+
+
+            .tutorial-content {
+                padding: 19px;
+            }
+
+
+            .tutorial h3 {
+                font-size: 1.08rem;
+            }
+
+
+            .tutorial p {
+                font-size: 0.84rem;
+            }
+
+
+            .newsletter {
+                padding: 45px 8px;
+            }
+
+
             footer {
                 padding-left: 8px;
                 padding-right: 8px;
+            }
+
+        }
+
+
+        /* =====================================================
+           REDUCED MOTION
+        ====================================================== */
+
+        @media (prefers-reduced-motion: reduce) {
+
+            *,
+            *::before,
+            *::after {
+                scroll-behavior: auto !important;
+                transition-duration: 0.01ms !important;
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
             }
 
         }
@@ -412,7 +1234,6 @@
 
     <!-- =====================================================
          HEADER
-         STANDARDIZED WITH CONTACT PAGE
     ====================================================== -->
 
     <header
@@ -425,9 +1246,6 @@
         ================================================== -->
 
         <div class="top-bar">
-
-
-            <!-- BRAND / LOGO -->
 
             <a
                 href="index.html"
@@ -442,7 +1260,6 @@
                     height="56"
                     decoding="async"
                 >
-
 
                 <div class="logo-text">
 
@@ -459,14 +1276,9 @@
             </a>
 
 
-            <!-- =================================================
-                 HEADER ACTIONS
-            ================================================== -->
+            <!-- HEADER ACTIONS -->
 
             <div class="header-right">
-
-
-                <!-- SEARCH -->
 
                 <div class="search-box">
 
@@ -477,7 +1289,6 @@
                         Search tutorials
                     </label>
 
-
                     <input
                         type="search"
                         id="tutorialSearch"
@@ -485,7 +1296,6 @@
                         aria-label="Search tutorials"
                         autocomplete="off"
                     >
-
 
                     <button
                         type="button"
@@ -503,8 +1313,6 @@
                 </div>
 
 
-                <!-- DARK MODE -->
-
                 <button
                     type="button"
                     id="darkModeBtn"
@@ -512,9 +1320,7 @@
                     aria-label="Toggle dark mode"
                     title="Toggle dark mode"
                 >
-
                     🌙
-
                 </button>
 
             </div>
@@ -523,7 +1329,7 @@
 
 
         <!-- =================================================
-             MOBILE MENU BUTTON
+             MOBILE MENU
         ================================================== -->
 
         <button
@@ -534,9 +1340,7 @@
             aria-controls="navMenu"
             aria-expanded="false"
         >
-
             ☰
-
         </button>
 
 
@@ -550,33 +1354,25 @@
         >
 
             <a href="index.html">
-
                 <i
                     class="fa-solid fa-house"
                     aria-hidden="true"
                 ></i>
-
                 Home
-
             </a>
 
 
             <a href="ghana-tech.html">
-
                 🇬🇭 Ghana Tech
-
             </a>
 
 
             <a href="news.html">
-
                 <i
                     class="fa-regular fa-newspaper"
                     aria-hidden="true"
                 ></i>
-
                 News
-
             </a>
 
 
@@ -585,71 +1381,53 @@
                 class="active"
                 aria-current="page"
             >
-
                 <i
                     class="fa-solid fa-graduation-cap"
                     aria-hidden="true"
                 ></i>
-
                 Tutorials
-
             </a>
 
 
             <a href="tools.html">
-
                 <i
                     class="fa-solid fa-toolbox"
                     aria-hidden="true"
                 ></i>
-
                 Tools
-
             </a>
 
 
             <a href="gpa.html">
-
                 🎓 GPA
-
             </a>
 
 
             <a href="qr-generator.html">
-
                 📱 QR Generator
-
             </a>
 
 
             <a href="ai-assistant.html">
-
                 🤖 AI Assistant
-
             </a>
 
 
             <a href="about.html">
-
                 <i
                     class="fa-solid fa-circle-info"
                     aria-hidden="true"
                 ></i>
-
                 About
-
             </a>
 
 
             <a href="contact.html">
-
                 <i
                     class="fa-solid fa-envelope"
                     aria-hidden="true"
                 ></i>
-
                 Contact
-
             </a>
 
         </nav>
@@ -658,7 +1436,7 @@
 
 
     <!-- =====================================================
-         BREAKING / LEARNING BAR
+         LEARNING BAR
     ====================================================== -->
 
     <section
@@ -684,37 +1462,14 @@
 
                 <div class="breaking-track">
 
-                    <span>
-                        HTML
-                    </span>
-
-                    <span>
-                        CSS
-                    </span>
-
-                    <span>
-                        JavaScript
-                    </span>
-
-                    <span>
-                        Python
-                    </span>
-
-                    <span>
-                        MySQL
-                    </span>
-
-                    <span>
-                        Cybersecurity
-                    </span>
-
-                    <span>
-                        Artificial Intelligence
-                    </span>
-
-                    <span>
-                        Web Development
-                    </span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>MySQL</span>
+                    <span>Cybersecurity</span>
+                    <span>Artificial Intelligence</span>
+                    <span>Web Development</span>
 
                 </div>
 
@@ -751,12 +1506,10 @@
 
 
                 <p>
-
                     Master programming, web development,
                     databases and cybersecurity through
                     simple explanations, practical examples
                     and hands-on exercises.
-
                 </p>
 
 
@@ -794,12 +1547,9 @@
                     📚 Popular Tutorials
                 </h2>
 
-
                 <p class="section-intro">
-
                     Choose a subject and start learning
                     from beginner to advanced level.
-
                 </p>
 
             </div>
@@ -815,11 +1565,13 @@
             >
 
 
-                <!-- HTML -->
+                <!-- =================================================
+                     HTML
+                ================================================== -->
 
                 <article
                     class="tutorial"
-                    data-title="html web development"
+                    data-title="html web development beginners elements headings paragraphs links images tables forms"
                 >
 
                     <img
@@ -828,56 +1580,52 @@
                         loading="lazy"
                     >
 
-
                     <div class="tutorial-content">
 
                         <span class="category">
                             🌐 Web Development
                         </span>
 
-
                         <h3>
                             HTML For Beginners
                         </h3>
 
-
                         <p>
-
                             Learn HTML elements, headings,
                             paragraphs, links, images,
                             tables and forms.
-
                         </p>
-
 
                         <div class="tutorial-info">
 
                             <span>
-                                <i class="fas fa-signal"></i>
+                                <i
+                                    class="fas fa-signal"
+                                    aria-hidden="true"
+                                ></i>
                                 Beginner
                             </span>
 
-
                             <span>
-                                <i class="fas fa-book"></i>
+                                <i
+                                    class="fas fa-book"
+                                    aria-hidden="true"
+                                ></i>
                                 10 Lessons
                             </span>
 
                         </div>
 
-
                         <a
                             href="html-tutorial.html"
                             class="read-btn"
                         >
-
-                            Start Learning
+                            <span>Start Learning</span>
 
                             <i
                                 class="fas fa-arrow-right"
                                 aria-hidden="true"
                             ></i>
-
                         </a>
 
                     </div>
@@ -885,11 +1633,13 @@
                 </article>
 
 
-                <!-- CSS -->
+                <!-- =================================================
+                     CSS
+                ================================================== -->
 
                 <article
                     class="tutorial"
-                    data-title="css web design styling responsive design"
+                    data-title="css web design styling responsive design colors layouts flexbox grid animations"
                 >
 
                     <img
@@ -898,53 +1648,52 @@
                         loading="lazy"
                     >
 
-
                     <div class="tutorial-content">
 
                         <span class="category">
                             🎨 Web Design
                         </span>
 
-
                         <h3>
                             CSS Masterclass
                         </h3>
 
-
                         <p>
-
                             Learn colors, layouts, Flexbox,
                             Grid, animations and responsive
                             web design.
-
                         </p>
-
 
                         <div class="tutorial-info">
 
                             <span>
-                                <i class="fas fa-signal"></i>
+                                <i
+                                    class="fas fa-signal"
+                                    aria-hidden="true"
+                                ></i>
                                 Beginner
                             </span>
 
-
                             <span>
-                                <i class="fas fa-book"></i>
+                                <i
+                                    class="fas fa-book"
+                                    aria-hidden="true"
+                                ></i>
                                 12 Lessons
                             </span>
 
                         </div>
 
-
                         <a
                             href="css-tutorial.html"
                             class="read-btn"
                         >
+                            <span>Start Learning</span>
 
-                            Start Learning
-
-                            <i class="fas fa-arrow-right"></i>
-
+                            <i
+                                class="fas fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
                         </a>
 
                     </div>
@@ -952,11 +1701,13 @@
                 </article>
 
 
-                <!-- JAVASCRIPT -->
+                <!-- =================================================
+                     JAVASCRIPT
+                ================================================== -->
 
                 <article
                     class="tutorial"
-                    data-title="javascript programming dom events arrays objects"
+                    data-title="javascript programming dom events arrays objects variables data types functions"
                 >
 
                     <img
@@ -965,53 +1716,52 @@
                         loading="lazy"
                     >
 
-
                     <div class="tutorial-content">
 
                         <span class="category">
                             💻 Programming
                         </span>
 
-
                         <h3>
                             JavaScript Essentials
                         </h3>
 
-
                         <p>
-
                             Learn variables, data types,
                             functions, arrays, objects,
                             events and DOM manipulation.
-
                         </p>
-
 
                         <div class="tutorial-info">
 
                             <span>
-                                <i class="fas fa-signal"></i>
+                                <i
+                                    class="fas fa-signal"
+                                    aria-hidden="true"
+                                ></i>
                                 Beginner
                             </span>
 
-
                             <span>
-                                <i class="fas fa-book"></i>
+                                <i
+                                    class="fas fa-book"
+                                    aria-hidden="true"
+                                ></i>
                                 15 Lessons
                             </span>
 
                         </div>
 
-
                         <a
                             href="javascript-tutorial.html"
                             class="read-btn"
                         >
+                            <span>Start Learning</span>
 
-                            Start Learning
-
-                            <i class="fas fa-arrow-right"></i>
-
+                            <i
+                                class="fas fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
                         </a>
 
                     </div>
@@ -1019,11 +1769,13 @@
                 </article>
 
 
-                <!-- PYTHON -->
+                <!-- =================================================
+                     PYTHON
+                ================================================== -->
 
                 <article
                     class="tutorial"
-                    data-title="python programming coding variables loops functions"
+                    data-title="python programming coding variables loops functions conditions projects"
                 >
 
                     <img
@@ -1032,53 +1784,52 @@
                         loading="lazy"
                     >
 
-
                     <div class="tutorial-content">
 
                         <span class="category">
                             🐍 Programming
                         </span>
 
-
                         <h3>
                             Python Programming
                         </h3>
 
-
                         <p>
-
                             Learn Python variables, data types,
                             conditions, loops, functions
                             and practical projects.
-
                         </p>
-
 
                         <div class="tutorial-info">
 
                             <span>
-                                <i class="fas fa-signal"></i>
+                                <i
+                                    class="fas fa-signal"
+                                    aria-hidden="true"
+                                ></i>
                                 Beginner
                             </span>
 
-
                             <span>
-                                <i class="fas fa-book"></i>
+                                <i
+                                    class="fas fa-book"
+                                    aria-hidden="true"
+                                ></i>
                                 20 Lessons
                             </span>
 
                         </div>
 
-
                         <a
                             href="python-tutorial.html"
                             class="read-btn"
                         >
+                            <span>Start Learning</span>
 
-                            Start Learning
-
-                            <i class="fas fa-arrow-right"></i>
-
+                            <i
+                                class="fas fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
                         </a>
 
                     </div>
@@ -1086,11 +1837,13 @@
                 </article>
 
 
-                <!-- MYSQL -->
+                <!-- =================================================
+                     MYSQL
+                ================================================== -->
 
                 <article
                     class="tutorial"
-                    data-title="mysql database sql databases tables joins"
+                    data-title="mysql database sql tables joins relationships database management"
                 >
 
                     <img
@@ -1099,53 +1852,52 @@
                         loading="lazy"
                     >
 
-
                     <div class="tutorial-content">
 
                         <span class="category">
                             🗄️ Database
                         </span>
 
-
                         <h3>
                             MySQL Database Basics
                         </h3>
 
-
                         <p>
-
                             Learn databases, tables, SQL commands,
                             relationships, JOINs and practical
                             database management.
-
                         </p>
-
 
                         <div class="tutorial-info">
 
                             <span>
-                                <i class="fas fa-signal"></i>
+                                <i
+                                    class="fas fa-signal"
+                                    aria-hidden="true"
+                                ></i>
                                 Beginner
                             </span>
 
-
                             <span>
-                                <i class="fas fa-book"></i>
+                                <i
+                                    class="fas fa-book"
+                                    aria-hidden="true"
+                                ></i>
                                 15 Lessons
                             </span>
 
                         </div>
 
-
                         <a
                             href="mysql-tutorial.html"
                             class="read-btn"
                         >
+                            <span>Start Learning</span>
 
-                            Start Learning
-
-                            <i class="fas fa-arrow-right"></i>
-
+                            <i
+                                class="fas fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
                         </a>
 
                     </div>
@@ -1153,11 +1905,13 @@
                 </article>
 
 
-                <!-- CYBERSECURITY -->
+                <!-- =================================================
+                     CYBERSECURITY
+                ================================================== -->
 
                 <article
                     class="tutorial"
-                    data-title="cybersecurity security cyber threats online safety"
+                    data-title="cybersecurity security cyber threats online safety computers networks accounts information"
                 >
 
                     <img
@@ -1166,53 +1920,52 @@
                         loading="lazy"
                     >
 
-
                     <div class="tutorial-content">
 
                         <span class="category">
                             🔐 Cybersecurity
                         </span>
 
-
                         <h3>
                             Cybersecurity Fundamentals
                         </h3>
 
-
                         <p>
-
                             Learn how to protect computers,
                             networks, accounts and personal
                             information from common cyber threats.
-
                         </p>
-
 
                         <div class="tutorial-info">
 
                             <span>
-                                <i class="fas fa-signal"></i>
+                                <i
+                                    class="fas fa-signal"
+                                    aria-hidden="true"
+                                ></i>
                                 Beginner
                             </span>
 
-
                             <span>
-                                <i class="fas fa-book"></i>
+                                <i
+                                    class="fas fa-book"
+                                    aria-hidden="true"
+                                ></i>
                                 12 Lessons
                             </span>
 
                         </div>
 
-
                         <a
                             href="cybersecurity-tutorial.html"
                             class="read-btn"
                         >
+                            <span>Start Learning</span>
 
-                            Start Learning
-
-                            <i class="fas fa-arrow-right"></i>
-
+                            <i
+                                class="fas fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
                         </a>
 
                     </div>
@@ -1237,17 +1990,13 @@
                     aria-hidden="true"
                 ></i>
 
-
                 <h3>
                     No tutorials found
                 </h3>
 
-
                 <p>
-
                     Try searching for HTML, CSS, JavaScript,
                     Python, MySQL or Cybersecurity.
-
                 </p>
 
             </div>
@@ -1256,7 +2005,7 @@
 
 
         <!-- =================================================
-             WHY LEARN WITH TECHHUB GHANA
+             WHY LEARN
         ================================================== -->
 
         <section class="section">
@@ -1267,12 +2016,9 @@
                     🚀 Why Learn With TechHub Ghana?
                 </h2>
 
-
                 <p class="section-intro">
-
                     Practical technology education designed
                     for students and beginners.
-
                 </p>
 
             </div>
@@ -1280,6 +2026,8 @@
 
             <div class="card-grid">
 
+
+                <!-- SIMPLE LESSONS -->
 
                 <article class="tool-card">
 
@@ -1292,22 +2040,20 @@
 
                     </div>
 
-
                     <h3>
                         Simple Lessons
                     </h3>
 
-
                     <p>
-
                         Lessons are explained in simple
                         language so beginners can understand
                         concepts quickly.
-
                     </p>
 
                 </article>
 
+
+                <!-- PRACTICAL EXAMPLES -->
 
                 <article class="tool-card">
 
@@ -1320,21 +2066,19 @@
 
                     </div>
 
-
                     <h3>
                         Practical Examples
                     </h3>
 
-
                     <p>
-
                         Learn through real code examples
                         and practical technology projects.
-
                     </p>
 
                 </article>
 
+
+                <!-- EXERCISES -->
 
                 <article class="tool-card">
 
@@ -1347,21 +2091,19 @@
 
                     </div>
 
-
                     <h3>
                         Exercises
                     </h3>
 
-
                     <p>
-
                         Practice what you learn with
                         exercises and practical questions.
-
                     </p>
 
                 </article>
 
+
+                <!-- STUDENT FOCUSED -->
 
                 <article class="tool-card">
 
@@ -1374,17 +2116,13 @@
 
                     </div>
 
-
                     <h3>
                         Student Focused
                     </h3>
 
-
                     <p>
-
                         Tutorials are designed especially
                         for IT and computer science students.
-
                     </p>
 
                 </article>
@@ -1404,22 +2142,21 @@
 
         <div class="newsletter-content">
 
-            <span class="newsletter-icon">
+            <span
+                class="newsletter-icon"
+                aria-hidden="true"
+            >
                 📩
             </span>
-
 
             <h2>
                 Stay Updated
             </h2>
 
-
             <p>
-
                 Get new tutorials, technology news
                 and useful digital tools directly
                 from TechHub Ghana.
-
             </p>
 
 
@@ -1427,15 +2164,20 @@
 
                 <div class="newsletter-form">
 
+                    <label
+                        for="newsletterEmail"
+                        class="sr-only"
+                    >
+                        Email address
+                    </label>
+
                     <input
                         type="email"
                         id="newsletterEmail"
                         placeholder="Enter your email address"
                         autocomplete="email"
-                        aria-label="Email address"
                         required
                     >
-
 
                     <button type="submit">
                         Subscribe
@@ -1467,17 +2209,13 @@
                     TechHub Ghana
                 </h3>
 
-
                 <p>
                     Technology • Innovation • Learning
                 </p>
 
-
                 <p>
-
                     Your trusted source for technology
                     tutorials, news and digital tools.
-
                 </p>
 
             </div>
@@ -1491,13 +2229,11 @@
                     Quick Links
                 </h3>
 
-
                 <p>
                     <a href="index.html">
                         Home
                     </a>
                 </p>
-
 
                 <p>
                     <a href="news.html">
@@ -1505,20 +2241,17 @@
                     </a>
                 </p>
 
-
                 <p>
                     <a href="tutorials.html">
                         Tutorials
                     </a>
                 </p>
 
-
                 <p>
                     <a href="tools.html">
                         Tools
                     </a>
                 </p>
-
 
                 <p>
                     <a href="ai-assistant.html">
@@ -1537,13 +2270,11 @@
                     Categories
                 </h3>
 
-
                 <p>
                     <a href="html-tutorial.html">
                         HTML
                     </a>
                 </p>
-
 
                 <p>
                     <a href="css-tutorial.html">
@@ -1551,13 +2282,11 @@
                     </a>
                 </p>
 
-
                 <p>
                     <a href="javascript-tutorial.html">
                         JavaScript
                     </a>
                 </p>
-
 
                 <p>
                     <a href="python-tutorial.html">
@@ -1565,13 +2294,11 @@
                     </a>
                 </p>
 
-
                 <p>
                     <a href="mysql-tutorial.html">
                         MySQL
                     </a>
                 </p>
-
 
                 <p>
                     <a href="cybersecurity-tutorial.html">
@@ -1590,11 +2317,9 @@
                     Contact
                 </h3>
 
-
                 <p>
                     📍 Accra, Ghana
                 </p>
-
 
                 <p>
                     📧 info@techhubghana.com
@@ -1609,10 +2334,8 @@
 
 
         <p class="copyright">
-
             © 2026 TechHub Ghana.
             All Rights Reserved.
-
         </p>
 
     </footer>
@@ -1632,6 +2355,7 @@
     <script>
 
         document.addEventListener("DOMContentLoaded", function () {
+
 
             /* =================================================
                TUTORIAL SEARCH
@@ -1803,4 +2527,4 @@
 
 </body>
 
-                        </html>
+    </html>
