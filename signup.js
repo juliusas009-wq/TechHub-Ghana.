@@ -5,30 +5,72 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const form =
-        document.getElementById("signupForm");
+    const form = document.getElementById("signupForm");
 
-    if (!form) return;
+    if (!form) {
+        return;
+    }
 
 
-    form.addEventListener("submit", event => {
+    form.addEventListener("submit", (event) => {
 
         event.preventDefault();
 
 
+        /* =================================================
+           GET FORM VALUES
+        ================================================== */
+
+        const usernameInput =
+            document.getElementById("username");
+
+        const emailInput =
+            document.getElementById("email");
+
+        const passwordInput =
+            document.getElementById("password");
+
+
+        if (
+            !usernameInput ||
+            !emailInput ||
+            !passwordInput
+        ) {
+            return;
+        }
+
+
         const username =
-            document.getElementById("username").value.trim();
+            usernameInput.value.trim();
 
         const email =
-            document.getElementById("email").value.trim();
+            emailInput.value.trim().toLowerCase();
 
         const password =
-            document.getElementById("password").value;
+            passwordInput.value;
 
+
+        /* =================================================
+           VALIDATION
+        ================================================== */
 
         if (!username || !email || !password) {
 
-            alert("Please complete all fields.");
+            alert(
+                "Please complete all fields."
+            );
+
+            return;
+        }
+
+
+        if (username.length < 2) {
+
+            alert(
+                "Please enter a valid name."
+            );
+
+            usernameInput.focus();
 
             return;
         }
@@ -40,27 +82,162 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Password must contain at least 6 characters."
             );
 
+            passwordInput.focus();
+
             return;
         }
 
 
+        /* =================================================
+           CHECK EMAIL FORMAT
+        ================================================== */
+
+        const emailPattern =
+            /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+
+        if (!emailPattern.test(email)) {
+
+            alert(
+                "Please enter a valid email address."
+            );
+
+            emailInput.focus();
+
+            return;
+        }
+
+
+        /* =================================================
+           GET EXISTING USERS
+        ================================================== */
+
+        let users = [];
+
+
+        try {
+
+            users =
+                JSON.parse(
+                    localStorage.getItem(
+                        "techhubUsers"
+                    )
+                ) || [];
+
+
+            if (!Array.isArray(users)) {
+                users = [];
+            }
+
+        } catch (error) {
+
+            console.error(
+                "Unable to read saved users:",
+                error
+            );
+
+            users = [];
+        }
+
+
+        /* =================================================
+           CHECK IF EMAIL ALREADY EXISTS
+        ================================================== */
+
+        const exists =
+            users.some(
+                (user) =>
+                    user.email &&
+                    user.email.toLowerCase() === email
+            );
+
+
+        if (exists) {
+
+            alert(
+                "An account with this email already exists."
+            );
+
+            emailInput.focus();
+
+            return;
+        }
+
+
+        /* =================================================
+           CREATE USER
+           
+           NOTE:
+           This localStorage method is suitable only for
+           a simple demo/student project.
+
+           Do NOT use plain-text password storage for a
+           real production authentication system.
+        ================================================== */
+
         const user = {
 
-            username,
-            email,
+            username: username,
 
-            // For a real production website,
-            // passwords should NOT be stored this way.
-            password
+            email: email,
+
+            password: password
 
         };
 
 
-        localStorage.setItem(
-            "techhubUser",
-            JSON.stringify(user)
-        );
+        users.push(user);
 
+
+        /* =================================================
+           SAVE USERS
+        ================================================== */
+
+        try {
+
+            localStorage.setItem(
+                "techhubUsers",
+                JSON.stringify(users)
+            );
+
+        } catch (error) {
+
+            console.error(
+                "Unable to save account:",
+                error
+            );
+
+            alert(
+                "Unable to create your account. Please try again."
+            );
+
+            return;
+        }
+
+
+        /* =================================================
+           SAVE CURRENT USER
+        ================================================== */
+
+        try {
+
+            localStorage.setItem(
+                "techhubUser",
+                JSON.stringify(user)
+            );
+
+        } catch (error) {
+
+            console.error(
+                "Unable to save current user:",
+                error
+            );
+        }
+
+
+        /* =================================================
+           SUCCESS
+        ================================================== */
 
         alert(
             "Account created successfully! 🎉"
