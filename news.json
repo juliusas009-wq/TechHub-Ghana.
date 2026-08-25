@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-25T12:43:38.095263+00:00",
+  "updated": "2026-08-25T13:49:22.088325+00:00",
   "articles": [
+    {
+      "title": "Andy Dunn’s startup Pie becomes less of an events app and more of a social network",
+      "summary": "The social app founded by Bonobos co-founder Andy Dunn is expanding beyond events with new digital homes for groups to connect, organize, and make plans.",
+      "link": "https://techcrunch.com/2026/08/25/andy-dunns-startup-pie-becomes-less-of-an-events-app-and-more-of-a-social-network/",
+      "date": "Tue, 25 Aug 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "WhatsApp tightens account security with stronger two-step verification and more",
+      "summary": "WhatsApp’s two-step verification previously relied on a six-digit PIN, but now users can choose a longer, alphanumeric password with special characters.",
+      "link": "https://techcrunch.com/2026/08/25/whatsapp-tightens-account-security-with-stronger-two-step-verification-and-more/",
+      "date": "Tue, 25 Aug 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Accel-backed Keenable is indexing the web for AI agents",
+      "summary": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
+      "link": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
+      "date": "Tue, 25 Aug 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Uber launches live video streaming for teen accounts",
+      "summary": "Uber said no one will be able to access the video once the ride ends",
+      "link": "https://techcrunch.com/2026/08/25/uber-launches-live-video-streaming-for-teen-accounts/",
+      "date": "Tue, 25 Aug 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Fiat Ventures combines venture and advisory divisions into new brand, raises $35M Fund II",
       "summary": "In an environment where emerging fund managers struggle to attract LP attention, FGV is betting that a different venture model can help it lure LPs.",
@@ -128,38 +160,6 @@
       "date": "Mon, 24 Aug 2026 15:00:00 +0000",
       "source": "TechCrunch",
       "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Brake problems in GM EVs draw greater federal scrutiny",
-      "summary": "In one crash, the driver of a 2024 Blazer EV said they had to \"deliberately steer the vehicle into a concrete curb\" to slow it down and avoid a \"catastrophic intersection collision.\"",
-      "link": "https://techcrunch.com/2026/08/24/brake-problems-in-gm-evs-draw-greater-federal-scrutiny/",
-      "date": "Mon, 24 Aug 2026 14:18:47 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Hugging Face reportedly in talks to be acquired for $13B",
-      "summary": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders' feeling of responsibility to community, doubts arise as to whether a sale will happen.",
-      "link": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
-      "date": "Mon, 24 Aug 2026 13:47:26 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "US nutrition startup Berry Street merges with India’s Healthify as GLP-1 trends upwards",
-      "summary": "Berry Street founder Noah Kotlove and Healthify founder Tushar Vashisht will act as co-CEOs of the new entity.",
-      "link": "https://techcrunch.com/2026/08/24/us-nutrition-startup-berry-street-merges-with-indias-healthify-as-glp-1-trends-upwards/",
-      "date": "Mon, 24 Aug 2026 13:45:15 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
-      "summary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
-      "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
-      "date": "Sun, 23 Aug 2026 20:01:36 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
     },
     {
       "title": "The Download: smarter AI in schools, and a robot “carnival” in Shanghai",
