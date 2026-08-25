@@ -1,9 +1,33 @@
 {
-  "updated": "2026-08-25T14:43:13.086681+00:00",
+  "updated": "2026-08-25T15:40:21.662754+00:00",
   "articles": [
     {
+      "title": "Pacific Fusion’s next fusion machine could clear a key hurdle to commercial power",
+      "summary": "Fusion startup Pacific Fusion broke ground on a demonstration facility in New Mexico that it says will generate enough energy to power itself.",
+      "link": "https://techcrunch.com/2026/08/25/pacific-fusion-next-fusion-machine-could-clear-key-hurdle-to-commercial-power/",
+      "date": "Tue, 25 Aug 2026 15:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Gamma acquires Accel-backed design startup Lica",
+      "summary": "Lica co-founders are going to work on Gamma's new research team.",
+      "link": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+      "date": "Tue, 25 Aug 2026 15:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Apple rescues Hide My Email feature from the privacy scrap heap",
+      "summary": "Apple says it will no longer ditch using its icloud.com domain for hiding people's email addresses.",
+      "link": "https://techcrunch.com/2026/08/25/apple-rescues-hide-my-email-feature-from-the-privacy-scrap-heap/",
+      "date": "Tue, 25 Aug 2026 14:46:32 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
-      "summary": "Tested on Semianalysis’s InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "summary": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
       "link": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
       "date": "Tue, 25 Aug 2026 14:22:04 +0000",
       "source": "TechCrunch",
@@ -136,30 +160,6 @@
       "date": "Mon, 24 Aug 2026 20:16:34 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "Alabama launches investigation into OpenAI’s hack of Hugging Face",
-      "summary": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging Face, Alabama’s attorney general announced an investigation into the incident.",
-      "link": "https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/",
-      "date": "Mon, 24 Aug 2026 19:58:17 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Amazon hikes hardware prices by 60%, blaming memory shortage",
-      "summary": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the costs to its consumers.",
-      "link": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
-      "date": "Mon, 24 Aug 2026 19:54:50 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
-      "summary": "At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future of programming and Replit's role in developing it.",
-      "link": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
-      "date": "Mon, 24 Aug 2026 19:54:19 +0000",
-      "source": "TechCrunch",
-      "category": "Programming"
     },
     {
       "title": "The Download: smarter AI in schools, and a robot “carnival” in Shanghai",
