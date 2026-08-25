@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-25T20:27:18.586096+00:00",
+  "updated": "2026-08-25T20:56:50.995495+00:00",
   "articles": [
+    {
+      "title": "X sends cease-and-desist to open-source project Nitter over alleged scraping",
+      "summary": "X has sent cease-and-desist letters to Nitter, the open source project behind privacy-friendly X frontends, demanding its instances and code repository be taken down over alleged scraping.",
+      "link": "https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/",
+      "date": "Tue, 25 Aug 2026 20:44:12 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Instagram’s ‘First Draft’ feature aims to make editing Reels less tedious",
       "summary": "Instagram is making one of the most tedious parts of creating Reels easier. The company announced Tuesday in a Threads post that it’s rolling out “First Draft,” a new editing feature that automatically trims selected video clips and removes pauses, pulling together the best moments into an initial cut.&#160; Instagram says the process can produce [&#8230;]",
@@ -149,14 +157,6 @@
       "title": "Accel-backed Keenable is indexing the web for AI agents",
       "summary": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
       "link": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
-      "date": "Tue, 25 Aug 2026 13:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Uber launches live video streaming for teen accounts",
-      "summary": "Uber said no one will be able to access the video once the ride ends.",
-      "link": "https://techcrunch.com/2026/08/25/uber-launches-live-video-streaming-for-teen-accounts/",
       "date": "Tue, 25 Aug 2026 13:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
