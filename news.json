@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-26T02:46:40.015488+00:00",
+  "updated": "2026-08-26T03:52:34.143163+00:00",
   "articles": [
+    {
+      "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+      "summary": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
+      "link": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+      "date": "Wed, 26 Aug 2026 03:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Robotics startup Generalist reaches $3B valuation, sources say",
       "summary": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
@@ -150,14 +158,6 @@
       "summary": "The base model of the Mac Mini comes with 256GB of storage, 16GB of RAM, and costs $899.",
       "link": "https://techcrunch.com/2026/08/25/apples-latest-mac-mini-runs-on-a-new-m6-chip-and-starts-at-899/",
       "date": "Tue, 25 Aug 2026 13:55:06 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Andy Dunn’s startup Pie becomes less of an events app and more of a social network",
-      "summary": "The social app founded by Bonobos co-founder Andy Dunn is expanding beyond events with new digital homes for groups to connect, organize, and make plans.",
-      "link": "https://techcrunch.com/2026/08/25/andy-dunns-startup-pie-becomes-less-of-an-events-app-and-more-of-a-social-network/",
-      "date": "Tue, 25 Aug 2026 13:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
