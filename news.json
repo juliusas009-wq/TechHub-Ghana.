@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-26T11:58:54.393950+00:00",
+  "updated": "2026-08-26T13:07:27.778913+00:00",
   "articles": [
+    {
+      "title": "QueryStory wants you to believe what AI is telling you",
+      "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
+      "link": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
+      "date": "Wed, 26 Aug 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Arga is building a better way to train enterprise AI agents",
+      "summary": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
+      "link": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
+      "date": "Wed, 26 Aug 2026 12:55:28 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
+      "summary": "The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.",
+      "link": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+      "date": "Wed, 26 Aug 2026 12:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
       "summary": "Runable says 60%–70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
@@ -138,27 +162,11 @@
       "category": "Technology"
     },
     {
-      "title": "Apple rescues Hide My Email feature from the privacy scrap heap",
-      "summary": "Apple says it will no longer ditch using its icloud.com domain for hiding people's email addresses.",
-      "link": "https://techcrunch.com/2026/08/25/apple-rescues-hide-my-email-feature-from-the-privacy-scrap-heap/",
-      "date": "Tue, 25 Aug 2026 14:46:32 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
-      "summary": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
-      "link": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
-      "date": "Tue, 25 Aug 2026 14:22:04 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Apple debuts its ‘most powerful chip ever’ in M5 Ultra and M6",
-      "summary": "Apple unveils these new processors alongside an updated Mac Mini and Mac Studio.",
-      "link": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
-      "date": "Tue, 25 Aug 2026 14:10:36 +0000",
-      "source": "TechCrunch",
+      "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Kids issue If the desire to limit kids&#8217; use of technology was once a subcurrent, it has become a raging flood. Countries around the world are banning children from&#8230;",
+      "link": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/",
+      "date": "Wed, 26 Aug 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -229,14 +237,6 @@
       "title": "Amping up T cells to target cancer",
       "summary": "Vaccines that turn the body’s immune system against tumors have shown promise in clinical trials, and a handful have been FDA approved for certain cancers. In many patients, however, these vaccines don’t stimulate enough of a response, and the approach some researchers have taken to strengthening it—delivering the vaccine along with immune-stimulating molecules called cytokines—can&#8230;",
       "link": "https://www.technologyreview.com/2026/08/25/1140949/amping-up-t-cells-to-target-cancer/",
-      "date": "Tue, 25 Aug 2026 21:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Taking your temperature from the inside",
-      "summary": "Oral and forehead thermometers may not accurately capture a person’s core body temperature, and the few ingestible temperature sensors on the market are so big they are hard to swallow and risk obstructing the GI tract. But MIT engineers created one that can send continuous temperature updates at a size of just six by four&#8230;",
-      "link": "https://www.technologyreview.com/2026/08/25/1140952/taking-your-temperature-from-the-inside/",
       "date": "Tue, 25 Aug 2026 21:00:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
