@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-26T13:07:27.778913+00:00",
+  "updated": "2026-08-26T14:11:24.425702+00:00",
   "articles": [
+    {
+      "title": "Meta settles for $18 billion in lawsuit brought by 29 states over social media harms to children",
+      "summary": "The lawsuit alleged that Meta knowingly designed platforms like Instagram and Facebook to addict children, despite knowing about the harms the platforms could pose to young users.",
+      "link": "https://techcrunch.com/2026/08/26/meta-settles-for-18-billion-in-lawsuit-brought-by-29-states-over-social-media-harms-to-children/",
+      "date": "Wed, 26 Aug 2026 13:43:01 +0000",
+      "source": "TechCrunch",
+      "category": "Cloud Computing"
+    },
+    {
+      "title": "Robot brain builders are pushing out of their GPT-2 era",
+      "summary": "Robot bodies are waiting for their AI brains to catch up.",
+      "link": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
+      "date": "Wed, 26 Aug 2026 13:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Bluesky now lets you upload 10-minute long videos",
+      "summary": "Bluesky's new 10-minute video support includes faster upload speeds, too.",
+      "link": "https://techcrunch.com/2026/08/26/bluesky-now-lets-you-upload-10-minute-long-videos/",
+      "date": "Wed, 26 Aug 2026 13:12:36 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "QueryStory wants you to believe what AI is telling you",
       "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
@@ -10,7 +34,7 @@
       "category": "Cybersecurity"
     },
     {
-      "title": "Arga is building a better way to train enterprise AI agents",
+      "title": "Arga Labs is building a better way to train enterprise AI agents",
       "summary": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
       "link": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
       "date": "Wed, 26 Aug 2026 12:55:28 +0000",
@@ -134,30 +158,6 @@
       "summary": "Life360’s new $7.99 scannable pet tags alert families when a lost pet is found and share its last known location, while new care-tracking features help households keep tabs on feeding, walks, medication, and more.",
       "link": "https://techcrunch.com/2026/08/25/life360-expands-pet-tracking-with-new-8-scannable-tags-and-zoomie-alerts/",
       "date": "Tue, 25 Aug 2026 16:35:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "That fake Grand Theft Auto VI demo is actually just malware",
-      "summary": "Grand Theft Auto fans, eager for news about one of the most anticipated video games of all time, appear especially vulnerable to this new cyberattack.",
-      "link": "https://techcrunch.com/2026/08/25/that-fake-grand-theft-auto-vi-demo-is-actually-just-malware/",
-      "date": "Tue, 25 Aug 2026 15:48:38 +0000",
-      "source": "TechCrunch",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Pacific Fusion’s next fusion machine could clear a key hurdle to commercial power",
-      "summary": "Fusion startup Pacific Fusion broke ground on a demonstration facility in New Mexico that it says will generate enough energy to power itself.",
-      "link": "https://techcrunch.com/2026/08/25/pacific-fusion-next-fusion-machine-could-clear-key-hurdle-to-commercial-power/",
-      "date": "Tue, 25 Aug 2026 15:30:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Gamma acquires Accel-backed design startup Lica",
-      "summary": "Lica co-founders are going to work on Gamma's new research team.",
-      "link": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
-      "date": "Tue, 25 Aug 2026 15:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
