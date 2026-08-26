@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-26T16:53:23.312324+00:00",
+  "updated": "2026-08-26T18:59:39.317360+00:00",
   "articles": [
+    {
+      "title": "Flipboard acquires Graze, the feed builder working to monetize the open social web",
+      "summary": "Flipboard is acquiring Bluesky feed-building startup Graze, bringing its privacy-friendly ad technology and creator monetization tools into Flipboard’s growing open social web ecosystem.",
+      "link": "https://techcrunch.com/2026/08/26/flipboard-acquires-graze-the-feed-builder-working-to-monetize-the-open-social-web/",
+      "date": "Wed, 26 Aug 2026 18:35:40 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Medical device maker Boston Scientific says a cyberattack is causing a ‘global disruption’ to its operations",
+      "summary": "The company won't say if medical devices are affected or if any customer data was exfiltrated.",
+      "link": "https://techcrunch.com/2026/08/26/medical-device-maker-boston-scientific-says-a-cyberattack-is-causing-a-global-disruption-to-its-operations/",
+      "date": "Wed, 26 Aug 2026 18:23:09 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "US seizes domains of Chinese botnet used to hack NASA, Justice Department, and the Senate",
+      "summary": "The FBI has seized domains associated with a botnet that allowed Chinese-backed hackers to breach several U.S. government departments.",
+      "link": "https://techcrunch.com/2026/08/26/us-seizes-domains-of-chinese-botnet-used-to-hack-nasa-justice-department-and-the-senate/",
+      "date": "Wed, 26 Aug 2026 17:01:05 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Capital F closes $17M debut fund with goal to back the future of the ‘female economy’",
+      "summary": "Capital F, one of the few all-female-led VC firms, announced Wednesday the $17 million close of its debut fund. The firm backs companies building in the “female economy” — or the markets where women drive demand. That mainly falls into three buckets for the firm, Margaret Coblentz, the firm’s co-founder, told TechCrunch — women’s health, [&#8230;]",
+      "link": "https://techcrunch.com/2026/08/26/capital-f-closes-17m-debut-fund-with-goal-to-back-the-future-of-the-female-economy/",
+      "date": "Wed, 26 Aug 2026 17:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Apple is holding its iPhone launch event on September 9",
       "summary": "The event is expected to be a notable one, as Apple is rumored to unveil its long-awaited foldable iPhone. It'll also be the first Apple event with John Ternus as CEO, who is scheduled to take the reins of the tech giant from Tim Cook on September 1.",
@@ -128,38 +160,6 @@
       "date": "Wed, 26 Aug 2026 11:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "Ventures Platform goes bigger — and broader — with its second Africa fund",
-      "summary": "The Pan-African venture firm has raised $84 million and plans to invest in startups beyond its home market of Nigeria.",
-      "link": "https://techcrunch.com/2026/08/26/ventures-platform-goes-bigger-and-broader-with-its-second-africa-fund/",
-      "date": "Wed, 26 Aug 2026 07:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
-      "summary": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
-      "link": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
-      "date": "Wed, 26 Aug 2026 03:30:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Robotics startup Generalist reaches $3B valuation, sources say",
-      "summary": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
-      "link": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
-      "date": "Wed, 26 Aug 2026 00:40:59 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "OpenAI loses a top data center exec as stream of high-profile departures continues",
-      "summary": "In a statement to TechCrunch about Malone's departure, OpenAI said it had \"recently reorganized\" its \"infrastructure organization to support the scale and pace of our work.\"",
-      "link": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
-      "date": "Wed, 26 Aug 2026 00:06:20 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
     },
     {
       "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
