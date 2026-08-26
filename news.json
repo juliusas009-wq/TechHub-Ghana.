@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-26T18:59:39.317360+00:00",
+  "updated": "2026-08-26T21:46:15.815374+00:00",
   "articles": [
+    {
+      "title": "Anthropic continues compute-gobbling streak in $45 billion deal with Nscale",
+      "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
+      "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "date": "Wed, 26 Aug 2026 21:37:39 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Google’s Gemini has a branding problem, and so does the rest of AI",
+      "summary": "Consumer AI apps need to stop making users learn their product architecture.",
+      "link": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
+      "date": "Wed, 26 Aug 2026 19:37:34 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "How do we explain OpenAI’s executive exodus?",
+      "summary": "Was Greg Brockman the right executive all along?",
+      "link": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
+      "date": "Wed, 26 Aug 2026 19:34:04 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "OpenAI releases its official report on the Hugging Face breach",
+      "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+      "link": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+      "date": "Wed, 26 Aug 2026 19:05:22 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
     {
       "title": "Flipboard acquires Graze, the feed builder working to monetize the open social web",
       "summary": "Flipboard is acquiring Bluesky feed-building startup Graze, bringing its privacy-friendly ad technology and creator monetization tools into Flipboard’s growing open social web ecosystem.",
@@ -19,7 +51,7 @@
     },
     {
       "title": "US seizes domains of Chinese botnet used to hack NASA, Justice Department, and the Senate",
-      "summary": "The FBI has seized domains associated with a botnet that allowed Chinese-backed hackers to breach several U.S. government departments.",
+      "summary": "The Justice Department said that the domain seizures made the botnet and its command and control servers \"inoperable,\" as the domains were hardcoded into the botnet's code and were critical for the botnet's communication and essential operations.",
       "link": "https://techcrunch.com/2026/08/26/us-seizes-domains-of-chinese-botnet-used-to-hack-nasa-justice-department-and-the-senate/",
       "date": "Wed, 26 Aug 2026 17:01:05 +0000",
       "source": "TechCrunch",
@@ -27,7 +59,7 @@
     },
     {
       "title": "Capital F closes $17M debut fund with goal to back the future of the ‘female economy’",
-      "summary": "Capital F, one of the few all-female-led VC firms, announced Wednesday the $17 million close of its debut fund. The firm backs companies building in the “female economy” — or the markets where women drive demand. That mainly falls into three buckets for the firm, Margaret Coblentz, the firm’s co-founder, told TechCrunch — women’s health, [&#8230;]",
+      "summary": "The firm backs companies building in the “female economy,” or the markets where women drive demand — women’s health, digital commerce, and AI tools.",
       "link": "https://techcrunch.com/2026/08/26/capital-f-closes-17m-debut-fund-with-goal-to-back-the-future-of-the-female-economy/",
       "date": "Wed, 26 Aug 2026 17:00:00 +0000",
       "source": "TechCrunch",
@@ -106,7 +138,7 @@
       "category": "Technology"
     },
     {
-      "title": "Meta settles for $18 billion in lawsuit brought by 29 states over social media harms to children",
+      "title": "Meta settles for $18B in lawsuit brought by 29 states over social media harms to children",
       "summary": "The lawsuit alleged that Meta knowingly designed platforms like Instagram and Facebook to addict children, despite knowing about the harms the platforms could pose to young users.",
       "link": "https://techcrunch.com/2026/08/26/meta-settles-for-18-billion-in-lawsuit-brought-by-29-states-over-social-media-harms-to-children/",
       "date": "Wed, 26 Aug 2026 13:43:01 +0000",
@@ -130,36 +162,12 @@
       "category": "Technology"
     },
     {
-      "title": "QueryStory wants you to believe what AI is telling you",
-      "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
-      "link": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
-      "date": "Wed, 26 Aug 2026 13:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Arga Labs is building a better way to train enterprise AI agents",
-      "summary": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
-      "link": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
-      "date": "Wed, 26 Aug 2026 12:55:28 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
-      "summary": "The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.",
-      "link": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
-      "date": "Wed, 26 Aug 2026 12:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
-      "summary": "Runable says 60% to 70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
-      "link": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
-      "date": "Wed, 26 Aug 2026 11:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "The inside story on why OpenAI agents hacked Hugging Face",
+      "summary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts’&#8230;",
+      "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "date": "Wed, 26 Aug 2026 19:00:00 +0000",
+      "source": "MIT Technology Review",
+      "category": "Artificial Intelligence"
     },
     {
       "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
@@ -229,14 +237,6 @@
       "title": "AgeLab research inspires an A I startup",
       "summary": "When Don Yansen ’63 arrived at the MIT AgeLab for a study on technology in care­giving for older adults, he didn’t plan to launch another company. But when he heard participants talk about how hard modern devices can be to use, he decided to develop an alternative. Yansen, a serial entrepreneur who retired to care for&#8230;",
       "link": "https://www.technologyreview.com/2026/08/25/1140917/agelab-research-inspires-an-a-i-startup/",
-      "date": "Tue, 25 Aug 2026 21:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Amping up T cells to target cancer",
-      "summary": "Vaccines that turn the body’s immune system against tumors have shown promise in clinical trials, and a handful have been FDA approved for certain cancers. In many patients, however, these vaccines don’t stimulate enough of a response, and the approach some researchers have taken to strengthening it—delivering the vaccine along with immune-stimulating molecules called cytokines—can&#8230;",
-      "link": "https://www.technologyreview.com/2026/08/25/1140949/amping-up-t-cells-to-target-cancer/",
       "date": "Tue, 25 Aug 2026 21:00:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
