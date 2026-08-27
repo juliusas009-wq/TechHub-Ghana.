@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-27T02:56:36.034835+00:00",
+  "updated": "2026-08-27T13:55:37.708456+00:00",
   "articles": [
     {
-      "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
+      "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+      "summary": "Plaud's new 'agentic' earbuds are priced at $249.",
+      "link": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+      "date": "Thu, 27 Aug 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
+      "summary": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
+      "link": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+      "date": "Thu, 27 Aug 2026 11:35:59 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "Nvidia closes in on Hugging Face acquisition",
+      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+      "link": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
+      "date": "Thu, 27 Aug 2026 06:32:51 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
       "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
       "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
       "date": "Thu, 27 Aug 2026 00:24:57 +0000",
@@ -74,7 +98,7 @@
       "category": "Technology"
     },
     {
-      "title": "US seizes domains of Chinese botnet used to hack NASA, Justice Department, and the Senate",
+      "title": "US seizes domains of Chinese botnet used to target NASA, Justice Department, and the Senate",
       "summary": "The Justice Department said that the domain seizures made the botnet and its command and control servers \"inoperable,\" as the domains were hardcoded into the botnet's code and were critical for the botnet's communication and essential operations.",
       "link": "https://techcrunch.com/2026/08/26/us-seizes-domains-of-chinese-botnet-used-to-hack-nasa-justice-department-and-the-senate/",
       "date": "Wed, 26 Aug 2026 17:01:05 +0000",
@@ -138,27 +162,19 @@
       "category": "Technology"
     },
     {
-      "title": "Bill Gates wants to see a robot tax and ‘Human Reserved’ jobs to mitigate harms from AI",
-      "summary": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
-      "link": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
-      "date": "Wed, 26 Aug 2026 14:37:01 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The inside story on why OpenAI agents hacked Hugging Face The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with&#8230;",
+      "link": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
+      "date": "Thu, 27 Aug 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
+      "category": "Artificial Intelligence"
     },
     {
-      "title": "CISA confirms hackers targeted over 100 US water systems during July",
-      "summary": "The federal cyber agency's warning comes amid a wave of suspected Iran-backed cyberattacks targeting critical water systems across the United States.",
-      "link": "https://techcrunch.com/2026/08/26/cisa-confirms-hackers-targeted-over-100-us-water-systems-during-july/",
-      "date": "Wed, 26 Aug 2026 14:31:05 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
-      "summary": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
-      "link": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
-      "date": "Wed, 26 Aug 2026 14:19:29 +0000",
-      "source": "TechCrunch",
+      "title": "Is Slate Auto’s new electric truck the EV Americans need?",
+      "summary": "EVs account for under 10% of total new-vehicle sales in the US, and the numbers are declining. From a climate perspective, that’s pretty dismal, especially because the transportation sector is the single biggest source of greenhouse-gas emissions in the country.&#160; One thing that could help turn that around? Slate Auto’s new truck—a vehicle that seems&#8230;",
+      "link": "https://www.technologyreview.com/2026/08/27/1142953/electric-truck-slate-auto/",
+      "date": "Thu, 27 Aug 2026 10:00:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -221,22 +237,6 @@
       "title": "Launching youth entrepreneurship",
       "summary": "Even as a teenager, Laurie Stach ’06 says, she had a “crazy ambition to take on the world and solve problems.” At MIT, she realized she wasn’t the only one. “Adults always see these youth who are good at math and science and say, ‘You’re going to do great things—someday,’” says Stach. “Meanwhile, traditional education&#8230;",
       "link": "https://www.technologyreview.com/2026/08/25/1140911/launching-youth-entrepreneurship/",
-      "date": "Tue, 25 Aug 2026 21:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "A new stamp on cyberfraud prevention",
-      "summary": "For Rupert Young ’95, SM ’95, his career in data science and cybersecurity began when his grandfather gifted him thousands of stamps: He built intricate databases to catalogue them, displaying the “precise eye” for detail and nuance that his MIT application essay said would make him a good engineer. Young is now chief product officer&#8230;",
-      "link": "https://www.technologyreview.com/2026/08/25/1140914/a-new-stamp-on-cyberfraud-prevention/",
-      "date": "Tue, 25 Aug 2026 21:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "AgeLab research inspires an A I startup",
-      "summary": "When Don Yansen ’63 arrived at the MIT AgeLab for a study on technology in care­giving for older adults, he didn’t plan to launch another company. But when he heard participants talk about how hard modern devices can be to use, he decided to develop an alternative. Yansen, a serial entrepreneur who retired to care for&#8230;",
-      "link": "https://www.technologyreview.com/2026/08/25/1140917/agelab-research-inspires-an-a-i-startup/",
       "date": "Tue, 25 Aug 2026 21:00:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
