@@ -85,7 +85,6 @@
 
     <!-- =========================================================
          PAGE SAFETY + STANDARD LOGO + SIDE SPACING
-         MATCHED TO CONTACT PAGE
     ========================================================== -->
 
     <style>
@@ -150,7 +149,7 @@
 
 
         /* =====================================================
-           HEADER TOP BAR
+           HEADER
         ====================================================== */
 
         .top-bar {
@@ -161,7 +160,6 @@
 
         /* =====================================================
            STANDARD TECHHUB GHANA LOGO
-           SAME AS CONTACT PAGE
         ====================================================== */
 
         .logo {
@@ -203,11 +201,6 @@
             white-space: nowrap;
         }
 
-
-        /* =====================================================
-           HEADER LOGO WHEN TEXT IS DIRECTLY INSIDE LOGO
-           SUPPORTS THIS PAGE'S STRUCTURE
-        ====================================================== */
 
         .logo > div {
             min-width: 0;
@@ -284,6 +277,27 @@
 
 
         /* =====================================================
+           NEWSLETTER
+        ====================================================== */
+
+        .newsletter {
+            width: 100%;
+            max-width: 100%;
+        }
+
+
+        .newsletter form {
+            max-width: 100%;
+        }
+
+
+        .newsletter input {
+            min-width: 0;
+            max-width: 100%;
+        }
+
+
+        /* =====================================================
            FOOTER SIDE SPACING
         ====================================================== */
 
@@ -300,6 +314,31 @@
             max-width: 1400px;
             margin-left: auto;
             margin-right: auto;
+        }
+
+
+        /* =====================================================
+           ACCESSIBILITY
+        ====================================================== */
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+
+        .lesson-btn,
+        .read-btn,
+        button,
+        a {
+            -webkit-tap-highlight-color: transparent;
         }
 
 
@@ -393,6 +432,16 @@
             }
 
 
+            .newsletter {
+                width: 100%;
+            }
+
+
+            .newsletter form {
+                width: 100%;
+            }
+
+
             footer {
                 padding-left: 10px;
                 padding-right: 10px;
@@ -480,14 +529,9 @@
         id="siteHeader"
     >
 
-        <!-- =====================================================
-             TOP BAR
-        ====================================================== -->
-
         <div class="top-bar">
 
-
-            <!-- BRAND / LOGO -->
+            <!-- LOGO -->
 
             <a
                 href="index.html"
@@ -519,12 +563,9 @@
             </a>
 
 
-            <!-- =================================================
-                 HEADER RIGHT
-            ================================================== -->
+            <!-- HEADER RIGHT -->
 
             <div class="header-right">
-
 
                 <!-- SEARCH -->
 
@@ -572,9 +613,7 @@
                     aria-label="Toggle dark mode"
                     title="Toggle dark mode"
                 >
-
                     🌙
-
                 </button>
 
 
@@ -588,9 +627,7 @@
                     aria-controls="navMenu"
                     aria-expanded="false"
                 >
-
                     ☰
-
                 </button>
 
             </div>
@@ -598,9 +635,7 @@
         </div>
 
 
-        <!-- =====================================================
-             NAVIGATION
-        ====================================================== -->
+        <!-- NAVIGATION -->
 
         <nav
             id="navMenu"
@@ -608,33 +643,19 @@
         >
 
             <a href="index.html">
-
-                <i
-                    class="fa-solid fa-house"
-                    aria-hidden="true"
-                ></i>
-
+                <i class="fa-solid fa-house" aria-hidden="true"></i>
                 Home
-
             </a>
 
 
             <a href="ghana-tech.html">
-
                 🇬🇭 Ghana Tech
-
             </a>
 
 
             <a href="news.html">
-
-                <i
-                    class="fa-regular fa-newspaper"
-                    aria-hidden="true"
-                ></i>
-
+                <i class="fa-regular fa-newspaper" aria-hidden="true"></i>
                 News
-
             </a>
 
 
@@ -643,71 +664,41 @@
                 class="active"
                 aria-current="page"
             >
-
-                <i
-                    class="fa-solid fa-graduation-cap"
-                    aria-hidden="true"
-                ></i>
-
+                <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
                 Tutorials
-
             </a>
 
 
             <a href="tools.html">
-
-                <i
-                    class="fa-solid fa-toolbox"
-                    aria-hidden="true"
-                ></i>
-
+                <i class="fa-solid fa-toolbox" aria-hidden="true"></i>
                 Tools
-
             </a>
 
 
             <a href="gpa.html">
-
                 🎓 GPA
-
             </a>
 
 
             <a href="qr-generator.html">
-
                 📱 QR Generator
-
             </a>
 
 
             <a href="ai-assistant.html">
-
                 🤖 AI Assistant
-
             </a>
 
 
             <a href="about.html">
-
-                <i
-                    class="fa-solid fa-circle-info"
-                    aria-hidden="true"
-                ></i>
-
+                <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
                 About
-
             </a>
 
 
             <a href="contact.html">
-
-                <i
-                    class="fa-solid fa-envelope"
-                    aria-hidden="true"
-                ></i>
-
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
                 Contact
-
             </a>
 
         </nav>
@@ -742,37 +733,14 @@
 
                 <div class="breaking-track">
 
-                    <span>
-                        🔐 Cybersecurity
-                    </span>
-
-                    <span>
-                        Online Safety
-                    </span>
-
-                    <span>
-                        Ethical Hacking
-                    </span>
-
-                    <span>
-                        Network Security
-                    </span>
-
-                    <span>
-                        Malware
-                    </span>
-
-                    <span>
-                        Phishing
-                    </span>
-
-                    <span>
-                        Encryption
-                    </span>
-
-                    <span>
-                        Privacy
-                    </span>
+                    <span>🔐 Cybersecurity</span>
+                    <span>Online Safety</span>
+                    <span>Ethical Hacking</span>
+                    <span>Network Security</span>
+                    <span>Malware</span>
+                    <span>Phishing</span>
+                    <span>Encryption</span>
+                    <span>Privacy</span>
 
                 </div>
 
@@ -791,7 +759,7 @@
 
 
         <!-- =====================================================
-             TUTORIAL HERO
+             HERO
         ====================================================== -->
 
         <section class="tutorial-hero">
@@ -809,11 +777,9 @@
 
 
                 <p>
-
                     Learn how to protect computers, smartphones,
                     networks, online accounts and personal information
                     from common cybersecurity threats.
-
                 </p>
 
 
@@ -821,9 +787,7 @@
                     href="#lessons"
                     class="hero-btn"
                 >
-
                     Start Learning
-
                 </a>
 
             </div>
@@ -832,7 +796,7 @@
 
 
         <!-- =====================================================
-             COURSE INTRODUCTION
+             INTRODUCTION
         ====================================================== -->
 
         <section class="section">
@@ -850,12 +814,10 @@
 
 
                 <p>
-
                     Cybersecurity is the practice of protecting
                     computers, smartphones, networks, applications
                     and data from unauthorized access, attacks,
                     damage or theft.
-
                 </p>
 
             </div>
@@ -864,20 +826,16 @@
             <div class="tutorial-content">
 
                 <p>
-
                     We use technology every day for banking,
                     education, communication, shopping, business
                     and entertainment.
-
                 </p>
 
 
                 <p>
-
                     Understanding basic cybersecurity helps you
                     recognize threats and protect your devices,
                     accounts and personal information.
-
                 </p>
 
 
@@ -889,12 +847,10 @@
 
 
                     <p>
-
                         You do not need to become a professional
                         cybersecurity expert before you can protect
                         yourself. Start by learning how common
                         attacks work and how to defend against them.
-
                     </p>
 
                 </div>
@@ -923,12 +879,9 @@
                         🔐 Security Basics
                     </h3>
 
-
                     <p>
-
                         Understand the basic principles of
                         cybersecurity and information security.
-
                     </p>
 
                 </div>
@@ -940,12 +893,9 @@
                         🦠 Cyber Threats
                     </h3>
 
-
                     <p>
-
                         Learn about malware, phishing,
                         ransomware and other common threats.
-
                     </p>
 
                 </div>
@@ -957,12 +907,9 @@
                         🛡️ Protection
                     </h3>
 
-
                     <p>
-
                         Learn practical ways to protect your
                         devices, accounts and information.
-
                     </p>
 
                 </div>
@@ -974,12 +921,9 @@
                         🌐 Network Security
                     </h3>
 
-
                     <p>
-
                         Understand basic network security
                         and safe internet practices.
-
                     </p>
 
                 </div>
@@ -1011,11 +955,9 @@
 
 
                 <p>
-
                     Work through the following lessons from
                     beginner concepts to practical cybersecurity
                     fundamentals.
-
                 </p>
 
             </div>
@@ -1032,29 +974,22 @@
                         Lesson 1
                     </span>
 
-
                     <h3>
                         🔐 Introduction to Cybersecurity
                     </h3>
 
-
                     <p>
-
                         Learn what cybersecurity is and why
                         protecting information and technology
                         is important.
-
                     </p>
-
 
                     <button
                         type="button"
                         class="read-btn lesson-btn"
                         data-lesson="lesson1"
                     >
-
                         Start Lesson →
-
                     </button>
 
                 </article>
@@ -1068,28 +1003,21 @@
                         Lesson 2
                     </span>
 
-
                     <h3>
                         🛡️ The CIA Triad
                     </h3>
 
-
                     <p>
-
                         Learn about Confidentiality, Integrity
                         and Availability.
-
                     </p>
-
 
                     <button
                         type="button"
                         class="read-btn lesson-btn"
                         data-lesson="lesson2"
                     >
-
                         Start Lesson →
-
                     </button>
 
                 </article>
@@ -1103,28 +1031,21 @@
                         Lesson 3
                     </span>
 
-
                     <h3>
                         🦠 Types of Malware
                     </h3>
 
-
                     <p>
-
                         Learn about viruses, worms, trojans,
                         spyware and ransomware.
-
                     </p>
-
 
                     <button
                         type="button"
                         class="read-btn lesson-btn"
                         data-lesson="lesson3"
                     >
-
                         Start Lesson →
-
                     </button>
 
                 </article>
@@ -1138,28 +1059,21 @@
                         Lesson 4
                     </span>
 
-
                     <h3>
                         🎣 Phishing Attacks
                     </h3>
 
-
                     <p>
-
                         Learn how attackers use fake messages
                         and websites to deceive users.
-
                     </p>
-
 
                     <button
                         type="button"
                         class="read-btn lesson-btn"
                         data-lesson="lesson4"
                     >
-
                         Start Lesson →
-
                     </button>
 
                 </article>
@@ -1173,28 +1087,21 @@
                         Lesson 5
                     </span>
 
-
                     <h3>
                         🔑 Password Security
                     </h3>
 
-
                     <p>
-
                         Learn how to create strong passwords
                         and protect online accounts.
-
                     </p>
-
 
                     <button
                         type="button"
                         class="read-btn lesson-btn"
                         data-lesson="lesson5"
                     >
-
                         Start Lesson →
-
                     </button>
 
                 </article>
@@ -1208,28 +1115,21 @@
                         Lesson 6
                     </span>
 
-
                     <h3>
                         📱 Two-Factor Authentication
                     </h3>
 
-
                     <p>
-
                         Understand how 2FA adds another layer
                         of account protection.
-
                     </p>
-
 
                     <button
                         type="button"
                         class="read-btn lesson-btn"
                         data-lesson="lesson6"
                     >
-
                         Start Lesson →
-
                     </button>
 
                 </article>
@@ -1243,28 +1143,21 @@
                         Lesson 7
                     </span>
 
-
                     <h3>
                         🌐 Network Security
                     </h3>
 
-
                     <p>
-
                         Learn basic techniques for securing
                         networks, Wi-Fi and internet connections.
-
                     </p>
-
 
                     <button
                         type="button"
                         class="read-btn lesson-btn"
                         data-lesson="lesson7"
                     >
-
                         Start Lesson →
-
                     </button>
 
                 </article>
@@ -1278,28 +1171,21 @@
                         Lesson 8
                     </span>
 
-
                     <h3>
                         🔥 Firewalls
                     </h3>
 
-
                     <p>
-
                         Understand what firewalls do and how
                         they help control network traffic.
-
                     </p>
-
 
                     <button
                         type="button"
                         class="read-btn lesson-btn"
                         data-lesson="lesson8"
                     >
-
                         Start Lesson →
-
                     </button>
 
                 </article>
@@ -1313,28 +1199,21 @@
                         Lesson 9
                     </span>
 
-
                     <h3>
                         🔒 Encryption
                     </h3>
 
-
                     <p>
-
                         Learn how encryption helps protect
                         information from unauthorized access.
-
                     </p>
-
 
                     <button
                         type="button"
                         class="read-btn lesson-btn"
                         data-lesson="lesson9"
                     >
-
                         Start Lesson →
-
                     </button>
 
                 </article>
@@ -1348,28 +1227,21 @@
                         Lesson 10
                     </span>
 
-
                     <h3>
                         👥 Social Engineering
                     </h3>
 
-
                     <p>
-
                         Learn how attackers manipulate people
                         into revealing information.
-
                     </p>
-
 
                     <button
                         type="button"
                         class="read-btn lesson-btn"
                         data-lesson="lesson10"
                     >
-
                         Start Lesson →
-
                     </button>
 
                 </article>
@@ -1383,28 +1255,21 @@
                         Lesson 11
                     </span>
 
-
                     <h3>
                         📲 Mobile Security
                     </h3>
 
-
                     <p>
-
                         Learn how to protect smartphones,
                         applications and personal information.
-
                     </p>
-
 
                     <button
                         type="button"
                         class="read-btn lesson-btn"
                         data-lesson="lesson11"
                     >
-
                         Start Lesson →
-
                     </button>
 
                 </article>
@@ -1418,28 +1283,21 @@
                         Lesson 12
                     </span>
 
-
                     <h3>
                         🌍 Safe Internet Practices
                     </h3>
 
-
                     <p>
-
                         Learn practical techniques for staying
                         safer while using the internet.
-
                     </p>
-
 
                     <button
                         type="button"
                         class="read-btn lesson-btn"
                         data-lesson="lesson12"
                     >
-
                         Start Lesson →
-
                     </button>
 
                 </article>
@@ -1458,6 +1316,7 @@
             <div
                 id="lessonContent"
                 class="tutorial-content"
+                aria-live="polite"
             >
 
                 <h2>
@@ -1466,10 +1325,8 @@
 
 
                 <p>
-
                     Select any lesson above to view the
                     lesson content.
-
                 </p>
 
             </div>
@@ -1478,7 +1335,7 @@
 
 
         <!-- =====================================================
-             CYBERSECURITY SAFETY TIPS
+             SAFETY TIPS
         ====================================================== -->
 
         <section class="section">
@@ -1496,12 +1353,9 @@
                         1️⃣ Use strong passwords
                     </strong>
 
-
                     <p>
-
                         Use long and unique passwords for
                         important accounts.
-
                     </p>
 
                 </div>
@@ -1513,12 +1367,9 @@
                         2️⃣ Enable 2FA
                     </strong>
 
-
                     <p>
-
                         Enable two-factor authentication
                         whenever it is available.
-
                     </p>
 
                 </div>
@@ -1530,12 +1381,9 @@
                         3️⃣ Avoid suspicious links
                     </strong>
 
-
                     <p>
-
                         Do not click links from unknown
                         or suspicious messages.
-
                     </p>
 
                 </div>
@@ -1547,12 +1395,9 @@
                         4️⃣ Update software
                     </strong>
 
-
                     <p>
-
                         Keep your operating system,
                         browser and applications updated.
-
                     </p>
 
                 </div>
@@ -1564,12 +1409,9 @@
                         5️⃣ Use secure Wi-Fi
                     </strong>
 
-
                     <p>
-
                         Avoid entering sensitive information
                         on untrusted networks.
-
                     </p>
 
                 </div>
@@ -1581,12 +1423,9 @@
                         6️⃣ Protect your phone
                     </strong>
 
-
                     <p>
-
                         Use a strong screen lock and keep
                         your phone software updated.
-
                     </p>
 
                 </div>
@@ -1598,12 +1437,9 @@
                         7️⃣ Watch for phishing
                     </strong>
 
-
                     <p>
-
                         Check senders and website addresses
                         before providing information.
-
                     </p>
 
                 </div>
@@ -1615,12 +1451,9 @@
                         8️⃣ Backup important files
                     </strong>
 
-
                     <p>
-
                         Keep backups of important documents
                         and personal files.
-
                     </p>
 
                 </div>
@@ -1632,12 +1465,9 @@
                         9️⃣ Install trusted software
                     </strong>
 
-
                     <p>
-
                         Download applications from
                         trusted sources.
-
                     </p>
 
                 </div>
@@ -1649,12 +1479,9 @@
                         🔟 Protect personal information
                     </strong>
 
-
                     <p>
-
                         Avoid unnecessarily sharing sensitive
                         information online.
-
                     </p>
 
                 </div>
@@ -1683,12 +1510,10 @@
 
 
                 <p>
-
                     You receive a message saying that your
                     bank account will be suspended unless you
                     click a link and enter your username,
                     password and OTP.
-
                 </p>
 
 
@@ -1742,30 +1567,21 @@
 
             <div class="quiz-box">
 
-
                 <!-- QUESTION 1 -->
 
                 <p>
-
-                    <strong>
-                        Question 1:
-                    </strong>
-
+                    <strong>Question 1:</strong>
                     What does 2FA provide?
-
                 </p>
 
 
                 <label>
-
                     <input
                         type="radio"
                         name="q1"
                         value="wrong"
                     >
-
                     A second device only
-
                 </label>
 
 
@@ -1773,15 +1589,12 @@
 
 
                 <label>
-
                     <input
                         type="radio"
                         name="q1"
                         value="correct"
                     >
-
                     An additional verification step
-
                 </label>
 
 
@@ -1789,15 +1602,12 @@
 
 
                 <label>
-
                     <input
                         type="radio"
                         name="q1"
                         value="wrong"
                     >
-
                     A faster internet connection
-
                 </label>
 
 
@@ -1807,26 +1617,18 @@
                 <!-- QUESTION 2 -->
 
                 <p>
-
-                    <strong>
-                        Question 2:
-                    </strong>
-
+                    <strong>Question 2:</strong>
                     Which is a common cyberattack?
-
                 </p>
 
 
                 <label>
-
                     <input
                         type="radio"
                         name="q2"
                         value="correct"
                     >
-
                     Phishing
-
                 </label>
 
 
@@ -1834,15 +1636,12 @@
 
 
                 <label>
-
                     <input
                         type="radio"
                         name="q2"
                         value="wrong"
                     >
-
                     Printing
-
                 </label>
 
 
@@ -1850,15 +1649,12 @@
 
 
                 <label>
-
                     <input
                         type="radio"
                         name="q2"
                         value="wrong"
                     >
-
                     Typing
-
                 </label>
 
 
@@ -1868,26 +1664,18 @@
                 <!-- QUESTION 3 -->
 
                 <p>
-
-                    <strong>
-                        Question 3:
-                    </strong>
-
+                    <strong>Question 3:</strong>
                     Which is safer?
-
                 </p>
 
 
                 <label>
-
                     <input
                         type="radio"
                         name="q3"
                         value="wrong"
                     >
-
                     Using the same password everywhere
-
                 </label>
 
 
@@ -1895,15 +1683,12 @@
 
 
                 <label>
-
                     <input
                         type="radio"
                         name="q3"
                         value="correct"
                     >
-
                     Using unique strong passwords
-
                 </label>
 
 
@@ -1911,15 +1696,12 @@
 
 
                 <label>
-
                     <input
                         type="radio"
                         name="q3"
                         value="wrong"
                     >
-
                     Sharing your password with friends
-
                 </label>
 
 
@@ -1931,13 +1713,14 @@
                     class="read-btn"
                     id="quizBtn"
                 >
-
                     Check Answers
-
                 </button>
 
 
-                <p id="quizResult"></p>
+                <p
+                    id="quizResult"
+                    aria-live="polite"
+                ></p>
 
             </div>
 
@@ -1957,9 +1740,6 @@
 
             <div class="tutorial-grid">
 
-
-                <!-- PYTHON -->
-
                 <div class="tutorial">
 
                     <h3>
@@ -1968,10 +1748,8 @@
 
 
                     <p>
-
                         Learn Python programming from
                         beginner to advanced concepts.
-
                     </p>
 
 
@@ -1979,15 +1757,11 @@
                         href="python-tutorial.html"
                         class="read-btn"
                     >
-
                         Learn Python →
-
                     </a>
 
                 </div>
 
-
-                <!-- HTML -->
 
                 <div class="tutorial">
 
@@ -1997,10 +1771,8 @@
 
 
                     <p>
-
                         Learn how to build websites
                         using HTML.
-
                     </p>
 
 
@@ -2008,15 +1780,11 @@
                         href="html-tutorial.html"
                         class="read-btn"
                     >
-
                         Learn HTML →
-
                     </a>
 
                 </div>
 
-
-                <!-- CSS -->
 
                 <div class="tutorial">
 
@@ -2026,10 +1794,8 @@
 
 
                     <p>
-
                         Learn how to design modern,
                         responsive websites.
-
                     </p>
 
 
@@ -2037,15 +1803,11 @@
                         href="css-tutorial.html"
                         class="read-btn"
                     >
-
                         Learn CSS →
-
                     </a>
 
                 </div>
 
-
-                <!-- MYSQL -->
 
                 <div class="tutorial">
 
@@ -2055,10 +1817,8 @@
 
 
                     <p>
-
                         Learn SQL, databases, tables,
                         queries and relationships.
-
                     </p>
 
 
@@ -2066,9 +1826,7 @@
                         href="mysql-tutorial.html"
                         class="read-btn"
                     >
-
                         Learn MySQL →
-
                     </a>
 
                 </div>
@@ -2092,11 +1850,9 @@
 
 
         <p>
-
             Get new cybersecurity tutorials,
             technology news, security information
             and digital tools from TechHub Ghana.
-
         </p>
 
 
@@ -2113,9 +1869,7 @@
 
 
             <button type="submit">
-
                 Subscribe
-
             </button>
 
         </form>
@@ -2130,7 +1884,6 @@
     <footer>
 
         <div class="footer-grid">
-
 
             <!-- BRAND -->
 
@@ -2147,10 +1900,8 @@
 
 
                 <p>
-
                     Your trusted source for technology
                     tutorials, news and digital tools.
-
                 </p>
 
             </div>
@@ -2166,47 +1917,37 @@
 
 
                 <p>
-
                     <a href="index.html">
                         Home
                     </a>
-
                 </p>
 
 
                 <p>
-
                     <a href="news.html">
                         News
                     </a>
-
                 </p>
 
 
                 <p>
-
                     <a href="tutorials.html">
                         Tutorials
                     </a>
-
                 </p>
 
 
                 <p>
-
                     <a href="tools.html">
                         Tools
                     </a>
-
                 </p>
 
 
                 <p>
-
                     <a href="contact.html">
                         Contact
                     </a>
-
                 </p>
 
             </div>
@@ -2222,65 +1963,51 @@
 
 
                 <p>
-
                     <a href="html-tutorial.html">
                         HTML
                     </a>
-
                 </p>
 
 
                 <p>
-
                     <a href="css-tutorial.html">
                         CSS
                     </a>
-
                 </p>
 
 
                 <p>
-
                     <a href="javascript-tutorial.html">
                         JavaScript
                     </a>
-
                 </p>
 
 
                 <p>
-
                     <a href="python-tutorial.html">
                         Python
                     </a>
-
                 </p>
 
 
                 <p>
-
                     <a href="java-tutorial.html">
                         Java
                     </a>
-
                 </p>
 
 
                 <p>
-
                     <a href="mysql-tutorial.html">
                         MySQL
                     </a>
-
                 </p>
 
 
                 <p>
-
                     <a href="cybersecurity-tutorial.html">
                         Cybersecurity
                     </a>
-
                 </p>
 
             </div>
@@ -2337,14 +2064,12 @@
 
         document.addEventListener("DOMContentLoaded", function () {
 
-
             /* =====================================================
                LESSON CONTENT
             ====================================================== */
 
             const lessonContent =
                 document.getElementById("lessonContent");
-
 
             const lessonButtons =
                 document.querySelectorAll(".lesson-btn");
@@ -2372,14 +2097,12 @@
                     </ul>
 
                     <div class="info-box">
-
                         <strong>Key Point:</strong>
 
                         <p>
                             Cybersecurity includes technology,
                             people, processes, networks and information.
                         </p>
-
                     </div>
                 `,
 
@@ -2412,6 +2135,15 @@
                         Authorized users should be able to access
                         information when they need it.
                     </p>
+
+                    <div class="info-box">
+                        <strong>Remember:</strong>
+
+                        <p>
+                            CIA means Confidentiality, Integrity
+                            and Availability.
+                        </p>
+                    </div>
                 `,
 
 
@@ -2484,13 +2216,11 @@
                     <h3>Warning signs</h3>
 
                     <ul>
-
                         <li>Urgent or threatening messages.</li>
                         <li>Suspicious links.</li>
                         <li>Unexpected attachments.</li>
                         <li>Requests for passwords or OTPs.</li>
                         <li>Unusual sender addresses.</li>
-
                     </ul>
 
                     <div class="info-box">
@@ -2518,7 +2248,9 @@
 
                     <ul>
 
-                        <li>Use long passwords or passphrases.</li>
+                        <li>
+                            Use long passwords or passphrases.
+                        </li>
 
                         <li>
                             Use different passwords for important accounts.
@@ -2588,7 +2320,9 @@
 
                     <ul>
 
-                        <li>Use a strong Wi-Fi password.</li>
+                        <li>
+                            Use a strong Wi-Fi password.
+                        </li>
 
                         <li>
                             Keep routers updated.
@@ -2702,7 +2436,9 @@
 
                     <ul>
 
-                        <li>Use a strong screen lock.</li>
+                        <li>
+                            Use a strong screen lock.
+                        </li>
 
                         <li>
                             Keep the operating system updated.
@@ -2886,6 +2622,151 @@
                     }
 
                 });
+
+            }
+
+
+            /* =====================================================
+               TUTORIAL SEARCH
+            ====================================================== */
+
+            const searchInput =
+                document.getElementById("tutorialSearch");
+
+
+            const searchButton =
+                document.getElementById("tutorialSearchBtn");
+
+
+            function searchTutorials() {
+
+                if (!searchInput) {
+                    return;
+                }
+
+
+                const searchTerm =
+                    searchInput.value
+                        .trim()
+                        .toLowerCase();
+
+
+                const cards =
+                    document.querySelectorAll(".lesson-card");
+
+
+                if (!searchTerm) {
+
+                    cards.forEach(function (card) {
+                        card.style.display = "";
+                    });
+
+                    return;
+                }
+
+
+                cards.forEach(function (card) {
+
+                    const text =
+                        card.textContent.toLowerCase();
+
+
+                    if (text.includes(searchTerm)) {
+
+                        card.style.display = "";
+
+                    } else {
+
+                        card.style.display = "none";
+
+                    }
+
+                });
+
+
+                const lessonSection =
+                    document.getElementById("lessons");
+
+
+                if (lessonSection) {
+
+                    lessonSection.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                    });
+
+                }
+
+            }
+
+
+            if (searchButton) {
+
+                searchButton.addEventListener(
+                    "click",
+                    searchTutorials
+                );
+
+            }
+
+
+            if (searchInput) {
+
+                searchInput.addEventListener(
+                    "keydown",
+                    function (event) {
+
+                        if (event.key === "Enter") {
+
+                            event.preventDefault();
+
+                            searchTutorials();
+
+                        }
+
+                    }
+                );
+
+            }
+
+
+            /* =====================================================
+               NEWSLETTER
+            ====================================================== */
+
+            const newsletterForm =
+                document.getElementById("newsletterForm");
+
+
+            if (newsletterForm) {
+
+                newsletterForm.addEventListener(
+                    "submit",
+                    function (event) {
+
+                        event.preventDefault();
+
+
+                        const email =
+                            document.getElementById(
+                                "newsletterEmail"
+                            );
+
+
+                        if (!email || !email.value.trim()) {
+                            return;
+                        }
+
+
+                        alert(
+                            "Thank you for subscribing to TechHub Ghana!"
+                        );
+
+
+                        email.value = "";
+
+                    }
+                );
 
             }
 
