@@ -1,2640 +1,2085 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <!-- =====================================================
-         BASIC DOCUMENT SETUP
-    ====================================================== -->
-
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    >
-
-    <meta
-        name="theme-color"
-        content="#0b5cff"
-    >
-
-    <title>Tech News | TechHub Ghana</title>
-
-    <meta
-        name="description"
-        content="Latest technology news, AI, cybersecurity, smartphones, software, startups, fintech, gadgets and global technology updates from TechHub Ghana."
-    >
-
-    <meta
-        name="keywords"
-        content="TechHub Ghana, technology news Ghana, AI news, cybersecurity, smartphones, software, startups, fintech, gadgets, technology"
-    >
-
-    <meta
-        name="author"
-        content="TechHub Ghana"
-    >
-
-    <meta
-        name="robots"
-        content="index, follow"
-    >
-
-    <!-- =====================================================
-         OPEN GRAPH
-    ====================================================== -->
-
-    <meta
-        property="og:title"
-        content="Tech News | TechHub Ghana"
-    >
-
-    <meta
-        property="og:description"
-        content="Latest technology news, AI, cybersecurity, smartphones, software, startups and digital innovation."
-    >
-
-    <meta
-        property="og:type"
-        content="website"
-    >
-
-    <meta
-        property="og:image"
-        content="images/logo.png"
-    >
-
-
-    <!-- =====================================================
-         GOOGLE FONTS
-    ====================================================== -->
-
-    <link
-        rel="preconnect"
-        href="https://fonts.googleapis.com"
-    >
-
-    <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet"
-    >
-
-
-    <!-- =====================================================
-         FONT AWESOME
-    ====================================================== -->
-
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    >
-
-
-    <!-- =====================================================
-         MAIN CSS
-    ====================================================== -->
-
-    <link
-        rel="stylesheet"
-        href="style.css"
-    >
-
-
-    <!-- =====================================================
-         NEWS PAGE CSS
-    ====================================================== -->
-
-    <style>
-
-        /* =================================================
-           GLOBAL PROTECTION
-        ================================================= */
-
-        html,
-        body {
-
-            width: 100%;
-            max-width: 100%;
-            overflow-x: hidden;
-
-        }
-
-
-        *,
-        *::before,
-        *::after {
-
-            box-sizing: border-box;
-
-        }
-
-
-        img {
-
-            max-width: 100%;
-            height: auto;
-
-        }
-
-
-        /* =================================================
-           MAIN
-        ================================================= */
-
-        main {
-
-            width: 100%;
-            max-width: 100%;
-            padding-left: 15px;
-            padding-right: 15px;
-
-        }
-
-
-        .section {
-
-            width: 100%;
-            max-width: 1400px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 55px;
-
-        }
-
-
-        /* =================================================
-           HEADER LOGO STANDARD
-        ================================================= */
-
-        .logo {
-
-            display: inline-flex;
-            align-items: center;
-            gap: 12px;
-            min-width: 0;
-            text-decoration: none;
-
-        }
-
-
-        .logo img {
-
-            width: 56px;
-            height: 56px;
-            min-width: 56px;
-            max-width: 56px;
-            object-fit: contain;
-            display: block;
-
-        }
-
-
-        .logo-text {
-
-            min-width: 0;
-
-        }
-
-
-        .logo-text h1,
-        .logo-text p {
-
-            display: block;
-
-        }
-
-
-        .logo-text h1 {
-
-            white-space: nowrap;
-
-        }
-
-
-        .logo-text p {
-
-            white-space: nowrap;
-
-        }
-
-
-        /* =================================================
-           NEWS HERO
-        ================================================= */
-
-        .news-hero {
-
-            margin-top: 25px;
-            padding: 45px 35px;
-            border-radius: 18px;
-
-            background:
-                linear-gradient(
-                    135deg,
-                    #0b5cff,
-                    #083b9c
-                );
-
-            color: #ffffff;
-
-            min-height: 300px;
-
-            display: flex;
-            align-items: center;
-
-        }
-
-
-        .news-hero-content {
-
-            max-width: 760px;
-
-        }
-
-
-        .news-label {
-
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-
-            background: rgba(255,255,255,0.15);
-
-            padding: 7px 13px;
-
-            border-radius: 30px;
-
-            font-size: 0.78rem;
-            font-weight: 700;
-
-            margin-bottom: 15px;
-
-        }
-
-
-        .news-hero h2 {
-
-            font-size: clamp(2rem, 5vw, 3.4rem);
-
-            line-height: 1.15;
-
-            margin: 0 0 15px;
-
-        }
-
-
-        .news-hero p {
-
-            font-size: 1rem;
-
-            line-height: 1.8;
-
-            max-width: 700px;
-
-            margin: 0;
-
-            opacity: 0.95;
-
-        }
-
-
-        /* =================================================
-           CATEGORY NAVIGATION
-        ================================================= */
-
-        .category-bar {
-
-            display: flex;
-
-            gap: 10px;
-
-            overflow-x: auto;
-
-            padding: 5px 0 12px;
-
-            scrollbar-width: thin;
-
-        }
-
-
-        .category-bar a {
-
-            flex: 0 0 auto;
-
-            text-decoration: none;
-
-            padding: 9px 15px;
-
-            border-radius: 25px;
-
-            background: #f1f4f8;
-
-            color: #222;
-
-            font-size: 0.85rem;
-
-            font-weight: 600;
-
-            transition: 0.25s ease;
-
-        }
-
-
-        .category-bar a:hover,
-        .category-bar a.active {
-
-            background: #0b5cff;
-
-            color: #ffffff;
-
-        }
-
-
-        /* =================================================
-           SECTION HEADING
-        ================================================= */
-
-        .news-section-heading {
-
-            display: flex;
-
-            align-items: flex-end;
-
-            justify-content: space-between;
-
-            gap: 20px;
-
-            margin-bottom: 22px;
-
-        }
-
-
-        .news-section-heading h2 {
-
-            margin: 0;
-
-            font-size: 1.7rem;
-
-        }
-
-
-        .news-section-heading p {
-
-            margin: 5px 0 0;
-
-            color: #777;
-
-            font-size: 0.92rem;
-
-        }
-
-
-        .view-all {
-
-            color: #0b5cff;
-
-            text-decoration: none;
-
-            font-weight: 700;
-
-            font-size: 0.9rem;
-
-            white-space: nowrap;
-
-        }
-
-
-        /* =================================================
-           FEATURED NEWS GRID
-        ================================================= */
-
-        .featured-grid {
-
-            display: grid;
-
-            grid-template-columns:
-                minmax(0, 2fr)
-                minmax(280px, 1fr);
-
-            gap: 22px;
-
-        }
-
-
-        .featured-story {
-
-            position: relative;
-
-            min-height: 430px;
-
-            border-radius: 18px;
-
-            overflow: hidden;
-
-            background: #111;
-
-            color: #ffffff;
-
-        }
-
-
-        .featured-story img {
-
-            width: 100%;
-
-            height: 100%;
-
-            min-height: 430px;
-
-            object-fit: cover;
-
-            display: block;
-
-        }
-
-
-        .featured-overlay {
-
-            position: absolute;
-
-            inset: 0;
-
-            display: flex;
-
-            align-items: flex-end;
-
-            padding: 30px;
-
-            background:
-                linear-gradient(
-                    transparent 30%,
-                    rgba(0,0,0,0.85)
-                );
-
-        }
-
-
-        .featured-content {
-
-            max-width: 700px;
-
-        }
-
-
-        .article-category {
-
-            display: inline-block;
-
-            background: #0b5cff;
-
-            color: #ffffff;
-
-            padding: 5px 10px;
-
-            border-radius: 5px;
-
-            font-size: 0.72rem;
-
-            font-weight: 700;
-
-            margin-bottom: 10px;
-
-        }
-
-
-        .featured-content h3 {
-
-            font-size: clamp(1.5rem, 3vw, 2.25rem);
-
-            line-height: 1.25;
-
-            margin: 0 0 10px;
-
-        }
-
-
-        .featured-content p {
-
-            margin: 0 0 12px;
-
-            line-height: 1.6;
-
-            color: rgba(255,255,255,0.9);
-
-        }
-
-
-        .article-meta {
-
-            display: flex;
-
-            flex-wrap: wrap;
-
-            gap: 14px;
-
-            font-size: 0.78rem;
-
-            color: #777;
-
-        }
-
-
-        .featured-content .article-meta {
-
-            color: rgba(255,255,255,0.85);
-
-        }
-
-
-        /* =================================================
-           SIDE STORIES
-        ================================================= */
-
-        .side-news {
-
-            display: grid;
-
-            gap: 18px;
-
-        }
-
-
-        .side-story {
-
-            display: grid;
-
-            grid-template-columns: 125px minmax(0, 1fr);
-
-            gap: 14px;
-
-            padding-bottom: 18px;
-
-            border-bottom: 1px solid #e7e7e7;
-
-        }
-
-
-        .side-story:last-child {
-
-            border-bottom: none;
-
-        }
-
-
-        .side-story img {
-
-            width: 125px;
-
-            height: 100px;
-
-            object-fit: cover;
-
-            border-radius: 10px;
-
-        }
-
-
-        .side-story h3 {
-
-            margin: 7px 0;
-
-            font-size: 0.95rem;
-
-            line-height: 1.45;
-
-        }
-
-
-        .side-story a {
-
-            color: inherit;
-
-            text-decoration: none;
-
-        }
-
-
-        .side-story a:hover {
-
-            color: #0b5cff;
-
-        }
-
-
-        /* =================================================
-           NEWS GRID
-        ================================================= */
-
-        .news-grid {
-
-            display: grid;
-
-            grid-template-columns:
-                repeat(3, minmax(0, 1fr));
-
-            gap: 22px;
-
-        }
-
-
-        .news-card {
-
-            background: #ffffff;
-
-            border: 1px solid #e8e8e8;
-
-            border-radius: 15px;
-
-            overflow: hidden;
-
-            transition:
-                transform 0.25s ease,
-                box-shadow 0.25s ease;
-
-        }
-
-
-        .news-card:hover {
-
-            transform: translateY(-5px);
-
-            box-shadow:
-                0 12px 30px rgba(0,0,0,0.09);
-
-        }
-
-
-        .news-card-image {
-
-            width: 100%;
-
-            height: 210px;
-
-            object-fit: cover;
-
-            display: block;
-
-        }
-
-
-        .news-card-content {
-
-            padding: 18px;
-
-        }
-
-
-        .news-card h3 {
-
-            margin: 8px 0 10px;
-
-            font-size: 1.05rem;
-
-            line-height: 1.45;
-
-        }
-
-
-        .news-card h3 a {
-
-            color: inherit;
-
-            text-decoration: none;
-
-        }
-
-
-        .news-card h3 a:hover {
-
-            color: #0b5cff;
-
-        }
-
-
-        .news-card p {
-
-            color: #666;
-
-            font-size: 0.88rem;
-
-            line-height: 1.65;
-
-            margin: 0 0 14px;
-
-        }
-
-
-        /* =================================================
-           CATEGORY COLORS
-        ================================================= */
-
-        .category-ai {
-
-            background: #6c3df5;
-
-        }
-
-
-        .category-security {
-
-            background: #c62828;
-
-        }
-
-
-        .category-gadgets {
-
-            background: #00897b;
-
-        }
-
-
-        .category-startups {
-
-            background: #ef6c00;
-
-        }
-
-
-        .category-fintech {
-
-            background: #00838f;
-
-        }
-
-
-        /* =================================================
-           TRENDING
-        ================================================= */
-
-        .trending-list {
-
-            display: grid;
-
-            grid-template-columns:
-                repeat(4, minmax(0, 1fr));
-
-            gap: 16px;
-
-        }
-
-
-        .trending-item {
-
-            padding: 18px;
-
-            border-radius: 13px;
-
-            background: #f6f8fb;
-
-            border: 1px solid #e7ebf1;
-
-        }
-
-
-        .trending-number {
-
-            font-size: 1.7rem;
-
-            font-weight: 800;
-
-            color: #0b5cff;
-
-        }
-
-
-        .trending-item h3 {
-
-            font-size: 0.95rem;
-
-            line-height: 1.5;
-
-            margin: 7px 0 0;
-
-        }
-
-
-        .trending-item a {
-
-            color: inherit;
-
-            text-decoration: none;
-
-        }
-
-
-        /* =================================================
-           NEWSLETTER
-        ================================================= */
-
-        .newsletter {
-
-            margin-top: 30px;
-
-        }
-
-
-        .newsletter-box {
-
-            max-width: 1400px;
-
-            margin: auto;
-
-            padding: 45px 30px;
-
-            border-radius: 18px;
-
-            background: #101828;
-
-            color: #ffffff;
-
-            text-align: center;
-
-        }
-
-
-        .newsletter-box h2 {
-
-            margin: 0 0 10px;
-
-        }
-
-
-        .newsletter-box p {
-
-            max-width: 650px;
-
-            margin: 0 auto 22px;
-
-            color: #cbd5e1;
-
-            line-height: 1.7;
-
-        }
-
-
-        .newsletter-form {
-
-            display: flex;
-
-            max-width: 560px;
-
-            margin: auto;
-
-            gap: 10px;
-
-        }
-
-
-        .newsletter-form input {
-
-            flex: 1;
-
-            min-width: 0;
-
-            padding: 13px 15px;
-
-            border: none;
-
-            border-radius: 8px;
-
-            font: inherit;
-
-        }
-
-
-        .newsletter-form button {
-
-            border: none;
-
-            border-radius: 8px;
-
-            padding: 13px 20px;
-
-            background: #0b5cff;
-
-            color: #ffffff;
-
-            font-weight: 700;
-
-            cursor: pointer;
-
-        }
-
-
-        /* =================================================
-           FOOTER
-        ================================================= */
-
-        footer {
-
-            width: 100%;
-
-            max-width: 100%;
-
-            padding-left: 15px;
-
-            padding-right: 15px;
-
-        }
-
-
-        .footer-grid {
-
-            width: 100%;
-
-            max-width: 1400px;
-
-            margin-left: auto;
-
-            margin-right: auto;
-
-        }
-
-
-        /* =================================================
-           DARK MODE SUPPORT
-        ================================================= */
-
-        body.dark-mode .category-bar a {
-
-            background: #1e293b;
-
-            color: #ffffff;
-
-        }
-
-
-        body.dark-mode .news-card {
-
-            background: #111827;
-
-            border-color: #263244;
-
-        }
-
-
-        body.dark-mode .news-card p,
-        body.dark-mode .news-section-heading p {
-
-            color: #b7c0cc;
-
-        }
-
-
-        body.dark-mode .trending-item {
-
-            background: #111827;
-
-            border-color: #263244;
-
-        }
-
-
-        body.dark-mode .side-story {
-
-            border-color: #263244;
-
-        }
-
-
-        /* =================================================
-           TABLET
-        ================================================= */
-
-        @media (max-width: 900px) {
-
-            .featured-grid {
-
-                grid-template-columns: 1fr;
-
-            }
-
-
-            .news-grid {
-
-                grid-template-columns:
-                    repeat(2, minmax(0, 1fr));
-
-            }
-
-
-            .trending-list {
-
-                grid-template-columns:
-                    repeat(2, minmax(0, 1fr));
-
-            }
-
-        }
-
-
-        /* =================================================
-           MOBILE
-        ================================================= */
-
-        @media (max-width: 768px) {
-
-            main {
-
-                padding-left: 10px;
-                padding-right: 10px;
-
-            }
-
-
-            .top-bar {
-
-                width: 100%;
-                max-width: 100%;
-
-                padding-left: 16px;
-                padding-right: 16px;
-
-            }
-
-
-            .logo {
-
-                gap: 9px;
-
-                max-width:
-                    calc(100% - 58px);
-
-            }
-
-
-            .logo img {
-
-                width: 44px;
-                height: 44px;
-
-                min-width: 44px;
-                max-width: 44px;
-
-            }
-
-
-            .logo-text {
-
-                overflow: hidden;
-
-            }
-
-
-            .logo-text h1 {
-
-                font-size: 1rem;
-
-                overflow: hidden;
-
-                text-overflow: ellipsis;
-
-            }
-
-
-            .logo-text p {
-
-                font-size: 0.58rem;
-
-                overflow: hidden;
-
-                text-overflow: ellipsis;
-
-            }
-
-
-            .news-hero {
-
-                padding: 32px 22px;
-
-            }
-
-
-            .news-section-heading {
-
-                align-items: flex-start;
-
-                flex-direction: column;
-
-                gap: 8px;
-
-            }
-
-
-            .news-grid {
-
-                grid-template-columns: 1fr;
-
-            }
-
-
-            .trending-list {
-
-                grid-template-columns: 1fr;
-
-            }
-
-
-            .featured-story,
-            .featured-story img {
-
-                min-height: 350px;
-
-            }
-
-
-            .featured-overlay {
-
-                padding: 20px;
-
-            }
-
-
-            .newsletter-form {
-
-                flex-direction: column;
-
-            }
-
-
-            footer {
-
-                padding-left: 10px;
-                padding-right: 10px;
-
-            }
-
-        }
-
-
-        /* =================================================
-           SMALL PHONES
-        ================================================= */
-
-        @media (max-width: 480px) {
-
-            main {
-
-                padding-left: 8px;
-                padding-right: 8px;
-
-            }
-
-
-            .top-bar {
-
-                padding-left: 12px;
-                padding-right: 12px;
-
-            }
-
-
-            .logo {
-
-                gap: 8px;
-
-            }
-
-
-            .logo img {
-
-                width: 40px;
-                height: 40px;
-
-                min-width: 40px;
-                max-width: 40px;
-
-            }
-
-
-            .logo-text h1 {
-
-                font-size: 0.92rem;
-
-            }
-
-
-            .logo-text p {
-
-                font-size: 0.52rem;
-
-            }
-
-
-            .news-hero {
-
-                padding: 26px 17px;
-
-                border-radius: 14px;
-
-            }
-
-
-            .featured-story,
-            .featured-story img {
-
-                min-height: 310px;
-
-            }
-
-
-            .featured-content h3 {
-
-                font-size: 1.35rem;
-
-            }
-
-
-            .side-story {
-
-                grid-template-columns: 95px minmax(0, 1fr);
-
-            }
-
-
-            .side-story img {
-
-                width: 95px;
-                height: 85px;
-
-            }
-
-
-            footer {
-
-                padding-left: 8px;
-                padding-right: 8px;
-
-            }
-
-        }
-
-    </style>
-
-</head>
-
-
-<body id="top">
-
-
-<!-- =====================================================
-     SKIP LINK
-====================================================== -->
-
-<a
-    href="#main-content"
-    class="skip-link"
->
-    Skip to main content
-</a>
-
-
-<!-- =====================================================
-     HEADER
-====================================================== -->
-
-<header
-    class="main-header"
-    id="siteHeader"
->
-
-    <div class="top-bar">
-
-
-        <!-- LOGO -->
-
-        <a
-            href="index.html"
-            class="logo"
-            aria-label="TechHub Ghana home"
-        >
-
-            <img
-                src="images/logo.png"
-                alt="TechHub Ghana logo"
-                width="56"
-                height="56"
-            >
-
-
-            <div class="logo-text">
-
-                <h1>
-                    TechHub Ghana
-                </h1>
-
-                <p>
-                    Technology • Tutorials • Digital Tools
-                </p>
-
-            </div>
-
-        </a>
-
-
-        <!-- HEADER RIGHT -->
-
-        <div class="header-right">
-
-
-            <form
-                class="search-box"
-                id="siteSearchForm"
-                role="search"
-            >
-
-                <label
-                    for="siteSearch"
-                    class="sr-only"
-                >
-                    Search TechHub Ghana
-                </label>
-
-                <input
-                    type="search"
-                    id="siteSearch"
-                    placeholder="Search technology..."
-                    autocomplete="off"
-                >
-
-                <button
-                    type="submit"
-                    aria-label="Search"
-                >
-
-                    <i
-                        class="fa-solid fa-magnifying-glass"
-                        aria-hidden="true"
-                    ></i>
-
-                </button>
-
-            </form>
-
-
-            <button
-                type="button"
-                id="darkModeBtn"
-                class="dark-mode-btn"
-                aria-label="Toggle dark mode"
-                title="Toggle dark mode"
-            >
-                🌙
-            </button>
-
-        </div>
-
-    </div>
-
-
-    <!-- MOBILE MENU -->
-
-    <button
-        type="button"
-        class="menu-btn"
-        id="menuBtn"
-        aria-label="Open navigation menu"
-        aria-controls="navMenu"
-        aria-expanded="false"
-    >
-        ☰
-    </button>
-
-
-    <!-- NAVIGATION -->
-
-    <nav
-        id="navMenu"
-        aria-label="Main navigation"
-    >
-
-        <a href="index.html">
-            <i class="fa-solid fa-house"></i>
-            Home
-        </a>
-
-
-        <a href="ghana-tech.html">
-            🇬🇭 Ghana Tech
-        </a>
-
-
-        <a
-            href="news.html"
-            class="active"
-            aria-current="page"
-        >
-            <i class="fa-regular fa-newspaper"></i>
-            News
-        </a>
-
-
-        <a href="tutorials.html">
-            <i class="fa-solid fa-graduation-cap"></i>
-            Tutorials
-        </a>
-
-
-        <a href="tools.html">
-            <i class="fa-solid fa-toolbox"></i>
-            Tools
-        </a>
-
-
-        <a href="gpa.html">
-            🎓 GPA
-        </a>
-
-
-        <a href="qr-generator.html">
-            📱 QR Generator
-        </a>
-
-
-        <a href="ai-assistant.html">
-            🤖 AI Assistant
-        </a>
-
-
-        <a href="about.html">
-            <i class="fa-solid fa-circle-info"></i>
-            About
-        </a>
-
-
-        <a href="contact.html">
-            <i class="fa-solid fa-envelope"></i>
-            Contact
-        </a>
-
-    </nav>
-
-</header>
-
-
-<!-- =====================================================
-     BREAKING NEWS
-====================================================== -->
-
-<section
-    class="breaking-news"
-    aria-label="Breaking technology news"
->
-
-    <div class="breaking-inner">
-
-        <div class="breaking-label">
-
-            <i class="fa-solid fa-bolt"></i>
-
-            BREAKING
-
-        </div>
-
-
-        <div class="breaking-content">
-
-            <div class="breaking-track">
-
-                <span>
-                    Latest technology updates from TechHub Ghana
-                </span>
-
-                <span>
-                    AI • Cybersecurity • Smartphones • Startups
-                </span>
-
-                <span>
-                    Ghana Tech • FinTech • Software • Gadgets
-                </span>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     MAIN
-====================================================== -->
-
-<main id="main-content">
-
-
-    <!-- =================================================
-         HERO
-    ================================================== -->
-
-    <section class="section">
-
-        <div class="news-hero">
-
-            <div class="news-hero-content">
-
-                <span class="news-label">
-
-                    <i class="fa-solid fa-newspaper"></i>
-
-                    TECHHUB GHANA NEWS
-
-                </span>
-
-
-                <h2>
-                    Technology News That Matters
-                </h2>
-
-
-                <p>
-
-                    Stay informed about the latest developments
-                    in technology, artificial intelligence,
-                    cybersecurity, smartphones, startups,
-                    software and digital innovation in Ghana
-                    and around the world.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =================================================
-         CATEGORY NAVIGATION
-    ================================================== -->
-
-    <section class="section">
-
-        <div
-            class="category-bar"
-            aria-label="News categories"
-        >
-
-            <a
-                href="news.html"
-                class="active"
-            >
-                All
-            </a>
-
-            <a href="news.html?category=ai">
-                🤖 AI
-            </a>
-
-            <a href="news.html?category=cybersecurity">
-                🔐 Cybersecurity
-            </a>
-
-            <a href="news.html?category=smartphones">
-                📱 Smartphones
-            </a>
-
-            <a href="news.html?category=software">
-                💻 Software
-            </a>
-
-            <a href="news.html?category=startups">
-                🚀 Startups
-            </a>
-
-            <a href="news.html?category=fintech">
-                💳 FinTech
-            </a>
-
-            <a href="news.html?category=gadgets">
-                🖥️ Gadgets
-            </a>
-
-        </div>
-
-    </section>
-
-
-    <!-- =================================================
-         FEATURED
-    ================================================== -->
-
-    <section class="section">
-
-        <div class="news-section-heading">
-
-            <div>
-
-                <h2>
-                    🔥 Featured Technology
-                </h2>
-
-                <p>
-                    Important stories and developments
-                    from the technology world.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="featured-grid">
-
-
-            <!-- MAIN FEATURE -->
-
-            <article class="featured-story">
-
-                <img
-                    src="images/ai-news.jpg"
-                    alt="Artificial intelligence technology"
-                    loading="eager"
-                >
-
-
-                <div class="featured-overlay">
-
-                    <div class="featured-content">
-
-                        <span class="article-category category-ai">
-                            AI
-                        </span>
-
-
-                        <h3>
-
-                            The Rise of Artificial Intelligence
-                            and What It Means for the Future
-
-                        </h3>
-
-
-                        <p>
-
-                            Explore how artificial intelligence
-                            is changing the way people work,
-                            learn and use technology.
-
-                        </p>
-
-
-                        <div class="article-meta">
-
-                            <span>
-                                <i class="fa-regular fa-user"></i>
-                                TechHub Ghana
-                            </span>
-
-                            <span>
-                                <i class="fa-regular fa-clock"></i>
-                                5 min read
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- SIDE STORIES -->
-
-            <div class="side-news">
-
-
-                <article class="side-story">
-
-                    <img
-                        src="images/cyber-news.jpg"
-                        alt="Cybersecurity"
-                        loading="lazy"
-                    >
-
-
-                    <div>
-
-                        <span class="article-category category-security">
-                            Cybersecurity
-                        </span>
-
-                        <h3>
-
-                            <a href="article.html">
-                                Why online security is becoming
-                                more important
-
-                            </a>
-
-                        </h3>
-
-
-                        <div class="article-meta">
-
-                            <span>
-                                4 min read
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <article class="side-story">
-
-                    <img
-                        src="images/web-news.jpg"
-                        alt="Web development"
-                        loading="lazy"
-                    >
-
-
-                    <div>
-
-                        <span class="article-category">
-                            Software
-                        </span>
-
-                        <h3>
-
-                            <a href="article.html">
-                                Web development continues
-                                to evolve rapidly
-
-                            </a>
-
-                        </h3>
-
-
-                        <div class="article-meta">
-
-                            <span>
-                                6 min read
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <article class="side-story">
-
-                    <img
-                        src="images/cloud-news.jpg"
-                        alt="Cloud computing"
-                        loading="lazy"
-                    >
-
-
-                    <div>
-
-                        <span class="article-category">
-                            Cloud
-                        </span>
-
-                        <h3>
-
-                            <a href="article.html">
-                                Cloud computing is changing
-                                modern businesses
-
-                            </a>
-
-                        </h3>
-
-
-                        <div class="article-meta">
-
-                            <span>
-                                5 min read
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =================================================
-         LATEST NEWS
-    ================================================== -->
-
-    <section class="section">
-
-        <div class="news-section-heading">
-
-            <div>
-
-                <h2>
-                    📰 Latest Technology News
-                </h2>
-
-                <p>
-                    Fresh technology stories and updates.
-                </p>
-
-            </div>
-
-
-            <a
-                href="news.html"
-                class="view-all"
-            >
-                View All →
-            </a>
-
-        </div>
-
-
-        <div class="news-grid">
-
-
-            <!-- ARTICLE 1 -->
-
-            <article class="news-card">
-
-                <img
-                    class="news-card-image"
-                    src="images/ai-news.jpg"
-                    alt="AI technology"
-                    loading="lazy"
-                >
-
-
-                <div class="news-card-content">
-
-                    <span class="article-category category-ai">
-                        AI
-                    </span>
-
-
-                    <h3>
-
-                       <a href="article.html?id=ai-future">
-                            Artificial intelligence is
-                            transforming digital experiences
-                        </a>
-
-                    </h3>
-
-
-                    <p>
-
-                        AI continues to influence software,
-                        education, business and everyday
-                        digital services.
-
-                    </p>
-
-
-                    <div class="article-meta">
-
-                        <span>
-                            <i class="fa-regular fa-calendar"></i>
-                            TechHub Ghana
-                        </span>
-
-                        <span>
-                            5 min
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- ARTICLE 2 -->
-
-            <article class="news-card">
-
-                <img
-                    class="news-card-image"
-                    src="images/cyber-news.jpg"
-                    alt="Cybersecurity technology"
-                    loading="lazy"
-                >
-
-
-                <div class="news-card-content">
-
-                    <span class="article-category category-security">
-                        Cybersecurity
-                    </span>
-
-
-                    <h3>
-
-                        <a href="article.html">
-                            Simple cybersecurity habits
-                            everyone should know
-                        </a>
-
-                    </h3>
-
-
-                    <p>
-
-                        Learn practical ways to protect
-                        your accounts, devices and personal
-                        information online.
-
-                    </p>
-
-
-                    <div class="article-meta">
-
-                        <span>
-                            TechHub Ghana
-                        </span>
-
-                        <span>
-                            4 min
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- ARTICLE 3 -->
-
-            <article class="news-card">
-
-                <img
-                    class="news-card-image"
-                    src="images/web-news.jpg"
-                    alt="Web development"
-                    loading="lazy"
-                >
-
-
-                <div class="news-card-content">
-
-                    <span class="article-category">
-                        Software
-                    </span>
-
-
-                    <h3>
-
-                        <a href="article.html">
-                            Modern web development tools
-                            developers should know
-                        </a>
-
-                    </h3>
-
-
-                    <p>
-
-                        Discover technologies that are
-                        shaping modern websites and
-                        web applications.
-
-                    </p>
-
-
-                    <div class="article-meta">
-
-                        <span>
-                            TechHub Ghana
-                        </span>
-
-                        <span>
-                            6 min
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- ARTICLE 4 -->
-
-            <article class="news-card">
-
-                <img
-                    class="news-card-image"
-                    src="images/cloud-news.jpg"
-                    alt="Cloud computing"
-                    loading="lazy"
-                >
-
-
-                <div class="news-card-content">
-
-                    <span class="article-category">
-                        Cloud
-                    </span>
-
-
-                    <h3>
-
-                        <a href="article.html">
-                            Understanding cloud computing
-                            for beginners
-                        </a>
-
-                    </h3>
-
-
-                    <p>
-
-                        A beginner-friendly look at how
-                        cloud services work and why they
-                        matter.
-
-                    </p>
-
-
-                    <div class="article-meta">
-
-                        <span>
-                            TechHub Ghana
-                        </span>
-
-                        <span>
-                            5 min
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- ARTICLE 5 -->
-
-            <article class="news-card">
-
-                <img
-                    class="news-card-image"
-                    src="images/ai-news.jpg"
-                    alt="Artificial intelligence"
-                    loading="lazy"
-                >
-
-
-                <div class="news-card-content">
-
-                    <span class="article-category category-ai">
-                        AI
-                    </span>
-
-
-                    <h3>
-
-                        <a href="article.html">
-                            How businesses are using AI
-                            to improve productivity
-                        </a>
-
-                    </h3>
-
-
-                    <p>
-
-                        AI-powered tools are increasingly
-                        helping organizations automate
-                        repetitive tasks.
-
-                    </p>
-
-
-                    <div class="article-meta">
-
-                        <span>
-                            TechHub Ghana
-                        </span>
-
-                        <span>
-                            4 min
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- ARTICLE 6 -->
-
-            <article class="news-card">
-
-                <img
-                    class="news-card-image"
-                    src="images/web-news.jpg"
-                    alt="Technology innovation"
-                    loading="lazy"
-                >
-
-
-                <div class="news-card-content">
-
-                    <span class="article-category category-startups">
-                        Startups
-                    </span>
-
-
-                    <h3>
-
-                        <a href="article.html">
-                            Why technology startups continue
-                            to attract global attention
-                        </a>
-
-                    </h3>
-
-
-                    <p>
-
-                        Technology startups are creating
-                        new products, services and business
-                        models around the world.
-
-                    </p>
-
-
-                    <div class="article-meta">
-
-                        <span>
-                            TechHub Ghana
-                        </span>
-
-                        <span>
-                            5 min
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <!-- =================================================
-         TRENDING
-    ================================================== -->
-
-    <section class="section">
-
-        <div class="news-section-heading">
-
-            <div>
-
-                <h2>
-                    📈 Trending Now
-                </h2>
-
-                <p>
-                    Topics readers are following.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="trending-list">
-
-
-            <article class="trending-item">
-
-                <div class="trending-number">
-                    01
-                </div>
-
-                <h3>
-
-                    <a href="article.html">
-                        Artificial Intelligence
-                    </a>
-
-                </h3>
-
-            </article>
-
-
-            <article class="trending-item">
-
-                <div class="trending-number">
-                    02
-                </div>
-
-                <h3>
-
-                    <a href="article.html">
-                        Cybersecurity
-                    </a>
-
-                </h3>
-
-            </article>
-
-
-            <article class="trending-item">
-
-                <div class="trending-number">
-                    03
-                </div>
-
-                <h3>
-
-                    <a href="article.html">
-                        Smartphones
-                    </a>
-
-                </h3>
-
-            </article>
-
-
-            <article class="trending-item">
-
-                <div class="trending-number">
-                    04
-                </div>
-
-                <h3>
-
-                    <a href="article.html">
-                        Ghana Technology
-                    </a>
-
-                </h3>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-</main>
-
-
-<!-- =====================================================
-     NEWSLETTER
-====================================================== -->
-
-<section class="newsletter">
-
-    <div class="newsletter-box">
-
-        <h2>
-            📩 Get TechHub Ghana Updates
-        </h2>
-
-
-        <p>
-
-            Subscribe to receive important technology
-            news, guides, tools and Ghana tech updates.
-
-        </p>
-
-
-        <form
-            class="newsletter-form"
-            id="newsletterForm"
-        >
-
-            <label
-                for="newsletterEmail"
-                class="sr-only"
-            >
-                Email address
-            </label>
-
-
-            <input
-                type="email"
-                id="newsletterEmail"
-                placeholder="Enter your email address"
-                autocomplete="email"
-                required
-            >
-
-
-            <button type="submit">
-                Subscribe
-            </button>
-
-        </form>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     FOOTER
-====================================================== -->
-
-<footer>
-
-    <div class="footer-grid">
-
-
-        <div class="footer-column">
-
-            <h3>
-                TechHub Ghana
-            </h3>
-
-            <p>
-                Technology • Innovation • Learning
-            </p>
-
-            <p>
-                Your trusted source for technology
-                news, tutorials, reviews and digital tools.
-            </p>
-
-        </div>
-
-
-        <div class="footer-column">
-
-            <h3>
-                Quick Links
-            </h3>
-
-            <p>
-                <a href="index.html">
-                    Home
-                </a>
-            </p>
-
-            <p>
-                <a href="ghana-tech.html">
-                    Ghana Tech
-                </a>
-            </p>
-
-            <p>
-                <a href="news.html">
-                    News
-                </a>
-            </p>
-
-            <p>
-                <a href="tutorials.html">
-                    Tutorials
-                </a>
-            </p>
-
-            <p>
-                <a href="tools.html">
-                    Tools
-                </a>
-            </p>
-
-        </div>
-
-
-        <div class="footer-column">
-
-            <h3>
-                Categories
-            </h3>
-
-            <p>
-                <a href="news.html?category=ai">
-                    AI
-                </a>
-            </p>
-
-            <p>
-                <a href="news.html?category=cybersecurity">
-                    Cybersecurity
-                </a>
-            </p>
-
-            <p>
-                <a href="news.html?category=smartphones">
-                    Smartphones
-                </a>
-            </p>
-
-            <p>
-                <a href="news.html?category=startups">
-                    Startups
-                </a>
-            </p>
-
-            <p>
-                <a href="news.html?category=fintech">
-                    FinTech
-                </a>
-            </p>
-
-        </div>
-
-
-        <div class="footer-column">
-
-            <h3>
-                Legal
-            </h3>
-
-            <p>
-                <a href="privacy.html">
-                    Privacy Policy
-                </a>
-            </p>
-
-            <p>
-                <a href="terms.html">
-                    Terms of Use
-                </a>
-            </p>
-
-            <p>
-                <a href="disclaimer.html">
-                    Disclaimer
-                </a>
-            </p>
-
-            <p>
-                <a href="contact.html">
-                    Contact
-                </a>
-            </p>
-
-        </div>
-
-    </div>
-
-
-    <hr>
-
-
-    <p class="copyright">
-
-        © 2026 TechHub Ghana.
-        All Rights Reserved.
-
-    </p>
-
-</footer>
-
-
-<!-- =====================================================
-     MAIN JAVASCRIPT
-====================================================== -->
-
-<script src="script.js" defer></script>
-
-
-<!-- =====================================================
-     NEWS PAGE JAVASCRIPT
-====================================================== -->
-
-<script>
-
-document.addEventListener(
-    "DOMContentLoaded",
-    function () {
-
-
-        /* =================================================
-           SEARCH
-        ================================================== */
-
-        const searchForm =
-            document.getElementById(
-                "siteSearchForm"
-            );
-
-
-        const searchInput =
-            document.getElementById(
-                "siteSearch"
-            );
-
-
-        if (searchForm && searchInput) {
-
-            searchForm.addEventListener(
-                "submit",
-                function (event) {
-
-                    event.preventDefault();
-
-
-                    const query =
-                        searchInput.value.trim();
-
-
-                    if (!query) {
-
-                        return;
-
-                    }
-
-
-                    window.location.href =
-                        "search.html?q=" +
-                        encodeURIComponent(query);
-
-                }
-            );
-
-        }
-
-
-        /* =================================================
-           NEWSLETTER
-        ================================================== */
-
-        const newsletterForm =
-            document.getElementById(
-                "newsletterForm"
-            );
-
-
-        const newsletterEmail =
-            document.getElementById(
-                "newsletterEmail"
-            );
-
-
-        if (
-            newsletterForm &&
-            newsletterEmail
-        ) {
-
-            newsletterForm.addEventListener(
-                "submit",
-                function (event) {
-
-                    event.preventDefault();
-
-
-                    const email =
-                        newsletterEmail.value.trim();
-
-
-                    if (!email) {
-
-                        return;
-
-                    }
-
-
-                    alert(
-                        "Thank you for subscribing to TechHub Ghana! 🎉"
-                    );
-
-
-                    newsletterForm.reset();
-
-                }
-            );
-
-        }
-
-    }
-);
+<!DOCTYPE html>  <html lang="en">  <head>  <!-- =====================================================  
+     BASIC DOCUMENT SETTINGS  
+====================================================== -->  
+
+<meta charset="UTF-8">  
+
+<meta  
+    name="viewport"  
+    content="width=device-width, initial-scale=1.0"  
+>  
+
+<meta  
+    name="theme-color"  
+    content="#0756d6"  
+>  
+
+<meta  
+    name="robots"  
+    content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"  
+>  
+
+<meta  
+    name="googlebot"  
+    content="index, follow"  
+>  
+
+<title>  
+    Latest Technology News in Ghana & Worldwide | TechHub Ghana  
+</title>  
+
+<meta  
+    name="description"  
+    content="Read the latest technology news from Ghana and around the world. Get updates on Artificial Intelligence, cybersecurity, programming, cloud computing, mobile technology and digital innovation from TechHub Ghana."  
+>  
+
+<meta  
+    name="keywords"  
+    content="TechHub Ghana, Ghana technology news, technology news Ghana, latest tech news Ghana, AI news Ghana, Artificial Intelligence news, cybersecurity news, programming news, cloud computing news, mobile technology Ghana, digital innovation Ghana"  
+>  
+
+<meta  
+    name="author"  
+    content="TechHub Ghana"  
+>  
+
+<!-- =====================================================  
+     CANONICAL URL  
+====================================================== -->  
+
+<link  
+    rel="canonical"  
+    href="https://juliusas009-wq.github.io/TechHub-Ghana./news.html"  
+>  
+
+<!-- =====================================================  
+     GOOGLE SEARCH CONSOLE VERIFICATION  
+       
+     Keep this if it is the same verification code  
+     already verified for your TechHub Ghana property.  
+====================================================== -->  
+
+<meta  
+    name="google-site-verification"  
+    content="VxKjLQkOZ_DjoRForIx9ng3cbZoJrQd4xVhIOhxNrto"  
+>  
+
+<!-- =====================================================  
+     GOOGLE ANALYTICS 4  
+====================================================== -->  
+
+<script  
+    async  
+    src="https://www.googletagmanager.com/gtag/js?id=G-Q94MWFL2VD"  
+></script>  
+
+<script>  
+
+    window.dataLayer = window.dataLayer || [];  
+
+    function gtag() {  
+        dataLayer.push(arguments);  
+    }  
+
+    gtag(  
+        "js",  
+        new Date()  
+    );  
+
+    gtag(  
+        "config",  
+        "G-Q94MWFL2VD"  
+    );  
+
+</script>  
+
+<!-- =====================================================  
+     OPEN GRAPH  
+====================================================== -->  
+
+<meta  
+    property="og:type"  
+    content="website"  
+>  
+
+<meta  
+    property="og:title"  
+    content="Latest Technology News in Ghana & Worldwide | TechHub Ghana"  
+>  
+
+<meta  
+    property="og:description"  
+    content="Stay updated with technology news covering Artificial Intelligence, cybersecurity, programming, cloud computing, mobile technology and digital innovation."  
+>  
+
+<meta  
+    property="og:url"  
+    content="https://juliusas009-wq.github.io/TechHub-Ghana./news.html"  
+>  
+
+<meta  
+    property="og:site_name"  
+    content="TechHub Ghana"  
+>  
+
+<meta  
+    property="og:image"  
+    content="https://juliusas009-wq.github.io/TechHub-Ghana./images/ai-news.jpg"  
+>  
+
+<meta  
+    property="og:image:alt"  
+    content="TechHub Ghana latest technology news"  
+>  
+
+<!-- =====================================================  
+     TWITTER / X  
+====================================================== -->  
+
+<meta  
+    name="twitter:card"  
+    content="summary_large_image"  
+>  
+
+<meta  
+    name="twitter:title"  
+    content="Latest Technology News in Ghana & Worldwide | TechHub Ghana"  
+>  
+
+<meta  
+    name="twitter:description"  
+    content="Latest technology news, AI, cybersecurity, programming, cloud computing and digital innovation from TechHub Ghana."  
+>  
+
+<meta  
+    name="twitter:image"  
+    content="https://juliusas009-wq.github.io/TechHub-Ghana./images/ai-news.jpg"  
+>  
+
+<!-- =====================================================  
+     FAVICON  
+====================================================== -->  
+
+<link  
+    rel="icon"  
+    type="image/png"  
+    href="images/logo.png"  
+>  
+
+<link  
+    rel="apple-touch-icon"  
+    href="images/logo.png"  
+>  
+
+<!-- =====================================================  
+     GOOGLE FONTS  
+====================================================== -->  
+
+<link  
+    rel="preconnect"  
+    href="https://fonts.googleapis.com"  
+>  
+
+<link  
+    rel="preconnect"  
+    href="https://fonts.gstatic.com"  
+    crossorigin  
+>  
+
+<link  
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"  
+    rel="stylesheet"  
+>  
+
+<!-- =====================================================  
+     FONT AWESOME  
+====================================================== -->  
+
+<link  
+    rel="stylesheet"  
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  
+>  
+
+<!-- =====================================================  
+     MAIN STYLESHEET  
+====================================================== -->  
+
+<link  
+    rel="stylesheet"  
+    href="style.css"  
+>  
+
+<!-- =====================================================  
+     MOBILE SAFETY + STANDARD SIDE SPACING  
+       
+     TechHub Ghana project standard:  
+     Desktop: 15px  
+     Tablet: 10px  
+     Small phones: 8px  
+====================================================== -->  
+
+<style>  
+
+    html,  
+    body {  
+        width: 100%;  
+        max-width: 100%;  
+        overflow-x: hidden;  
+    }  
+
+    *,  
+    *::before,  
+    *::after {  
+        box-sizing: border-box;  
+    }  
+
+    img {  
+        max-width: 100%;  
+        height: auto;  
+    }  
+
+    /* =================================================  
+       ACCESSIBILITY  
+    ================================================== */  
+
+    .sr-only {  
+        position: absolute;  
+        width: 1px;  
+        height: 1px;  
+        padding: 0;  
+        margin: -1px;  
+        overflow: hidden;  
+        clip: rect(0, 0, 0, 0);  
+        white-space: nowrap;  
+        border: 0;  
+    }  
+
+    .skip-link {  
+        position: absolute;  
+        left: 10px;  
+        top: -100px;  
+        z-index: 9999;  
+        padding: 10px 14px;  
+        background: #0756d6;  
+        color: #ffffff;  
+        text-decoration: none;  
+        border-radius: 6px;  
+    }  
+
+    .skip-link:focus {  
+        top: 10px;  
+    }  
+
+    /* =================================================  
+       STANDARD CONTENT WIDTH / SIDE SPACING  
+    ================================================== */  
+
+    .news-hero,  
+    .section,  
+    .newsletter,  
+    footer {  
+        width: 100%;  
+        max-width: 100%;  
+    }  
+
+    .news-hero,  
+    .section > .section-heading,  
+    .section > .category-buttons,  
+    .section > .news-layout,  
+    .section > .ghana-grid,  
+    .newsletter-content,  
+    .footer-grid,  
+    footer > hr,  
+    .copyright {  
+        width: calc(100% - 30px);  
+        max-width: 1400px;  
+        margin-left: auto;  
+        margin-right: auto;  
+    }  
+
+    /* =================================================  
+       HERO IMAGES  
+    ================================================== */  
+
+    .featured-image,  
+    .mini-card img,  
+    .ghana-card img {  
+        max-width: 100%;  
+        overflow: hidden;  
+    }  
+
+    .featured-image img,  
+    .mini-card img,  
+    .ghana-card img {  
+        display: block;  
+        width: 100%;  
+        max-width: 100%;  
+        height: auto;  
+        object-fit: cover;  
+    }  
+
+    /* =================================================  
+       MOBILE  
+    ================================================== */  
+
+    @media (max-width: 768px) {  
+
+        .news-hero,  
+        .section > .section-heading,  
+        .section > .category-buttons,  
+        .section > .news-layout,  
+        .section > .ghana-grid,  
+        .newsletter-content,  
+        .footer-grid,  
+        footer > hr,  
+        .copyright {  
+            width: calc(100% - 20px);  
+        }  
+
+        .top-bar {  
+            padding-left: 16px;  
+            padding-right: 16px;  
+        }  
+
+        .logo img {  
+            width: 44px !important;  
+            height: 44px !important;  
+        }  
+
+        .logo-text h1 {  
+            font-size: 1rem;  
+        }  
+
+        .logo-text p {  
+            font-size: 0.58rem;  
+        }  
+
+        nav {  
+            width: 100%;  
+            max-width: 100%;  
+        }  
+
+        .news-layout {  
+            min-width: 0;  
+        }  
+
+        .news-left,  
+        .sidebar {  
+            width: 100%;  
+            max-width: 100%;  
+            min-width: 0;  
+        }  
+
+        .featured-news,  
+        .featured-mini-grid,  
+        .ghana-grid {  
+            width: 100%;  
+            max-width: 100%;  
+            min-width: 0;  
+        }  
+
+        .breaking-news {  
+            width: 100%;  
+            max-width: 100%;  
+            overflow: hidden;  
+        }  
+
+    }  
+
+    /* =================================================  
+       SMALL PHONES  
+    ================================================== */  
+
+    @media (max-width: 480px) {  
+
+        .news-hero,  
+        .section > .section-heading,  
+        .section > .category-buttons,  
+        .section > .news-layout,  
+        .section > .ghana-grid,  
+        .newsletter-content,  
+        .footer-grid,  
+        footer > hr,  
+        .copyright {  
+            width: calc(100% - 16px);  
+        }  
+
+        .top-bar {  
+            padding-left: 12px;  
+            padding-right: 12px;  
+        }  
+
+        .logo img {  
+            width: 40px !important;  
+            height: 40px !important;  
+        }  
+
+        .logo-text h1 {  
+            font-size: 0.92rem;  
+        }  
+
+        .logo-text p {  
+            font-size: 0.52rem;  
+        }  
+
+        .featured-content h2 {  
+            font-size: clamp(1.6rem, 8vw, 2.3rem);  
+            line-height: 1.2;  
+        }  
+
+        .section-heading h2 {  
+            font-size: 1.5rem;  
+        }  
+
+        .category-buttons {  
+            overflow-x: auto;  
+            -webkit-overflow-scrolling: touch;  
+        }  
+
+        .category-buttons button {  
+            flex-shrink: 0;  
+        }  
+
+    }  
+
+</style>  
+
+<!-- =====================================================  
+     STRUCTURED DATA  
+====================================================== -->  
+
+<script type="application/ld+json">  
+
+{  
+    "@context": "https://schema.org",  
+    "@type": "CollectionPage",  
+    "name": "Latest Technology News | TechHub Ghana",  
+    "headline": "Latest Technology News in Ghana and Worldwide",  
+    "description": "Latest technology news from Ghana and around the world covering Artificial Intelligence, cybersecurity, programming, cloud computing, mobile technology and digital innovation.",  
+    "url": "https://juliusas009-wq.github.io/TechHub-Ghana./news.html",  
+    "isPartOf": {  
+        "@type": "WebSite",  
+        "name": "TechHub Ghana",  
+        "url": "https://juliusas009-wq.github.io/TechHub-Ghana./"  
+    },  
+    "publisher": {  
+        "@type": "Organization",  
+        "name": "TechHub Ghana",  
+        "url": "https://juliusas009-wq.github.io/TechHub-Ghana./",  
+        "logo": {  
+            "@type": "ImageObject",  
+            "url": "https://juliusas009-wq.github.io/TechHub-Ghana./images/logo.png"  
+        }  
+    }  
+}  
 
 </script>
 
+</head>  <body id="top">  <!-- =====================================================  
+     SKIP LINK  
+===================================================== -->  <a
+class="skip-link"
+href="#main-content"
 
-</body>
+> 
 
-    </html>
+Skip to main content
+
+</a>  <!-- =====================================================  
+     HEADER  
+===================================================== -->  <header class="main-header">  <div class="top-bar">  
+
+    <!-- LOGO -->  
+
+    <a  
+        href="index.html"  
+        class="logo"  
+        aria-label="TechHub Ghana home"  
+    >  
+
+        <img  
+            src="images/logo.png"  
+            alt="TechHub Ghana logo"  
+            width="56"  
+            height="56"  
+            decoding="async"  
+        >  
+
+        <div class="logo-text">  
+
+            <h1>  
+                TechHub Ghana  
+            </h1>  
+
+            <p>  
+                Technology • Tutorials • Digital Tools  
+            </p>  
+
+        </div>  
+
+    </a>  
+
+
+    <!-- HEADER ACTIONS -->  
+
+    <div class="header-right">  
+
+        <!-- SEARCH -->  
+
+        <div class="search-box">  
+
+            <label  
+                for="searchInput"  
+                class="sr-only"  
+            >  
+                Search technology news  
+            </label>  
+
+            <input  
+                type="search"  
+                id="searchInput"  
+                placeholder="Search technology news..."  
+                aria-label="Search technology news"  
+                autocomplete="off"  
+                spellcheck="false"  
+            >  
+
+            <button  
+                type="button"  
+                id="searchBtn"  
+                aria-label="Search technology news"  
+                title="Search"  
+            >  
+
+                <i  
+                    class="fas fa-search"  
+                    aria-hidden="true"  
+                ></i>  
+
+            </button>  
+
+        </div>  
+
+
+        <!-- DARK MODE -->  
+
+        <button  
+            type="button"  
+            id="darkModeBtn"  
+            class="dark-mode-btn"  
+            aria-label="Toggle dark mode"  
+            title="Toggle dark mode"  
+        >  
+
+            <i  
+                class="fas fa-moon"  
+                aria-hidden="true"  
+            ></i>  
+
+        </button>  
+
+
+        <!-- MOBILE MENU -->  
+
+        <button  
+            type="button"  
+            class="menu-btn"  
+            id="menuBtn"  
+            aria-label="Open navigation menu"  
+            aria-controls="navMenu"  
+            aria-expanded="false"  
+        >  
+
+            <i  
+                class="fas fa-bars"  
+                aria-hidden="true"  
+            ></i>  
+
+        </button>  
+
+    </div>  
+
+</div>  
+
+
+<!-- =================================================  
+     NAVIGATION  
+================================================== -->  
+
+<nav  
+    id="navMenu"  
+    aria-label="Main navigation"  
+>  
+
+    <a href="index.html">  
+
+        <i  
+            class="fas fa-home"  
+            aria-hidden="true"  
+        ></i>  
+
+        <span>Home</span>  
+
+    </a>  
+
+
+    <a href="ghana-tech.html">  
+
+        <span>🇬🇭 Ghana Tech</span>  
+
+    </a>  
+
+
+    <a  
+        href="news.html"  
+        class="active"  
+        aria-current="page"  
+    >  
+
+        <i  
+            class="fas fa-newspaper"  
+            aria-hidden="true"  
+        ></i>  
+
+        <span>News</span>  
+
+    </a>  
+
+
+    <a href="tutorials.html">  
+
+        <i  
+            class="fas fa-graduation-cap"  
+            aria-hidden="true"  
+        ></i>  
+
+        <span>Tutorials</span>  
+
+    </a>  
+
+
+    <a href="tools.html">  
+
+        <i  
+            class="fas fa-toolbox"  
+            aria-hidden="true"  
+        ></i>  
+
+        <span>Tools</span>  
+
+    </a>  
+
+
+    <a href="gpa.html">  
+
+        <i  
+            class="fas fa-calculator"  
+            aria-hidden="true"  
+        ></i>  
+
+        <span>GPA</span>  
+
+    </a>  
+
+
+    <a href="qr-generator.html">  
+
+        <i  
+            class="fas fa-qrcode"  
+            aria-hidden="true"  
+        ></i>  
+
+        <span>QR Generator</span>  
+
+    </a>  
+
+
+    <a href="ai-assistant.html">  
+
+        <i  
+            class="fas fa-robot"  
+            aria-hidden="true"  
+        ></i>  
+
+        <span>AI Assistant</span>  
+
+    </a>  
+
+
+    <a href="about.html">  
+
+        <i  
+            class="fas fa-circle-info"  
+            aria-hidden="true"  
+        ></i>  
+
+        <span>About</span>  
+
+    </a>  
+
+
+    <a href="contact.html">  
+
+        <i  
+            class="fas fa-envelope"  
+            aria-hidden="true"  
+        ></i>  
+
+        <span>Contact</span>  
+
+    </a>  
+
+</nav>
+
+</header>  <!-- =====================================================  
+     LIVE / BREAKING NEWS BAR  
+===================================================== -->  <section  
+    class="breaking-news"  
+    aria-label="Latest technology updates"  
+>  <div class="breaking-label">  
+
+    <i  
+        class="fas fa-bolt"  
+        aria-hidden="true"  
+    ></i>  
+
+    <span>LIVE</span>  
+
+</div>  
+
+
+<div class="breaking-track">  
+
+    <div  
+        id="breakingNews"  
+        class="breaking-content"  
+        aria-live="polite"  
+    >  
+
+        <span>  
+            📢 Loading latest technology news...  
+        </span>  
+
+    </div>  
+
+</div>
+
+</section>  <!-- =====================================================  
+     MAIN CONTENT  
+===================================================== -->  <main id="main-content">  <!-- =====================================================  
+     HERO SECTION  
+===================================================== -->  <section class="news-hero">  <!-- FEATURED STORY -->  
+
+<article class="featured-news">  
+
+    <div class="featured-image">  
+
+        <img  
+            src="images/ai-news.jpg"  
+            alt="Artificial Intelligence transforming education"  
+            width="1200"  
+            height="800"  
+            loading="eager"  
+            fetchpriority="high"  
+            decoding="async"  
+        >  
+
+    </div>  
+
+
+    <div class="featured-content">  
+
+        <span class="category-badge">  
+            🤖 Featured Story  
+        </span>  
+
+
+        <h2>  
+            Artificial Intelligence Is Transforming  
+            Education Around The World  
+        </h2>  
+
+
+        <p>  
+            Artificial Intelligence is changing education  
+            through intelligent tutoring systems, automated  
+            translation, coding assistants and personalized  
+            learning experiences.  
+        </p>  
+
+
+        <a  
+            href="ai-education.html"  
+            class="hero-btn"  
+        >  
+
+            <span>Read Full Story</span>  
+
+            <i  
+                class="fas fa-arrow-right"  
+                aria-hidden="true"  
+            ></i>  
+
+        </a>  
+
+    </div>  
+
+</article>  
+
+
+<!-- FEATURED MINI STORIES -->  
+
+<div class="featured-mini-grid">  
+
+
+    <!-- CYBERSECURITY -->  
+
+    <article  
+        class="mini-card"  
+        data-category="Cybersecurity"  
+    >  
+
+        <img  
+            src="images/cyber-news.jpg"  
+            alt="Cybersecurity technology"  
+            width="600"  
+            height="400"  
+            loading="lazy"  
+            decoding="async"  
+        >  
+
+
+        <div>  
+
+            <span class="mini-category">  
+                Cybersecurity  
+            </span>  
+
+
+            <h3>  
+                Cybersecurity Becomes  
+                More Important Than Ever  
+            </h3>  
+
+
+            <a href="#latest-news">  
+
+                Read More  
+
+                <i  
+                    class="fas fa-arrow-right"  
+                    aria-hidden="true"  
+                ></i>  
+
+            </a>  
+
+        </div>  
+
+    </article>  
+
+
+    <!-- PROGRAMMING -->  
+
+    <article  
+        class="mini-card"  
+        data-category="Programming"  
+    >  
+
+        <img  
+            src="images/web-news.jpg"  
+            alt="Web development and programming"  
+            width="600"  
+            height="400"  
+            loading="lazy"  
+            decoding="async"  
+        >  
+
+
+        <div>  
+
+            <span class="mini-category">  
+                Programming  
+            </span>  
+
+
+            <h3>  
+                Web Development Continues  
+                To Grow In Demand  
+            </h3>  
+
+
+            <a href="#latest-news">  
+
+                Read More  
+
+                <i  
+                    class="fas fa-arrow-right"  
+                    aria-hidden="true"  
+                ></i>  
+
+            </a>  
+
+        </div>  
+
+    </article>  
+
+
+    <!-- CLOUD -->  
+
+    <article  
+        class="mini-card"  
+        data-category="Cloud Computing"  
+    >  
+
+        <img  
+            src="images/cloud-news.jpg"  
+            alt="Cloud computing technology"  
+            width="600"  
+            height="400"  
+            loading="lazy"  
+            decoding="async"  
+        >  
+
+
+        <div>  
+
+            <span class="mini-category">  
+                Cloud Computing  
+            </span>  
+
+
+            <h3>  
+                Cloud Technology Powers  
+                Modern Businesses  
+            </h3>  
+
+
+            <a href="#latest-news">  
+
+                Read More  
+
+                <i  
+                    class="fas fa-arrow-right"  
+                    aria-hidden="true"  
+                ></i>  
+
+            </a>  
+
+        </div>  
+
+    </article>  
+
+</div>
+
+</section>  <!-- =====================================================  
+     LATEST NEWS  
+===================================================== -->  <section  
+    class="section"  
+    id="latest-news"  
+>  <div class="section-heading">  
+
+    <h2>  
+        📰 Latest Technology News  
+    </h2>  
+
+
+    <p class="section-intro">  
+        Stay informed with the latest technology  
+        stories, innovations and digital developments.  
+    </p>  
+
+</div>  
+
+
+<!-- CATEGORY FILTERS -->  
+
+<div  
+    class="category-buttons"  
+    id="newsFilters"  
+    role="group"  
+    aria-label="Filter news by category"  
+>  
+
+    <button  
+        type="button"  
+        class="active"  
+        data-category="all"  
+        aria-pressed="true"  
+    >  
+        All  
+    </button>  
+
+
+    <button  
+        type="button"  
+        data-category="Artificial Intelligence"  
+        aria-pressed="false"  
+    >  
+        🤖 AI  
+    </button>  
+
+
+    <button  
+        type="button"  
+        data-category="Cybersecurity"  
+        aria-pressed="false"  
+    >  
+        🔒 Cybersecurity  
+    </button>  
+
+
+    <button  
+        type="button"  
+        data-category="Programming"  
+        aria-pressed="false"  
+    >  
+        💻 Programming  
+    </button>  
+
+
+    <button  
+        type="button"  
+        data-category="Cloud Computing"  
+        aria-pressed="false"  
+    >  
+        ☁️ Cloud  
+    </button>  
+
+
+    <button  
+        type="button"  
+        data-category="Ghana Technology"  
+        aria-pressed="false"  
+    >  
+        🇬🇭 Ghana Tech  
+    </button>  
+
+</div>  
+
+
+<!-- NEWS LAYOUT -->  
+
+<div class="news-layout">  
+
+
+    <!-- NEWS ARTICLES -->  
+
+    <div  
+        id="newsContainer"  
+        class="news-left"  
+        aria-live="polite"  
+        aria-busy="true"  
+    >  
+
+        <div class="loading">  
+
+            <div  
+                class="spinner"  
+                aria-hidden="true"  
+            ></div>  
+
+            <p>  
+                Loading latest technology news...  
+            </p>  
+
+        </div>  
+
+    </div>  
+
+
+    <!-- SIDEBAR -->  
+
+    <aside  
+        class="sidebar"  
+        aria-label="Technology sidebar"  
+    >  
+
+
+        <!-- TRENDING -->  
+
+        <div class="widget">  
+
+            <h3>  
+                🔥 Trending Topics  
+            </h3>  
+
+
+            <ul>  
+
+                <li>🤖 Artificial Intelligence</li>  
+                <li>🔒 Cybersecurity</li>  
+                <li>💻 Programming</li>  
+                <li>☁️ Cloud Computing</li>  
+                <li>📱 Mobile Technology</li>  
+                <li>🌐 Web Development</li>  
+                <li>📊 Data Science</li>  
+                <li>🧠 Machine Learning</li>  
+                <li>🇬🇭 Ghana Technology</li>  
+                <li>🚀 Startups</li>  
+
+            </ul>  
+
+        </div>  
+
+
+        <!-- POPULAR TECHNOLOGIES -->  
+
+        <div class="widget">  
+
+            <h3>  
+                📈 Popular Technologies  
+            </h3>  
+
+
+            <div class="tags">  
+
+                <span>AI</span>  
+                <span>Python</span>  
+                <span>JavaScript</span>  
+                <span>HTML</span>  
+                <span>CSS</span>  
+                <span>Firebase</span>  
+                <span>GitHub</span>  
+                <span>Cloud</span>  
+
+            </div>  
+
+        </div>  
+
+
+        <!-- QUICK ACCESS -->  
+
+        <div class="widget">  
+
+            <h3>  
+                ⚡ Quick Access  
+            </h3>  
+
+
+            <ul>  
+
+                <li>  
+                    <a href="tutorials.html">  
+                        📚 Tutorials  
+                    </a>  
+                </li>  
+
+
+                <li>  
+                    <a href="tools.html">  
+                        🛠️ Digital Tools  
+                    </a>  
+                </li>  
+
+
+                <li>  
+                    <a href="ai-assistant.html">  
+                        🤖 AI Assistant  
+                    </a>  
+                </li>  
+
+
+                <li>  
+                    <a href="ghana-tech.html">  
+                        🇬🇭 Ghana Tech  
+                    </a>  
+                </li>  
+
+            </ul>  
+
+        </div>  
+
+    </aside>  
+
+</div>
+
+</section>  <!-- =====================================================  
+     GHANA TECHNOLOGY  
+===================================================== -->  <section class="section">  <div class="section-heading">  
+
+    <h2>  
+        🇬🇭 Ghana Technology  
+    </h2>  
+
+
+    <p class="section-intro">  
+        Explore technology, digital transformation  
+        and innovation happening in Ghana.  
+    </p>  
+
+</div>  
+
+
+<div class="ghana-grid">  
+
+
+    <!-- DIGITAL GHANA -->  
+
+    <article class="ghana-card">  
+
+        <img  
+            src="images/ghana-tech.jpg"  
+            alt="Ghana technology and digital transformation"  
+            width="800"  
+            height="500"  
+            loading="lazy"  
+            decoding="async"  
+        >  
+
+
+        <div class="ghana-card-content">  
+
+            <span class="category-badge">  
+                🇬🇭 Digital Ghana  
+            </span>  
+
+
+            <h3>  
+                Ghana's Digital Transformation Continues  
+            </h3>  
+
+
+            <p>  
+                Ghana continues to embrace digital innovation,  
+                e-government services, fintech, artificial  
+                intelligence and digital education.  
+            </p>  
+
+
+            <a  
+                href="ghana-digital.html"  
+                class="read-btn"  
+            >  
+
+                <span>Read More</span>  
+
+                <i  
+                    class="fas fa-arrow-right"  
+                    aria-hidden="true"  
+                ></i>  
+
+            </a>  
+
+        </div>  
+
+    </article>  
+
+
+    <!-- MOBILE MONEY -->  
+
+    <article class="ghana-card">  
+
+        <img  
+            src="images/mobile-money.jpg"  
+            alt="Mobile Money technology in Ghana"  
+            width="800"  
+            height="500"  
+            loading="lazy"  
+            decoding="async"  
+        >  
+
+
+        <div class="ghana-card-content">  
+
+            <span class="category-badge">  
+                💳 FinTech  
+            </span>  
+
+
+            <h3>  
+                Mobile Money Continues  
+                To Transform Payments  
+            </h3>  
+
+
+            <p>  
+                Mobile Money has become an important  
+                part of Ghana's digital financial  
+                ecosystem, making payments and  
+                transfers more convenient.  
+            </p>  
+
+
+            <a  
+                href="mobile-money.html"  
+                class="read-btn"  
+            >  
+
+                <span>Read More</span>  
+
+                <i  
+                    class="fas fa-arrow-right"  
+                    aria-hidden="true"  
+                ></i>  
+
+            </a>  
+
+        </div>  
+
+    </article>  
+
+</div>
+
+</section>  <!-- =====================================================  
+     NEWSLETTER  
+===================================================== -->  <section class="newsletter">  <div class="newsletter-content">  
+
+    <span  
+        class="newsletter-icon"  
+        aria-hidden="true"  
+    >  
+        📩  
+    </span>  
+
+
+    <h2>  
+        Stay Updated With TechHub Ghana  
+    </h2>  
+
+
+    <p>  
+        Receive technology news, tutorials,  
+        cybersecurity updates and AI stories  
+        directly in your inbox.  
+    </p>  
+
+
+    <form  
+        id="newsletterForm"  
+        novalidate  
+    >  
+
+        <div class="newsletter-form">  
+
+            <label  
+                for="newsletterEmail"  
+                class="sr-only"  
+            >  
+                Email address  
+            </label>  
+
+
+            <input  
+                type="email"  
+                id="newsletterEmail"  
+                name="email"  
+                placeholder="Enter your email address"  
+                aria-label="Email address"  
+                autocomplete="email"  
+                required  
+            >  
+
+
+            <button  
+                type="submit"  
+            >  
+                Subscribe  
+            </button>  
+
+        </div>  
+
+
+        <p  
+            id="newsletterMessage"  
+            class="form-message"  
+            aria-live="polite"  
+        ></p>  
+
+    </form>  
+
+</div>
+
+</section>  </main>  <!-- =====================================================  
+     FOOTER  
+===================================================== -->  <footer>  <div class="footer-grid">  
+
+
+    <!-- COMPANY -->  
+
+    <div class="footer-column">  
+
+        <h3>  
+            TechHub Ghana  
+        </h3>  
+
+
+        <p>  
+            Technology • Innovation • Learning  
+        </p>  
+
+
+        <p>  
+            Your trusted source for technology  
+            news, tutorials and digital tools.  
+        </p>  
+
+    </div>  
+
+
+    <!-- QUICK LINKS -->  
+
+    <div class="footer-column">  
+
+        <h3>  
+            Quick Links  
+        </h3>  
+
+
+        <p>  
+            <a href="index.html">  
+                Home  
+            </a>  
+        </p>  
+
+
+        <p>  
+            <a href="news.html">  
+                News  
+            </a>  
+        </p>  
+
+
+        <p>  
+            <a href="tutorials.html">  
+                Tutorials  
+            </a>  
+        </p>  
+
+
+        <p>  
+            <a href="tools.html">  
+                Tools  
+            </a>  
+        </p>  
+
+
+        <p>  
+            <a href="gpa.html">  
+                GPA Calculator  
+            </a>  
+        </p>  
+
+
+        <p>  
+            <a href="ai-assistant.html">  
+                AI Assistant  
+            </a>  
+        </p>  
+
+    </div>  
+
+
+    <!-- CATEGORIES -->  
+
+    <div class="footer-column">  
+
+        <h3>  
+            Categories  
+        </h3>  
+
+
+        <p>Artificial Intelligence</p>  
+        <p>Programming</p>  
+        <p>Cybersecurity</p>  
+        <p>Cloud Computing</p>  
+        <p>Ghana Technology</p>  
+        <p>Mobile Technology</p>  
+
+    </div>  
+
+
+    <!-- TUTORIALS -->  
+
+    <div class="footer-column">  
+
+        <h3>  
+            Tutorials  
+        </h3>  
+
+
+        <p>  
+            <a href="html-tutorial.html">  
+                HTML  
+            </a>  
+        </p>  
+
+
+        <p>  
+            <a href="css-tutorial.html">  
+                CSS  
+            </a>  
+        </p>  
+
+
+        <p>  
+            <a href="javascript-tutorial.html">  
+                JavaScript  
+            </a>  
+        </p>  
+
+
+        <p>  
+            <a href="python-tutorial.html">  
+                Python  
+            </a>  
+        </p>  
+
+
+        <p>  
+            <a href="mysql-tutorial.html">  
+                MySQL  
+            </a>  
+        </p>  
+
+
+        <p>  
+            <a href="cybersecurity-tutorial.html">  
+                Cybersecurity  
+            </a>  
+        </p>  
+
+    </div>  
+
+
+    <!-- CONTACT -->  
+
+    <div class="footer-column">  
+
+        <h3>  
+            Contact  
+        </h3>  
+
+
+        <p>  
+            📧 info@techhubghana.com  
+        </p>  
+
+
+        <p>  
+            📍 Accra, Ghana  
+        </p>  
+
+    </div>  
+
+</div>  
+
+
+<hr>  
+
+
+<p class="copyright">  
+
+    © 2026 TechHub Ghana.  
+    All Rights Reserved.  
+
+</p>
+
+</footer>  <!-- =====================================================  
+     BACK TO TOP  
+===================================================== -->  <button
+id="topBtn"
+type="button"
+aria-label="Back to top"
+title="Back to top"
+
+> 
+
+<i  
+    class="fas fa-arrow-up"  
+    aria-hidden="true"  
+></i>
+
+</button>  <!-- =====================================================  
+     JAVASCRIPT  
+===================================================== -->  <script  
+    src="script.js"  
+    defer  
+></script>  <!-- LIVE NEWS -->  <script  
+    type="module"  
+    src="live-news.js"  
+></script>  <!-- =====================================================  
+     NEWS PAGE FUNCTIONALITY  
+===================================================== -->  <script>  
+  
+document.addEventListener("DOMContentLoaded", () => {  
+  
+    /* =====================================================  
+       ELEMENTS  
+    ====================================================== */  
+  
+    const searchInput =  
+        document.getElementById("searchInput");  
+  
+    const searchBtn =  
+        document.getElementById("searchBtn");  
+  
+    const newsContainer =  
+        document.getElementById("newsContainer");  
+  
+    const filterContainer =  
+        document.getElementById("newsFilters");  
+  
+    const newsletterForm =  
+        document.getElementById("newsletterForm");  
+  
+    const newsletterEmail =  
+        document.getElementById("newsletterEmail");  
+  
+    const newsletterMessage =  
+        document.getElementById("newsletterMessage");  
+  
+    const topBtn =  
+        document.getElementById("topBtn");  
+  
+  
+    /* =====================================================  
+       NEWS SEARCH  
+    ====================================================== */  
+  
+    let currentSearch = "";  
+  
+  
+    function getNewsArticles() {  
+  
+        if (!newsContainer) {  
+            return [];  
+        }  
+  
+        return Array.from(  
+            newsContainer.querySelectorAll(  
+                "article, .news-card, .news-item"  
+            )  
+        );  
+  
+    }  
+  
+  
+    function getArticleCategory(article) {  
+  
+        const category =  
+            article.dataset.category ||  
+            article.querySelector(  
+                ".category, .category-badge, .news-category"  
+            )?.textContent ||  
+            "";  
+  
+        return category  
+            .trim()  
+            .toLowerCase();  
+  
+    }  
+  
+  
+    function filterNews() {  
+  
+        const articles =  
+            getNewsArticles();  
+  
+  
+        if (!articles.length) {  
+            return;  
+        }  
+  
+  
+        const activeButton =  
+            filterContainer?.querySelector(  
+                "button.active"  
+            );  
+  
+  
+        const selectedCategory =  
+            activeButton?.dataset.category  
+                ?.trim()  
+                .toLowerCase() || "all";  
+  
+  
+        let visibleCount = 0;  
+  
+  
+        articles.forEach(article => {  
+  
+            const articleText =  
+                article.textContent  
+                    .toLowerCase();  
+  
+  
+            const articleCategory =  
+                getArticleCategory(article);  
+  
+  
+            const matchesSearch =  
+                !currentSearch ||  
+                articleText.includes(  
+                    currentSearch  
+                );  
+  
+  
+            const matchesCategory =  
+                selectedCategory === "all" ||  
+                articleCategory.includes(  
+                    selectedCategory  
+                );  
+  
+  
+            const visible =  
+                matchesSearch &&  
+                matchesCategory;  
+  
+  
+            article.hidden =  
+                !visible;  
+  
+  
+            if (visible) {  
+                visibleCount++;  
+            }  
+  
+        });  
+  
+  
+        updateNoResults(  
+            visibleCount  
+        );  
+  
+    }  
+  
+  
+    function updateNoResults(  
+        visibleCount  
+    ) {  
+  
+        if (!newsContainer) {  
+            return;  
+        }  
+  
+  
+        let noResults =  
+            document.getElementById(  
+                "newsNoResults"  
+            );  
+  
+  
+        if (  
+            visibleCount === 0 &&  
+            getNewsArticles().length > 0  
+        ) {  
+  
+            if (!noResults) {  
+  
+                noResults =  
+                    document.createElement(  
+                        "div"  
+                    );  
+  
+                noResults.id =  
+                    "newsNoResults";  
+  
+                noResults.className =  
+                    "no-results";  
+  
+                noResults.innerHTML = `  
+                    <i class="fas fa-search"></i>  
+                    <h3>No news found</h3>  
+                    <p>  
+                        Try another search term  
+                        or choose a different category.  
+                    </p>  
+                `;  
+  
+                newsContainer.appendChild(  
+                    noResults  
+                );  
+  
+            }  
+  
+            noResults.hidden =  
+                false;  
+  
+        } else if (noResults) {  
+  
+            noResults.hidden =  
+                true;  
+  
+        }  
+  
+    }  
+  
+  
+    function performSearch() {  
+  
+        currentSearch =  
+            searchInput?.value  
+                .trim()  
+                .toLowerCase() || "";  
+  
+        filterNews();  
+  
+    }  
+  
+  
+    if (searchInput) {  
+  
+        searchInput.addEventListener(  
+            "input",  
+            performSearch  
+        );  
+  
+  
+        searchInput.addEventListener(  
+            "keydown",  
+            event => {  
+  
+                if (  
+                    event.key === "Enter"  
+                ) {  
+  
+                    event.preventDefault();  
+  
+                    performSearch();  
+  
+                }  
+  
+            }  
+        );  
+  
+    }  
+  
+  
+    if (searchBtn) {  
+  
+        searchBtn.addEventListener(  
+            "click",  
+            performSearch  
+        );  
+  
+    }  
+  
+  
+    /* =====================================================  
+       CATEGORY FILTERS  
+    ====================================================== */  
+  
+    if (filterContainer) {  
+  
+        filterContainer.addEventListener(  
+            "click",  
+            event => {  
+  
+                const button =  
+                    event.target.closest(  
+                        "button[data-category]"  
+                    );  
+  
+  
+                if (!button) {  
+                    return;  
+                }  
+  
+  
+                filterContainer  
+                    .querySelectorAll(  
+                        "button[data-category]"  
+                    )  
+                    .forEach(btn => {  
+  
+                        btn.classList.remove(  
+                            "active"  
+                        );  
+  
+                        btn.setAttribute(  
+                            "aria-pressed",  
+                            "false"  
+                        );  
+  
+                    });  
+  
+  
+                button.classList.add(  
+                    "active"  
+                );  
+  
+  
+                button.setAttribute(  
+                    "aria-pressed",  
+                    "true"  
+                );  
+  
+  
+                filterNews();  
+  
+            }  
+        );  
+  
+    }  
+  
+  
+    /* =====================================================  
+       DYNAMIC NEWS  
+    ====================================================== */  
+  
+    if (newsContainer) {  
+  
+        const observer =  
+            new MutationObserver(() => {  
+  
+                filterNews();  
+  
+                newsContainer.setAttribute(  
+                    "aria-busy",  
+                    "false"  
+                );  
+  
+            });  
+  
+  
+        observer.observe(  
+            newsContainer,  
+            {  
+                childList: true,  
+                subtree: true  
+            }  
+        );  
+  
+    }  
+  
+  
+    /* =====================================================  
+       NEWSLETTER  
+    ====================================================== */  
+  
+    if (  
+        newsletterForm &&  
+        newsletterEmail  
+    ) {  
+  
+        newsletterForm.addEventListener(  
+            "submit",  
+            event => {  
+  
+                event.preventDefault();  
+  
+  
+                const email =  
+                    newsletterEmail.value  
+                        .trim();  
+  
+  
+                if (!email) {  
+  
+                    showNewsletterMessage(  
+                        "Please enter your email address."  
+                    );  
+  
+                    newsletterEmail.focus();  
+  
+                    return;  
+  
+                }  
+  
+  
+                if (  
+                    !newsletterEmail.checkValidity()  
+                ) {  
+  
+                    showNewsletterMessage(  
+                        "Please enter a valid email address."  
+                    );  
+  
+                    newsletterEmail.focus();  
+  
+                    return;  
+  
+                }  
+  
+  
+                showNewsletterMessage(  
+                    "✅ Thank you for subscribing to TechHub Ghana!"  
+                );  
+  
+  
+                newsletterForm.reset();  
+  
+            }  
+        );  
+  
+    }  
+  
+  
+    function showNewsletterMessage(  
+        message  
+    ) {  
+  
+        if (!newsletterMessage) {  
+            return;  
+        }  
+  
+  
+        newsletterMessage.textContent =  
+            message;  
+  
+    }  
+  
+  
+    /* =====================================================  
+       BACK TO TOP  
+    ====================================================== */  
+  
+    if (topBtn) {  
+  
+        function updateTopButton() {  
+  
+            if (  
+                window.scrollY > 400  
+            ) {  
+  
+                topBtn.classList.add(  
+                    "show"  
+                );  
+  
+            } else {  
+  
+                topBtn.classList.remove(  
+                    "show"  
+                );  
+  
+            }  
+  
+        }  
+  
+  
+        window.addEventListener(  
+            "scroll",  
+            updateTopButton,  
+            {  
+                passive: true  
+            }  
+        );  
+  
+  
+        topBtn.addEventListener(  
+            "click",  
+            () => {  
+  
+                window.scrollTo({  
+                    top: 0,  
+                    behavior: "smooth"  
+                });  
+  
+            }  
+        );  
+  
+  
+        updateTopButton();  
+  
+    }  
+  
+  
+    /* =====================================================  
+       INITIAL FILTER  
+    ====================================================== */  
+  
+    filterNews();  
+  
+});  
+  
+</script>  </body>  </html>
