@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-28T21:06:16.635543+00:00",
+  "updated": "2026-08-29T03:14:32.474469+00:00",
   "articles": [
+    {
+      "title": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+      "summary": "Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots. And they're all Chinese automakers.",
+      "link": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/",
+      "date": "Fri, 28 Aug 2026 23:24:27 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Is the best way to watch a movie on a pair of sunglasses?",
+      "summary": "Are XREAL's smart glasses the way of the future for home entertainment?",
+      "link": "https://techcrunch.com/2026/08/28/is-the-best-way-to-watch-a-movie-on-a-pair-of-sunglasses/",
+      "date": "Fri, 28 Aug 2026 22:42:48 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Neocloud Lambda secures $1B in debt to buy more chips",
       "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
@@ -144,22 +160,6 @@
       "date": "Thu, 27 Aug 2026 19:54:28 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-      "summary": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
-      "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
-      "date": "Thu, 27 Aug 2026 19:52:52 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "ATF declares ‘major incident’ as ransomware gang claims hack",
-      "summary": "The ATF is the latest federal government agency in recent years to notify Congress of a \"major incident\" involving its cybersecurity.",
-      "link": "https://techcrunch.com/2026/08/27/atf-declares-major-incident-as-ransomware-gang-claims-hack/",
-      "date": "Thu, 27 Aug 2026 17:54:23 +0000",
-      "source": "TechCrunch",
-      "category": "Cybersecurity"
     },
     {
       "title": "The Download: a secretive antiaging drug and joining virtual power plants",
