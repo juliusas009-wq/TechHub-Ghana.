@@ -1,0 +1,2010 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- =====================================================
+         BASIC DOCUMENT SETUP
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    >
+
+    <meta
+        name="theme-color"
+        content="#0b5cff"
+    >
+
+    <meta
+        name="description"
+        id="metaDescription"
+        content="Read the latest technology news, insights and digital innovation from TechHub Ghana."
+    >
+
+    <meta
+        name="keywords"
+        id="metaKeywords"
+        content="TechHub Ghana, technology news, Ghana technology, AI, cybersecurity, smartphones, software, startups, fintech"
+    >
+
+    <meta
+        name="author"
+        content="TechHub Ghana"
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+
+    <!-- =====================================================
+         OPEN GRAPH
+    ====================================================== -->
+
+    <meta
+        property="og:type"
+        content="article"
+    >
+
+    <meta
+        property="og:title"
+        id="ogTitle"
+        content="Technology Article | TechHub Ghana"
+    >
+
+    <meta
+        property="og:description"
+        id="ogDescription"
+        content="Technology news and insights from TechHub Ghana."
+    >
+
+    <meta
+        property="og:image"
+        id="ogImage"
+        content="images/logo.png"
+    >
+
+    <meta
+        property="og:site_name"
+        content="TechHub Ghana"
+    >
+
+
+    <!-- =====================================================
+         TWITTER CARD
+    ====================================================== -->
+
+    <meta
+        name="twitter:card"
+        content="summary_large_image"
+    >
+
+    <meta
+        name="twitter:title"
+        id="twitterTitle"
+        content="Technology Article | TechHub Ghana"
+    >
+
+    <meta
+        name="twitter:description"
+        id="twitterDescription"
+        content="Technology news and insights from TechHub Ghana."
+    >
+
+    <meta
+        name="twitter:image"
+        id="twitterImage"
+        content="images/logo.png"
+    >
+
+
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+
+    <link
+        rel="icon"
+        href="images/logo.png"
+    >
+
+
+    <!-- =====================================================
+         ARTICLE PAGE CSS
+    ====================================================== -->
+
+    <style>
+
+        /* =================================================
+           GLOBAL
+        ================================================= */
+
+        html,
+        body {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        /* =================================================
+           MAIN
+        ================================================= */
+
+        main {
+            width: 100%;
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+
+        .article-container {
+            width: 100%;
+            max-width: 1100px;
+            margin: 35px auto 70px;
+        }
+
+
+        /* =================================================
+           BREADCRUMB
+        ================================================= */
+
+        .breadcrumb {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px;
+
+            margin-bottom: 25px;
+
+            font-size: 0.85rem;
+            color: #777;
+        }
+
+
+        .breadcrumb a {
+            color: #0b5cff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* =================================================
+           ARTICLE HEADER
+        ================================================= */
+
+        .article-header {
+            max-width: 950px;
+            margin: auto;
+        }
+
+
+        .article-category-large {
+            display: inline-block;
+
+            padding: 7px 13px;
+
+            border-radius: 30px;
+
+            background: #0b5cff;
+            color: #ffffff;
+
+            font-size: 0.78rem;
+            font-weight: 700;
+
+            margin-bottom: 15px;
+        }
+
+
+        .article-title {
+            margin: 0 0 18px;
+
+            font-size: clamp(
+                2rem,
+                5vw,
+                3.8rem
+            );
+
+            line-height: 1.15;
+
+            letter-spacing: -0.8px;
+        }
+
+
+        .article-excerpt {
+            margin: 0 0 22px;
+
+            color: #666;
+
+            font-size: 1.08rem;
+
+            line-height: 1.8;
+        }
+
+
+        /* =================================================
+           ARTICLE META
+        ================================================= */
+
+        .article-info {
+            display: flex;
+
+            flex-wrap: wrap;
+
+            align-items: center;
+
+            gap: 18px;
+
+            margin-bottom: 25px;
+
+            color: #666;
+
+            font-size: 0.85rem;
+        }
+
+
+        .article-info span {
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 6px;
+        }
+
+
+        .article-info i {
+            color: #0b5cff;
+        }
+
+
+        /* =================================================
+           SHARE BUTTONS
+        ================================================= */
+
+        .article-actions {
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 10px;
+
+            margin-bottom: 25px;
+        }
+
+
+        .share-btn {
+            border: none;
+
+            padding: 10px 15px;
+
+            border-radius: 8px;
+
+            background: #f1f4f8;
+
+            color: #222;
+
+            font-family: inherit;
+
+            font-weight: 600;
+
+            cursor: pointer;
+
+            transition: 0.25s ease;
+        }
+
+
+        .share-btn:hover {
+            background: #0b5cff;
+            color: #ffffff;
+        }
+
+
+        /* =================================================
+           FEATURED IMAGE
+        ================================================= */
+
+        .article-featured-image {
+            width: 100%;
+
+            max-height: 600px;
+
+            object-fit: cover;
+
+            display: block;
+
+            border-radius: 18px;
+
+            margin: 15px 0 35px;
+        }
+
+
+        /* =================================================
+           ADVERTISEMENT
+        ================================================= */
+
+        .ad-container {
+            width: 100%;
+
+            min-height: 100px;
+
+            margin: 25px auto;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            text-align: center;
+
+            background: #f8f9fb;
+
+            border: 1px dashed #d7dce3;
+
+            border-radius: 10px;
+
+            color: #8a8f98;
+
+            font-size: 0.75rem;
+        }
+
+
+        .ad-container span {
+            letter-spacing: 1px;
+        }
+
+
+        /* =================================================
+           ARTICLE BODY
+        ================================================= */
+
+        .article-layout {
+            display: grid;
+
+            grid-template-columns:
+                minmax(0, 1fr)
+                300px;
+
+            gap: 35px;
+
+            align-items: start;
+        }
+
+
+        .article-content {
+            min-width: 0;
+        }
+
+
+        .article-content p {
+            margin: 0 0 22px;
+
+            color: #333;
+
+            font-size: 1.02rem;
+
+            line-height: 1.9;
+        }
+
+
+        .article-content h2 {
+            margin: 35px 0 15px;
+
+            font-size: 1.65rem;
+
+            line-height: 1.3;
+        }
+
+
+        .article-content h3 {
+            margin: 30px 0 12px;
+
+            font-size: 1.3rem;
+        }
+
+
+        .article-content ul,
+        .article-content ol {
+            margin: 0 0 25px;
+
+            padding-left: 25px;
+        }
+
+
+        .article-content li {
+            margin-bottom: 10px;
+
+            line-height: 1.7;
+        }
+
+
+        .article-content blockquote {
+            margin: 30px 0;
+
+            padding: 20px 25px;
+
+            border-left: 4px solid #0b5cff;
+
+            background: #f5f8ff;
+
+            border-radius: 8px;
+
+            font-size: 1.05rem;
+
+            line-height: 1.8;
+        }
+
+
+        .article-content a {
+            color: #0b5cff;
+
+            font-weight: 600;
+        }
+
+
+        /* =================================================
+           SIDEBAR
+        ================================================= */
+
+        .article-sidebar {
+            position: sticky;
+
+            top: 20px;
+        }
+
+
+        .sidebar-box {
+            padding: 20px;
+
+            margin-bottom: 20px;
+
+            border-radius: 14px;
+
+            background: #ffffff;
+
+            border: 1px solid #e5e8ed;
+        }
+
+
+        .sidebar-box h3 {
+            margin: 0 0 15px;
+
+            font-size: 1.05rem;
+        }
+
+
+        .sidebar-link {
+            display: block;
+
+            padding: 11px 0;
+
+            border-bottom: 1px solid #edf0f3;
+
+            color: inherit;
+
+            text-decoration: none;
+
+            font-size: 0.88rem;
+
+            line-height: 1.5;
+        }
+
+
+        .sidebar-link:last-child {
+            border-bottom: none;
+        }
+
+
+        .sidebar-link:hover {
+            color: #0b5cff;
+        }
+
+
+        /* =================================================
+           RELATED ARTICLES
+        ================================================= */
+
+        .related-section {
+            margin-top: 55px;
+        }
+
+
+        .related-section h2 {
+            margin-bottom: 20px;
+        }
+
+
+        .related-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, minmax(0, 1fr));
+
+            gap: 20px;
+        }
+
+
+        .related-card {
+            overflow: hidden;
+
+            border: 1px solid #e5e8ed;
+
+            border-radius: 14px;
+
+            background: #ffffff;
+
+            transition: 0.25s ease;
+        }
+
+
+        .related-card:hover {
+            transform: translateY(-4px);
+
+            box-shadow:
+                0 10px 25px rgba(0,0,0,0.08);
+        }
+
+
+        .related-card img {
+            width: 100%;
+
+            height: 170px;
+
+            object-fit: cover;
+
+            display: block;
+        }
+
+
+        .related-card-content {
+            padding: 16px;
+        }
+
+
+        .related-card h3 {
+            margin: 7px 0;
+
+            font-size: 0.98rem;
+
+            line-height: 1.5;
+        }
+
+
+        .related-card h3 a {
+            color: inherit;
+
+            text-decoration: none;
+        }
+
+
+        .related-card h3 a:hover {
+            color: #0b5cff;
+        }
+
+
+        .related-category {
+            color: #0b5cff;
+
+            font-size: 0.72rem;
+
+            font-weight: 700;
+
+            text-transform: uppercase;
+        }
+
+
+        /* =================================================
+           NEWSLETTER
+        ================================================= */
+
+        .newsletter {
+            margin-top: 40px;
+
+            padding-left: 15px;
+
+            padding-right: 15px;
+        }
+
+
+        .newsletter-box {
+            width: 100%;
+
+            max-width: 1400px;
+
+            margin: auto;
+
+            padding: 45px 30px;
+
+            border-radius: 18px;
+
+            background: #101828;
+
+            color: #ffffff;
+
+            text-align: center;
+        }
+
+
+        .newsletter-box h2 {
+            margin: 0 0 10px;
+        }
+
+
+        .newsletter-box p {
+            max-width: 650px;
+
+            margin: 0 auto 22px;
+
+            color: #cbd5e1;
+
+            line-height: 1.7;
+        }
+
+
+        .newsletter-form {
+            display: flex;
+
+            max-width: 560px;
+
+            margin: auto;
+
+            gap: 10px;
+        }
+
+
+        .newsletter-form input {
+            flex: 1;
+
+            min-width: 0;
+
+            padding: 13px 15px;
+
+            border: none;
+
+            border-radius: 8px;
+
+            font: inherit;
+        }
+
+
+        .newsletter-form button {
+            border: none;
+
+            border-radius: 8px;
+
+            padding: 13px 20px;
+
+            background: #0b5cff;
+
+            color: #ffffff;
+
+            font-weight: 700;
+
+            cursor: pointer;
+        }
+
+
+        /* =================================================
+           DARK MODE
+        ================================================= */
+
+        body.dark-mode .article-excerpt,
+        body.dark-mode .article-info {
+            color: #b7c0cc;
+        }
+
+
+        body.dark-mode .article-content p {
+            color: #d5dbe3;
+        }
+
+
+        body.dark-mode .share-btn {
+            background: #1e293b;
+
+            color: #ffffff;
+        }
+
+
+        body.dark-mode .ad-container {
+            background: #111827;
+
+            border-color: #334155;
+        }
+
+
+        body.dark-mode .sidebar-box,
+        body.dark-mode .related-card {
+            background: #111827;
+
+            border-color: #263244;
+        }
+
+
+        body.dark-mode .sidebar-link {
+            border-color: #263244;
+        }
+
+
+        body.dark-mode .article-content blockquote {
+            background: #172033;
+        }
+
+
+        /* =================================================
+           TABLET
+        ================================================= */
+
+        @media (max-width: 900px) {
+
+            .article-layout {
+                grid-template-columns: 1fr;
+            }
+
+
+            .article-sidebar {
+                position: static;
+            }
+
+
+            .related-grid {
+                grid-template-columns:
+                    repeat(2, minmax(0, 1fr));
+            }
+
+        }
+
+
+        /* =================================================
+           MOBILE
+        ================================================= */
+
+        @media (max-width: 768px) {
+
+            main {
+                padding-left: 10px;
+
+                padding-right: 10px;
+            }
+
+
+            .top-bar {
+                width: 100%;
+
+                max-width: 100%;
+
+                padding-left: 16px;
+
+                padding-right: 16px;
+            }
+
+
+            .logo img {
+                width: 44px;
+
+                height: 44px;
+
+                min-width: 44px;
+
+                max-width: 44px;
+            }
+
+
+            .article-container {
+                margin-top: 25px;
+            }
+
+
+            .article-title {
+                font-size: 2rem;
+            }
+
+
+            .article-excerpt {
+                font-size: 0.98rem;
+            }
+
+
+            .article-featured-image {
+                border-radius: 13px;
+            }
+
+
+            .article-content p {
+                font-size: 0.96rem;
+
+                line-height: 1.8;
+            }
+
+
+            .related-grid {
+                grid-template-columns: 1fr;
+            }
+
+
+            .newsletter {
+                padding-left: 10px;
+
+                padding-right: 10px;
+            }
+
+
+            .newsletter-form {
+                flex-direction: column;
+            }
+
+        }
+
+
+        /* =================================================
+           SMALL PHONES
+        ================================================= */
+
+        @media (max-width: 480px) {
+
+            main {
+                padding-left: 8px;
+
+                padding-right: 8px;
+            }
+
+
+            .top-bar {
+                padding-left: 12px;
+
+                padding-right: 12px;
+            }
+
+
+            .logo img {
+                width: 40px;
+
+                height: 40px;
+
+                min-width: 40px;
+
+                max-width: 40px;
+            }
+
+
+            .article-title {
+                font-size: 1.65rem;
+            }
+
+
+            .article-info {
+                gap: 10px;
+
+                font-size: 0.78rem;
+            }
+
+
+            .article-featured-image {
+                margin-bottom: 25px;
+            }
+
+
+            .newsletter {
+                padding-left: 8px;
+
+                padding-right: 8px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body id="top">
+
+
+<!-- =====================================================
+     SKIP LINK
+====================================================== -->
+
+<a
+    href="#main-content"
+    class="skip-link"
+>
+    Skip to main content
+</a>
+
+
+<!-- =====================================================
+     HEADER
+====================================================== -->
+
+<header
+    class="main-header"
+    id="siteHeader"
+>
+
+    <div class="top-bar">
+
+
+        <!-- LOGO -->
+
+        <a
+            href="index.html"
+            class="logo"
+            aria-label="TechHub Ghana home"
+        >
+
+            <img
+                src="images/logo.png"
+                alt="TechHub Ghana logo"
+                width="56"
+                height="56"
+            >
+
+
+            <div class="logo-text">
+
+                <h1>
+                    TechHub Ghana
+                </h1>
+
+                <p>
+                    Technology • Tutorials • Digital Tools
+                </p>
+
+            </div>
+
+        </a>
+
+
+        <!-- HEADER RIGHT -->
+
+        <div class="header-right">
+
+
+            <!-- SEARCH -->
+
+            <form
+                class="search-box"
+                id="siteSearchForm"
+                role="search"
+            >
+
+                <label
+                    for="siteSearch"
+                    class="sr-only"
+                >
+                    Search TechHub Ghana
+                </label>
+
+
+                <input
+                    type="search"
+                    id="siteSearch"
+                    placeholder="Search technology..."
+                    autocomplete="off"
+                >
+
+
+                <button
+                    type="submit"
+                    aria-label="Search"
+                >
+
+                    <i
+                        class="fa-solid fa-magnifying-glass"
+                        aria-hidden="true"
+                    ></i>
+
+                </button>
+
+            </form>
+
+
+            <!-- DARK MODE -->
+
+            <button
+                type="button"
+                id="darkModeBtn"
+                class="dark-mode-btn"
+                aria-label="Toggle dark mode"
+                title="Toggle dark mode"
+            >
+                🌙
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- MOBILE MENU -->
+
+    <button
+        type="button"
+        class="menu-btn"
+        id="menuBtn"
+        aria-label="Open navigation menu"
+        aria-controls="navMenu"
+        aria-expanded="false"
+    >
+        ☰
+    </button>
+
+
+    <!-- NAVIGATION -->
+
+    <nav
+        id="navMenu"
+        aria-label="Main navigation"
+    >
+
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Home
+        </a>
+
+
+        <a href="ghana-tech.html">
+            🇬🇭 Ghana Tech
+        </a>
+
+
+        <a
+            href="news.html"
+            class="active"
+            aria-current="page"
+        >
+            <i class="fa-regular fa-newspaper"></i>
+            News
+        </a>
+
+
+        <a href="tutorials.html">
+            <i class="fa-solid fa-graduation-cap"></i>
+            Tutorials
+        </a>
+
+
+        <a href="tools.html">
+            <i class="fa-solid fa-toolbox"></i>
+            Tools
+        </a>
+
+
+        <a href="gpa.html">
+            🎓 GPA
+        </a>
+
+
+        <a href="qr-generator.html">
+            📱 QR Generator
+        </a>
+
+
+        <a href="ai-assistant.html">
+            🤖 AI Assistant
+        </a>
+
+
+        <a href="about.html">
+            <i class="fa-solid fa-circle-info"></i>
+            About
+        </a>
+
+
+        <a href="contact.html">
+            <i class="fa-solid fa-envelope"></i>
+            Contact
+        </a>
+
+    </nav>
+
+</header>
+
+
+<!-- =====================================================
+     BREAKING NEWS
+====================================================== -->
+
+<section
+    class="breaking-news"
+    aria-label="Breaking technology news"
+>
+
+    <div class="breaking-inner">
+
+        <div class="breaking-label">
+
+            <i class="fa-solid fa-bolt"></i>
+
+            BREAKING
+
+        </div>
+
+
+        <div class="breaking-content">
+
+            <div class="breaking-track">
+
+                <span>
+                    Latest technology updates from TechHub Ghana
+                </span>
+
+                <span>
+                    AI • Cybersecurity • Smartphones • Startups
+                </span>
+
+                <span>
+                    Ghana Tech • FinTech • Software • Gadgets
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     MAIN
+====================================================== -->
+
+<main id="main-content">
+
+
+    <div class="article-container">
+
+
+        <!-- =================================================
+             BREADCRUMB
+        ================================================== -->
+
+        <div class="breadcrumb">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <span>
+                /
+            </span>
+
+            <a href="news.html">
+                News
+            </a>
+
+            <span>
+                /
+            </span>
+
+            <span id="breadcrumbTitle">
+                Article
+            </span>
+
+        </div>
+
+
+        <!-- =================================================
+             ARTICLE HEADER
+        ================================================== -->
+
+        <header class="article-header">
+
+
+            <span
+                id="articleCategory"
+                class="article-category-large"
+            >
+                Technology
+            </span>
+
+
+            <h1
+                id="articleTitle"
+                class="article-title"
+            >
+                Technology News
+            </h1>
+
+
+            <p
+                id="articleExcerpt"
+                class="article-excerpt"
+            >
+                Read the latest technology developments
+                from TechHub Ghana.
+            </p>
+
+
+            <div class="article-info">
+
+
+                <span>
+
+                    <i class="fa-regular fa-user"></i>
+
+                    <strong>
+                        By
+                    </strong>
+
+                    <span id="articleAuthor">
+                        TechHub Ghana
+                    </span>
+
+                </span>
+
+
+                <span>
+
+                    <i class="fa-regular fa-calendar"></i>
+
+                    <span id="articleDate">
+                        August 29, 2026
+                    </span>
+
+                </span>
+
+
+                <span>
+
+                    <i class="fa-regular fa-clock"></i>
+
+                    <span id="articleReadTime">
+                        5 min read
+                    </span>
+
+                </span>
+
+            </div>
+
+
+            <!-- SHARE ACTIONS -->
+
+            <div class="article-actions">
+
+                <button
+                    type="button"
+                    class="share-btn"
+                    id="shareBtn"
+                >
+                    <i class="fa-solid fa-share-nodes"></i>
+                    Share
+                </button>
+
+
+                <button
+                    type="button"
+                    class="share-btn"
+                    id="copyLinkBtn"
+                >
+                    <i class="fa-solid fa-link"></i>
+                    Copy Link
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- =================================================
+             FEATURED IMAGE
+        ================================================== -->
+
+        <img
+            id="articleImage"
+            class="article-featured-image"
+            src="images/ai-news.jpg"
+            alt="Technology news"
+            loading="eager"
+        >
+
+
+        <!-- =================================================
+             TOP AD
+        ================================================== -->
+
+        <div
+            class="ad-container"
+            aria-label="Advertisement"
+        >
+
+            <span>
+                ADVERTISEMENT
+            </span>
+
+            <!--
+                GOOGLE ADSENSE CODE WILL GO HERE
+                AFTER YOUR ADSENSE ACCOUNT IS APPROVED.
+            -->
+
+        </div>
+
+
+        <!-- =================================================
+             ARTICLE LAYOUT
+        ================================================== -->
+
+        <div class="article-layout">
+
+
+            <!-- ARTICLE BODY -->
+
+            <article
+                class="article-content"
+                id="articleContent"
+            >
+
+                <p>
+                    Technology continues to change the way
+                    people communicate, work, learn and do
+                    business. New developments in artificial
+                    intelligence, cybersecurity, smartphones,
+                    software and digital services are creating
+                    new opportunities while also introducing
+                    new challenges.
+                </p>
+
+
+                <h2>
+                    Technology continues to evolve
+                </h2>
+
+
+                <p>
+                    The technology industry is developing at
+                    an incredible pace. From artificial
+                    intelligence and cloud computing to
+                    cybersecurity and mobile technology,
+                    digital innovation is becoming an important
+                    part of everyday life.
+                </p>
+
+
+                <p>
+                    For individuals and businesses, keeping up
+                    with these changes can provide valuable
+                    opportunities to improve productivity,
+                    security and digital experiences.
+                </p>
+
+
+                <div
+                    class="ad-container"
+                    aria-label="Advertisement"
+                >
+
+                    <span>
+                        ADVERTISEMENT
+                    </span>
+
+                </div>
+
+
+                <h2>
+                    What this means for users
+                </h2>
+
+
+                <p>
+                    As new technologies become more accessible,
+                    users need to understand both their benefits
+                    and their risks. Digital literacy, strong
+                    cybersecurity habits and responsible use of
+                    technology are becoming increasingly important.
+                </p>
+
+
+                <ul>
+
+                    <li>
+                        Keep software and devices updated.
+                    </li>
+
+                    <li>
+                        Use strong and unique passwords.
+                    </li>
+
+                    <li>
+                        Enable two-factor authentication where
+                        available.
+                    </li>
+
+                    <li>
+                        Be careful when opening unknown links
+                        or attachments.
+                    </li>
+
+                </ul>
+
+
+                <blockquote>
+
+                    Technology is most useful when it solves
+                    real problems and improves people's lives.
+
+                </blockquote>
+
+
+                <h2>
+                    Looking ahead
+                </h2>
+
+
+                <p>
+                    The coming years are likely to bring even
+                    more changes across the technology industry.
+                    Businesses, developers, creators and everyday
+                    users will continue adapting as new digital
+                    products and services emerge.
+                </p>
+
+
+                <p>
+                    TechHub Ghana will continue covering major
+                    technology developments, Ghanaian innovation,
+                    digital tools and practical technology guides.
+                </p>
+
+
+                <!-- BOTTOM AD -->
+
+                <div
+                    class="ad-container"
+                    aria-label="Advertisement"
+                >
+
+                    <span>
+                        ADVERTISEMENT
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SIDEBAR
+            ================================================== -->
+
+            <aside
+                class="article-sidebar"
+                aria-label="Article sidebar"
+            >
+
+
+                <!-- SIDEBAR AD -->
+
+                <div
+                    class="ad-container"
+                    aria-label="Advertisement"
+                >
+
+                    <span>
+                        ADVERTISEMENT
+                    </span>
+
+                </div>
+
+
+                <!-- POPULAR -->
+
+                <div class="sidebar-box">
+
+                    <h3>
+                        🔥 Popular Topics
+                    </h3>
+
+
+                    <a
+                        href="news.html?category=ai"
+                        class="sidebar-link"
+                    >
+                        🤖 Artificial Intelligence
+                    </a>
+
+
+                    <a
+                        href="news.html?category=cybersecurity"
+                        class="sidebar-link"
+                    >
+                        🔐 Cybersecurity
+                    </a>
+
+
+                    <a
+                        href="news.html?category=smartphones"
+                        class="sidebar-link"
+                    >
+                        📱 Smartphones
+                    </a>
+
+
+                    <a
+                        href="news.html?category=startups"
+                        class="sidebar-link"
+                    >
+                        🚀 Startups
+                    </a>
+
+
+                    <a
+                        href="news.html?category=fintech"
+                        class="sidebar-link"
+                    >
+                        💳 FinTech
+                    </a>
+
+                </div>
+
+
+                <!-- QUICK LINKS -->
+
+                <div class="sidebar-box">
+
+                    <h3>
+                        ⚡ Quick Links
+                    </h3>
+
+
+                    <a
+                        href="ghana-tech.html"
+                        class="sidebar-link"
+                    >
+                        🇬🇭 Ghana Tech
+                    </a>
+
+
+                    <a
+                        href="tutorials.html"
+                        class="sidebar-link"
+                    >
+                        📚 Tutorials
+                    </a>
+
+
+                    <a
+                        href="tools.html"
+                        class="sidebar-link"
+                    >
+                        🛠️ Digital Tools
+                    </a>
+
+
+                    <a
+                        href="ai-assistant.html"
+                        class="sidebar-link"
+                    >
+                        🤖 AI Assistant
+                    </a>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+
+        <!-- =================================================
+             RELATED ARTICLES
+        ================================================== -->
+
+        <section class="related-section">
+
+            <h2>
+                📰 You May Also Like
+            </h2>
+
+
+            <div
+                class="related-grid"
+                id="relatedArticles"
+            >
+
+
+                <article class="related-card">
+
+                    <img
+                        src="images/cyber-news.jpg"
+                        alt="Cybersecurity"
+                        loading="lazy"
+                    >
+
+
+                    <div class="related-card-content">
+
+                        <span class="related-category">
+                            Cybersecurity
+                        </span>
+
+
+                        <h3>
+
+                            <a href="article.html?id=cybersecurity">
+                                Simple cybersecurity habits
+                                everyone should know
+                            </a>
+
+                        </h3>
+
+                    </div>
+
+                </article>
+
+
+                <article class="related-card">
+
+                    <img
+                        src="images/web-news.jpg"
+                        alt="Web development"
+                        loading="lazy"
+                    >
+
+
+                    <div class="related-card-content">
+
+                        <span class="related-category">
+                            Software
+                        </span>
+
+
+                        <h3>
+
+                            <a href="article.html?id=web-development">
+                                Modern web development tools
+                                developers should know
+                            </a>
+
+                        </h3>
+
+                    </div>
+
+                </article>
+
+
+                <article class="related-card">
+
+                    <img
+                        src="images/cloud-news.jpg"
+                        alt="Cloud computing"
+                        loading="lazy"
+                    >
+
+
+                    <div class="related-card-content">
+
+                        <span class="related-category">
+                            Cloud
+                        </span>
+
+
+                        <h3>
+
+                            <a href="article.html?id=cloud-computing">
+                                Understanding cloud computing
+                                for beginners
+                            </a>
+
+                        </h3>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</main>
+
+
+<!-- =====================================================
+     NEWSLETTER
+====================================================== -->
+
+<section class="newsletter">
+
+    <div class="newsletter-box">
+
+        <h2>
+            📩 Get TechHub Ghana Updates
+        </h2>
+
+
+        <p>
+            Subscribe to receive important technology
+            news, guides, tools and Ghana tech updates.
+        </p>
+
+
+        <form
+            class="newsletter-form"
+            id="newsletterForm"
+        >
+
+            <label
+                for="newsletterEmail"
+                class="sr-only"
+            >
+                Email address
+            </label>
+
+
+            <input
+                type="email"
+                id="newsletterEmail"
+                placeholder="Enter your email address"
+                autocomplete="email"
+                required
+            >
+
+
+            <button type="submit">
+                Subscribe
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+====================================================== -->
+
+<footer>
+
+    <div class="footer-grid">
+
+
+        <!-- BRAND -->
+
+        <div class="footer-column">
+
+            <h3>
+                TechHub Ghana
+            </h3>
+
+
+            <p>
+                Technology • Innovation • Learning
+            </p>
+
+
+            <p>
+                Your trusted source for technology
+                news, tutorials, reviews and digital tools.
+            </p>
+
+        </div>
+
+
+        <!-- QUICK LINKS -->
+
+        <div class="footer-column">
+
+            <h3>
+                Quick Links
+            </h3>
+
+
+            <p>
+                <a href="index.html">
+                    Home
+                </a>
+            </p>
+
+
+            <p>
+                <a href="ghana-tech.html">
+                    Ghana Tech
+                </a>
+            </p>
+
+
+            <p>
+                <a href="news.html">
+                    News
+                </a>
+            </p>
+
+
+            <p>
+                <a href="tutorials.html">
+                    Tutorials
+                </a>
+            </p>
+
+
+            <p>
+                <a href="tools.html">
+                    Tools
+                </a>
+            </p>
+
+        </div>
+
+
+        <!-- CATEGORIES -->
+
+        <div class="footer-column">
+
+            <h3>
+                Categories
+            </h3>
+
+
+            <p>
+                <a href="news.html?category=ai">
+                    AI
+                </a>
+            </p>
+
+
+            <p>
+                <a href="news.html?category=cybersecurity">
+                    Cybersecurity
+                </a>
+            </p>
+
+
+            <p>
+                <a href="news.html?category=smartphones">
+                    Smartphones
+                </a>
+            </p>
+
+
+            <p>
+                <a href="news.html?category=startups">
+                    Startups
+                </a>
+            </p>
+
+
+            <p>
+                <a href="news.html?category=fintech">
+                    FinTech
+                </a>
+            </p>
+
+        </div>
+
+
+        <!-- LEGAL -->
+
+        <div class="footer-column">
+
+            <h3>
+                Legal
+            </h3>
+
+
+            <p>
+                <a href="privacy.html">
+                    Privacy Policy
+                </a>
+            </p>
+
+
+            <p>
+                <a href="terms.html">
+                    Terms of Use
+                </a>
+            </p>
+
+
+            <p>
+                <a href="disclaimer.html">
+                    Disclaimer
+                </a>
+            </p>
+
+
+            <p>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <hr>
+
+
+    <p class="copyright">
+
+        © 2026 TechHub Ghana.
+        All Rights Reserved.
+
+    </p>
+
+</footer>
+
+
+<!-- =====================================================
+     JAVASCRIPT
+====================================================== -->
+
+<script
+    src="script.js"
+    defer
+></script>
+
+
+<script
+    src="article.js"
+    defer
+></script>
+
+
+</body>
+
+</html>
