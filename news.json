@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-30T14:41:06.996411+00:00",
+  "updated": "2026-08-30T18:24:54.407595+00:00",
   "articles": [
+    {
+      "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+      "summary": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else — but it's a bet on a fuel source that's already triggering lawsuits and health studies everywhere his (and others') turbines have gone in.",
+      "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+      "date": "Sun, 30 Aug 2026 16:54:25 +0000",
+      "source": "TechCrunch",
+      "category": "Cloud Computing"
+    },
+    {
+      "title": "TechCrunch Mobility: The hidden human cost of robotaxis",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "link": "https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis/",
+      "date": "Sun, 30 Aug 2026 16:03:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+      "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
+      "link": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+      "date": "Sun, 30 Aug 2026 15:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
       "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
@@ -134,30 +158,6 @@
       "summary": "The firm, known for its focus on software, is going to start throwing more money at the hardware behind AI.",
       "link": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
       "date": "Fri, 28 Aug 2026 13:24:43 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
-      "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
-      "link": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
-      "date": "Fri, 28 Aug 2026 12:46:12 +0000",
-      "source": "TechCrunch",
-      "category": "Cloud Computing"
-    },
-    {
-      "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
-      "summary": "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.",
-      "link": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
-      "date": "Fri, 28 Aug 2026 12:21:06 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "As electric two-wheelers gain a foothold, Belgian startup Any bets on cargo space",
-      "summary": "Launched by Belgian startup Any, LUV1 is a modular electric motorcycle with 120 liters of cargo space that can be used to carry bags, work equipment, or even pets.",
-      "link": "https://techcrunch.com/2026/08/28/as-electric-two-wheelers-gain-a-foothold-belgian-startup-any-bets-on-cargo-space/",
-      "date": "Fri, 28 Aug 2026 09:33:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
