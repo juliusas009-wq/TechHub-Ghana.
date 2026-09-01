@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-01T01:22:33.367473+00:00",
+  "updated": "2026-09-01T06:33:39.335782+00:00",
   "articles": [
+    {
+      "title": "Magna increases bet on battery swapping in India with $35M for Yuma",
+      "summary": "Magna's investment in Yuma Energy has reached $87 million as the Canadian auto supplier increases its majority stake in the Indian battery-swapping firm.",
+      "link": "https://techcrunch.com/2026/08/31/magna-increases-bet-on-battery-swapping-in-india-with-35m-for-yuma/",
+      "date": "Tue, 01 Sep 2026 05:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Lachy Groom backs Indian startup aiming to keep aircraft aloft for a year",
       "summary": "Founded by a 20-year-old, Alteon is developing autonomous aircraft that hopes to harvest wind energy to stay aloft for several months.",
@@ -152,14 +160,6 @@
       "date": "Mon, 31 Aug 2026 15:19:32 +0000",
       "source": "TechCrunch",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-      "summary": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
-      "link": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-      "date": "Mon, 31 Aug 2026 15:15:25 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
     },
     {
       "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
