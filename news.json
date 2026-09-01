@@ -1,165 +1,13 @@
 {
-  "updated": "2026-09-01T06:33:39.335782+00:00",
+  "updated": "2026-09-01T12:21:49.118899+00:00",
   "articles": [
     {
-      "title": "Magna increases bet on battery swapping in India with $35M for Yuma",
-      "summary": "Magna's investment in Yuma Energy has reached $87 million as the Canadian auto supplier increases its majority stake in the Indian battery-swapping firm.",
-      "link": "https://techcrunch.com/2026/08/31/magna-increases-bet-on-battery-swapping-in-india-with-35m-for-yuma/",
-      "date": "Tue, 01 Sep 2026 05:00:00 +0000",
-      "source": "TechCrunch",
+      "title": "How engineered microbes could help feed the world’s crops",
+      "summary": "Fertilizer is crucial for the global food supply, but making it uses a lot of energy and produces a lot of emissions. Some companies hope microbes can help. A growing body of research shows that seeding the soil around a crop’s roots with beneficial microbes can help feed the plant, providing crucial nitrogen to help&#8230;",
+      "link": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/",
+      "date": "Tue, 01 Sep 2026 09:00:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
-    },
-    {
-      "title": "Lachy Groom backs Indian startup aiming to keep aircraft aloft for a year",
-      "summary": "Founded by a 20-year-old, Alteon is developing autonomous aircraft that hopes to harvest wind energy to stay aloft for several months.",
-      "link": "https://techcrunch.com/2026/08/31/lachy-groom-backs-indian-startup-aiming-to-keep-aircraft-aloft-for-a-year/",
-      "date": "Tue, 01 Sep 2026 00:30:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-      "summary": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
-      "link": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-      "date": "Tue, 01 Sep 2026 00:13:00 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Polymarket reportedly raises $300 million from Donald Trump Jr.’s investment fund",
-      "summary": "The firm, 1789 Capital, led the funding round that reportedly will total around $1 billion.",
-      "link": "https://techcrunch.com/2026/08/31/polymarket-reportedly-raises-300-million-from-donald-trump-jr-s-investment-fund/",
-      "date": "Mon, 31 Aug 2026 23:41:10 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "a16z brings growth fund to $8.5B days after launching new $1.1B fund",
-      "summary": "Andreessen Horowitz held out its hand and returned with billions more in new funds to invest in startups.",
-      "link": "https://techcrunch.com/2026/08/31/a16z-brings-growth-fund-to-8-5b-days-after-launching-new-1-1b-fund/",
-      "date": "Mon, 31 Aug 2026 23:14:14 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "A group funded by Andreessen, Horowitz, and Brockman plans data center ads to sway midterms",
-      "summary": "Build American AI plans to lobby voters in select states about the virtues of data centers by spending millions of dollars on ads.",
-      "link": "https://techcrunch.com/2026/08/31/a-group-funded-by-andreessen-horowitz-and-brockman-plan-data-center-ads-to-sway-midterms/",
-      "date": "Mon, 31 Aug 2026 22:14:05 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "FTC accuses Amazon of running a ‘secret ad surcharge scheme’ in new lawsuit",
-      "summary": "Amazon is facing a new lawsuit from the FTC and 22 states for allegedly secretly charging businesses more for advertising.",
-      "link": "https://techcrunch.com/2026/08/31/ftc-accuses-amazon-of-running-a-secret-ad-surcharge-scheme-in-new-lawsuit/",
-      "date": "Mon, 31 Aug 2026 20:20:25 +0000",
-      "source": "TechCrunch",
-      "category": "Cloud Computing"
-    },
-    {
-      "title": "The Pentagon now has its own version of ChatGPT and Grok",
-      "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
-      "link": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-      "date": "Mon, 31 Aug 2026 20:13:45 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Apply now to host a Side Event at TechCrunch Disrupt 2026",
-      "summary": "Apply before September 4 to be a part of the TechCrunch Disrupt community by hosting your own Side Event.",
-      "link": "https://techcrunch.com/2026/08/31/apply-now-to-host-a-side-event-at-techcrunch-disrupt-2026/",
-      "date": "Mon, 31 Aug 2026 19:32:21 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Instagram puts new limits on undisclosed AI profiles",
-      "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
-      "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
-      "date": "Mon, 31 Aug 2026 19:16:59 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Apple’s top App Store exec, Phil Schiller, follows wave of exits as CEO Tim Cook steps down",
-      "summary": "The longtime executive won't be leaving Apple just yet but staff at the company say it's a step closer to Schiller retiring.",
-      "link": "https://techcrunch.com/2026/08/31/apples-top-app-store-exec-phil-schiller-follows-wave-of-exits-as-ceo-tim-cook-steps-down/",
-      "date": "Mon, 31 Aug 2026 19:02:06 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Microsoft tests fix for latest hours-long Outlook outage",
-      "summary": "Microsoft says it's testing a fix for the widespread Outlook issues that have led to email delays and failures.",
-      "link": "https://techcrunch.com/2026/08/31/microsoft-tests-fix-for-latest-hours-long-outlook-outage/",
-      "date": "Mon, 31 Aug 2026 18:56:41 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Kalshi bans George Santos for life over State of the Union bets",
-      "summary": "The disciplinary action comes two months after the Commodity Futures Trading Commission settled charges against Santos.",
-      "link": "https://techcrunch.com/2026/08/31/kalshi-bans-george-santos-for-life-over-state-of-the-union-bets/",
-      "date": "Mon, 31 Aug 2026 18:53:41 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
-      "summary": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
-      "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
-      "date": "Mon, 31 Aug 2026 18:35:11 +0000",
-      "source": "TechCrunch",
-      "category": "Cloud Computing"
-    },
-    {
-      "title": "Hackers claim millions of patient records stolen during data breach at healthcare giant McKesson",
-      "summary": "The company, which distributes medicines and medical devices to hospitals and healthcare practices across the U.S., said it was hacked and expects intermittent service degradation.",
-      "link": "https://techcrunch.com/2026/08/31/hackers-claim-millions-of-patient-records-stolen-during-data-breach-at-healthcare-giant-mckesson/",
-      "date": "Mon, 31 Aug 2026 18:10:09 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Ryan Breslow is raising up to $27M in pay-to-play bridge funding to save Bolt",
-      "summary": "The controversial founder of the checkout startup once valued at $11 billion is putting in $5 million of his own money.",
-      "link": "https://techcrunch.com/2026/08/31/ryan-breslow-is-raising-up-to-27m-in-pay-to-play-bridge-funding-to-save-bolt/",
-      "date": "Mon, 31 Aug 2026 17:14:44 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Tim Cook’s parting message: Apple is in the hands of a product builder",
-      "summary": "Tim Cook’s farewell memo to Apple employees offers a glimpse at how he wants John Ternus to be seen: as a product builder with deep experience across the iPhone, Mac, AirPods, and other major hardware lines.",
-      "link": "https://techcrunch.com/2026/08/31/tim-cooks-parting-message-apple-is-in-the-hands-of-a-product-builder/",
-      "date": "Mon, 31 Aug 2026 17:02:42 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "VLC crosses 7 billion downloads",
-      "summary": "In our world of expensive streaming platforms, the very free and offline VLC media player has crossed 7 billion downloads.",
-      "link": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/",
-      "date": "Mon, 31 Aug 2026 16:07:46 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
-      "summary": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
-      "link": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-      "date": "Mon, 31 Aug 2026 16:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "How AI could make it harder for governments to use hacking tools",
-      "summary": "AI is proving effective at finding and exploiting vulnerabilities. Some say this will make it harder for governments to use hacking tools and spyware and could reignite calls to backdoor devices.",
-      "link": "https://techcrunch.com/2026/08/31/how-ai-could-make-it-harder-for-governments-to-use-hacking-tools/",
-      "date": "Mon, 31 Aug 2026 15:19:32 +0000",
-      "source": "TechCrunch",
-      "category": "Cybersecurity"
     },
     {
       "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
@@ -232,14 +80,6 @@
       "date": "Wed, 26 Aug 2026 09:00:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
-    },
-    {
-      "title": "AI models flub these intelligence tests. Can you fare any better?",
-      "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur&#8230;",
-      "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
-      "date": "Wed, 26 Aug 2026 09:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Artificial Intelligence"
     }
   ]
 }
