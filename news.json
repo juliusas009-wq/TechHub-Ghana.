@@ -1,6 +1,54 @@
 {
-  "updated": "2026-09-01T19:44:40.623958+00:00",
+  "updated": "2026-09-01T22:23:35.459600+00:00",
   "articles": [
+    {
+      "title": "Apple follows Google in adopting Trump’s ‘Lake America’ name",
+      "summary": "Apple Maps is following President Trump's executive order to change the name of Lake Ontario to Lake America.",
+      "link": "https://techcrunch.com/2026/09/01/apple-follows-google-in-adopting-trumps-lake-america-name/",
+      "date": "Tue, 01 Sep 2026 22:13:34 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
+      "summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+      "link": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+      "date": "Tue, 01 Sep 2026 22:08:24 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Open AI’s Astra model is on the way — and very good at breaking into computer systems",
+      "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
+      "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "date": "Tue, 01 Sep 2026 21:06:24 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "Google’s Android update tackles motion sickness, accessibility, and more",
+      "summary": "While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage Gemini to provide various improvements.",
+      "link": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+      "date": "Tue, 01 Sep 2026 20:53:05 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "X says attackers are targeting user accounts after the launch of X Money",
+      "summary": "X is investigating a wave of unsolicited password reset emails that it believes may be tied to the rollout of its new payments service.",
+      "link": "https://techcrunch.com/2026/09/01/x-says-attackers-are-targeting-accounts-after-the-launch-of-x-money/",
+      "date": "Tue, 01 Sep 2026 20:48:32 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "John Ternus hypes ‘huge launch next week’ in first memo as Apple CEO",
+      "summary": "Apple is hosting its iPhone release event next week, which is rumored to feature the first-ever foldable iPhone.",
+      "link": "https://techcrunch.com/2026/09/01/john-ternus-hypes-huge-launch-next-week-in-first-memo-as-apple-ceo/",
+      "date": "Tue, 01 Sep 2026 19:45:28 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Anthropic’s new Fable release is cheaper, less restrictive",
       "summary": "Fable 5.1 includes changes meant to reduce token cost and false-positive restrictions from the model's safeguards.",
@@ -112,54 +160,6 @@
       "date": "Tue, 01 Sep 2026 14:52:12 +0000",
       "source": "TechCrunch",
       "category": "Ghana Technology"
-    },
-    {
-      "title": "Waymo accelerates robotaxi expansion with launches in Denver, San Diego, and Tampa",
-      "summary": "Waymo will begin inviting riders on a rolling basis and slowly ramp up access in the three cities, following its usual commercial playbook.",
-      "link": "https://techcrunch.com/2026/09/01/waymo-accelerates-robotaxi-expansion-with-launches-in-denver-san-diego-and-tampa/",
-      "date": "Tue, 01 Sep 2026 14:20:44 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Help build the future of startups: Volunteer at TechCrunch Disrupt 2026",
-      "summary": "TechCrunch Disrupt is where those moments happen. And we can't pull it off without volunteers like you.",
-      "link": "https://techcrunch.com/2026/09/01/help-build-the-future-of-startups-volunteer-at-techcrunch-disrupt-2026/",
-      "date": "Tue, 01 Sep 2026 14:03:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "India’s Unacademy sells to rival upGrad for $206M, about 94% less than its peak valuation",
-      "summary": "\"We raised at a peak, but sold at a fraction of that,\" Unacademy co-founder and CEO Gaurav Munjal wrote. \"I'm not going to dress these facts up.\"",
-      "link": "https://techcrunch.com/2026/09/01/indias-unacademy-sells-to-rival-upgrad-for-206m-about-94-less-than-its-peak-valuation/",
-      "date": "Tue, 01 Sep 2026 13:58:42 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "If space data centers feel far-fetched, why not interstellar travel?",
-      "summary": "The team behind Starcloud's orbital data centers has a new high-risk space project: Sending a probe to Alpha Centauri.",
-      "link": "https://techcrunch.com/2026/09/01/if-space-data-centers-feel-far-fetched-why-not-interstellar-travel/",
-      "date": "Tue, 01 Sep 2026 10:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Magna increases bet on battery swapping in India with $35M for Yuma",
-      "summary": "Magna's investment in Yuma Energy has reached $87 million as the Canadian auto supplier increases its majority stake in the Indian battery-swapping firm.",
-      "link": "https://techcrunch.com/2026/08/31/magna-increases-bet-on-battery-swapping-in-india-with-35m-for-yuma/",
-      "date": "Tue, 01 Sep 2026 05:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Lachy Groom backs Indian startup aiming to keep aircraft aloft for a year",
-      "summary": "Founded by a 20-year-old, Alteon is developing autonomous aircraft that hopes to harvest wind energy to stay aloft for several months.",
-      "link": "https://techcrunch.com/2026/08/31/lachy-groom-backs-indian-startup-aiming-to-keep-aircraft-aloft-for-a-year/",
-      "date": "Tue, 01 Sep 2026 00:30:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
     },
     {
       "title": "How AI plotted an interstellar journey to Alpha Centauri",
