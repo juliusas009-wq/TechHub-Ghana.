@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-02T17:36:36.348178+00:00",
+  "updated": "2026-09-02T20:32:00.991778+00:00",
   "articles": [
+    {
+      "title": "OpenAI’s new reasoning technique alarms AI safety experts",
+      "summary": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
+      "link": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+      "date": "Wed, 02 Sep 2026 20:19:14 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "MapQuest is now the No. 1 U.S. app after bucking Trump’s ‘Lake America’ renaming",
+      "summary": "The once-dominant mapping app has surged to the top of Apple’s U.S. App Store after refusing to adopt Trump’s “Lake America” name, drawing more than half of its 2026 U.S. downloads in just six days.",
+      "link": "https://techcrunch.com/2026/09/02/mapquest-is-now-the-no-1-u-s-app-after-bucking-trumps-lake-america-renaming/",
+      "date": "Wed, 02 Sep 2026 20:12:41 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "It sure looks like hackers breached a major ID card verification service",
+      "summary": "An identity theft search site claimed to have more than 150 million driver's license photos stolen from an ID verification service. The crime site has now shut down.",
+      "link": "https://techcrunch.com/2026/09/02/it-sure-looks-like-hackers-breached-a-major-id-card-verification-service/",
+      "date": "Wed, 02 Sep 2026 19:35:09 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Delivery Hero board backs Uber’s $15B takeover bid",
+      "summary": "If approved, the combined company would become one of the largest food delivery platforms in the world.",
+      "link": "https://techcrunch.com/2026/09/02/delivery-hero-board-backs-ubers-15b-takeover-bid/",
+      "date": "Wed, 02 Sep 2026 19:25:35 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Pangram’s Max Spero on why AI detection is harder than ‘Real or Fake’",
       "summary": "The internet has a trust problem, and&#160;it’s&#160;not just because social media feeds are filling up with AI&#160;slop. AI-generated text and images are now making their way into job applications, product reviews,&#160;and even insurance claims, leaving platforms and users alike scrambling to figure out&#160;what’s&#160;real.&#160; A handful of startups have cropped up in the past couple of [&#8230;]",
@@ -19,7 +51,7 @@
     },
     {
       "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-      "summary": "\"The United States has a strong interest in continuing to develop a robust and competitive\nartificial intelligence industry that sets the standard for the practice and procedure of AI use\nglobally,\" the brief reads.",
+      "summary": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use\nglobally,\" the brief reads.",
       "link": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
       "date": "Wed, 02 Sep 2026 17:09:06 +0000",
       "source": "TechCrunch",
@@ -126,38 +158,6 @@
       "summary": "Apple Maps is following President Trump's executive order to change the name of Lake Ontario to Lake America.",
       "link": "https://techcrunch.com/2026/09/01/apple-follows-google-in-adopting-trumps-lake-america-name/",
       "date": "Tue, 01 Sep 2026 22:13:34 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
-      "summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
-      "link": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
-      "date": "Tue, 01 Sep 2026 22:08:24 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
-      "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
-      "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-      "date": "Tue, 01 Sep 2026 21:06:24 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Google’s Android update tackles motion sickness, accessibility, and more",
-      "summary": "While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage Gemini to provide various improvements.",
-      "link": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
-      "date": "Tue, 01 Sep 2026 20:53:05 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "X says attackers are targeting user accounts after the launch of X Money",
-      "summary": "X is investigating a wave of unsolicited password reset emails that it believes may be tied to the rollout of its new payments service.",
-      "link": "https://techcrunch.com/2026/09/01/x-says-attackers-are-targeting-accounts-after-the-launch-of-x-money/",
-      "date": "Tue, 01 Sep 2026 20:48:32 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
