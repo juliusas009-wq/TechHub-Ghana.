@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-02T09:18:20.148693+00:00",
+  "updated": "2026-09-02T13:46:28.944560+00:00",
   "articles": [
+    {
+      "title": "Norway considers ban on camera-enabled wearable ‘pervert glasses’",
+      "summary": "The Nordic country says wearable camera headsets need to be regulated given their privacy risks.",
+      "link": "https://techcrunch.com/2026/09/02/norway-considers-ban-on-camera-enabled-wearable-pervert-glasses/",
+      "date": "Wed, 02 Sep 2026 13:11:47 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Adobe is making its tools available in Slack",
+      "summary": "Users will be able to access Express, Premiere, and Acrobat in Slack",
+      "link": "https://techcrunch.com/2026/09/02/adobe-is-making-its-tools-available-in-slack/",
+      "date": "Wed, 02 Sep 2026 13:09:27 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Uber is laying off 10% of staff, or 3,300 people",
+      "summary": "Uber is laying off about 3,300 people, or about 10% of its global headcount, in a bid to reduce management layers and invest more in its ride-sharing, delivery, and robotaxi divisions.",
+      "link": "https://techcrunch.com/2026/09/02/uber-is-laying-off-10-of-staff-or-3300-people/",
+      "date": "Wed, 02 Sep 2026 12:14:35 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
+      "summary": "Edelson PC is filing 30 new lawsuits against OpenAI over the Tumbler Ridge shooting, escalating claims to aiding and abetting and naming Chris Lehane, though evidence remains unconfirmed.",
+      "link": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+      "date": "Wed, 02 Sep 2026 12:09:42 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
     {
       "title": "Larry Page’s flying car company Pivotal loses its CEO",
       "summary": "The company told TechCrunch he is \"pursuing new endeavors.\" Karklin will be replaced on an interim basis by Mike Ross, an aviation executive who joined Pivotal's board of directors in November 2025.",
@@ -130,36 +162,12 @@
       "category": "Technology"
     },
     {
-      "title": "Amazon Alexa can now alert you when something new might tempt you to shop",
-      "summary": "Amazon is adding a new Alexa-powered feature called “Update Me When” that can send personalized alerts about product launches, tours, books, shows, and other events that could trigger a purchase.",
-      "link": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
-      "date": "Tue, 01 Sep 2026 15:51:55 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
-      "summary": "AIR's platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behavior.",
-      "link": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
-      "date": "Tue, 01 Sep 2026 15:45:51 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Microsoft 365 outage drags on, but things are improving",
-      "summary": "Microsoft 365 and Outlook are still seeing service degradations on Tuesday, the company's status page indicates.",
-      "link": "https://techcrunch.com/2026/09/01/microsoft-365-outage-drags-on-but-things-are-improving/",
-      "date": "Tue, 01 Sep 2026 15:23:15 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Fambot introduces an ‘AI chief of staff’ for families",
-      "summary": "Fambot is building an AI “chief of staff” to help families manage the emails, calendars, school updates, sports schedules, and other logistics of raising kids.",
-      "link": "https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/",
-      "date": "Tue, 01 Sep 2026 15:10:58 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "The Download: AI puzzles and a path to our nearest star system",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI models flub these intelligence tests. Can you fare any better? Puzzles and games have always been central to AI development. The term “machine learning” was popularized in a 1959 article&#8230;",
+      "link": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
+      "date": "Wed, 02 Sep 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
+      "category": "Artificial Intelligence"
     },
     {
       "title": "How AI plotted an interstellar journey to Alpha Centauri",
@@ -232,14 +240,6 @@
       "date": "Thu, 27 Aug 2026 12:10:00 +0000",
       "source": "MIT Technology Review",
       "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Is Slate Auto’s new electric truck the EV Americans need?",
-      "summary": "EVs account for under 10% of total new-vehicle sales in the US, and the numbers are declining. From a climate perspective, that’s pretty dismal, especially because the transportation sector is the single biggest source of greenhouse-gas emissions in the country.&#160; One thing that could help turn that around? Slate Auto’s new truck—a vehicle that seems&#8230;",
-      "link": "https://www.technologyreview.com/2026/08/27/1142953/electric-truck-slate-auto/",
-      "date": "Thu, 27 Aug 2026 10:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
     }
   ]
 }
