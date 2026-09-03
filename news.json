@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-03T19:06:29.324687+00:00",
+  "updated": "2026-09-03T21:48:28.114450+00:00",
   "articles": [
+    {
+      "title": "Startup ARR is less secure than ever, new research shows",
+      "summary": "The AI era has completely broken enterprise buying patterns, and startups haven't yet figured out how to navigate.",
+      "link": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
+      "date": "Thu, 03 Sep 2026 20:59:23 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "The Cybercab is Tesla’s ‘fork in the road’ moment",
+      "summary": "The company is about to formally launch the gold two-seater, with no steering wheel or pedals -- a move that could change Tesla forever.",
+      "link": "https://techcrunch.com/2026/09/03/the-cybercab-is-teslas-fork-in-the-road-moment/",
+      "date": "Thu, 03 Sep 2026 19:42:48 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+      "summary": "The high-profile startup's annual revenue run rate stands at over $100 million.",
+      "link": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "date": "Thu, 03 Sep 2026 19:36:29 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Utilities are racing to link up with fusion startups, with Realta Fusion the latest to benefit",
+      "summary": "The grid has been straining under the weight of new AI data centers, and that has utilities courting fusion startups.",
+      "link": "https://techcrunch.com/2026/09/03/utilities-are-racing-to-link-up-with-fusion-startups-with-realta-fusion-the-latest-to-benefit/",
+      "date": "Thu, 03 Sep 2026 19:29:16 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Abliteration.ai is making a business out of removing AI guardrails",
       "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
@@ -126,38 +158,6 @@
       "summary": "Google has dodged an effort to break up its ad business, but a judge said Wednesday that the company will need to adjust its business to benefit competitors.",
       "link": "https://techcrunch.com/2026/09/02/google-spared-from-ad-business-breakup-but-judge-orders-changes-to-how-it-operates/",
       "date": "Wed, 02 Sep 2026 21:38:34 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "OpenAI’s new reasoning technique alarms AI safety experts",
-      "summary": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
-      "link": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-      "date": "Wed, 02 Sep 2026 20:19:14 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "MapQuest is now the No. 1 US app after bucking Trump’s ‘Lake America’ renaming",
-      "summary": "The once-dominant mapping app has surged to the top of Apple’s U.S. App Store after refusing to adopt Trump’s “Lake America” name, drawing more than half of its 2026 U.S. downloads in just six days.",
-      "link": "https://techcrunch.com/2026/09/02/mapquest-is-now-the-no-1-u-s-app-after-bucking-trumps-lake-america-renaming/",
-      "date": "Wed, 02 Sep 2026 20:12:41 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "It sure looks like hackers breached a major ID card verification service",
-      "summary": "An identity theft search site claimed to have more than 150 million driver's license photos stolen from an ID verification service. The crime site has now shut down.",
-      "link": "https://techcrunch.com/2026/09/02/it-sure-looks-like-hackers-breached-a-major-id-card-verification-service/",
-      "date": "Wed, 02 Sep 2026 19:35:09 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Delivery Hero board backs Uber’s $15B takeover bid",
-      "summary": "If approved, the combined company would become one of the largest food delivery platforms in the world.",
-      "link": "https://techcrunch.com/2026/09/02/delivery-hero-board-backs-ubers-15b-takeover-bid/",
-      "date": "Wed, 02 Sep 2026 19:25:35 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
