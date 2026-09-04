@@ -1,6 +1,30 @@
 {
-  "updated": "2026-09-04T16:44:07.235322+00:00",
+  "updated": "2026-09-04T19:18:04.031507+00:00",
   "articles": [
+    {
+      "title": "Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now",
+      "summary": "A federal judge temporarily barred an X rival from using the Twitter name, but found that X was likely to have abandoned the “Tweet” trademark and bird logo. The startup has since relaunched as Tweet.app.",
+      "link": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
+      "date": "Fri, 04 Sep 2026 17:52:05 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "What will Apple’s John Ternus era look like?",
+      "summary": "It&#8217;s&#160;officially the Ternus era at Apple.&#160;&#160; Tim Cook stepped down&#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo&#160;promised a “huge launch next week”&#160;— timing that puts Apple&#8217;s next iPhone event on his desk before&#160;he&#8217;s&#160;even settled in. Cook&#160;isn&#8217;t&#160;going far, though:&#160;he&#8217;s&#160;staying on as Executive&#160;Chairman, focused on the kind of policy [&#8230;]",
+      "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
+      "date": "Fri, 04 Sep 2026 17:18:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "No little kids allowed, and other new info about Tesla’s Cybercab",
+      "summary": "The company says no children under 13 can ride -- even with a parent. That's more restrictive than the Model Y SUVs it's using as robotaxis.",
+      "link": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
+      "date": "Fri, 04 Sep 2026 16:51:23 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
       "summary": "It's the latest failure of OpenAI's internal monitoring and security systems.",
@@ -138,27 +162,11 @@
       "category": "Programming"
     },
     {
-      "title": "OpenAI launches Astra, its powerful (and controversial) new model",
-      "summary": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
-      "link": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-      "date": "Thu, 03 Sep 2026 18:01:45 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Qualcomm backs Ultrahuman in $70M round on bet to turn smart rings into computers",
-      "summary": "Ultrahuman is targeting a $200 million annual revenue run rate by January 2027 as it builds a new Qualcomm-powered smart ring.",
-      "link": "https://techcrunch.com/2026/09/03/qualcomm-backs-ultrahuman-in-70m-round-on-bet-to-turn-smart-rings-into-computers/",
-      "date": "Thu, 03 Sep 2026 17:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Circular unveils Ring 3 series with contactless payments and on-finger vibration alerts",
-      "summary": "The Circular Ring 3 series announcement comes amid a year of heightened competition in the smart ring market, following the launches of the Oura Ring 5 and RingConn Gen 3.",
-      "link": "https://techcrunch.com/2026/09/03/circular-unveils-ring-3-series-with-contactless-payments-and-on-finger-vibration-alerts/",
-      "date": "Thu, 03 Sep 2026 16:42:54 +0000",
-      "source": "TechCrunch",
+      "title": "Architecting memory and storage in the AI era",
+      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while&#8230;",
+      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "date": "Fri, 04 Sep 2026 18:39:19 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -232,14 +240,6 @@
       "date": "Tue, 01 Sep 2026 14:00:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
-    },
-    {
-      "title": "The Download: engineered microbes for crops, and OpenAI’s culture problem",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How engineered microbes could help feed the world’s crops Fertilizer is crucial for the global food supply, but making it uses a lot of energy and produces a lot of emissions.&#8230;",
-      "link": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture/",
-      "date": "Tue, 01 Sep 2026 12:10:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Artificial Intelligence"
     }
   ]
 }
