@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-04T03:02:44.412437+00:00",
+  "updated": "2026-09-04T08:08:19.100244+00:00",
   "articles": [
+    {
+      "title": "The sameness problem behind those unappetizing AI-generated menus",
+      "summary": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
+      "link": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+      "date": "Fri, 04 Sep 2026 04:21:03 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Crusoe reportedly raises $3B at a  $30B valuation",
       "summary": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
@@ -150,14 +158,6 @@
       "summary": "Zoox is expanding to this critical ride-hailing destination a few weeks after it started charging for robotaxi rides.",
       "link": "https://techcrunch.com/2026/09/03/amazons-zoox-expands-its-robotaxi-service-to-las-vegas-airport/",
       "date": "Thu, 03 Sep 2026 12:12:56 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
-      "summary": "The Builders Stage is returning to TechCrunch Disrupt, bringing together founders, startup operators, and investors for practical conversations on what it takes to build and scale.",
-      "link": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
-      "date": "Wed, 02 Sep 2026 23:01:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
