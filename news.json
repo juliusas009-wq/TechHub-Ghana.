@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-03T23:47:27.799005+00:00",
+  "updated": "2026-09-04T03:02:44.412437+00:00",
   "articles": [
+    {
+      "title": "Crusoe reportedly raises $3B at a  $30B valuation",
+      "summary": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
+      "link": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "date": "Fri, 04 Sep 2026 00:48:42 +0000",
+      "source": "TechCrunch",
+      "category": "Programming"
+    },
     {
       "title": "Oura files to go public",
       "summary": "The ring maker says that its business has shown significant revenue growth over the past year.",
@@ -150,14 +158,6 @@
       "summary": "The Builders Stage is returning to TechCrunch Disrupt, bringing together founders, startup operators, and investors for practical conversations on what it takes to build and scale.",
       "link": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
       "date": "Wed, 02 Sep 2026 23:01:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
-      "summary": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
-      "link": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
-      "date": "Wed, 02 Sep 2026 22:44:56 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
