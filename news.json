@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-05T17:09:37.218980+00:00",
+  "updated": "2026-09-05T19:15:28.755134+00:00",
   "articles": [
+    {
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+      "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "date": "Sat, 05 Sep 2026 18:05:27 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
     {
       "title": "Clucky’s new alarm app wakes you up with a crowing rooster",
       "summary": "Clucky's new alarm app has an option where users are woken up to the sound of a rooster. They then complete a mission to turn it off.",
@@ -150,14 +158,6 @@
       "summary": "The company published a form on its website Thursday soliciting info from people who are interested in \"Cybercab fleet vehicle purchasing.\"",
       "link": "https://techcrunch.com/2026/09/03/tesla-is-asking-people-if-they-want-to-buy-and-run-cybercab-fleets/",
       "date": "Thu, 03 Sep 2026 22:18:30 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Startup ARR is less secure than ever, new research shows",
-      "summary": "The AI era has completely broken enterprise buying patterns, and startups haven't yet figured out how to navigate.",
-      "link": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
-      "date": "Thu, 03 Sep 2026 20:59:23 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
