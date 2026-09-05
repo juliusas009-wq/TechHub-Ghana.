@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-05T14:38:18.238267+00:00",
+  "updated": "2026-09-05T17:09:37.218980+00:00",
   "articles": [
+    {
+      "title": "Clucky’s new alarm app wakes you up with a crowing rooster",
+      "summary": "Clucky's new alarm app has an option where users are woken up to the sound of a rooster. They then complete a mission to turn it off.",
+      "link": "https://techcrunch.com/2026/09/05/cluckys-new-alarm-app-wakes-you-up-with-a-crowing-rooster/",
+      "date": "Sat, 05 Sep 2026 17:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Oura is going public, but these smart ring companies are coming for its crown",
+      "summary": "While Oura has largely dominated the smart ring market for years, a growing number of rivals are now racing to dethrone it by trying all sorts of approaches to get an edge over it.",
+      "link": "https://techcrunch.com/2026/09/05/oura-is-going-public-but-these-smart-ring-companies-are-coming-for-its-crown/",
+      "date": "Sat, 05 Sep 2026 15:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
       "summary": "The round is being raised just months after the robot data startup exited from stealth.",
@@ -142,22 +158,6 @@
       "summary": "The AI era has completely broken enterprise buying patterns, and startups haven't yet figured out how to navigate.",
       "link": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
       "date": "Thu, 03 Sep 2026 20:59:23 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "The Cybercab is Tesla’s ‘fork in the road’ moment",
-      "summary": "The company is about to formally launch the gold two-seater, with no steering wheel or pedals -- a move that could change Tesla forever.",
-      "link": "https://techcrunch.com/2026/09/03/the-cybercab-is-teslas-fork-in-the-road-moment/",
-      "date": "Thu, 03 Sep 2026 19:42:48 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
-      "summary": "The high-profile startup's annual revenue run rate stands at over $100 million.",
-      "link": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "date": "Thu, 03 Sep 2026 19:36:29 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
