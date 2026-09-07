@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-07T18:09:21.482104+00:00",
+  "updated": "2026-09-07T21:42:03.145259+00:00",
   "articles": [
+    {
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "link": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "date": "Mon, 07 Sep 2026 19:24:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "A secret new Elizabeth Holmes documentary stuns Telluride",
       "summary": "Nathan Fielder and Lance Oppenheim's secret Elizabeth Holmes documentary, \"You Can See Everything,\" stunned Telluride audiences Sunday night with its generous access to the Theranos founder.",
@@ -90,7 +98,7 @@
       "category": "Technology"
     },
     {
-      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+      "title": "XDOF, just 3 months out of stealth, is in talks for a Series B at a $1.2B valuation",
       "summary": "The round is being raised just months after the robot data startup exited from stealth.",
       "link": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
       "date": "Fri, 04 Sep 2026 23:36:14 +0000",
@@ -150,14 +158,6 @@
       "summary": "U.S. CD revenue jumped 58.6% in the first half of 2026, reversing last year’s decline as interest in retro tech and physical media continues to grow.",
       "link": "https://techcrunch.com/2026/09/04/cd-sales-are-making-an-unexpected-comeback-amid-a-retro-tech-boom/",
       "date": "Fri, 04 Sep 2026 15:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Krafton doubles down on India with another $250M bet beyond gaming",
-      "summary": "Krafton's planned investment in India is set to surpass $500 million with its latest commitment.",
-      "link": "https://techcrunch.com/2026/09/04/krafton-doubles-down-on-india-with-another-250m-bet-beyond-gaming/",
-      "date": "Fri, 04 Sep 2026 14:47:20 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
