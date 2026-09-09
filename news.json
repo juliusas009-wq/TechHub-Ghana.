@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-09T21:49:27.709686+00:00",
+  "updated": "2026-09-09T23:50:22.182313+00:00",
   "articles": [
+    {
+      "title": "Automattic’s board forces CEO Matt Mullenweg into leave of absence",
+      "summary": "Mullenweg said in a company Slack message that it was against his will.",
+      "link": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/",
+      "date": "Wed, 09 Sep 2026 23:14:29 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "summary": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
+      "link": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+      "date": "Wed, 09 Sep 2026 22:25:22 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
     {
       "title": "Massachusetts hits data centers with new clean power rules",
       "summary": "Massachusetts has become the third state in as many months to slap new restrictions on data center development.",
@@ -82,7 +98,7 @@
       "category": "Technology"
     },
     {
-      "title": "Apple has a new way prove your iPhone photos aren’t AI slop",
+      "title": "Apple has a new way to prove your iPhone photos aren’t AI slop",
       "summary": "Apple introduced Apple Reference Image to help users determine whether photos have been edited, including alterations made by AI.",
       "link": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
       "date": "Wed, 09 Sep 2026 18:08:35 +0000",
@@ -142,22 +158,6 @@
       "summary": "Instinct’s new email feature lets the AI agent create and manage accounts, contact businesses, handle support requests, and do more on users' behalf.",
       "link": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
       "date": "Wed, 09 Sep 2026 15:13:12 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Uber rival inDrive scales beyond ride-hailing to capture more consumer spending",
-      "summary": "First piloted in July 2025, inDrive's ad business has served more than 2 billion impressions and attracted over 2,000 paying advertisers a month.",
-      "link": "https://techcrunch.com/2026/09/09/uber-rival-indrive-scales-beyond-ride-hailing-to-capture-more-consumer-spending/",
-      "date": "Wed, 09 Sep 2026 15:10:41 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI",
-      "summary": "Anthropic researcher Jacob Coxon resigned over AI extinction fears, calling for pacing agreements between labs.",
-      "link": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
-      "date": "Wed, 09 Sep 2026 15:02:47 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
