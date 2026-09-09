@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-09T01:03:07.893093+00:00",
+  "updated": "2026-09-09T06:23:15.680217+00:00",
   "articles": [
+    {
+      "title": "Google DeepMind alumni are building tools to accelerate fusion power for the grid",
+      "summary": "Fusionality is developing control systems and simulation environments to help fusion power startups move faster.",
+      "link": "https://techcrunch.com/2026/09/08/google-deepmind-alumni-are-building-tools-to-accelerate-fusion-power-for-the-grid/",
+      "date": "Wed, 09 Sep 2026 06:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks",
+      "summary": "UK-based manufacturing software startup CloudNC announced Wednesday a $20 million B extension round, bringing its lifetime total raised amount to $128 million.",
+      "link": "https://techcrunch.com/2026/09/08/cloudnc-raises-20m-to-automate-manufacturings-most-pressing-bottlenecks/",
+      "date": "Wed, 09 Sep 2026 04:01:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "White House takes down ‘Build the Wall’ game after the Tetris Company complains",
       "summary": "The Trump administration's short-lived arcade game \"Build the Wall\" is now nowhere to be found after the Tetris Company posted that it takes \"copyright infringement very seriously.\"",
@@ -146,20 +162,12 @@
       "category": "Technology"
     },
     {
-      "title": "What we expect from the upcoming Apple launch",
-      "summary": "While Apple's first foldable iPhone Ultra will headline the September 9 launch, we're also expecting news about AirPods and HomePods.",
-      "link": "https://techcrunch.com/2026/09/07/what-we-expect-from-the-upcoming-apple-launch/",
-      "date": "Mon, 07 Sep 2026 15:58:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Phil Schiller’s App Store exit reportedly driven by wariness over future plans",
-      "summary": "Schiller reportedly had reservations about new CEO John Ternus' goal of bringing in more recurring revenue from the App Store.",
-      "link": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
-      "date": "Sun, 06 Sep 2026 21:41:06 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations&#8230;",
+      "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "date": "Wed, 09 Sep 2026 03:10:08 +0000",
+      "source": "MIT Technology Review",
+      "category": "Artificial Intelligence"
     },
     {
       "title": "The Download: our 35 Innovators Under 35 this year",
@@ -230,14 +238,6 @@
       "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight, increasingly becoming part&#8230;",
       "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
       "date": "Fri, 04 Sep 2026 09:25:19 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "The Download: rethinking child safety and fossil-fueled farming",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Child-monitoring apps might need a reboot Digital harms have become the defining fear of American parents. In response, they’re increasingly turning to content-monitoring apps that scan their children’s texts, photos, emails,&#8230;",
-      "link": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
-      "date": "Thu, 03 Sep 2026 12:10:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
     }
