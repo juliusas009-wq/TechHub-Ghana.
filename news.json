@@ -1,6 +1,102 @@
 {
-  "updated": "2026-09-09T11:42:51.071326+00:00",
+  "updated": "2026-09-09T15:57:38.179147+00:00",
   "articles": [
+    {
+      "title": "Viral AI assistant Instinct now has its own email address",
+      "summary": "Instinct’s new email feature lets the AI agent create and manage accounts, contact businesses, handle support requests, and do more on users' behalf.",
+      "link": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+      "date": "Wed, 09 Sep 2026 15:13:12 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Uber rival inDrive scales beyond ride-hailing to capture more consumer spending",
+      "summary": "inDrive's ad business, first piloted in July 2025, has served more than 2 billion impressions and attracted over 2,000 paying advertisers a month.",
+      "link": "https://techcrunch.com/2026/09/09/uber-rival-indrive-scales-beyond-ride-hailing-to-capture-more-consumer-spending/",
+      "date": "Wed, 09 Sep 2026 15:10:41 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI",
+      "summary": "Anthropic researcher Jacob Coxon resigned over AI extinction fears, calling for pacing agreements between labs.",
+      "link": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
+      "date": "Wed, 09 Sep 2026 15:02:47 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Shipt becomes the latest delivery app with an AI shopping assistant",
+      "summary": "Users can ask the assistant to do things like \"Create a cart for my Saturday tailgate for 25 people and include some brunch items,\" or \"Build a cart for easy school lunches and after-school snacks,\" Shipt says.",
+      "link": "https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant/",
+      "date": "Wed, 09 Sep 2026 14:51:45 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Uber invests $10M in Indian fleet operator Carrum at $168M valuation",
+      "summary": "Carrum Mobility operates about 5,100 vehicles in India and is Uber's largest fleet partner for its premium Uber Black service in the country.",
+      "link": "https://techcrunch.com/2026/09/09/uber-invests-10m-in-indian-fleet-operator-carrum-at-168m-valuation/",
+      "date": "Wed, 09 Sep 2026 14:38:41 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "AI spend per employee slumped at top firms in August — summer doldrums or a warning sign?",
+      "summary": "Falling token costs, cheaper models, and less spend per employee—AI adoption isn't playing out the way hyperscalers hoped.",
+      "link": "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/",
+      "date": "Wed, 09 Sep 2026 14:18:34 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Group of bipartisan lawmakers ask US government to ban several hack-for-hire firms",
+      "summary": "The three Indian companies are accused of using hackers to steal information used to sway litigation.",
+      "link": "https://techcrunch.com/2026/09/09/group-of-bipartisan-lawmakers-ask-us-government-to-ban-several-hack-for-hire-firms/",
+      "date": "Wed, 09 Sep 2026 13:01:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Instacart launches an AI grocery shopping assistant called Clementine",
+      "summary": "Instacart is the latest app to bake a conversational AI assistant into its platform.",
+      "link": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/",
+      "date": "Wed, 09 Sep 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Autonomy pivots to gas vehicles to keep the dream of car subscriptions alive",
+      "summary": "Scott Painter, founder of TrueCar, is still trying to build a business around vehicle subscriptions, where you can cancel at any time.",
+      "link": "https://techcrunch.com/2026/09/09/autonomy-pivots-to-gas-vehicles-to-keep-the-dream-of-car-subscriptions-alive/",
+      "date": "Wed, 09 Sep 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+      "summary": "Cymphony was valued at more than $100 million in a $25 million Series A co-led by Sequoia and SMBC Fin Atlas Beyond Fund.",
+      "link": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
+      "date": "Wed, 09 Sep 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Besxar is building an orbital semiconductor factory, one SpaceX rocket at a time",
+      "summary": "If you want to manufacture in space—and bring the products back again—there&#8217;s a limited set of options: Wait to go to the International Space Station, or partner with a handful of start-ups launching spacecraft that spend time in orbit before they return to Earth. But the vehicle that goes to space and comes back to [&#8230;]",
+      "link": "https://techcrunch.com/2026/09/09/besxar-is-strapping-advanced-chip-fabs-onto-spacexs-falcon-9-rockets/",
+      "date": "Wed, 09 Sep 2026 12:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
+      "summary": "As it grapples with a bevy of lawsuits, Suno said its new model, Suno v6, is not trained using music it used to train previous versions of the AI model.",
+      "link": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
+      "date": "Wed, 09 Sep 2026 12:05:34 +0000",
+      "source": "TechCrunch",
+      "category": "Cloud Computing"
+    },
     {
       "title": "Google DeepMind alumni are building tools to accelerate fusion power for the grid",
       "summary": "Fusionality is developing control systems and simulation environments to help fusion power startups move faster.",
@@ -66,100 +162,12 @@
       "category": "Technology"
     },
     {
-      "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
-      "summary": "There is a $1 million bounty for the first person providing a solution to the Navier-Stokes existence and smoothness problem.",
-      "link": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
-      "date": "Tue, 08 Sep 2026 17:32:15 +0000",
-      "source": "TechCrunch",
+      "title": "The Download: OpenAI’s turning point for math and a battery record",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What OpenAI’s latest controversy tells us about the future of math OpenAI says its agents have solved one of the most important open problems in mathematics. Under normal circumstances, that would&#8230;",
+      "link": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
+      "date": "Wed, 09 Sep 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
-      "summary": "Google Cloud expands its enterprise AI push with Accenture, betting on forward-deployed engineers to drive adoption and overcome deployment bottlenecks.",
-      "link": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
-      "date": "Tue, 08 Sep 2026 16:20:31 +0000",
-      "source": "TechCrunch",
-      "category": "Cloud Computing"
-    },
-    {
-      "title": "Google’s revived nuclear power plant gets $1.9B loan from US government",
-      "summary": "Google said it would bring an Iowa nuclear power plant back from the dead. Now the plant's owner is getting a $1.9 billion loan from the U.S. Energy Department.",
-      "link": "https://techcrunch.com/2026/09/08/googles-revived-nuclear-power-plant-gets-1-9b-loan-from-us-government/",
-      "date": "Tue, 08 Sep 2026 15:25:35 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Chrome is now shipping updates every 2 weeks as AI changes the security landscape",
-      "summary": "Google is speeding up Chrome’s release schedule to ship security patches and new features faster.",
-      "link": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
-      "date": "Tue, 08 Sep 2026 15:04:09 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Mistral raises €3B as sovereign AI becomes big business",
-      "summary": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, and PSG Equity.",
-      "link": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
-      "date": "Tue, 08 Sep 2026 14:17:48 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "A hacker stole $340M in a crypto heist, then returned most of it",
-      "summary": "The latest heist is one of the largest thefts of cryptocurrency to date.",
-      "link": "https://techcrunch.com/2026/09/08/a-hacker-stole-340m-in-a-crypto-heist-then-returned-most-of-it/",
-      "date": "Tue, 08 Sep 2026 14:11:29 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Nuclear startup Bluecore Energy raises $50M seed round, just two months after launch",
-      "summary": "Bluecore Energy announced Tuesday an oversubscribed $50 million seed round — just months after raising a $10 million pre-seed and coming out of stealth.",
-      "link": "https://techcrunch.com/2026/09/08/nuclear-startup-bluecore-energy-raises-50m-seed-round-just-two-months-after-launch/",
-      "date": "Tue, 08 Sep 2026 14:10:17 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Poseidon Aerospace lands $60M ahead of first pilotless test flight",
-      "summary": "The startup is trying to rethink the economics of cargo aircraft by removing pilots from the equation entirely.",
-      "link": "https://techcrunch.com/2026/09/08/poseidon-aerospace-lands-60m-ahead-of-first-pilotless-test-flight/",
-      "date": "Tue, 08 Sep 2026 13:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Stoke Space raises another billion to rival SpaceX at re-flying rockets",
-      "summary": "Stoke has \"completed the initial closing\" of a $1B Series E round intended to help it reach orbit and prepare a new, larger rocket for operations.",
-      "link": "https://techcrunch.com/2026/09/08/stoke-space-raises-another-billion-to-rival-spacex-at-re-flying-rockets/",
-      "date": "Tue, 08 Sep 2026 09:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Eric Wu’s newest company, out of stealth since May, is going after construction’s labor crunch",
-      "summary": "Eric Wu, who built and ran Opendoor before stepping away in 2022, has had his new company, NavigateAI, out of stealth since May — building AI copilots that give construction workers real-time, hands-free guidance through smartphones and Meta's AI glasses, backed by $25 million from Elad Gil, Khosla Ventures, and Lennar to tackle a labor shortage severe enough that data center projects alone now need 4,000 to 5,000 workers apiece.",
-      "link": "https://techcrunch.com/2026/09/07/eric-wus-newest-company-out-of-stealth-since-may-is-going-after-constructions-labor-crunch/",
-      "date": "Tue, 08 Sep 2026 02:16:39 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Opaque recurrence, and other AI terms that you should probably know",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "link": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "date": "Mon, 07 Sep 2026 19:24:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "A secret new Elizabeth Holmes documentary stuns Telluride",
-      "summary": "Nathan Fielder and Lance Oppenheim's secret Elizabeth Holmes documentary, \"You Can See Everything,\" stunned Telluride audiences Sunday night with its generous access to the Theranos founder.",
-      "link": "https://techcrunch.com/2026/09/07/a-secret-new-elizabeth-holmes-documentary-stuns-telluride/",
-      "date": "Mon, 07 Sep 2026 18:02:29 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
     },
     {
       "title": "Batteries just broke another record in the US",
@@ -232,14 +240,6 @@
       "date": "Mon, 07 Sep 2026 12:10:00 +0000",
       "source": "MIT Technology Review",
       "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Architecting memory and storage in the AI era",
-      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while&#8230;",
-      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
-      "date": "Fri, 04 Sep 2026 18:39:19 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
     }
   ]
 }
