@@ -1,6 +1,46 @@
 {
-  "updated": "2026-09-10T17:04:24.850562+00:00",
+  "updated": "2026-09-10T19:56:39.254718+00:00",
   "articles": [
+    {
+      "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+      "summary": "Meta's newest app Muse is off to a slower start than the company's other apps, like Meta AI or Threads.",
+      "link": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+      "date": "Thu, 10 Sep 2026 19:50:04 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers",
+      "summary": "Proxima Fusion said Wednesday it plans to build a €140 million ($162.6 million) factory to produce fusion-grade high-temperature superconducting (HTS) tape, which will provide the startup with key component to its reactor design.",
+      "link": "https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/",
+      "date": "Thu, 10 Sep 2026 18:38:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Amazon makes it easier to buy what you see on Prime Video",
+      "summary": "Amazon is expanding shopping integrations across Prime Video, letting viewers discover products tied to thousands of shows, movies, and live sports through X-Ray, its shopping app, and a new Lens-powered “Shop the Scene” feature.",
+      "link": "https://techcrunch.com/2026/09/10/amazon-makes-it-easier-to-buy-what-you-see-on-prime-video/",
+      "date": "Thu, 10 Sep 2026 18:10:36 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+      "summary": "Come inside the mind of a bot trying to convince the internet it's human.",
+      "link": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
+      "date": "Thu, 10 Sep 2026 17:54:44 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
+      "summary": "Pocket FM uses AI to produce 99% of its new content, helping make content production about 80 times cheaper.",
+      "link": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/",
+      "date": "Thu, 10 Sep 2026 17:45:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Instagram’s latest feature lets you add tagged posts to your profile grid",
       "summary": "Instagram's newest feature lets users take posts from the Tagged tab and move it to their main profile grid instead.",
@@ -120,46 +160,6 @@
       "date": "Wed, 09 Sep 2026 22:25:22 +0000",
       "source": "TechCrunch",
       "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Massachusetts hits data centers with new clean power rules",
-      "summary": "Massachusetts has become the third state in as many months to slap new restrictions on data center development.",
-      "link": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
-      "date": "Wed, 09 Sep 2026 21:43:34 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Apple’s new CEO is reviving a Steve Jobs strategy from 25 years ago",
-      "summary": "John Ternus made the case in his first keynote as Apple CEO that the iPhone isn't going anywhere.",
-      "link": "https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago/",
-      "date": "Wed, 09 Sep 2026 20:58:09 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
-      "summary": "Apple says its new watches won’t save raw audio, but features that can transcribe recent speech and summarize ambient conversations raise new questions about consent, privacy, and how people behave when they know they could always be recorded.",
-      "link": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
-      "date": "Wed, 09 Sep 2026 20:24:48 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch",
-      "summary": "The main event was the tech giant's highly anticipated first foldable phone, the iPhone Duo.",
-      "link": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
-      "date": "Wed, 09 Sep 2026 20:03:43 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "There are new shiny iPhones, so Apple is making you pay more for older models",
-      "summary": "Apple is raising the price of its existing iPhone models by $100, including iPhone 16, iPhone 17, and iPhone Air.",
-      "link": "https://techcrunch.com/2026/09/09/there-are-new-shiny-iphones-so-apple-is-making-you-pay-more-for-older-models/",
-      "date": "Wed, 09 Sep 2026 19:56:18 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
     },
     {
       "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
