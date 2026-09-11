@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-11T14:03:53.672201+00:00",
+  "updated": "2026-09-11T17:49:01.103018+00:00",
   "articles": [
+    {
+      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+      "summary": "The No. 2 exec at OpenAI also led Instacart through its IPO in 2023.",
+      "link": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
+      "date": "Fri, 11 Sep 2026 16:46:25 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "Matt Mullenweg tells (trolls?) Automattic staff, saying he’s back in control after CEO ouster",
+      "summary": "In a Slack message seen by TechCrunch, Matt Mullenweg told Automattic employees he’s back in control of the company, days after its board put him on leave. Automattic has not yet confirmed the apparent reversal.",
+      "link": "https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/",
+      "date": "Fri, 11 Sep 2026 15:19:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Scammers target hundreds of thousands of crypto owners after Trezor confirms data breach of email provider",
       "summary": "This is the second data breach affecting a company that hardware crypto wallet maker Trezor relies on.",
@@ -142,22 +158,6 @@
       "summary": "Maven Robotics emerged from stealth today with a $100 million Series A and active deployments.",
       "link": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
       "date": "Thu, 10 Sep 2026 14:17:37 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Google signs its biggest rice-methane carbon credit deal with Indian startup Mitti Labs",
-      "summary": "The four-year agreement will cover rice farms across three Indian states, reaching about 100,000 hectares at peak delivery.",
-      "link": "https://techcrunch.com/2026/09/10/google-signs-its-biggest-rice-methane-carbon-credit-deal-with-indian-startup-mitti-labs/",
-      "date": "Thu, 10 Sep 2026 13:34:01 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen",
-      "summary": "The ID checking company said the data breach included people's full names and driver's licenses and other government-issued identity documents.",
-      "link": "https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/",
-      "date": "Thu, 10 Sep 2026 13:21:09 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
