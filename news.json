@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-12T23:09:18.063582+00:00",
+  "updated": "2026-09-13T01:17:31.913596+00:00",
   "articles": [
+    {
+      "title": "Automattic confirms Mullenweg has returned as CEO after attempted ouster by board",
+      "summary": "Automattic says Mullenweg is back as \"chairman and CEO of Automattic, with full support of the board.\"",
+      "link": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
+      "date": "Sat, 12 Sep 2026 23:25:38 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
       "summary": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
@@ -152,14 +160,6 @@
       "date": "Thu, 10 Sep 2026 21:35:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
-      "summary": "The company said Pro subscriptions put the most strain on its systems, so it's pausing sign-ups while adding more capacity.",
-      "link": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
-      "date": "Thu, 10 Sep 2026 20:59:51 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
     },
     {
       "title": "Roundtables: Could AI really kill us all?",
