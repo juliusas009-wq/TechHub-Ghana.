@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-15T20:24:12.661258+00:00",
+  "updated": "2026-09-15T23:02:49.593135+00:00",
   "articles": [
+    {
+      "title": "The AI data center boom is colliding with cities scarred by big industry",
+      "summary": "National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.",
+      "link": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+      "date": "Tue, 15 Sep 2026 21:47:38 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
       "summary": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.",
@@ -152,14 +160,6 @@
       "date": "Tue, 15 Sep 2026 13:00:00 +0000",
       "source": "TechCrunch",
       "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Spotify finally lets parents exclude kids’ music from Wrapped and recommendations",
-      "summary": "Parents can finally get the kids' music out of Spotify Wrapped and other personalized playlists.",
-      "link": "https://techcrunch.com/2026/09/15/spotify-finally-lets-parents-exclude-kids-music-from-wrapped-and-recommendations/",
-      "date": "Tue, 15 Sep 2026 13:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
     },
     {
       "title": "Roundtables: Could AI really kill us all?",
