@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-15T23:02:49.593135+00:00",
+  "updated": "2026-09-16T01:31:49.320999+00:00",
   "articles": [
+    {
+      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "summary": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
+      "link": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
+      "date": "Wed, 16 Sep 2026 00:20:39 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "The AI data center boom is colliding with cities scarred by big industry",
       "summary": "National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.",
@@ -152,14 +160,6 @@
       "date": "Tue, 15 Sep 2026 14:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
-      "summary": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic.",
-      "link": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
-      "date": "Tue, 15 Sep 2026 13:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
     },
     {
       "title": "Roundtables: Could AI really kill us all?",
