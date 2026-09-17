@@ -1,9 +1,25 @@
 {
-  "updated": "2026-09-17T01:36:04.984875+00:00",
+  "updated": "2026-09-17T07:11:32.870226+00:00",
   "articles": [
     {
+      "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
+      "summary": "Treble's voice simulation platform is used by voice AI model developers, AI wearable, and robotics companies",
+      "link": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+      "date": "Thu, 17 Sep 2026 05:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Programming"
+    },
+    {
+      "title": "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026",
+      "summary": "This session will explore how early-stage companies are building teams where humans and AI agents work alongside each other — and how founders can do that without sacrificing speed, accountability, or culture. Learn more at TechCrunch Disrupt 2026. Register before September 25 to save up to $200.",
+      "link": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
+      "date": "Thu, 17 Sep 2026 03:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "Snap tries to make the case again for its $2,200 smart glasses",
-      "summary": "Snap unveiled new features for its smart glasses this week.",
+      "summary": "Since Specs' debut earlier this year, Snap has clearly been looking for an opportunity to explain why the smart glasses deserve to exist.",
       "link": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
       "date": "Thu, 17 Sep 2026 00:58:49 +0000",
       "source": "TechCrunch",
@@ -18,7 +34,7 @@
       "category": "Technology"
     },
     {
-      "title": "Al Gore has a surprisingly calm take on the AI data center backlash",
+      "title": "Al Gore says the real AI risk isn’t data centers",
       "summary": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed.",
       "link": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
       "date": "Wed, 16 Sep 2026 23:43:09 +0000",
@@ -142,22 +158,6 @@
       "summary": "The deal could net the asset-light robotaxi company more than $300 million in funding.",
       "link": "https://techcrunch.com/2026/09/16/may-mobility-is-going-public-in-a-1-4b-spac-deal/",
       "date": "Wed, 16 Sep 2026 15:27:13 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
-      "summary": "The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 on your pass.",
-      "link": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
-      "date": "Wed, 16 Sep 2026 15:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Google says some Pixel phone owners were hacked in zero-day attacks",
-      "summary": "The Pixel phone maker said there are indications that a bug in the phone's modem \"may be under limited, targeted exploitation.\"",
-      "link": "https://techcrunch.com/2026/09/16/google-says-some-pixel-phone-owners-were-hacked-in-zero-day-attacks/",
-      "date": "Wed, 16 Sep 2026 14:47:07 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
