@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-17T07:11:32.870226+00:00",
+  "updated": "2026-09-17T12:41:51.290531+00:00",
   "articles": [
+    {
+      "title": "Comp AI sets eyes on a continuously agentic future for security and compliance",
+      "summary": "Comp AI, a cybersecurity and compliance startup, announced a $34 million Series A round led by Roo Capital and Grand Ventures.",
+      "link": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/",
+      "date": "Thu, 17 Sep 2026 11:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Cybersecurity"
+    },
     {
       "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
       "summary": "Treble's voice simulation platform is used by voice AI model developers, AI wearable, and robotics companies",
@@ -154,11 +162,19 @@
       "category": "Technology"
     },
     {
-      "title": "May Mobility is going public in a $1.4B SPAC deal",
-      "summary": "The deal could net the asset-light robotaxi company more than $300 million in funding.",
-      "link": "https://techcrunch.com/2026/09/16/may-mobility-is-going-public-in-a-1-4b-spac-deal/",
-      "date": "Wed, 16 Sep 2026 15:27:13 +0000",
-      "source": "TechCrunch",
+      "title": "The Download: mice with part-human brains and climate tech innovators",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet a mouse whose brain cortex is made up of human cells Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its position and speed,&#8230;",
+      "link": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/",
+      "date": "Thu, 17 Sep 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
+      "category": "Technology"
+    },
+    {
+      "title": "Meet the innovators under 35 shaping climate tech",
+      "summary": "Each year, the editorial team at MIT Technology Review puts together a list of 35 innovators under 35—a group of researchers, inventors, and other young minds worth following. The team worked on the newest edition of the list for months, and the final slate includes nine individuals from all over the world in the climate&#8230;",
+      "link": "https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/",
+      "date": "Thu, 17 Sep 2026 10:00:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -222,22 +238,6 @@
       "summary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the technology, from its&#8230;",
       "link": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
       "date": "Mon, 14 Sep 2026 17:54:22 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Donated livers can be made biologically younger",
-      "summary": "Once an organ is removed from a donor’s body, the clock starts ticking. Surgeons usually flush the organ with a preservative solution, bag it, and put it on ice—where it immediately starts to degrade. The team has a matter of hours to get it into a recipient’s body. There’s another option—one that has been growing&#8230;",
-      "link": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/",
-      "date": "Mon, 14 Sep 2026 16:11:42 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "AI agents blew the whistle on their cheating colleagues",
-      "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in&#8230;",
-      "link": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
-      "date": "Mon, 14 Sep 2026 16:00:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
     }
