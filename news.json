@@ -1,6 +1,30 @@
 {
-  "updated": "2026-09-18T18:53:16.860179+00:00",
+  "updated": "2026-09-18T21:25:38.280796+00:00",
   "articles": [
+    {
+      "title": "Automattic names interim CFO after exec departures",
+      "summary": "Jeremy Klaperman, the CFO of the company's WordPress VIP Enterprise business unit, will act as CFO for the time being.",
+      "link": "https://techcrunch.com/2026/09/18/automattic-names-interim-cfo-after-exec-departures/",
+      "date": "Fri, 18 Sep 2026 20:25:22 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Y Combinator insurance tech alum Angle Health hits $2.7B valuation",
+      "summary": "Angle Health has grown to 5,000 customers and become profitable, by helping small businesses get \"level-funded\" health insurance.",
+      "link": "https://techcrunch.com/2026/09/18/y-combinator-insurance-tech-alum-angle-health-hits-2-7b-valuation/",
+      "date": "Fri, 18 Sep 2026 20:24:33 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "World model companies are keeping a lot of secrets",
+      "summary": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.",
+      "link": "https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/",
+      "date": "Fri, 18 Sep 2026 20:18:14 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
       "summary": "Jev, a new kind of AI model, is showing developers a cheaper and faster path to software intelligence.",
@@ -134,30 +158,6 @@
       "summary": "Geothermal startup Mazama is drilling three miles underground to tap superhot rock, with one well capable of generating 15 MW of electricity 24/7.",
       "link": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/",
       "date": "Fri, 18 Sep 2026 00:02:36 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
-      "summary": "The round values the data center giant at $30.9 billion.",
-      "link": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
-      "date": "Thu, 17 Sep 2026 23:25:52 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Google DeepMind launches institute to widen the AGI debate",
-      "summary": "The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. \"They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.\"",
-      "link": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
-      "date": "Thu, 17 Sep 2026 23:21:17 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Amazon-owned Zoox’s 100-robotaxi limit in Nevada is about to disappear",
-      "summary": "An updated permit shows the 100-cap will expire later this month just as competition in Las Vegas heats up.",
-      "link": "https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/",
-      "date": "Thu, 17 Sep 2026 23:08:24 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
