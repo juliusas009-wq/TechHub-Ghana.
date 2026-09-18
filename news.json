@@ -1,8 +1,72 @@
 {
-  "updated": "2026-09-18T15:53:05.772123+00:00",
+  "updated": "2026-09-18T18:53:16.860179+00:00",
   "articles": [
     {
-      "title": "FBI, Coast Guard boarded hacked oil tankers heading towards US coast",
+      "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
+      "summary": "Jev, a new kind of AI model, is showing developers a cheaper and faster path to software intelligence.",
+      "link": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+      "date": "Fri, 18 Sep 2026 18:49:30 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "Disney’s first CTO led an AI startup it once accused of copying its characters",
+      "summary": "The former CEO of Character.AI, which Disney previously sent a cease-and-desist letter to, will serve as the company's first-ever chief technology officer.",
+      "link": "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/",
+      "date": "Fri, 18 Sep 2026 17:59:53 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "In India, the new iPhone can arrive faster than a pizza",
+      "summary": "Availability of Apple's iPhone 18 Pro series turned patchy within hours of its debut on India's quick-commerce apps.",
+      "link": "https://techcrunch.com/2026/09/18/in-india-the-new-iphone-can-arrive-faster-than-a-pizza/",
+      "date": "Fri, 18 Sep 2026 17:45:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
+      "summary": "Google is refocusing its CC AI agent on household coordination, letting families share emails, schedules, and tasks so the AI can manage calendars, fill out forms, make shopping lists, plan meals, and more.",
+      "link": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
+      "date": "Fri, 18 Sep 2026 17:33:50 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Joby Aviation’s 3,100-mile autonomous flight signals its push beyond electric air taxis",
+      "summary": "An aircraft equipped with Joby Aviation's autonomy technology flew across the United States without a human pilot taking control at any point.",
+      "link": "https://techcrunch.com/2026/09/18/joby-aviations-3100-mile-autonomous-flight-signals-its-push-beyond-electric-air-taxis/",
+      "date": "Fri, 18 Sep 2026 17:26:41 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but…how?",
+      "summary": "A week after an Anthropic researcher&#8217;s doomsday warning rattled the AI world, the company&#8217;s CEO Dario Amodei has&#160;outlined his plan to “pace the frontier”&#160;of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countries, and&#160;it&#8217;s&#160;already picked up some&#160;industry support, along with some pointed&#160;pushback from Nvidia&#8217;s Jensen Huang.&#160; Watch [&#8230;]",
+      "link": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/",
+      "date": "Fri, 18 Sep 2026 17:09:56 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
+      "summary": "Manus, which earlier this year had to break off a merger with Meta, is in discussions to raise $500M at a $4B valuation.",
+      "link": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
+      "date": "Fri, 18 Sep 2026 16:35:49 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Family offices are clamoring for AI investments",
+      "summary": "Whether it's a permanent shift or part of a familiar cycle is worth asking, though.",
+      "link": "https://techcrunch.com/2026/09/18/family-offices-are-clamoring-for-ai-investments/",
+      "date": "Fri, 18 Sep 2026 16:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "FBI, Coast Guard boarded hacked oil tankers heading toward US coast",
       "summary": "The feds are said to be investigating the compromise of the tankers' networks, which in one case interfered with one of the tanker's navigation and propulsion systems.",
       "link": "https://techcrunch.com/2026/09/18/fbi-coast-guard-boarded-hacked-oil-tankers-heading-towards-us-coast/",
       "date": "Fri, 18 Sep 2026 15:44:09 +0000",
@@ -27,7 +91,7 @@
     },
     {
       "title": "I’m so mad that I love Orion’s $2,195 AI mattress pad",
-      "summary": "Sleeping on the Orion is like flipping your pillow to find “the cool side,” except that your whole entire bed is the cool side.",
+      "summary": "Sleeping on the Orion is like flipping your pillow to find “the cool side,” except that your  entire bed is the cool side.",
       "link": "https://techcrunch.com/2026/09/18/im-so-mad-that-i-love-orions-2195-ai-mattress-pad/",
       "date": "Fri, 18 Sep 2026 15:22:16 +0000",
       "source": "TechCrunch",
@@ -94,70 +158,6 @@
       "summary": "An updated permit shows the 100-cap will expire later this month just as competition in Las Vegas heats up.",
       "link": "https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/",
       "date": "Thu, 17 Sep 2026 23:08:24 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "PrismML hopes its tiny LLM will change how we all use AI",
-      "summary": "If AI lab PrismML isn't on your radar yet, it should be.",
-      "link": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
-      "date": "Thu, 17 Sep 2026 22:34:09 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
-      "summary": "A new AI-based software program is being launched to help air traffic controllers better navigate their jobs as the crossing guards of America's skies.",
-      "link": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
-      "date": "Thu, 17 Sep 2026 22:14:59 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "The fix for rogue AI agents could be more AI",
-      "summary": "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review.",
-      "link": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
-      "date": "Thu, 17 Sep 2026 20:34:47 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
-      "summary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
-      "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
-      "date": "Thu, 17 Sep 2026 20:34:24 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Is the AI safety debate about safety or control?",
-      "summary": "Not everyone agrees with Amodei's call for globally coordinated action for AI safety.",
-      "link": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
-      "date": "Thu, 17 Sep 2026 20:19:37 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "UN turns to Google to make its global data ready for AI agents",
-      "summary": "The shift comes after a UNICEF test found leading AI models struggled to accurately retrieve global development statistics.",
-      "link": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
-      "date": "Thu, 17 Sep 2026 20:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-      "summary": "Newly unsealed court filings show Microsoft privately called OpenAI's data practices \"theft\" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers.",
-      "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "date": "Thu, 17 Sep 2026 19:46:08 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Waymo restarts San Antonio service 5 months after flooding troubles",
-      "summary": "The company suspended service in the city in April after one of its robotaxis got swept away.",
-      "link": "https://techcrunch.com/2026/09/17/waymo-restarts-san-antonio-service-five-months-after-flooding-troubles/",
-      "date": "Thu, 17 Sep 2026 18:30:30 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
