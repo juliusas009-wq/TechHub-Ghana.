@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-19T18:09:20.036301+00:00",
+  "updated": "2026-09-19T20:54:24.269772+00:00",
   "articles": [
+    {
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "summary": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
+      "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+      "date": "Sat, 19 Sep 2026 20:39:13 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
+      "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+      "link": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+      "date": "Sat, 19 Sep 2026 19:57:47 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Google’s Gemini is the latest AI model to hack other companies",
       "summary": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
@@ -10,7 +26,7 @@
       "category": "Artificial Intelligence"
     },
     {
-      "title": "Even mid-sprint to a secret flight, the Navy’s tech chief has a pitch for investors",
+      "title": "The US Navy just told us what’s on its tech wish list for the next several years",
       "summary": "Navy CTO Justin Fanelli talks co-investing alongside VCs instead of funding early research himself, recent buys like a $562 million autonomous refueling deal, and the Navy's updated wish list — from AI to quantum — for where founders should be building next.",
       "link": "https://techcrunch.com/2026/09/19/even-mid-sprint-to-a-secret-flight-the-navys-tech-chief-had-a-pitch-for-investors/",
       "date": "Sat, 19 Sep 2026 17:00:00 +0000",
@@ -142,22 +158,6 @@
       "summary": "Availability of Apple's iPhone 18 Pro series turned patchy within hours of its debut on India's quick-commerce apps.",
       "link": "https://techcrunch.com/2026/09/18/in-india-the-new-iphone-can-arrive-faster-than-a-pizza/",
       "date": "Fri, 18 Sep 2026 17:45:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
-      "summary": "Google is refocusing its CC AI agent on household coordination, letting families share emails, schedules, and tasks so the AI can manage calendars, fill out forms, make shopping lists, plan meals, and more.",
-      "link": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
-      "date": "Fri, 18 Sep 2026 17:33:50 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Joby Aviation’s 3,100-mile autonomous flight signals its push beyond electric air taxis",
-      "summary": "An aircraft equipped with Joby Aviation's autonomy technology flew across the United States without a human pilot taking control at any point.",
-      "link": "https://techcrunch.com/2026/09/18/joby-aviations-3100-mile-autonomous-flight-signals-its-push-beyond-electric-air-taxis/",
-      "date": "Fri, 18 Sep 2026 17:26:41 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
