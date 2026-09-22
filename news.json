@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-21T22:27:11.093924+00:00",
+  "updated": "2026-09-22T01:03:07.018194+00:00",
   "articles": [
+    {
+      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "summary": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people.",
+      "link": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+      "date": "Mon, 21 Sep 2026 23:44:28 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
       "summary": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
@@ -150,14 +158,6 @@
       "summary": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff, pitches at TechCrunch Disrupt.",
       "link": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
       "date": "Sun, 20 Sep 2026 18:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "New California law will penalize influencers who don’t disclose political ads",
-      "summary": "The new legislation adds teeth to disclosure requirements for online influencers who are paid to post about politics.",
-      "link": "https://techcrunch.com/2026/09/20/new-california-law-will-penalize-influencers-dont-disclose-political-ads/",
-      "date": "Sun, 20 Sep 2026 16:30:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
