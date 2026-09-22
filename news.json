@@ -1,9 +1,17 @@
 {
-  "updated": "2026-09-22T20:21:35.765569+00:00",
+  "updated": "2026-09-22T23:08:32.491697+00:00",
   "articles": [
     {
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+      "link": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "date": "Tue, 22 Sep 2026 21:56:43 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
-      "summary": "Qualcomm said that its new top chip can run 30B mixture-of-expert model locally",
+      "summary": "Qualcomm said that its new top chip can run 30B mixture-of-expert model locally.",
       "link": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
       "date": "Tue, 22 Sep 2026 20:00:00 +0000",
       "source": "TechCrunch",
@@ -152,14 +160,6 @@
       "date": "Tue, 22 Sep 2026 13:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
-      "summary": "The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue.",
-      "link": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
-      "date": "Tue, 22 Sep 2026 12:23:05 +0000",
-      "source": "TechCrunch",
-      "category": "Programming"
     },
     {
       "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
