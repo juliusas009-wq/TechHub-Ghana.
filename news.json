@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-23T23:51:21.776595+00:00",
+  "updated": "2026-09-24T03:17:29.432943+00:00",
   "articles": [
+    {
+      "title": "Everything new coming to Meta’s AI agent Muse",
+      "summary": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
+      "link": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+      "date": "Thu, 24 Sep 2026 01:13:32 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "summary": "The tiny hardware device creates  another mobile home for its AI agent Muse.",
+      "link": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+      "date": "Thu, 24 Sep 2026 00:46:17 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Meta is trying VR glasses (again), this time with more IMAX",
       "summary": "Meta's return to the VR glasses realm comes with a promising combination of light weight form factor and enhanced entertainment options.",
@@ -141,22 +157,6 @@
       "title": "YouTube releases new AI features for creators within its Studio app",
       "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
       "link": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
-      "date": "Wed, 23 Sep 2026 14:30:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "YouTube’s new ‘Shorts series’ feature brings episodic viewing to Shorts",
-      "summary": "Other Made On YouTube announcements are also designed to help creators grow and engage audiences.",
-      "link": "https://techcrunch.com/2026/09/23/youtubes-new-short-series-feature-brings-episodic-viewing-to-shorts/",
-      "date": "Wed, 23 Sep 2026 14:30:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "YouTube adds new creator tools like video A/B testing, dynamic thumbnails, and live dubbing",
-      "summary": "Many of these tools hinge on using generative AI to try out a variety of different tactics on a video to find what works best.",
-      "link": "https://techcrunch.com/2026/09/23/youtube-adds-new-creator-tools-like-video-a-b-testing-dynamic-thumbnails-and-live-dubbing/",
       "date": "Wed, 23 Sep 2026 14:30:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
