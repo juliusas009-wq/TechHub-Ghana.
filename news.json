@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-24T18:32:42.086232+00:00",
+  "updated": "2026-09-24T21:58:53.365452+00:00",
   "articles": [
+    {
+      "title": "Nexterity wants to automate the hard, dangerous part of pipefitting",
+      "summary": "The startup's robot can tighten or loosen four bolts at a time, and it fits in a Pelican case.",
+      "link": "https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/",
+      "date": "Thu, 24 Sep 2026 20:45:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Bring your co-founder, partner, or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
+      "summary": "Buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. Register before event starts on October 13 at 8 a.m. PT.",
+      "link": "https://techcrunch.com/2026/09/24/bring-your-co-founder-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
+      "date": "Thu, 24 Sep 2026 19:15:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
+      "summary": "Prism's larger goal is open-weight AI that runs on devices and makes better use of the computing power they already have.",
+      "link": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
+      "date": "Thu, 24 Sep 2026 19:00:42 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Meet Feather, the startup building the ‘Android of robotics’ for developers",
+      "summary": "Feather is betting on a customizable, $30,000 platform built for software developers.",
+      "link": "https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers/",
+      "date": "Thu, 24 Sep 2026 18:52:38 +0000",
+      "source": "TechCrunch",
+      "category": "Programming"
+    },
     {
       "title": "Oracle sends force majeure notice on its New Mexico Stargate data center",
       "summary": "The notice would allow Oracle to delay payments should the facility miss its 2028 target to come online.",
@@ -19,7 +51,7 @@
     },
     {
       "title": "Databricks buys Row Zero and is scouting for more startups to acquire",
-      "summary": "Databricks has brought cloud spreadsheet startup Row Zero, adding yet another acquisition to its 2026 shopping spree.",
+      "summary": "Databricks has bought cloud spreadsheet startup Row Zero, adding yet another acquisition to its 2026 shopping spree.",
       "link": "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire/",
       "date": "Thu, 24 Sep 2026 17:07:55 +0000",
       "source": "TechCrunch",
@@ -42,7 +74,7 @@
       "category": "Technology"
     },
     {
-      "title": "20 minutes with the CEO of ElevenLabs, now reportedly valued at $22B",
+      "title": "ElevenLabs’ CEO on margins, IPO timing, and telling customers they’re talking to a bot",
       "summary": "ElevenLabs powers the AI voice on the other end of a lot of customer service calls, and its CEO told me this week that businesses should probably tell you that — at least until getting a machine is what everyone expects anyway.",
       "link": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/",
       "date": "Thu, 24 Sep 2026 16:35:13 +0000",
@@ -83,7 +115,7 @@
     },
     {
       "title": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
-      "summary": "Ando has raised $20 million in pre-seed and seed funding from investors including Accel, Index Ventures, and Emergence.",
+      "summary": "The app gives agents their own identities and inboxes and lets them partake in conversations as naturally as people can.",
       "link": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/",
       "date": "Thu, 24 Sep 2026 14:31:00 +0000",
       "source": "TechCrunch",
@@ -126,38 +158,6 @@
       "summary": "The tiny hardware device creates  another mobile home for its AI agent Muse.",
       "link": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
       "date": "Thu, 24 Sep 2026 00:46:17 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Meta is trying VR glasses (again), this time with more IMAX",
-      "summary": "Meta's return to the VR glasses realm comes with a promising combination of lightweight form factor and enhanced entertainment options.",
-      "link": "https://techcrunch.com/2026/09/23/meta-is-trying-vr-glasses-again-this-time-with-more-imax/",
-      "date": "Wed, 23 Sep 2026 23:47:35 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Meta introduces camera-free AI glasses",
-      "summary": "Meta says the camera-free glasses will be lighter and have up to 12 hours of battery life.",
-      "link": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
-      "date": "Wed, 23 Sep 2026 23:39:44 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Vogue sent robots down the runway at Vogue World, and people were not impressed",
-      "summary": "Nothing says Italian craftsmanship like a Chinese robot doing a lasso to \"L'Amour Toujours.\"",
-      "link": "https://techcrunch.com/2026/09/23/vogue-sent-robots-down-the-runway-at-vogue-world-and-people-were-not-impressed/",
-      "date": "Wed, 23 Sep 2026 23:33:22 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Anthropic says its biology lab has already found something big",
-      "summary": "But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop.",
-      "link": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
-      "date": "Wed, 23 Sep 2026 22:17:39 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
