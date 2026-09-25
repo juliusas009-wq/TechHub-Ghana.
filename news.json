@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-24T21:58:53.365452+00:00",
+  "updated": "2026-09-25T00:25:54.708808+00:00",
   "articles": [
+    {
+      "title": "Waymo is scaling fast. Here’s what the fleet data shows.",
+      "summary": "In the past month, Waymo has expanded its fleet in Texas by 49%. There are other hotspots as well.",
+      "link": "https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/",
+      "date": "Thu, 24 Sep 2026 23:24:33 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Nexterity wants to automate the hard, dangerous part of pipefitting",
       "summary": "The startup's robot can tighten or loosen four bolts at a time, and it fits in a Pelican case.",
@@ -150,14 +158,6 @@
       "summary": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
       "link": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
       "date": "Thu, 24 Sep 2026 01:13:32 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
-      "summary": "The tiny hardware device creates  another mobile home for its AI agent Muse.",
-      "link": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
-      "date": "Thu, 24 Sep 2026 00:46:17 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
