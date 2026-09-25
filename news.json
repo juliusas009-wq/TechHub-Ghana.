@@ -1,9 +1,33 @@
 {
-  "updated": "2026-09-25T19:25:54.561458+00:00",
+  "updated": "2026-09-25T22:40:11.954948+00:00",
   "articles": [
     {
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+      "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
+      "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+      "date": "Fri, 25 Sep 2026 22:20:47 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "Meta opens early access program for new Muse features",
+      "summary": "Anyone interested in joining has to ask Muse to put them on the list.",
+      "link": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
+      "date": "Fri, 25 Sep 2026 20:34:53 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "The hottest new hangout for middle schoolers is NPR’s comment section?",
+      "summary": "When NPR staffers flagged strange comments under their podcasts on Spotify as bots, it took a Gen Z colleague to (immediately) figure out the mystery.",
+      "link": "https://techcrunch.com/2026/09/25/the-hottest-new-hangout-for-middle-schoolers-is-nprs-comment-section/",
+      "date": "Fri, 25 Sep 2026 20:33:58 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
-      "summary": "nthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anthropic spends more.",
+      "summary": "Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anthropic spends more.",
       "link": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
       "date": "Fri, 25 Sep 2026 19:13:38 +0000",
       "source": "TechCrunch",
@@ -134,30 +158,6 @@
       "summary": "The $351 million theft from crypto exchange Bitget is the latest in a string of high-profile hacks targeting the crypto sector.",
       "link": "https://techcrunch.com/2026/09/25/north-korean-hackers-suspected-in-351m-crypto-theft-the-largest-so-far-this-year/",
       "date": "Fri, 25 Sep 2026 13:24:34 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
-      "summary": "The venture firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a shorter investment period.",
-      "link": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
-      "date": "Fri, 25 Sep 2026 05:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Waymo is scaling fast: Here’s what the fleet data shows",
-      "summary": "In the past month, Waymo has expanded its fleet in Texas by 49%. There are other hot spots as well.",
-      "link": "https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/",
-      "date": "Thu, 24 Sep 2026 23:24:33 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Nexterity wants to automate the hard, dangerous part of pipefitting",
-      "summary": "The startup's robot can tighten or loosen four bolts at a time, and it fits in a Pelican case.",
-      "link": "https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/",
-      "date": "Thu, 24 Sep 2026 20:45:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
