@@ -1,6 +1,30 @@
 {
-  "updated": "2026-09-27T12:17:46.943948+00:00",
+  "updated": "2026-09-27T17:08:21.939199+00:00",
   "articles": [
+    {
+      "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+      "summary": "\"AI is the devil and I its maker.\"",
+      "link": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+      "date": "Sun, 27 Sep 2026 16:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "TechCrunch Mobility: AV companies pick their lanes",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "link": "https://techcrunch.com/2026/09/27/techcrunch-mobility-av-companies-pick-their-lanes/",
+      "date": "Sun, 27 Sep 2026 16:02:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Sennheiser Momentum 5 review: Great sound, incredible battery life, and few compromises",
+      "summary": "I spent the last few weeks with the Sennheiser Momentum 5 to determine if this pair actually stands out, testing everything from sound quality and noise cancellation to comfort and battery life.",
+      "link": "https://techcrunch.com/2026/09/27/sennheiser-momentum-5-review-great-sound-incredible-battery-life-and-few-compromises/",
+      "date": "Sun, 27 Sep 2026 15:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair",
       "summary": "PNOĒ, the Malden, Mass.-based startup whose breath-analyzing mask used to bear an unfortunate resemblance to Bane's, is launching a sleeker self-serve version on October 1 that lets gym-goers measure their VO₂ max and other metabolic markers in eight minutes without a trained operator.",
@@ -134,30 +158,6 @@
       "summary": "Muju Earth Technologies has developed a deceptively simply pod that can save farmers money while improving crop yields.",
       "link": "https://techcrunch.com/2026/09/25/the-aeropod-automates-soil-aeration-without-robotics-see-it-at-techcrunch-disrupt/",
       "date": "Fri, 25 Sep 2026 17:30:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
-      "summary": "The findings highlight how AI-generated and vibe-coded apps can spill and expose users' data when not configured or secured properly.",
-      "link": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
-      "date": "Fri, 25 Sep 2026 17:29:46 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Astra and Opus just passed Turing’s other test",
-      "summary": "Frontier AI models are finishing Alan Turing's World War II codebreaking work.",
-      "link": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
-      "date": "Fri, 25 Sep 2026 17:24:36 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Meta is putting its muscle behind Muse as the AI app takes off",
-      "summary": "Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agent's promotion across its own apps and beyond.",
-      "link": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
-      "date": "Fri, 25 Sep 2026 16:16:52 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
