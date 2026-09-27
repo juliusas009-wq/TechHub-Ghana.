@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-27T17:08:21.939199+00:00",
+  "updated": "2026-09-27T20:17:26.594869+00:00",
   "articles": [
+    {
+      "title": "Can Muse overcome Meta’s trust issues?",
+      "summary": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+      "link": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+      "date": "Sun, 27 Sep 2026 19:57:30 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
     {
       "title": "Anthropic’s Dario Amodei gets the SNL treatment",
       "summary": "\"AI is the devil and I its maker.\"",
@@ -150,14 +158,6 @@
       "summary": "The funding, which comes from Third Point, Nvidia, and others, will  fuel the company's massive AI data center buildout.",
       "link": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
       "date": "Fri, 25 Sep 2026 18:33:59 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "The Aeropod automates soil aeration without robotics — see it at TechCrunch Disrupt",
-      "summary": "Muju Earth Technologies has developed a deceptively simply pod that can save farmers money while improving crop yields.",
-      "link": "https://techcrunch.com/2026/09/25/the-aeropod-automates-soil-aeration-without-robotics-see-it-at-techcrunch-disrupt/",
-      "date": "Fri, 25 Sep 2026 17:30:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
