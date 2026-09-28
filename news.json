@@ -1,6 +1,134 @@
 {
-  "updated": "2026-09-28T08:15:05.169818+00:00",
+  "updated": "2026-09-28T16:53:10.518190+00:00",
   "articles": [
+    {
+      "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+      "summary": "Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.",
+      "link": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "date": "Mon, 28 Sep 2026 16:52:38 +0000",
+      "source": "TechCrunch",
+      "category": "Programming"
+    },
+    {
+      "title": "The iPhone Duo may already have its first killer app: a virtual Walkman",
+      "summary": "An indie developer's upcoming app for the iPhone Duo is going viral for turning the new foldable into a virtual Walkman.",
+      "link": "https://techcrunch.com/2026/09/28/the-iphone-duo-may-already-have-its-first-killer-app-a-virtual-walkman/",
+      "date": "Mon, 28 Sep 2026 16:47:49 +0000",
+      "source": "TechCrunch",
+      "category": "Programming"
+    },
+    {
+      "title": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
+      "summary": "Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",
+      "link": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
+      "date": "Mon, 28 Sep 2026 15:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Physical AI chip developer SiMa.ai hits $1.45B valuation",
+      "summary": "The edge computing startup raised a $150 million Series C led by Fidelity and Amplify.",
+      "link": "https://techcrunch.com/2026/09/28/physical-ai-chip-developer-sima-ai-hits-1-45b-valuation/",
+      "date": "Mon, 28 Sep 2026 15:29:21 +0000",
+      "source": "TechCrunch",
+      "category": "Programming"
+    },
+    {
+      "title": "MAVI bets on the AI boom creating demand for a new kind of accountant",
+      "summary": "Accounting staffing company MAVI emerges from stealth with $4million in funding.",
+      "link": "https://techcrunch.com/2026/09/28/mavi-bets-on-the-ai-boom-creating-demand-for-a-new-kind-of-accountant/",
+      "date": "Mon, 28 Sep 2026 15:26:46 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "After a deepfake voice fooled her grandfather, this founder sprang into action",
+      "summary": "After her grandfather was scammed by a deepfake of his brother's voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones and flag fake voices in real time, and it's now one of the companies competing in Startup Battlefield at TechCrunch Disrupt.",
+      "link": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
+      "date": "Mon, 28 Sep 2026 15:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Commonwealth Fusion Systems’ Brandon Sorbom and Helion’s David Kirtley on bringing fusion to the grid at TechCrunch Disrupt 2026",
+      "summary": "CFS' Brandon Sorbom and Helion's David Kirtley join the Smart Systems Stage at TechCrunch Disrupt 2026 to discuss the breakthroughs moving fusion forward, the challenges that remain, and what it will take to deliver fusion power to the grid at scale. Get your pass at regular price and get a second one at 50% off.",
+      "link": "https://techcrunch.com/2026/09/28/commonwealth-fusion-systems-brandon-sorbom-and-helions-david-kirtley-on-bringing-fusion-to-the-grid-at-techcrunch-disrupt-2026/",
+      "date": "Mon, 28 Sep 2026 15:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "FBI reportedly declares ‘cyber security incident’ after hackers steal agents’ personal data",
+      "summary": "The bureau has not yet publicly confirmed a breach, but has told its agents that their personal information and Social Security numbers were exposed.",
+      "link": "https://techcrunch.com/2026/09/28/fbi-reportedly-declares-cyber-security-incident-after-hackers-steal-agents-personal-data/",
+      "date": "Mon, 28 Sep 2026 14:50:30 +0000",
+      "source": "TechCrunch",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Next 5 VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026",
+      "summary": "Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Register for TechCrunch Disrupt 2026 today.",
+      "link": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/",
+      "date": "Mon, 28 Sep 2026 14:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Modulate raises $25M for its voice models and analysis suite",
+      "summary": "Modulate deploys its models to detect deepfake, fraud and scam",
+      "link": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+      "date": "Mon, 28 Sep 2026 14:05:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is October 2",
+      "summary": "The last day to book your Disrupt 2026 exhibit table is this Friday, October 2 at 11:59 p.m. PT. Secure your exhibit table and get your startup in front of 10,000+ founders, investors, and tech leaders at San Francisco's Moscone West on October 13-15.",
+      "link": "https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2/",
+      "date": "Mon, 28 Sep 2026 14:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Insurtech Outmarket raises $34.5M just months after prior round",
+      "summary": "The startup uses AI to automate tedious paperwork for insurance agencies and brokers.",
+      "link": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
+      "date": "Mon, 28 Sep 2026 14:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "ElevenLabs’ new v4 speech model supports more expression control and 90 languages",
+      "summary": "ElevenLabs v4 can clone voices with a 10 second clip",
+      "link": "https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/",
+      "date": "Mon, 28 Sep 2026 14:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+      "summary": "Instinct has raised a $1 billion Series C, saying 'we're just getting started.' The company is now valued at $10 billion.",
+      "link": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+      "date": "Mon, 28 Sep 2026 13:38:48 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "SpaceX’s Starship rocket reaches orbit for the first time",
+      "summary": "Though not without some drama along the way.",
+      "link": "https://techcrunch.com/2026/09/28/spacexs-starship-rocket-reaches-orbit-for-the-first-time/",
+      "date": "Mon, 28 Sep 2026 13:19:18 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Maritime intelligence startup Quartermaster raises another $140M",
+      "summary": "The tech enables real-time awareness for what Quartermaster calls the “largest blind spot on Earth.”",
+      "link": "https://techcrunch.com/2026/09/28/maritime-intelligence-startup-quartermaster-raises-another-140m/",
+      "date": "Mon, 28 Sep 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Truecaller takes its scam intelligence to the open web as it looks beyond caller ID",
       "summary": "Truecaller finds a new way to reach users as pressure grows on its traditional caller ID business in India, its biggest market.",
@@ -34,132 +162,20 @@
       "category": "Technology"
     },
     {
-      "title": "TechCrunch Mobility: AV companies pick their lanes",
-      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
-      "link": "https://techcrunch.com/2026/09/27/techcrunch-mobility-av-companies-pick-their-lanes/",
-      "date": "Sun, 27 Sep 2026 16:02:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Sennheiser Momentum 5 review: Great sound, incredible battery life, and few compromises",
-      "summary": "I spent the last few weeks with the Sennheiser Momentum 5 to determine if this pair actually stands out, testing everything from sound quality and noise cancellation to comfort and battery life.",
-      "link": "https://techcrunch.com/2026/09/27/sennheiser-momentum-5-review-great-sound-incredible-battery-life-and-few-compromises/",
-      "date": "Sun, 27 Sep 2026 15:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair",
-      "summary": "PNOĒ, the Malden, Mass.-based startup whose breath-analyzing mask used to bear an unfortunate resemblance to Bane's, is launching a sleeker self-serve version on October 1 that lets gym-goers measure their VO₂ max and other metabolic markers in eight minutes without a trained operator.",
-      "link": "https://techcrunch.com/2026/09/26/pnoes-new-face-mask-wants-to-make-lab-grade-breath-testing-a-self-serve-affair/",
-      "date": "Sun, 27 Sep 2026 01:40:30 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-      "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
-      "link": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-      "date": "Sun, 27 Sep 2026 01:30:00 +0000",
-      "source": "TechCrunch",
+      "title": "The Download: rogue agent liability and the AI Hype Index",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Who&#8217;s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents&#8230;",
+      "link": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
+      "date": "Mon, 28 Sep 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Artificial Intelligence"
     },
     {
-      "title": "Insurers claim AI is already increasing healthcare costs",
-      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
-      "link": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-      "date": "Sat, 26 Sep 2026 21:02:06 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "TikTok agrees to pay at least $100M in Alabama settlement",
-      "summary": "TikTok will pay Alabama at least $100 million in a settlement tied to allegations that the short-form video platform misled users about safety and was designed to addict children.",
-      "link": "https://techcrunch.com/2026/09/26/tiktok-agrees-to-pay-at-least-100m-in-alabama-settlement/",
-      "date": "Sat, 26 Sep 2026 20:24:45 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Meta and YouTube say they will run ads for ‘Musk’ documentary after all",
-      "summary": "Two companies now say they will accept advertising for director Alex Gibney’s upcoming documentary about Elon Musk, following earlier reporting that a number of social media platforms had rejected the ads.",
-      "link": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all/",
-      "date": "Sat, 26 Sep 2026 17:44:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Levoit’s new air purifier is for the pet odors that have taken over your apartment",
-      "summary": "This $189.99 air purifier is specifically designed to tackle pet odors, removing up to 70% in one hour.",
-      "link": "https://techcrunch.com/2026/09/26/levoits-new-air-purifier-is-for-the-pet-odors-that-have-taken-over-your-apartment/",
-      "date": "Sat, 26 Sep 2026 17:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "I created an interactive digital avatar of myself — and you can talk to it",
-      "summary": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
-      "link": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
-      "date": "Sat, 26 Sep 2026 14:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "At Meta Connect, the company’s smart glasses were everywhere",
-      "summary": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses.",
-      "link": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
-      "date": "Sat, 26 Sep 2026 01:08:57 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-      "summary": "Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans.",
-      "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-      "date": "Fri, 25 Sep 2026 23:11:10 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Automattic has a new board after failed attempt to put CEO on leave",
-      "summary": "After days of upheaval at Automattic, following a failed attempt to remove CEO Matt Mullenweg, the company has a new board.",
-      "link": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
-      "date": "Fri, 25 Sep 2026 23:04:34 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-      "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
-      "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-      "date": "Fri, 25 Sep 2026 22:20:47 +0000",
-      "source": "TechCrunch",
+      "title": "Who’s liable when AI agents go rogue?",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents&#8230;",
+      "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "date": "Mon, 28 Sep 2026 08:06:22 +0000",
+      "source": "MIT Technology Review",
       "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Meta opens early access program for new Muse features",
-      "summary": "Anyone interested in joining has to ask Muse to put them on the list.",
-      "link": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
-      "date": "Fri, 25 Sep 2026 20:34:53 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "The hottest new hangout for middle schoolers is NPR’s comment section?",
-      "summary": "When NPR staffers flagged strange comments under their podcasts on Spotify as bots, it took a Gen Z colleague to (immediately) figure out the mystery.",
-      "link": "https://techcrunch.com/2026/09/25/the-hottest-new-hangout-for-middle-schoolers-is-nprs-comment-section/",
-      "date": "Fri, 25 Sep 2026 20:33:58 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
-      "summary": "Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anthropic spends more.",
-      "link": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
-      "date": "Fri, 25 Sep 2026 19:13:38 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
     },
     {
       "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
@@ -224,22 +240,6 @@
       "date": "Wed, 23 Sep 2026 09:00:00 +0000",
       "source": "MIT Technology Review",
       "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Smart glasses are already causing havoc in India",
-      "summary": "Shubnam was packing boxes for a move into a new home when their friend sent them an Instagram video. The footage had only been up for a few hours, but it was days old, recorded at a Delhi protest this spring against a bill that would have narrowed the legal recognition for transgender people in&#8230;",
-      "link": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
-      "date": "Wed, 23 Sep 2026 09:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
-      "summary": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers&#8230;",
-      "link": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-      "date": "Tue, 22 Sep 2026 13:42:05 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
     }
   ]
 }
