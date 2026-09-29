@@ -1,24 +1,120 @@
 {
-  "updated": "2026-09-29T15:22:27.295906+00:00",
+  "updated": "2026-09-29T20:07:20.781893+00:00",
   "articles": [
     {
+      "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
+      "summary": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
+      "link": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+      "date": "Tue, 29 Sep 2026 19:52:37 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "More Ways to Disrupt: New 2026 Side Events from KOTRA, WayFounder, Enterprise Ireland, SafetyWing + Descope",
+      "summary": "Disrupt doesn’t end when you leave Moscone West. 👀\n\nFounder dinners, investor meetups, happy hours, workshops, roundtables and more are taking over San Francisco during Disrupt Week.\n\nSee what’s happening, find your people, and start building your calendar.",
+      "link": "https://techcrunch.com/2026/09/29/more-ways-to-disrupt-new-2026-side-events-from-kotra-wayfounder-enterprise-ireland-safetywing-descope/",
+      "date": "Tue, 29 Sep 2026 18:48:03 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Apple Pay set to launch in India with Axis Bank today, sources say",
+      "summary": "Some of India's largest banks are holding off on supporting Apple Pay initially.",
+      "link": "https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/",
+      "date": "Tue, 29 Sep 2026 18:45:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
+      "summary": "OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.",
+      "link": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+      "date": "Tue, 29 Sep 2026 18:35:00 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+      "summary": "OpenAI's newly announced suite of office features puts it into mor direct competition with more traditional software companies.",
+      "link": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+      "date": "Tue, 29 Sep 2026 17:45:51 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "Dutch police arrest ShinyHunters hacker accused of planning two murders",
+      "summary": "Dutch police said the hacker, arrested for being part of the ShinyHunters cybercriminal gang, had plans to organize the murder of two people on his laptop.",
+      "link": "https://techcrunch.com/2026/09/29/dutch-police-arrest-shinyhunters-hacker-accused-of-planning-two-murders/",
+      "date": "Tue, 29 Sep 2026 17:27:09 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "AI-powered app maker Wabi pivots to a messaging experience",
+      "summary": "Wabi is repositioning its prompt-based app builder as a personal AI agent that can create interfaces on demand, combining chat, apps and ongoing tasks.",
+      "link": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
+      "date": "Tue, 29 Sep 2026 17:20:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "OpenAI launches Dots, its bubbly agentic avatar",
+      "summary": "Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
+      "link": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "date": "Tue, 29 Sep 2026 17:17:15 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "OpenAI gives Codex reusable cloud environments that work across devices",
+      "summary": "OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools and a security-focused product for scanning repositories and preparing fixes.",
+      "link": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+      "date": "Tue, 29 Sep 2026 17:15:00 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+      "summary": "OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multi-step business workflows.",
+      "link": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+      "date": "Tue, 29 Sep 2026 17:15:00 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "OpenAI expands ChatGPT’s plugins with app-like interfaces and automations",
+      "summary": "OpenAI is expanding ChatGPT plugins with dedicated sidebar homes, interactive panels, file viewers, improved discovery, and support for automations.",
+      "link": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
+      "date": "Tue, 29 Sep 2026 17:15:00 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "Can a chatbot fix the government maze? The White House is about to find out",
+      "summary": "America.gov is intended to simplify the process of navigating government bureaucracy, but language models are imperfect and remain prone to hallucinations, which could cause new issues.",
+      "link": "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out/",
+      "date": "Tue, 29 Sep 2026 16:55:56 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "Instinct founder said more than 50% of transactions on the platform are travel-related",
-      "summary": "Instinct founder said that the platform is growing 10% day-by-day",
+      "summary": "Instinct founder said the platform is growing 10% day by day, with transaction volume increasing at a similar rate.",
       "link": "https://techcrunch.com/2026/09/29/instinct-founder-said-more-than-50-of-transactions-on-the-platform-are-travel-related/",
       "date": "Tue, 29 Sep 2026 15:12:07 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
     {
-      "title": "After losing his voice to cancer, this founder is building “glasses for voice”",
-      "summary": "Uhura Bionics, a TechCrunch Disrupt 2026 Battlefield 200, wants to replace flat, robotics voice devices with one that carries emotions.",
+      "title": "After losing his voice to cancer, this founder is building ‘glasses for voice’",
+      "summary": "Uhura Bionics, part of the Startup Battlefield 200 at TechCrunch Disrupt, wants to replace flat, robotics voice devices with one that carries emotions.",
       "link": "https://techcrunch.com/2026/09/29/after-losing-his-voice-to-cancer-this-founder-is-building-glasses-for-voice/",
       "date": "Tue, 29 Sep 2026 15:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
     {
-      "title": "Oura shelves its $2.2B IPO citing ‘uncertainty’ in the market",
+      "title": "Oura shelves its $2.2B IPO, citing ‘uncertainty’ in the market",
       "summary": "The postponement of the IPO will delay some of the company's plans for its proceeds from the IPO, as well as those of its shareholders.",
       "link": "https://techcrunch.com/2026/09/29/oura-shelves-its-2-2b-ipo-citing-uncertainty-in-the-market/",
       "date": "Tue, 29 Sep 2026 14:56:55 +0000",
@@ -27,7 +123,7 @@
     },
     {
       "title": "With Dazzle, Marissa Mayer bets your camera roll has more info on your life than your inbox",
-      "summary": "The former Yahoo CEO is introducing a new AI personal assistant based entirely on your photos.",
+      "summary": "Mayer argues that if a photo is worth a thousand words, your camera roll is worth millions. By analyzing all the photos stored on your phone, Dazzle claims to understand your hobbies, interests, food, and style preferences, how you like to spend their time, and with whom.",
       "link": "https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/",
       "date": "Tue, 29 Sep 2026 13:53:01 +0000",
       "source": "TechCrunch",
@@ -42,7 +138,7 @@
       "category": "Technology"
     },
     {
-      "title": "Still running iOS 26? Update your iPhones, iPads and Macs for this urgent security fix",
+      "title": "Still running iOS 26? Update your iPhones, iPads, and Macs for this urgent security fix",
       "summary": "Apple says the bug was used to attack \"specific targeted individuals\" running iOS 26, which the majority of Apple customers are still using.",
       "link": "https://techcrunch.com/2026/09/29/still-running-ios-26-update-your-iphones-ipads-and-macs-for-this-urgent-security-fix/",
       "date": "Tue, 29 Sep 2026 13:25:21 +0000",
@@ -64,102 +160,6 @@
       "date": "Tue, 29 Sep 2026 12:45:05 +0000",
       "source": "TechCrunch",
       "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Reco raises $55M as AI agent security startups crowd the market",
-      "summary": "The round builds on a $30 million fundraise in February, taking the company's total funding to $140 million.",
-      "link": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
-      "date": "Tue, 29 Sep 2026 12:30:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Protego Ventures closes debut $125 million fund for Israeli defense tech",
-      "summary": "Protego Ventures, the first and largest dedicated defense tech VC in Israel, just completed its final $125 million closing, TechCrunch learned exclusively.",
-      "link": "https://techcrunch.com/2026/09/29/protego-ventures-closes-debut-125-million-fund-for-israeli-defense-tech/",
-      "date": "Tue, 29 Sep 2026 10:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Ex-Tesla team raises $12.5M to put supply chains on autopilot",
-      "summary": "Atomic's agentic supply chain software is now being used by companies like DoorDash and HelloFresh.",
-      "link": "https://techcrunch.com/2026/09/29/ex-tesla-team-raises-12-5m-to-put-supply-chains-on-autopilot/",
-      "date": "Tue, 29 Sep 2026 09:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
-      "summary": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
-      "link": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
-      "date": "Tue, 29 Sep 2026 05:13:43 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
-      "summary": "Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India.",
-      "link": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
-      "date": "Tue, 29 Sep 2026 00:30:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "OpenAI reportedly ditches model over safety concerns",
-      "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
-      "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
-      "date": "Mon, 28 Sep 2026 23:39:20 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Aurora CFO says 30,000 driverless trucks by 2030 isn’t as far-fetched as it sounds",
-      "summary": "Self-driving truck company Aurora laid out an audacious plan for 2030. Its CFO says its targets aren't aspirational.",
-      "link": "https://techcrunch.com/2026/09/28/aurora-cfo-says-30000-driverless-trucks-by-2030-isnt-as-far-fetched-as-it-sounds/",
-      "date": "Mon, 28 Sep 2026 22:58:35 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
-      "summary": "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.",
-      "link": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
-      "date": "Mon, 28 Sep 2026 21:29:18 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion",
-      "summary": "The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist.",
-      "link": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
-      "date": "Mon, 28 Sep 2026 20:39:33 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Shopify opens checkout to browser-based AI agents",
-      "summary": "Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer’s authorization.",
-      "link": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "date": "Mon, 28 Sep 2026 19:33:57 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Tesla delays Roadster 2 event again due to bad weather",
-      "summary": "Tesla says the event \"can only be held outdoors,\" as it's expected to show the car flying in some form using SpaceX thrusters.",
-      "link": "https://techcrunch.com/2026/09/28/tesla-delays-roadster-2-event-again-due-to-bad-weather/",
-      "date": "Mon, 28 Sep 2026 19:27:27 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "The AI boom took over Climate Week and not everyone is happy about it",
-      "summary": "Just like the rest of the U.S., data centers and AI are dividing climate tech founders and investors.",
-      "link": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
-      "date": "Mon, 28 Sep 2026 19:21:59 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
     },
     {
       "title": "The Download: climate tech companies to watch and AI’s discovery problem",
