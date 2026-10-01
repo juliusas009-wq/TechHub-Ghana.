@@ -1,6 +1,54 @@
 {
-  "updated": "2026-10-01T06:50:58.778093+00:00",
+  "updated": "2026-10-01T14:11:52.372361+00:00",
   "articles": [
+    {
+      "title": "Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents",
+      "summary": "The startup helps developers build AI agents that work over iMessage, SMS/RCS, email, and other messaging platforms. It's a bet that consumers will increasingly use agents instead of downloading apps.",
+      "link": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
+      "date": "Thu, 01 Oct 2026 14:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Programming"
+    },
+    {
+      "title": "Hearing tech startup Legato launches its AI hearing glasses",
+      "summary": "The glasses stem from the startup’s goal of making hearing care more accessible by addressing the cost, comfort, and stigma associated with traditional hearing aids.",
+      "link": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
+      "date": "Thu, 01 Oct 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Audible’s new features let you explore book worlds — and use AI to talk to characters",
+      "summary": "Audible is rolling out new features that help listeners keep track of characters, explore places and imagery mentioned in books, and even interact with characters using generative AI.",
+      "link": "https://techcrunch.com/2026/10/01/audibles-new-features-let-you-explore-book-worlds-and-even-talk-to-characters/",
+      "date": "Thu, 01 Oct 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "The new Kindle ditches the bezel in a push toward a smaller, lighter e-reader",
+      "summary": "The new Kindle lineup features its lightest and thinnest designs yet, with a sleek, front-flush display that eliminates bezels for good.",
+      "link": "https://techcrunch.com/2026/10/01/the-new-kindle-ditches-the-bezel-in-a-push-toward-a-smaller-lighter-e-reader/",
+      "date": "Thu, 01 Oct 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Amazon introduces Kindle Click, a $35 remote for turning pages",
+      "summary": "The compact Bluetooth remote is designed to let readers turn pages without touching their Kindle.",
+      "link": "https://techcrunch.com/2026/10/01/amazon-introduces-kindle-click-a-35-remote-for-hands-free-reading/",
+      "date": "Thu, 01 Oct 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+      "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+      "link": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+      "date": "Thu, 01 Oct 2026 12:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
       "summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
@@ -114,51 +162,27 @@
       "category": "Technology"
     },
     {
-      "title": "Destro AI’s secret sauce is getting robots and humans on the same page",
-      "summary": "\"One of the biggest reasons we are winning against robotics companies is because we are not a robotics company.\"",
-      "link": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/",
-      "date": "Wed, 30 Sep 2026 16:00:00 +0000",
-      "source": "TechCrunch",
+      "title": "The Download: AI “mind-reading” and creative uses for small batteries",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. An AI “mind-reading” tool can reconstruct what you’re looking at based on a brain scan A new AI tool can guess what you’re looking at just by analyzing your brain scans—and&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/",
+      "date": "Thu, 01 Oct 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
-      "title": "Instinct’s new product recommendations are giving some users the ick",
-      "summary": "Instinct is rolling out human-curated product and travel recommendations, but some users aren’t happy about getting suggestions they never asked for.",
-      "link": "https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/",
-      "date": "Wed, 30 Sep 2026 15:56:28 +0000",
-      "source": "TechCrunch",
+      "title": "An AI “mind-reading” tool can reconstruct what you’re looking at from a brain scan",
+      "summary": "A new AI tool can guess what you’re looking at just by analyzing your brain scans—and re-create that image with remarkable precision. It can go the other way too, and predict a person’s brain activity based on what they’re looking at.  In the image above, for example, the left-hand image of each pair is what&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/",
+      "date": "Thu, 01 Oct 2026 10:32:24 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
-      "title": "FedEx orders 2,000 electric trucks from Harbinger in $300M deal",
-      "summary": "The order -- Harbinger's biggest ever -- comes as the startup is reportedly considering an IPO.",
-      "link": "https://techcrunch.com/2026/09/30/fedex-orders-2000-electric-trucks-from-harbinger-in-300m-deal/",
-      "date": "Wed, 30 Sep 2026 15:26:02 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Pledge signed by President Trump and top AI leaders misspells the United States",
-      "summary": "On Tuesday, President Donald Trump and top AI leaders announced a signed pledge called a “Joint Commitment on Frontier Responsibilities” — a voluntary promise to implement more controls and safety measures as the rapid development of artificial intelligence continues. But there seems to be a catch.",
-      "link": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/",
-      "date": "Wed, 30 Sep 2026 14:50:55 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Google launches Fitbit Air in India, though its high price might deter the masses",
-      "summary": "Fitbit Air costs around $146 in India, roughly $47 more than its U.S. pricing.",
-      "link": "https://techcrunch.com/2026/09/30/google-launches-fitbit-air-in-india-though-its-high-price-might-deter-the-masses/",
-      "date": "Wed, 30 Sep 2026 14:32:03 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Instagram rolls out an AI video assistant for creators",
-      "summary": "This conversational AI assistant is intended to provide personalized feedback to creators, rather than generic advice.",
-      "link": "https://techcrunch.com/2026/09/30/instagram-rolls-out-an-ai-video-assistant-for-creators/",
-      "date": "Wed, 30 Sep 2026 14:30:00 +0000",
-      "source": "TechCrunch",
+      "title": "How smaller, distributed batteries could help the grid",
+      "summary": "If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small batteries in unexpected places,&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
+      "date": "Thu, 01 Oct 2026 10:00:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -214,30 +238,6 @@
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what&#8230;",
       "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
       "date": "Mon, 28 Sep 2026 17:03:16 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "The Download: rogue agent liability and the AI Hype Index",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Who&#8217;s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents&#8230;",
-      "link": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
-      "date": "Mon, 28 Sep 2026 12:10:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Who’s liable when AI agents go rogue?",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents&#8230;",
-      "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
-      "date": "Mon, 28 Sep 2026 08:06:22 +0000",
-      "source": "MIT Technology Review",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over the next five years on an improved lie detector, according to&#8230;",
-      "link": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
-      "date": "Fri, 25 Sep 2026 12:10:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
     }
