@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-01T23:41:22.403705+00:00",
+  "updated": "2026-10-02T04:12:22.304895+00:00",
   "articles": [
+    {
+      "title": "Robotaxi operators will face fines for blocking first responders",
+      "summary": "A new California law places new rules on autonomous vehicles operators",
+      "link": "https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/",
+      "date": "Fri, 02 Oct 2026 00:57:57 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+      "summary": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
+      "link": "https://techcrunch.com/2026/10/01/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
+      "date": "Fri, 02 Oct 2026 00:03:23 +0000",
+      "source": "TechCrunch",
+      "category": "Programming"
+    },
     {
       "title": "Lyft is paying $272.5M to settle lawsuit over how it classified drivers",
       "summary": "Today, gig economy drivers are classified as contractors. This settlement clears up a lingering lawsuit from 2020 when that was still an unanswered issue.",
@@ -142,22 +158,6 @@
       "summary": "The new Kindle lineup features its lightest and thinnest designs yet, with a sleek, front-flush display that eliminates bezels for good.",
       "link": "https://techcrunch.com/2026/10/01/the-new-kindle-ditches-the-bezel-in-a-push-toward-a-smaller-lighter-e-reader/",
       "date": "Thu, 01 Oct 2026 13:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Amazon introduces Kindle Click, a $35 remote for turning pages",
-      "summary": "The compact Bluetooth remote is designed to let readers turn pages without touching their Kindle.",
-      "link": "https://techcrunch.com/2026/10/01/amazon-introduces-kindle-click-a-35-remote-for-hands-free-reading/",
-      "date": "Thu, 01 Oct 2026 13:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
-      "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
-      "link": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-      "date": "Thu, 01 Oct 2026 12:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
