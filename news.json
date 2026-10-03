@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-03T00:10:02.311082+00:00",
+  "updated": "2026-10-03T05:34:49.821330+00:00",
   "articles": [
+    {
+      "title": "Meta wants your next gadget to be Muse-infused",
+      "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "date": "Sat, 03 Oct 2026 00:45:39 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Sanders introduces bill to ban the federal government from using Flock",
+      "summary": "The proposed legislation would extend to all automotica license plate readers.",
+      "link": "https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/",
+      "date": "Sat, 03 Oct 2026 00:21:57 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Sean Parker is rebuilding Stability AI around music",
       "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
@@ -144,22 +160,6 @@
       "date": "Fri, 02 Oct 2026 00:57:57 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
-      "summary": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
-      "link": "https://techcrunch.com/2026/10/01/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
-      "date": "Fri, 02 Oct 2026 00:03:23 +0000",
-      "source": "TechCrunch",
-      "category": "Programming"
-    },
-    {
-      "title": "Lyft is paying $272.5M to settle lawsuit over how it classified drivers",
-      "summary": "Today, gig economy drivers are classified as contractors. This settlement clears up a lingering lawsuit from 2020 when that was still an unanswered issue.",
-      "link": "https://techcrunch.com/2026/10/01/lyft-is-paying-272-5m-to-settle-lawsuit-over-how-it-classified-drivers/",
-      "date": "Thu, 01 Oct 2026 21:57:08 +0000",
-      "source": "TechCrunch",
-      "category": "Cloud Computing"
     },
     {
       "title": "Redefining enterprise intelligence with autonomous AI",
