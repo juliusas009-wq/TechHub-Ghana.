@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-02T20:54:47.848265+00:00",
+  "updated": "2026-10-03T00:10:02.311082+00:00",
   "articles": [
+    {
+      "title": "Sean Parker is rebuilding Stability AI around music",
+      "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
+      "link": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "date": "Fri, 02 Oct 2026 21:09:14 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
       "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
@@ -152,14 +160,6 @@
       "date": "Thu, 01 Oct 2026 21:57:08 +0000",
       "source": "TechCrunch",
       "category": "Cloud Computing"
-    },
-    {
-      "title": "Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation",
-      "summary": "Kevin Mandia, best known as the founder of Mandiant, has a new startup that is using agent swarms to test and protect enterprises.",
-      "link": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
-      "date": "Thu, 01 Oct 2026 21:55:22 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
     },
     {
       "title": "Redefining enterprise intelligence with autonomous AI",
