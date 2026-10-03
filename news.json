@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-03T11:08:55.859318+00:00",
+  "updated": "2026-10-03T15:11:15.029780+00:00",
   "articles": [
+    {
+      "title": "Jack Dorsey’s Bitchat disappears from app stores in India after government order",
+      "summary": "Bitchat has become largely unavailable in India as a result of the restrictions.",
+      "link": "https://techcrunch.com/2026/10/03/jack-dorseys-bitchat-disappears-from-app-stores-in-india-after-government-order/",
+      "date": "Sat, 03 Oct 2026 15:02:01 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Vessev built an electric ferry that almost flies",
+      "summary": "Vessev hopes its electric hydrofoil ferry will change the way people and cities think about boats.",
+      "link": "https://techcrunch.com/2026/10/03/vessev-built-an-electric-ferry-that-almost-flies/",
+      "date": "Sat, 03 Oct 2026 14:42:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "All the AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "date": "Sat, 03 Oct 2026 14:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Spotify billionaire’s body scan startup has come to America",
+      "summary": "Farooq Abbasi, an investor in Neko Health, talked to Equity about the hot health tech company and what's next for it.",
+      "link": "https://techcrunch.com/2026/10/03/spotify-billionaires-body-scan-startup-has-come-to-america/",
+      "date": "Sat, 03 Oct 2026 14:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Meta wants your next gadget to be Muse-infused",
       "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
@@ -126,38 +158,6 @@
       "summary": "The company delivered more than 486,000 EVs in the third quarter, down from last year's record but moving in a positive direction.",
       "link": "https://techcrunch.com/2026/10/02/tesla-sustains-its-ev-sales-momentum-despite-us-troubles/",
       "date": "Fri, 02 Oct 2026 13:39:23 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Medical records giant Epic pauses product development to fix security bugs that risk patients’ data",
-      "summary": "The health tech software giant, which makes the widely used MyChart system for accessing medical data, will focus on fixing security bugs for the next few weeks.",
-      "link": "https://techcrunch.com/2026/10/02/medical-records-giant-epic-pauses-product-development-to-fix-security-bugs-that-risk-patients-data/",
-      "date": "Fri, 02 Oct 2026 13:23:09 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Rivian’s R2 just helped it set a new sales record",
-      "summary": "Deliveries jumped roughly 45% compared to the same quarter last year, with Rivian delivering more than 19,000 EVs.",
-      "link": "https://techcrunch.com/2026/10/02/rivians-r2-just-helped-it-set-a-new-sales-record/",
-      "date": "Fri, 02 Oct 2026 13:17:05 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Rivian issues R2 recall for poorly tightened battery packs",
-      "summary": "The company says around 14 vehicles may be affected, and that it has resolved the issue on the assembly line.",
-      "link": "https://techcrunch.com/2026/10/02/rivian-issues-r2-recall-for-poorly-tightened-battery-packs/",
-      "date": "Fri, 02 Oct 2026 12:50:11 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Robotaxi operators will face fines for blocking first responders",
-      "summary": "A new California law places new rules on autonomous vehicles operators.",
-      "link": "https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/",
-      "date": "Fri, 02 Oct 2026 00:57:57 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
