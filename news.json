@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-04T17:17:49.361913+00:00",
+  "updated": "2026-10-04T20:20:13.318435+00:00",
   "articles": [
+    {
+      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
+      "link": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "date": "Sun, 04 Oct 2026 20:08:34 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "TechCrunch Mobility: Reining in robotaxis",
       "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
@@ -150,14 +158,6 @@
       "summary": "\"There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of images created by others,\" the pope wrote. \"Algorithms lack the spark of humanity.\"",
       "link": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
       "date": "Fri, 02 Oct 2026 15:39:41 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Laytr’s new app lets you save anything you find online, not just articles to read",
-      "summary": "Laytr lets you save articles, recipes, screenshots, videos, PDFs, and more for later, while keeping your archive private and synced across your Apple devices.",
-      "link": "https://techcrunch.com/2026/10/02/laytrs-new-app-lets-you-save-anything-you-find-online-not-just-articles-to-read/",
-      "date": "Fri, 02 Oct 2026 15:31:20 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
