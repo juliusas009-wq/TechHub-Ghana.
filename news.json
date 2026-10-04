@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-04T20:20:13.318435+00:00",
+  "updated": "2026-10-04T23:28:09.971424+00:00",
   "articles": [
+    {
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "summary": "AI slop seems to be overwhelming bug bounty programs.",
+      "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "date": "Sun, 04 Oct 2026 20:31:07 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
       "summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
@@ -150,14 +158,6 @@
       "summary": "The roughly $110 billion deal is expected to close October 6.",
       "link": "https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/",
       "date": "Fri, 02 Oct 2026 15:53:50 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Pope Leo XIV is not a fan of AI-generated art",
-      "summary": "\"There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of images created by others,\" the pope wrote. \"Algorithms lack the spark of humanity.\"",
-      "link": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
-      "date": "Fri, 02 Oct 2026 15:39:41 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
