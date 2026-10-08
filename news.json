@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-07T22:45:28.169844+00:00",
+  "updated": "2026-10-08T02:32:16.788729+00:00",
   "articles": [
+    {
+      "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
+      "summary": "Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks.",
+      "link": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+      "date": "Wed, 07 Oct 2026 23:36:57 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "While VCs crowd into San Francisco, Endeavor Catalyst raises $320M for founders ‘elsewhere’",
+      "summary": "Endeavor Catalyst just raised $320 million to keep backing founders outside Silicon Valley. Half the profits go back to the nonprofit that finds them.",
+      "link": "https://techcrunch.com/2026/10/07/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-founders-elsewhere/",
+      "date": "Wed, 07 Oct 2026 22:59:16 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
       "summary": "The developer of Hermes Agent raised a $90 million Series B.",
@@ -142,22 +158,6 @@
       "summary": "Google on Tuesday launched a new site that lets anyone verify whether a piece of media, be it an image, a video, or an audio clip, is generated using AI.",
       "link": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
       "date": "Wed, 07 Oct 2026 14:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Ring’s first smart lock can be hand-cranked when its battery dies",
-      "summary": "Amazon-owned Ring is entering the smart lock market with a device designed to tackle a common concern: getting locked out when the battery dies.",
-      "link": "https://techcrunch.com/2026/10/07/rings-first-smart-lock-can-be-hand-cranked-when-its-battery-dies/",
-      "date": "Wed, 07 Oct 2026 14:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Another personal AI assistant has launched — Meet Tab, which emerged from stealth with a $300M valuation",
-      "summary": "A new personal AI assistant has arrived. Meet Tab, which announced Tuesday that it had officially emerged from stealth.",
-      "link": "https://techcrunch.com/2026/10/07/another-personal-ai-assistant-has-launched-meet-tab-which-emerged-from-stealth-with-a-300m-valuation/",
-      "date": "Wed, 07 Oct 2026 13:45:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
