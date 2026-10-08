@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-08T02:32:16.788729+00:00",
+  "updated": "2026-10-08T10:02:27.454570+00:00",
   "articles": [
+    {
+      "title": "India rejects Elon Musk’s claim of discrimination over Starlink launch",
+      "summary": "Starlink is still awaiting security clearance before it can seek spectrum and begin commercial services in India.",
+      "link": "https://techcrunch.com/2026/10/07/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
+      "date": "Thu, 08 Oct 2026 06:14:11 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
       "summary": "Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks.",
@@ -154,11 +162,19 @@
       "category": "Technology"
     },
     {
-      "title": "Google’s new SynthID website can identify AI-generated media",
-      "summary": "Google on Tuesday launched a new site that lets anyone verify whether a piece of media, be it an image, a video, or an audio clip, is generated using AI.",
-      "link": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
-      "date": "Wed, 07 Oct 2026 14:00:00 +0000",
-      "source": "TechCrunch",
+      "title": "AI breakthroughs in robotics won’t change your life any time soon",
+      "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+      "date": "Thu, 08 Oct 2026 09:00:00 +0000",
+      "source": "MIT Technology Review",
+      "category": "Technology"
+    },
+    {
+      "title": "Building a safer path to autonomous industrial AI",
+      "summary": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that operates purely in the digital world, industrial AI can interact directly with physical systems,&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+      "date": "Thu, 08 Oct 2026 08:17:32 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -221,22 +237,6 @@
       "title": "X-energy and its helium-cooled nuclear reactors",
       "summary": "X-energy is developing small modular reactors to satisfy some of the planet’s most power-hungry users: industrial manufacturers that need high temperatures to produce billions of tons of concrete, plastics, fibers, and chemicals. Solar panels and wind turbines are great at producing electricity but what heavy industry also needs is raw heat—and lots of it. The manufacture&#8230;",
       "link": "https://www.technologyreview.com/2026/10/06/1145025/2026-climate-tech-companies-to-watch-x-energy-helium-cooled-nuclear-reactors/",
-      "date": "Tue, 06 Oct 2026 10:35:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Energy Dome and its carbon dioxide batteries",
-      "summary": "There’s a growing need for long-duration storage to meet energy demand and balance out renewables on the grid. Energy Dome uses compressed carbon dioxide gas in its massive grid batteries, which can deliver power for up to 24 hours.&#160; As the world races to meet growing electricity demand, solar and onshore wind power have become&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/06/1145032/2026-climate-tech-companies-to-watch-energy-dome-carbon-dioxide-batteries/",
-      "date": "Tue, 06 Oct 2026 10:35:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Brimstone and its one-stop process for making cleaner cement and critical minerals",
-      "summary": "Brimstone is making strides on two industrial problems, reducing the emissions from cement and providing a way to produce more critical minerals within the US. If the company can do both, with the same rocks in the same plant, it would unlock a cleaner and more efficient process for manufacturing building materials, aluminum, steel, and&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/06/1145172/2026-climate-tech-companies-to-watch-brimstone-one-stop-process-making-cleaner-cement-critical-minerals/",
       "date": "Tue, 06 Oct 2026 10:35:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
