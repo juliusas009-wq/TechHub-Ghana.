@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-08T22:22:03.590115+00:00",
+  "updated": "2026-10-09T02:24:18.960421+00:00",
   "articles": [
+    {
+      "title": "President Trump awards Big Tech donors with nation’s highest science prizes",
+      "summary": "Together, the awardees have donated nearly $6 billion to efforts tied to Trump and his administration.",
+      "link": "https://techcrunch.com/2026/10/08/president-trump-awards-big-tech-donors-with-nations-highest-science-prizes/",
+      "date": "Thu, 08 Oct 2026 22:33:59 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
       "summary": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk.",
@@ -108,7 +116,7 @@
     {
       "title": "Elon Musk questions Ambani’s influence as Starlink India launch stalls",
       "summary": "“Is Ambani the real boss of India?” Elon Musk asked as he questioned why Starlink has yet to launch its satellite internet service in the country.",
-      "link": "https://techcrunch.com/2026/10/08/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
+      "link": "https://techcrunch.com/2026/10/08/elon-musk-questions-ambanis-influence-as-starlink-india-launch-stalls/",
       "date": "Thu, 08 Oct 2026 15:12:59 +0000",
       "source": "TechCrunch",
       "category": "Technology"
@@ -154,11 +162,11 @@
       "category": "Technology"
     },
     {
-      "title": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
-      "summary": "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee.",
-      "link": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
-      "date": "Thu, 08 Oct 2026 14:00:00 +0000",
-      "source": "TechCrunch",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "summary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "date": "Fri, 09 Oct 2026 00:08:24 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -229,14 +237,6 @@
       "title": "Here’s how our climate team picked 10 promising companies to watch",
       "summary": "As the team at MIT Technology Review set out to choose companies for this year’s edition of our annual list of Climate Tech Companies to Watch, the challenge felt more daunting than any year since we started compiling the list in 2023.&#160; This year is shaping up to be one of the hottest ever recorded.&#8230;",
       "link": "https://www.technologyreview.com/2026/10/06/1144978/2026-climate-tech-companies-to-watch-how-we-chose/",
-      "date": "Tue, 06 Oct 2026 10:35:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "WeLion New Energy and its semi-solid-state batteries",
-      "summary": "WeLion New Energy is on a quest to make safer, better batteries. The company’s semi-solid-state cells could improve safety and offer greater energy density than lithium-ion batteries to power electric cars, boats, and drones. From the EVs that carry commuters home to the ships that transport goods across countries, more and more vehicles around us&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/06/1144987/2026-climate-tech-companies-to-watch-welion-semi-solid-state-batteries/",
       "date": "Tue, 06 Oct 2026 10:35:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
