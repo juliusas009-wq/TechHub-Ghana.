@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-10T01:05:51.107244+00:00",
+  "updated": "2026-10-10T07:32:07.811555+00:00",
   "articles": [
+    {
+      "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
+      "summary": "Elon Musk has accused Indian billionaire Mukesh Ambani of blocking competition.",
+      "link": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
+      "date": "Sat, 10 Oct 2026 03:10:06 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
       "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
@@ -150,14 +158,6 @@
       "summary": "Together, the awardees have donated nearly $6 billion to efforts tied to Trump and his administration.",
       "link": "https://techcrunch.com/2026/10/08/president-trump-awards-big-tech-donors-with-nations-highest-science-prizes/",
       "date": "Thu, 08 Oct 2026 22:33:59 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
-      "summary": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk.",
-      "link": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
-      "date": "Thu, 08 Oct 2026 21:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
