@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-11T07:36:44.072297+00:00",
+  "updated": "2026-10-11T14:39:39.774566+00:00",
   "articles": [
+    {
+      "title": "What to know about the landmark Warner Bros. Discovery sale",
+      "summary": "Learn more about Paramount's planned acquisition of Warner Bros. Discovery — a historic Hollywood megadeal valued at $111 billion — as it continues to develop.",
+      "link": "https://techcrunch.com/2026/10/11/warner-bros-netflix-paramount-acquisition-timeline-wbd/",
+      "date": "Sun, 11 Oct 2026 14:15:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "summary": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
+      "link": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "date": "Sun, 11 Oct 2026 14:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
     {
       "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
       "summary": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
@@ -142,22 +158,6 @@
       "summary": "The name change is enough for Germany's transport minister to start advocating for Europe-wide adoption of the driver assistance software.",
       "link": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
       "date": "Fri, 09 Oct 2026 16:07:26 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Remember Orkut? Its founder wants to bring it back",
-      "summary": "Orkut's founder is now taking aim at algorithms and AI-generated content.",
-      "link": "https://techcrunch.com/2026/10/09/remember-orkut-its-founder-wants-to-bring-it-back/",
-      "date": "Fri, 09 Oct 2026 15:56:15 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "a16z’s Olivia Moore on the state of consumer AI",
-      "summary": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
-      "link": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
-      "date": "Fri, 09 Oct 2026 15:43:33 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
