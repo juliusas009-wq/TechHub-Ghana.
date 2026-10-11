@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-11T19:20:38.584528+00:00",
+  "updated": "2026-10-11T23:03:07.112124+00:00",
   "articles": [
+    {
+      "title": "Will the HomeView be Apple’s first smart home success?",
+      "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+      "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+      "date": "Sun, 11 Oct 2026 21:14:40 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Aaron Sorkin’s ‘Social Reckoning’ is off to a weak start",
+      "summary": "What does this mean for a fall full of movies starring villainous tech CEOs?",
+      "link": "https://techcrunch.com/2026/10/11/aaron-sorkins-social-reckoning-is-off-to-a-weak-start/",
+      "date": "Sun, 11 Oct 2026 20:51:47 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
       "summary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
@@ -142,22 +158,6 @@
       "summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
       "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
       "date": "Fri, 09 Oct 2026 21:41:29 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
-      "summary": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
-      "link": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-      "date": "Fri, 09 Oct 2026 19:36:56 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Batteries are now cheaper than natural gas turbines used at many data centers",
-      "summary": "Batteries are now cheaper than natural gas turbines as the data center boom pushes prices up.",
-      "link": "https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers/",
-      "date": "Fri, 09 Oct 2026 18:57:58 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
