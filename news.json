@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-11T23:03:07.112124+00:00",
+  "updated": "2026-10-12T02:34:15.519117+00:00",
   "articles": [
+    {
+      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+      "summary": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
+      "link": "https://techcrunch.com/2026/10/11/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
+      "date": "Mon, 12 Oct 2026 00:59:01 +0000",
+      "source": "TechCrunch",
+      "category": "Programming"
+    },
     {
       "title": "Will the HomeView be Apple’s first smart home success?",
       "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
@@ -150,14 +158,6 @@
       "summary": "Keychron made a name for itself after launching on Kickstarter in 2017. Today, it offers the value K2 model as well as a variety of other versions, including one with an all-wood body.",
       "link": "https://techcrunch.com/2026/10/09/long-live-the-mechanical-keyboard/",
       "date": "Fri, 09 Oct 2026 22:08:24 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-      "summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
-      "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-      "date": "Fri, 09 Oct 2026 21:41:29 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
