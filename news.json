@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-14T00:52:27.405205+00:00",
+  "updated": "2026-10-14T05:50:25.247544+00:00",
   "articles": [
+    {
+      "title": "Justice Department says North Koreans have infiltrated dozens of U.S. companies",
+      "summary": "U.S. authorities warn that sanctioned hackers are increasingly targeting Americans to act as facilitators between breached U.S. companies and Pyongyang.",
+      "link": "https://techcrunch.com/2026/10/13/justice-department-says-north-koreans-have-infiltrated-dozens-of-u-s-companies/",
+      "date": "Wed, 14 Oct 2026 01:30:42 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
       "summary": "Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
@@ -150,14 +158,6 @@
       "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
       "link": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
       "date": "Tue, 13 Oct 2026 16:30:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "The 2026 Startup Battlefield Top 20: From organs to orbit and everything in between",
-      "summary": "Twenty founders just earned their shot at Disrupt glory. They're headed to the main stage at TechCrunch Disrupt to compete for the $100,000 prize and the coveted Disrupt Cup.",
-      "link": "https://techcrunch.com/2026/10/13/the-2026-startup-battlefield-top-20-from-organs-to-orbit-and-everything-in-between/",
-      "date": "Tue, 13 Oct 2026 15:02:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
