@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-15T01:39:37.599141+00:00",
+  "updated": "2026-10-15T06:59:11.065439+00:00",
   "articles": [
+    {
+      "title": "Figma announces new features to define how agents work on its platform",
+      "summary": "Figma is also releasing its code layers feature in open beta.",
+      "link": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "date": "Thu, 15 Oct 2026 04:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
       "summary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
@@ -150,14 +158,6 @@
       "summary": "Deezer said that the new toggle will be rolled out by the end of the year.",
       "link": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
       "date": "Wed, 14 Oct 2026 15:16:04 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West",
-      "summary": "Get a 50% discount on the last two days of TechCrunch Disrupt 2026, October 14-15, in San Francisco. Register now and join the rest of the startup ecosystem. Today, it's all about physical and software AI.",
-      "link": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
-      "date": "Wed, 14 Oct 2026 15:13:24 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
