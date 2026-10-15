@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-15T06:59:11.065439+00:00",
+  "updated": "2026-10-15T12:35:35.079102+00:00",
   "articles": [
+    {
+      "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+      "summary": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
+      "link": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "date": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Citizen Lab says governments are abusing online ads to hack people with ‘zero-click’ spyware",
+      "summary": "The digital rights unit found evidence that dozens of devices at media organization Al Jazeera were hacked after being shown malicious online ads.",
+      "link": "https://techcrunch.com/2026/10/15/citizen-lab-says-governments-are-abusing-online-ads-to-hack-people-with-zero-click-spyware/",
+      "date": "Thu, 15 Oct 2026 10:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Figma announces new features to define how agents work on its platform",
       "summary": "Figma is also releasing its code layers feature in open beta.",
@@ -146,19 +162,35 @@
       "category": "Technology"
     },
     {
-      "title": "Prismm helps banks keep inherited money in-house",
-      "summary": "With Prismm, account holders can give designated family members access to their accounts and documents ahead of time.",
-      "link": "https://techcrunch.com/2026/10/14/prismm-helps-banks-keep-inherited-money-in-house/",
-      "date": "Wed, 14 Oct 2026 16:00:00 +0000",
-      "source": "TechCrunch",
+      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
+      "date": "Thu, 15 Oct 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
-      "title": "Deezer will soon let you filter out AI-generated music",
-      "summary": "Deezer said that the new toggle will be rolled out by the end of the year.",
-      "link": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
-      "date": "Wed, 14 Oct 2026 15:16:04 +0000",
-      "source": "TechCrunch",
+      "title": "How much more can nuclear power plants give?",
+      "summary": "In this age of rising electricity demand, people are trying to squeeze every last bit of power out of every power plant possible. Over the past few weeks, there’s been big news about nuclear power plants trying to do just that. Constellation, the largest nuclear operator in the US, announced plans to add nearly a&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/",
+      "date": "Thu, 15 Oct 2026 10:00:00 +0000",
+      "source": "MIT Technology Review",
+      "category": "Technology"
+    },
+    {
+      "title": "Six wild ideas for perpetuating your mind",
+      "summary": "Have you ever thought about what makes you you? Science assures us it has everything to do with the three-pound organ between our ears, with its billions of neurons and trillions of delicate connections. But it’s a lot trickier to explain why we have a sense of self-awareness or to pin down precisely where that&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/15/1145819/six-wild-ideas-perpetuating-your-mind-cognitive-immortality/",
+      "date": "Thu, 15 Oct 2026 09:00:00 +0000",
+      "source": "MIT Technology Review",
+      "category": "Technology"
+    },
+    {
+      "title": "Pig kidneys that were “frozen” for a year have been brought back to life",
+      "summary": "Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been successfully rewarmed and shown to work again for the first time, say scientists. They hope to replicate the findings with human organs. The kidneys—which are similar in size to human ones—were left in a glass-like state, in one&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/",
+      "date": "Thu, 15 Oct 2026 08:43:24 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -206,38 +238,6 @@
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Mars may be a hellhole, but the moon is not far behind The US and China are racing to build bases on the moon, with NASA hoping to establish a small&#8230;",
       "link": "https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/",
       "date": "Mon, 12 Oct 2026 12:10:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "What it would take to build a city on the moon",
-      "summary": "Welcome to the second space race. You can be forgiven for experiencing déjà vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now it’s a sprint to the lunar surface between America and China—alongside a host of varyingly friendly and rival nations—plus a&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
-      "date": "Mon, 12 Oct 2026 09:37:02 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "The ecologist revealing the invisible networks that revive rainforests",
-      "summary": "In a research station in central Panama, you can walk through a century of forest time, watching scrubby plots of adolescent trees give way to cathedral-­like canopies of mature growth. Forest ecologist Daisy Dent, a senior scientist at ETH Zurich, oversees this sequence of plots across the Barro Colorado Nature Monument, some of which date&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
-      "date": "Mon, 12 Oct 2026 09:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts. If you ask your chatbot how to poison&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
-      "date": "Fri, 09 Oct 2026 12:10:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "We’re putting too much faith in AI’s ability to say no",
-      "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary.&#160; But recently, the idea that AI shouldn’t&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
-      "date": "Fri, 09 Oct 2026 09:00:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
     }
