@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-15T20:57:29.630703+00:00",
+  "updated": "2026-10-15T23:36:43.315639+00:00",
   "articles": [
+    {
+      "title": "And the winner of Startup Battlefield at Disrupt 2026 is: Intero Biosystems",
+      "summary": "Intero Biosystems beat out 199 other Startup Battlefield companies to take home the $100,000 grand prize at TechCrunch Disrupt 2026.",
+      "link": "https://techcrunch.com/2026/10/15/and-the-winner-of-startup-battlefield-at-disrupt-2026-is-intero-biosystems/",
+      "date": "Thu, 15 Oct 2026 23:33:45 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Amazon devices chief Panos Panay on the importance of failure and bouncing back from it",
       "summary": "Panay said that it's possible to recover and learn from all sorts of failures, even catastrophic ones, when building products.",
@@ -150,14 +158,6 @@
       "summary": "It’s time to unveil the five companies that will be competing in the Startup Battlefield finals.",
       "link": "https://techcrunch.com/2026/10/14/meet-the-five-companies-competing-in-the-startup-battlefield-finals-at-disrupt-2026/",
       "date": "Thu, 15 Oct 2026 00:30:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
-      "summary": "Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” is using AI to help organizations spot trouble brewing online before it turns into a crisis.",
-      "link": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
-      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
