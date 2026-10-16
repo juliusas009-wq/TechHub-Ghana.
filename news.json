@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-15T23:36:43.315639+00:00",
+  "updated": "2026-10-16T03:15:49.713109+00:00",
   "articles": [
+    {
+      "title": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
+      "summary": "The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas.",
+      "link": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+      "date": "Fri, 16 Oct 2026 01:17:43 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+      "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+      "link": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+      "date": "Thu, 15 Oct 2026 23:44:56 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "And the winner of Startup Battlefield at Disrupt 2026 is: Intero Biosystems",
       "summary": "Intero Biosystems beat out 199 other Startup Battlefield companies to take home the $100,000 grand prize at TechCrunch Disrupt 2026.",
@@ -142,22 +158,6 @@
       "summary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
       "link": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
       "date": "Thu, 15 Oct 2026 01:01:32 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Flock CEO defends surveillance technology amid national backlash: ‘We shouldn’t pause progress’",
-      "summary": "At TechCrunch Disrupt, Flock CEO Garrett Langley defended his company's surveillance technology despite growing privacy concerns, arguing that its crime-fighting benefits outweigh the risks of abuse.",
-      "link": "https://techcrunch.com/2026/10/14/flock-ceo-defends-surveillance-technology-amid-national-backlash-we-shouldnt-pause-progress/",
-      "date": "Thu, 15 Oct 2026 00:49:31 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Meet the five companies competing in the Startup Battlefield finals at Disrupt 2026",
-      "summary": "It’s time to unveil the five companies that will be competing in the Startup Battlefield finals.",
-      "link": "https://techcrunch.com/2026/10/14/meet-the-five-companies-competing-in-the-startup-battlefield-finals-at-disrupt-2026/",
-      "date": "Thu, 15 Oct 2026 00:30:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
