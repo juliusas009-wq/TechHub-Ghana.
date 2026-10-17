@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-17T16:50:46.678346+00:00",
+  "updated": "2026-10-17T19:01:33.097343+00:00",
   "articles": [
+    {
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "date": "Sat, 17 Oct 2026 18:48:08 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
     {
       "title": "Ember’s new temperature-controlled mug makes my nightly tea ritual even better",
       "summary": "The biggest change about Ember's new mug is that you no longer have to open the app to adjust your drink’s temperature.",
@@ -16,14 +24,6 @@
       "date": "Sat, 17 Oct 2026 02:36:18 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
-      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "date": "Fri, 16 Oct 2026 21:22:28 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
     },
     {
       "title": "Porsche’s electric Macan Turbo is an automotive existential crisis",
