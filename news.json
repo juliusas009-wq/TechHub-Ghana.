@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-17T13:51:05.372495+00:00",
+  "updated": "2026-10-17T16:50:46.678346+00:00",
   "articles": [
+    {
+      "title": "Ember’s new temperature-controlled mug makes my nightly tea ritual even better",
+      "summary": "The biggest change about Ember's new mug is that you no longer have to open the app to adjust your drink’s temperature.",
+      "link": "https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better/",
+      "date": "Sat, 17 Oct 2026 15:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
       "summary": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
@@ -150,14 +158,6 @@
       "summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
       "link": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
       "date": "Thu, 15 Oct 2026 20:04:53 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-      "summary": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
-      "link": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-      "date": "Thu, 15 Oct 2026 19:55:25 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
