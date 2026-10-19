@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-19T07:20:21.964403+00:00",
+  "updated": "2026-10-19T14:51:46.014704+00:00",
   "articles": [
+    {
+      "title": "Apple updates guidelines to ban nudify apps masquerading as regular apps to pass review",
+      "summary": "Apple said that it will ban AI apps that don't moderate offensive content.",
+      "link": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review/",
+      "date": "Mon, 19 Oct 2026 12:56:14 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Musk pledges to give ‘every kid in America’ one of his SpaceX shares",
+      "summary": "That's more than $10 billion in shares, or around 1% of Musk's current net worth.",
+      "link": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
+      "date": "Mon, 19 Oct 2026 12:42:55 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics",
+      "summary": "Even Healthcare reaches a $300 million valuation in a Khosla Ventures-led round as it plans to expand its hospital network in India.",
+      "link": "https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics/",
+      "date": "Mon, 19 Oct 2026 07:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market",
       "summary": "Benchmark may have grown its funds and swapped out some partners, but onstage the five who are left sounded like friends who just happen to be running one of the Valley’s most storied firms",
@@ -138,27 +162,35 @@
       "category": "Technology"
     },
     {
-      "title": "In ‘You Can See Everything,’ Elizabeth Holmes meets her equal in comedian Nathan Fielder",
-      "summary": "Nathan Fielder's documentary about disgraced Theranos CEO Elizabeth Holmes has created a constellation of colliding personas that interrogate the very nature of authenticity.",
-      "link": "https://techcrunch.com/2026/10/16/in-you-can-see-everything-elizabeth-holmes-meets-her-equal-in-comedian-nathan-fielder/",
-      "date": "Fri, 16 Oct 2026 16:00:00 +0000",
-      "source": "TechCrunch",
+      "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside the quest to combat Arctic fires and save the planet’s frozen carbon —James Temple In July 2021, a wildfire burned through a forest on the University of Alaska, Fairbanks campus,&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
+      "date": "Mon, 19 Oct 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
-      "title": "Jev is Vercel’s fastest-adopted AI model ever",
-      "summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
-      "link": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-      "date": "Fri, 16 Oct 2026 15:33:49 +0000",
-      "source": "TechCrunch",
+      "title": "Inside the quest to combat Arctic fires and save the planet’s frozen carbon",
+      "summary": "In the middle of an especially warm July in 2021, a wildfire ignited in a thick forest of black spruce and peeling paper birch trees on the northern campus of the University of Alaska, Fairbanks.&#160; The blaze, possibly sparked by lightning, burned across the dry carpet of feather mosses and lichen before climbing into the&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon/",
+      "date": "Mon, 19 Oct 2026 09:22:17 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
-      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
-      "summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
-      "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
-      "date": "Fri, 16 Oct 2026 14:26:51 +0000",
-      "source": "TechCrunch",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "date": "Mon, 19 Oct 2026 09:08:05 +0000",
+      "source": "MIT Technology Review",
+      "category": "Technology"
+    },
+    {
+      "title": "How far can we push computing?",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. On the evening of December 29, 1959, at an American Physical Society meeting at Caltech, the physicist Richard Feynman gave a lecture called “There’s&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing/",
+      "date": "Mon, 19 Oct 2026 09:00:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -206,38 +238,6 @@
       "summary": "Social media bans are stacking up. In July, France joined Australia in restricting minors from accessing social media—barring children under 15 from major platforms, before the ban was blocked by the country’s top court on human rights grounds. The UK aims to forbid kids under 16 from accessing Facebook, TikTok, and other platforms in early&#8230;",
       "link": "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve/",
       "date": "Fri, 16 Oct 2026 07:56:32 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
-      "date": "Thu, 15 Oct 2026 12:10:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "How much more can nuclear power plants give?",
-      "summary": "In this age of rising electricity demand, people are trying to squeeze every last bit of power out of every power plant possible. Over the past few weeks, there’s been big news about nuclear power plants trying to do just that. Constellation, the largest nuclear operator in the US, announced plans to add nearly a&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/",
-      "date": "Thu, 15 Oct 2026 10:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Six wild ideas for perpetuating your mind",
-      "summary": "Have you ever thought about what makes you you? Science assures us it has everything to do with the three-pound organ between our ears, with its billions of neurons and trillions of delicate connections. But it’s a lot trickier to explain why we have a sense of self-awareness or to pin down precisely where that&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/15/1145819/six-wild-ideas-perpetuating-your-mind-cognitive-immortality/",
-      "date": "Thu, 15 Oct 2026 09:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Pig kidneys that were “frozen” for a year have been brought back to life",
-      "summary": "Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been successfully rewarmed and shown to work again for the first time, say scientists. They hope to replicate the findings with human organs. The kidneys—which are similar in size to human ones—were left in a glass-like state, in one&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/",
-      "date": "Thu, 15 Oct 2026 08:43:24 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
     }
