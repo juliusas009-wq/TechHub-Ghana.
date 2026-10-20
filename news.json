@@ -1,9 +1,57 @@
 {
-  "updated": "2026-10-20T14:25:22.172831+00:00",
+  "updated": "2026-10-20T18:36:21.405582+00:00",
   "articles": [
     {
+      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+      "summary": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.",
+      "link": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+      "date": "Tue, 20 Oct 2026 17:55:12 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+      "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals.",
+      "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+      "date": "Tue, 20 Oct 2026 17:12:48 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in it’s LEGO era’",
+      "summary": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
+      "link": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+      "date": "Tue, 20 Oct 2026 16:20:06 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "Streaming guide JustWatch becomes a streamer itself",
+      "summary": "JustWatch, the popular streaming search guide used by 50 million people, is launching its own streaming service, offering free, ad-supported movies and shows alongside a $3.99-per-month ad-free tier and movie rentals.",
+      "link": "https://techcrunch.com/2026/10/20/streaming-guide-justwatch-becomes-a-streamer-itself/",
+      "date": "Tue, 20 Oct 2026 16:01:24 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+      "summary": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.",
+      "link": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+      "date": "Tue, 20 Oct 2026 16:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "TikTok staff raised child safety concerns, but executives reportedly failed to act",
+      "summary": "Court documents show TikTok employees were frustrated with how executives responded to their concerns about risks to children.",
+      "link": "https://techcrunch.com/2026/10/20/tiktok-staff-raised-child-safety-concerns-but-executives-reportedly-failed-to-act/",
+      "date": "Tue, 20 Oct 2026 15:03:41 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
-      "summary": "Figma said it plans to support as many standards as possible without exposing all of its data",
+      "summary": "Figma said it plans to support as many standards as possible without exposing all of its data.",
       "link": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
       "date": "Tue, 20 Oct 2026 14:13:32 +0000",
       "source": "TechCrunch",
@@ -114,51 +162,11 @@
       "category": "Technology"
     },
     {
-      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
-      "summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
-      "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-      "date": "Mon, 19 Oct 2026 22:04:28 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-      "summary": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
-      "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
-      "date": "Mon, 19 Oct 2026 20:09:24 +0000",
-      "source": "TechCrunch",
-      "category": "Programming"
-    },
-    {
-      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-      "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
-      "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-      "date": "Mon, 19 Oct 2026 19:28:34 +0000",
-      "source": "TechCrunch",
-      "category": "Programming"
-    },
-    {
-      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
-      "summary": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
-      "link": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
-      "date": "Mon, 19 Oct 2026 19:00:12 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-      "summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
-      "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
-      "date": "Mon, 19 Oct 2026 18:49:04 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
-      "summary": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
-      "link": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
-      "date": "Mon, 19 Oct 2026 18:37:27 +0000",
-      "source": "TechCrunch",
+      "title": "The new economics of enterprise AI",
+      "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from &#8220;can we use it?&#8221; to &#8220;how efficiently are we using it?&#8221;&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
+      "date": "Tue, 20 Oct 2026 15:20:25 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -230,14 +238,6 @@
       "summary": "In the middle of an especially warm July in 2021, a wildfire ignited in a thick forest of black spruce and peeling paper birch trees on the northern campus of the University of Alaska, Fairbanks.&#160; The blaze, possibly sparked by lightning, burned across the dry carpet of feather mosses and lichen before climbing into the&#8230;",
       "link": "https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon/",
       "date": "Mon, 19 Oct 2026 09:22:17 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-      "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-      "date": "Mon, 19 Oct 2026 09:08:05 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
     }
