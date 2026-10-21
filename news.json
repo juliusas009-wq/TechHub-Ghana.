@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-21T00:45:34.980802+00:00",
+  "updated": "2026-10-21T05:44:08.196203+00:00",
   "articles": [
     {
       "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "summary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
       "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
       "date": "Tue, 20 Oct 2026 23:01:23 +0000",
       "source": "TechCrunch",
@@ -19,7 +19,7 @@
     },
     {
       "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
-      "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+      "summary": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
       "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
       "date": "Tue, 20 Oct 2026 22:24:02 +0000",
       "source": "TechCrunch",
@@ -35,7 +35,7 @@
     },
     {
       "title": "SpaceX’s AI business is beating expectations",
-      "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
+      "summary": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
       "link": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
       "date": "Tue, 20 Oct 2026 20:40:41 +0000",
       "source": "TechCrunch",
@@ -58,7 +58,7 @@
       "category": "Artificial Intelligence"
     },
     {
-      "title": "GM to close Detroit battery assembly plant, but not for reasons you might think",
+      "title": "GM to close Detroit battery-assembly plant, but not for reasons you might think",
       "summary": "GM is shuttering the Brownstown Battery Assembly Plant, though the closure has nothing to do with the automaker's electrification strategy.",
       "link": "https://techcrunch.com/2026/10/20/gm-to-close-detroit-battery-assembly-plant-but-not-for-reasons-you-might-think/",
       "date": "Tue, 20 Oct 2026 19:32:43 +0000",
@@ -83,22 +83,22 @@
     },
     {
       "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-      "summary": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.",
+      "summary": "Eric Schmidt’s fortune is about to get even bigger.",
       "link": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
       "date": "Tue, 20 Oct 2026 17:55:12 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
     {
-      "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
-      "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals.",
+      "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
+      "summary": "New data also shows Muse is retaining users at higher rates than its AI rivals.",
       "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
       "date": "Tue, 20 Oct 2026 17:12:48 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
     {
-      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in it’s LEGO era’",
+      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
       "summary": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
       "link": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
       "date": "Tue, 20 Oct 2026 16:20:06 +0000",
@@ -155,7 +155,7 @@
     },
     {
       "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
-      "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry.",
+      "summary": "Eka Robotics may be the first robotic arm that is actually good at picking up a wide range of objects, and it is so smooth and human-like, it is wowing the industry.",
       "link": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
       "date": "Tue, 20 Oct 2026 13:00:00 +0000",
       "source": "TechCrunch",
