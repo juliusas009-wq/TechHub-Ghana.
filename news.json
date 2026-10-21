@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-21T11:13:26.305385+00:00",
+  "updated": "2026-10-21T16:02:34.341049+00:00",
   "articles": [
+    {
+      "title": "Foursquare co-founder says equity holders saw no returns from the company’s acquisition",
+      "summary": "Foursquare raised $411 million in funding according to PitchBook data, but its equity holders saw no returns from its final acquisition.",
+      "link": "https://techcrunch.com/2026/10/21/foursquare-co-founder-says-equity-holders-saw-no-returns-from-the-companys-acquisition/",
+      "date": "Wed, 21 Oct 2026 14:03:11 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+      "summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
+      "link": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "date": "Wed, 21 Oct 2026 14:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Heat pump tech is 170 years old. Pascal thinks it’s time for an update.",
+      "summary": "Refrigerants startup Pascal has a new take on heat pump and cooling tech using a sponge-like material that promises to be 20% more efficient.",
+      "link": "https://techcrunch.com/2026/10/21/heat-pump-tech-is-170-years-old-pascal-thinks-its-time-for-an-update/",
+      "date": "Wed, 21 Oct 2026 13:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Mach9 raises $34M after pivoting to AI CAD software",
+      "summary": "The startup initially set out to build better, faster, and cheaper surveying hardware in 2021.",
+      "link": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/",
+      "date": "Wed, 21 Oct 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
       "summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
@@ -130,35 +162,11 @@
       "category": "Technology"
     },
     {
-      "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
-      "summary": "Figma said it plans to support as many standards as possible without exposing all of its data.",
-      "link": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
-      "date": "Tue, 20 Oct 2026 14:13:32 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "SpaceX alum’s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",
-      "summary": "Reliable Robotics extended its Series D round with $115 million in equity and $25 million in debt.",
-      "link": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
-      "date": "Tue, 20 Oct 2026 13:17:36 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
-      "summary": "The U.S. has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
-      "link": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
-      "date": "Tue, 20 Oct 2026 13:07:24 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
-      "summary": "Eka Robotics may be the first robotic arm that is actually good at picking up a wide range of objects, and it is so smooth and human-like, it is wowing the industry.",
-      "link": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
-      "date": "Tue, 20 Oct 2026 13:00:00 +0000",
-      "source": "TechCrunch",
+      "title": "The Download: introducing the Impossible issue",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of stories that check in on impossible ideas. Why? Because it’s fun to dream about&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/21/1147573/the-download-introducing-impossible-issue/",
+      "date": "Wed, 21 Oct 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -229,14 +237,6 @@
       "title": "Here’s the tea",
       "summary": "When Tristan Brown, an associate professor of history at MIT, first examined a Chinese tea chest label displayed at Old South Meeting House, he had no reason to doubt its story. Descendants of the Boston blacksmith Thomas Wells had donated the label in 1987, saying it had been recovered after colonial protesters threw tea into&#8230;",
       "link": "https://www.technologyreview.com/2026/10/20/1145274/heres-the-tea/",
-      "date": "Tue, 20 Oct 2026 21:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Melt it, spin it, use it again",
-      "summary": "The average American throws out around 81 pounds of clothing each year, and there are few options for recycling it. MIT engineers hope to cut down on that textile waste with a new type of yarn.&#160; The thermoplastic yarn mimics the properties of conventional elastic yarns, which typically combine spandex with polyester or nylon. Those&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/",
       "date": "Tue, 20 Oct 2026 21:00:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
