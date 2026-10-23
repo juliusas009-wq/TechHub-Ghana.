@@ -1,6 +1,46 @@
 {
-  "updated": "2026-10-22T22:06:40.620085+00:00",
+  "updated": "2026-10-23T00:48:57.411334+00:00",
   "articles": [
+    {
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "date": "Fri, 23 Oct 2026 00:45:37 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Mark Zuckerberg’s creative plan to pay California’s proposed billionaire tax without losing control of Meta",
+      "summary": "A newly launched stock class being offered was partially engineered to help Meta founder and CEO Mark Zuckerberg pay the \"billionaire's tax,\" should the measure be voted into law.",
+      "link": "https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta/",
+      "date": "Thu, 22 Oct 2026 23:50:41 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+      "summary": "Warhound, the brainchild of Ben Lamm and Palmer Luckey, emerges from stealth to genetically engineer dogs for military and law enforcement.",
+      "link": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
+      "date": "Thu, 22 Oct 2026 23:15:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "As blockchain investing falls out of vogue, a16z Crypto rebrands as a16z Frontier",
+      "summary": "The digital asset unit, helmed by Chris Dixon, broadens its scope.",
+      "link": "https://techcrunch.com/2026/10/22/as-blockchain-investing-falls-out-of-vogue-a16z-crypto-rebrands-as-a16z-frontier/",
+      "date": "Thu, 22 Oct 2026 22:34:54 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+      "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "date": "Thu, 22 Oct 2026 22:08:24 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
     {
       "title": "Rivian buys world model startup to accelerate self-driving ambitions",
       "summary": "Third Dimension's technology uses AI to match the physical world, which when combined with Rivian's reams of data could turn into a valuable simulator.",
@@ -118,46 +158,6 @@
       "summary": "Raising a Series A these days isn't so simple — top investors break down what founders need to know now.",
       "link": "https://techcrunch.com/2026/10/22/investors-break-down-how-founders-can-raise-a-series-a-today/",
       "date": "Thu, 22 Oct 2026 15:15:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Spotify’s current AI bet is about being the music service that agents choose",
-      "summary": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
-      "link": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
-      "date": "Thu, 22 Oct 2026 15:03:58 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Fusion startup Helion is developing new semiconductors that could double output of its power plants",
-      "summary": "Helion now has another $225 million to help speed development of its first fusion power plant, due to provide Microsoft with electricity in 2028.",
-      "link": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/",
-      "date": "Thu, 22 Oct 2026 14:59:28 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Developer platform Railway urges ‘all users’ to revoke secret keys after cyberattack",
-      "summary": "The vibe-coding platform said all of its customers should revoke and rotate their private keys, after hackers were able to decrypt some customer secrets.",
-      "link": "https://techcrunch.com/2026/10/22/developer-platform-railway-urges-all-users-to-revoke-secret-keys-after-cyberattack/",
-      "date": "Thu, 22 Oct 2026 14:03:00 +0000",
-      "source": "TechCrunch",
-      "category": "Programming"
-    },
-    {
-      "title": "Claude Duet app is Anthropic’s bet on agents",
-      "summary": "Claude Duet is available through waitlist for Pro and Max plan users.",
-      "link": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
-      "date": "Thu, 22 Oct 2026 13:53:26 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Nirva raises $33M for a pendant that only listens to you",
-      "summary": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
-      "link": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
-      "date": "Thu, 22 Oct 2026 13:26:52 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
