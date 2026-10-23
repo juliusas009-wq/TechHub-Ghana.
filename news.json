@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-23T11:03:39.762422+00:00",
+  "updated": "2026-10-23T15:49:18.580744+00:00",
   "articles": [
+    {
+      "title": "Lab testing giant Quest Diagnostics confirms patients’ personal and health data was compromised during breach",
+      "summary": "Quest is the latest in a series of healthcare technology companies that have been hacked in recent months.",
+      "link": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
+      "date": "Fri, 23 Oct 2026 15:00:09 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Oura sues rival Ultrahuman again, threatening its U.S. smart ring comeback",
       "summary": "Oura alleges in its newest lawsuit that Ultrahuman's Ring Pro infringes two of its patents.",
@@ -154,12 +162,12 @@
       "category": "Artificial Intelligence"
     },
     {
-      "title": "Tesla is prepping a Cybercab onslaught",
-      "summary": "The company is looking to roll out the gold two-seater robotaxis to other U.S. cities this year, even as it goes mum on the number of paid rides.",
-      "link": "https://techcrunch.com/2026/10/22/tesla-is-prepping-a-cybercab-onslaught/",
-      "date": "Thu, 22 Oct 2026 15:44:39 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "The Download: testing six tech promises and biotech’s blind spots",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely. Scrubbing&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
+      "date": "Fri, 23 Oct 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
+      "category": "Programming"
     },
     {
       "title": "In the biotech world, you can’t see everything",
@@ -229,14 +237,6 @@
       "title": "We can do impossible things",
       "summary": "I’d wager everyone has a rehearsed response to what’s absolutely one of the world’s worst interview questions: “What’s your biggest weakness?” Whenever I’ve gotten it, I take a slow—even pensive—breath and rattle off my line: “I say no to myself too much.”&#160; I won’t lie. It’s a bit shameless—a definite humblebrag. I’m a systems thinker:&#8230;",
       "link": "https://www.technologyreview.com/2026/10/21/1146053/editor-letter-we-can-do-impossible-things/",
-      "date": "Wed, 21 Oct 2026 09:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Nuclear-powered spaceships",
-      "summary": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly an uncrewed mission to Mars by the end of 2028, arriving in 2029. A successful mission would herald a new era&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/",
       "date": "Wed, 21 Oct 2026 09:00:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
