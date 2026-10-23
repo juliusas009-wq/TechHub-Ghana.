@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-23T00:48:57.411334+00:00",
+  "updated": "2026-10-23T05:44:53.242763+00:00",
   "articles": [
+    {
+      "title": "Oura sues rival Ultrahuman again, threatening its U.S. smart ring comeback",
+      "summary": "Oura alleges in its newest lawsuit that Ultrahuman's Ring Pro infringes two of its patents.",
+      "link": "https://techcrunch.com/2026/10/22/oura-sues-rival-ultrahuman-again-threatening-its-u-s-smart-ring-comeback/",
+      "date": "Fri, 23 Oct 2026 04:22:57 +0000",
+      "source": "TechCrunch",
+      "category": "Cloud Computing"
+    },
+    {
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+      "summary": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "date": "Fri, 23 Oct 2026 04:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Left alone with nothing to do, AI agents started playing",
       "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
@@ -142,22 +158,6 @@
       "summary": "The company is looking to roll out the gold two-seater robotaxis to other U.S. cities this year, even as it goes mum on the number of paid rides.",
       "link": "https://techcrunch.com/2026/10/22/tesla-is-prepping-a-cybercab-onslaught/",
       "date": "Thu, 22 Oct 2026 15:44:39 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Spotify confirms Family Plan crackdown, but calls it a ‘routine improvement’",
-      "summary": "Spotify told investors its rollout of QR code verification to ensure Family Plan members live in the same household is not a \"crackdown,\" just a routine improvement.",
-      "link": "https://techcrunch.com/2026/10/22/spotify-confirms-family-plan-crackdown-but-calls-it-a-routine-improvement/",
-      "date": "Thu, 22 Oct 2026 15:24:32 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Investors break down how founders can raise a Series A today",
-      "summary": "Raising a Series A these days isn't so simple — top investors break down what founders need to know now.",
-      "link": "https://techcrunch.com/2026/10/22/investors-break-down-how-founders-can-raise-a-series-a-today/",
-      "date": "Thu, 22 Oct 2026 15:15:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
