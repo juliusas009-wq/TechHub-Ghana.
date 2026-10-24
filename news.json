@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-24T20:16:26.793981+00:00",
+  "updated": "2026-10-24T22:38:24.239613+00:00",
   "articles": [
+    {
+      "title": "Starlink seems to be working normally again in Ukraine",
+      "summary": "Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access.",
+      "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+      "date": "Sat, 24 Oct 2026 20:46:34 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Will AI expose the rickety infrastructure of the internet?",
       "summary": "The moment you realize the internet is \"held together by glue and dreams.\"",
@@ -150,14 +158,6 @@
       "summary": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns.",
       "link": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
       "date": "Fri, 23 Oct 2026 16:02:43 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Lab testing giant Quest Diagnostics confirms patients’ personal and health data was compromised during breach",
-      "summary": "Quest is the latest in a series of healthcare technology companies that have been hacked in recent months.",
-      "link": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
-      "date": "Fri, 23 Oct 2026 15:00:09 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
