@@ -1,9 +1,25 @@
 {
-  "updated": "2026-10-26T20:05:14.836130+00:00",
+  "updated": "2026-10-26T23:58:50.344145+00:00",
   "articles": [
     {
-      "title": "Uh oh, it sounds like the iPhone Duo keeps cracking and users aren’t happy about it",
-      "summary": "A small number of early adopters of the much hyped new foldable phone from Apple have complained of screens cracking.",
+      "title": "Databricks co-founder shares his secrets for winning big enterprise customers",
+      "summary": "Turns out selling to big companies isn’t about having the shiniest tech: It’s about hitching a ride on a giant’s sales team.",
+      "link": "https://techcrunch.com/2026/10/26/databricks-co-founder-shares-his-secrets-for-winning-big-enterprises-customers/",
+      "date": "Mon, 26 Oct 2026 22:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Watch out, YouTube — Instagram goes from short-form to 90-minute videos",
+      "summary": "After years in which every social platform (even LinkedIn!) aggressively pursued short-form video, this is a notable shift in strategy for Instagram.",
+      "link": "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/",
+      "date": "Mon, 26 Oct 2026 21:05:11 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Uh-oh, it sounds like the iPhone Duo keeps cracking and users aren’t happy about it",
+      "summary": "A small number of early adopters of the much-hyped new foldable phone from Apple have complained of screens cracking.",
       "link": "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/",
       "date": "Mon, 26 Oct 2026 19:22:40 +0000",
       "source": "TechCrunch",
@@ -35,7 +51,7 @@
     },
     {
       "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-      "summary": "SpaceX has locked in a binding commitment for roughly $40 billion in financing to pay for AI chips and related data center equipment, the company disclosed in a regulatory filing Monday. In a statement, SpaceX called it the “largest committed GPU financing” ever.",
+      "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
       "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
       "date": "Mon, 26 Oct 2026 16:46:36 +0000",
       "source": "TechCrunch",
@@ -142,22 +158,6 @@
       "summary": "The moment you realize the internet is \"held together by glue and dreams.\"",
       "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
       "date": "Sat, 24 Oct 2026 20:15:33 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "date": "Sat, 24 Oct 2026 19:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
-      "summary": "Instacart might sell itself to a larger competitor.",
-      "link": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
-      "date": "Sat, 24 Oct 2026 16:30:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
