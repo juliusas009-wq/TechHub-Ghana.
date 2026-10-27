@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-26T23:58:50.344145+00:00",
+  "updated": "2026-10-27T04:48:22.724388+00:00",
   "articles": [
+    {
+      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+      "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "date": "Tue, 27 Oct 2026 02:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+      "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "date": "Tue, 27 Oct 2026 01:12:21 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Databricks co-founder shares his secrets for winning big enterprise customers",
       "summary": "Turns out selling to big companies isn’t about having the shiniest tech: It’s about hitching a ride on a giant’s sales team.",
@@ -142,22 +158,6 @@
       "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
       "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
       "date": "Sun, 25 Oct 2026 14:10:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Starlink seems to be working normally again in Ukraine",
-      "summary": "Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access.",
-      "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
-      "date": "Sat, 24 Oct 2026 20:46:34 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Will AI expose the rickety infrastructure of the internet?",
-      "summary": "The moment you realize the internet is \"held together by glue and dreams.\"",
-      "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
-      "date": "Sat, 24 Oct 2026 20:15:33 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
