@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-27T15:57:03.741026+00:00",
+  "updated": "2026-10-27T20:30:40.667013+00:00",
   "articles": [
+    {
+      "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "summary": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+      "link": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+      "date": "Tue, 27 Oct 2026 18:55:35 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+      "link": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "date": "Tue, 27 Oct 2026 17:08:08 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "summary": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
+      "link": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "date": "Tue, 27 Oct 2026 16:30:57 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
       "summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
@@ -59,7 +83,7 @@
     },
     {
       "title": "Anduril, Qualcomm launch BlueChip, a new kind of US-made laptop",
-      "summary": "Anduril founder Palmer Luckey is vowing to bring computer manufacturing back to the U.S. and by that he doesn't just mean assembly, but every individual component, some of which are exclusively made in China today.",
+      "summary": "Anduril founder Palmer Luckey is vowing to bring computer manufacturing back to the U.S., and by that he doesn't just mean assembly, but every individual component, some of which are exclusively made in China today.",
       "link": "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop/",
       "date": "Tue, 27 Oct 2026 13:00:00 +0000",
       "source": "TechCrunch",
@@ -134,30 +158,6 @@
       "summary": "A small number of early adopters of the much-hyped new foldable phone from Apple have complained of screens cracking.",
       "link": "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/",
       "date": "Mon, 26 Oct 2026 19:22:40 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Fusion startups are giving the government shares in exchange for awards. Is it worth it?",
-      "summary": "Fusion startups face a new challenge, one unrelated to plasma physics: Give the government shares in exchange for funding awards or go it alone?",
-      "link": "https://techcrunch.com/2026/10/26/fusion-startups-are-giving-the-government-shares-in-exchange-for-awards-is-it-worth-it/",
-      "date": "Mon, 26 Oct 2026 18:59:52 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "This startup’s self-driving excavators help dig up $600M in new funding",
-      "summary": "Bedrock Robotics, which is now valued at $4.1 billion, is particularly focused on autonomous excavators, in part because of a growing shortage of skilled operators.",
-      "link": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
-      "date": "Mon, 26 Oct 2026 17:45:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
-      "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-      "date": "Mon, 26 Oct 2026 16:49:42 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
