@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-28T06:01:33.396579+00:00",
+  "updated": "2026-10-28T13:21:01.198351+00:00",
   "articles": [
+    {
+      "title": "Kodiak lands first commercial deal to supply driverless trucks for public highways",
+      "summary": "The deal with DTL Transport puts it on a path to become an an asset-light tech supplier, rather than owner and operator.",
+      "link": "https://techcrunch.com/2026/10/28/kodiak-lands-first-commercial-deal-to-supply-driverless-trucks-for-public-highways/",
+      "date": "Wed, 28 Oct 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+      "summary": "In just 7 days, TechCrunch Founder Summit takes over Boston’s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here.",
+      "link": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
+      "date": "Wed, 28 Oct 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Jio shares surge 21% in market debut after blockbuster India IPO",
       "summary": "Jio has debuted as India's second-most valuable listed company, behind its parent, Reliance Industries.",
@@ -146,19 +162,19 @@
       "category": "Technology"
     },
     {
-      "title": "Apple rolls out iOS 27.2 with new Siri AI languages and security fixes",
-      "summary": "The latest Apple software update for iPhones and iPads includes new features and important security updates.",
-      "link": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/",
-      "date": "Tue, 27 Oct 2026 13:54:51 +0000",
-      "source": "TechCrunch",
+      "title": "The Download: dead startups fueling AI and interspecies communication",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miskell began winding down his crypto startup, he didn’t think its data was worth much. But he’s&#8230;",
+      "link": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
+      "date": "Wed, 28 Oct 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
-      "title": "Japan internet giant GMO says hackers posted stolen customer data",
-      "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
-      "link": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
-      "date": "Tue, 27 Oct 2026 13:32:57 +0000",
-      "source": "TechCrunch",
+      "title": "Pairing industrial AI autonomy and human control",
+      "summary": "",
+      "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+      "date": "Wed, 28 Oct 2026 12:00:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -222,22 +238,6 @@
       "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes.&#160; I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given&#8230;",
       "link": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
       "date": "Fri, 23 Oct 2026 09:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Designing an AI serving harness built to last",
-      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-      "date": "Thu, 22 Oct 2026 21:17:29 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "The Foundations of Scalable AI",
-      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review&#8217;s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic&#8230;",
-      "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-      "date": "Thu, 22 Oct 2026 18:48:04 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
     }
