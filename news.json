@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-30T14:50:26.958308+00:00",
+  "updated": "2026-10-30T19:50:47.500553+00:00",
   "articles": [
+    {
+      "title": "Satlyt takes another step toward turning satellites into space data centers",
+      "summary": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites,  into virtual data centers.",
+      "link": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
+      "date": "Fri, 30 Oct 2026 18:01:24 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "link": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "date": "Fri, 30 Oct 2026 17:47:12 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "date": "Fri, 30 Oct 2026 17:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+      "summary": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
+      "link": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+      "date": "Fri, 30 Oct 2026 16:03:45 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "North Korean hackers blamed for stealing record $6.3B in Binance breach",
       "summary": "Hackers working for North Korea are suspected of hacking a Binance employee's laptop, which allowed the theft of billions in crypto.",
@@ -19,7 +51,7 @@
     },
     {
       "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-      "summary": "DoorDash said that it is open to working with third-party agent makers",
+      "summary": "DoorDash said that it is open to working with third-party agent makers.",
       "link": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
       "date": "Fri, 30 Oct 2026 13:54:25 +0000",
       "source": "TechCrunch",
@@ -42,7 +74,7 @@
       "category": "Technology"
     },
     {
-      "title": "Waymo taps Toyota to supply robotaxis for Japan and the U.K.",
+      "title": "Waymo taps Toyota to supply robotaxis for Japan and the UK",
       "summary": "Waymo will begin testing self-driving versions of Toyota's electric bZ4X vehicles in Japan next year as part of a broader partnership with the automaker.",
       "link": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
       "date": "Fri, 30 Oct 2026 07:01:00 +0000",
@@ -126,38 +158,6 @@
       "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
       "link": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
       "date": "Thu, 29 Oct 2026 20:05:47 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "The R2 SUV is already Rivian’s best-selling vehicle",
-      "summary": "Rivian is seeing strong enough sales of the new EV that it improved its guidance to Wall Street for the second time this year.",
-      "link": "https://techcrunch.com/2026/10/29/the-r2-suv-is-already-rivians-best-selling-vehicle/",
-      "date": "Thu, 29 Oct 2026 20:02:03 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "OpenAI-backed Thrive Holdings acquires ADT",
-      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
-      "link": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-      "date": "Thu, 29 Oct 2026 19:56:19 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Where was my invite to the — wait, what? Airbnb had a gala?",
-      "summary": "Airbnb’s nonprofit held its inaugural gala on Wednesday in Los Angeles, and the internet had one reaction — the *what* gala?",
-      "link": "https://techcrunch.com/2026/10/29/where-was-my-invite-to-the-wait-what-airbnb-had-a-gala/",
-      "date": "Thu, 29 Oct 2026 19:17:49 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Meta quietly launches an AI fashion app called Style Sketch",
-      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
-      "link": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
-      "date": "Thu, 29 Oct 2026 19:14:36 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
