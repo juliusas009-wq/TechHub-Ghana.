@@ -1,6 +1,70 @@
 {
-  "updated": "2026-10-30T19:50:47.500553+00:00",
+  "updated": "2026-10-30T23:28:09.000767+00:00",
   "articles": [
+    {
+      "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+      "summary": "The AI logistics startup will bolster the CRM giant's Missionforce defense platform.",
+      "link": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
+      "date": "Fri, 30 Oct 2026 23:21:23 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "link": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "date": "Fri, 30 Oct 2026 22:56:13 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "summary": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+      "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "date": "Fri, 30 Oct 2026 21:54:34 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+      "link": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "date": "Fri, 30 Oct 2026 21:52:03 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Applebee’s exposed customers’ personal data after leaving database password in app",
+      "summary": "EXCLUSIVE: A security researcher discovered the hardcoded credential in Applebee's app, allowing unrestricted access to customers' personal data.",
+      "link": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
+      "date": "Fri, 30 Oct 2026 21:48:53 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Last-minute Halloween costumes for tech nerds",
+      "summary": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
+      "link": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+      "date": "Fri, 30 Oct 2026 21:26:59 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Cracks are emerging in the AI spending boom",
+      "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "link": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "date": "Fri, 30 Oct 2026 21:17:40 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal &#038; Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
+      "link": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
+      "date": "Fri, 30 Oct 2026 19:55:13 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Satlyt takes another step toward turning satellites into space data centers",
       "summary": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites,  into virtual data centers.",
@@ -94,70 +158,6 @@
       "summary": "The success of blockbuster hits like \"Project Hail Mary\" and \"Verity\" is only part of the story, Amazon's CEO says.",
       "link": "https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/",
       "date": "Thu, 29 Oct 2026 23:44:56 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
-      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
-      "link": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "date": "Thu, 29 Oct 2026 23:42:22 +0000",
-      "source": "TechCrunch",
-      "category": "Cloud Computing"
-    },
-    {
-      "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
-      "summary": "Some estimates say hackers stole billions in crypto from Binance, the world's largest cryptocurrency exchange, during a cyberattack on Thursday.",
-      "link": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
-      "date": "Thu, 29 Oct 2026 22:27:23 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Elon Musk is ‘truly a genius,’ says Vladimir Putin",
-      "summary": "Putin said that he and Musk are in \"close contact\" about Rassvet, Russia's Starlink-like satellite connectivity project.",
-      "link": "https://techcrunch.com/2026/10/29/elon-musk-is-truly-a-genius-says-vladimir-putin/",
-      "date": "Thu, 29 Oct 2026 21:51:29 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Amazon reported booming cloud revenue but otherwise missed expectations",
-      "summary": "The biggest ouch of the report was its negative free cash flow of $2.4 billion.",
-      "link": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
-      "date": "Thu, 29 Oct 2026 21:20:47 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "GM reaches $220M settlement over selling drivers’ private data",
-      "summary": "As part of the settlement, GM must get drivers’ express consent before it collects or shares their driving and location data.",
-      "link": "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
-      "date": "Thu, 29 Oct 2026 21:01:04 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Fan-fiction site Archive of Our Own (AO3) could be offline for up to 4 weeks after security incident",
-      "summary": "The site has such a passionate user base that, within two hours of the announcement, its status page's posts had garnered millions of views (and much panicked commentary) across social media.",
-      "link": "https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/",
-      "date": "Thu, 29 Oct 2026 20:43:56 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
-      "link": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-      "date": "Thu, 29 Oct 2026 20:08:31 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Rivian expands joint venture with VW to include AI assistant",
-      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
-      "link": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
-      "date": "Thu, 29 Oct 2026 20:05:47 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
