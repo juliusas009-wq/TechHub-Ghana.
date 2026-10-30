@@ -1,6 +1,46 @@
 {
-  "updated": "2026-10-29T21:18:37.376916+00:00",
+  "updated": "2026-10-30T01:14:44.239715+00:00",
   "articles": [
+    {
+      "title": "Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’",
+      "summary": "The success of blockbuster hits like Project Hail Mary and Verity is only part of the story, Amazon's CEO says.",
+      "link": "https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/",
+      "date": "Thu, 29 Oct 2026 23:44:56 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "link": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "date": "Thu, 29 Oct 2026 23:42:22 +0000",
+      "source": "TechCrunch",
+      "category": "Cloud Computing"
+    },
+    {
+      "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
+      "summary": "Some estimates say hackers stole billions in crypto from Binance, the world's largest cryptocurrency exchange, during a cyberattack on Thursday.",
+      "link": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+      "date": "Thu, 29 Oct 2026 22:27:23 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Elon Musk is ‘truly a genius,’ says Vladimir Putin",
+      "summary": "Putin said that he and Musk are in \"close contact\" about Rassvet, Russia's Starlink-like satellite connectivity project.",
+      "link": "https://techcrunch.com/2026/10/29/elon-musk-is-truly-a-genius-says-vladimir-putin/",
+      "date": "Thu, 29 Oct 2026 21:51:29 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Amazon reported booming cloud revenue but otherwise missed expectations",
+      "summary": "The biggest ouch of the report was its negative free cash flow of $2.4 billion.",
+      "link": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
+      "date": "Thu, 29 Oct 2026 21:20:47 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "GM reaches $220M settlement over selling drivers’ private data",
       "summary": "As part of the settlement, GM must get drivers’ express consent before it collects or shares their driving and location data.",
@@ -10,8 +50,8 @@
       "category": "Technology"
     },
     {
-      "title": "Fan fiction site Archive of Our Own could be offline for up to 4 weeks",
-      "summary": "Archive of Our Own, the popular online home of fan fiction readers and writers, has bad news for its community.",
+      "title": "Fan-fiction site Archive of Our Own could be offline for up to 4 weeks",
+      "summary": "The site has such a passionate user base that, within two hours of the announcement, its status page's posts had garnered millions of views (and much panicked commentary) across social media.",
       "link": "https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/",
       "date": "Thu, 29 Oct 2026 20:43:56 +0000",
       "source": "TechCrunch",
@@ -118,46 +158,6 @@
       "summary": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
       "link": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
       "date": "Thu, 29 Oct 2026 14:35:26 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Bluesky blocks links to leaked DHS employee data as government seeks takedowns",
-      "summary": "The social networking site is facing criticism for blocking access to the site, which identifies thousands of ICE agents and other employees working for Homeland Security.",
-      "link": "https://techcrunch.com/2026/10/29/bluesky-blocks-links-to-leaked-dhs-employee-data-as-government-seeks-takedowns/",
-      "date": "Thu, 29 Oct 2026 13:43:53 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "DoorDash to acquire Instacart for $17B",
-      "summary": "The acquisition would bring two major players in on-demand delivery under one roof, combining DoorDash’s dominance in restaurant takeout with Instacart’s reach in grocery delivery.",
-      "link": "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/",
-      "date": "Thu, 29 Oct 2026 13:40:57 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
-      "summary": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
-      "link": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
-      "date": "Thu, 29 Oct 2026 13:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
-      "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions.",
-      "link": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
-      "date": "Thu, 29 Oct 2026 13:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Who will you learn from in 6 days at TechCrunch Founder Summit? Meet the founders and investors taking the stages",
-      "summary": "Six days from now, on November 4, TechCrunch Founder Summit brings experienced founders, investors, and operators to Boston to share the decisions, mistakes, pivots, and lessons that shaped their companies. Register before it starts for ticket savings and deals.",
-      "link": "https://techcrunch.com/2026/10/29/who-will-you-learn-from-in-6-days-at-techcrunch-founder-summit-meet-the-founders-and-investors-taking-the-stage/",
-      "date": "Thu, 29 Oct 2026 13:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
