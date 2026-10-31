@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-31T15:27:19.936414+00:00",
+  "updated": "2026-10-31T19:28:57.962194+00:00",
   "articles": [
+    {
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "date": "Sat, 31 Oct 2026 16:12:55 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "From restaurant guides to payments, here’s how TikTok is building a super app",
+      "summary": "TikTok may be working to become the app that people use for most of their digital activities.",
+      "link": "https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/",
+      "date": "Sat, 31 Oct 2026 15:41:57 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "I took two iPhones on vacation. The Duo won me over.",
       "summary": "The iPhone Duo has its frustrations, but it’s also fun and engaging enough that I didn’t want to switch back to my Pro Max.",
@@ -142,22 +158,6 @@
       "summary": "DoorDash said that it is open to working with third-party agent makers.",
       "link": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
       "date": "Fri, 30 Oct 2026 13:54:25 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
-      "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
-      "link": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
-      "date": "Fri, 30 Oct 2026 13:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
-      "summary": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.",
-      "link": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
-      "date": "Fri, 30 Oct 2026 13:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
