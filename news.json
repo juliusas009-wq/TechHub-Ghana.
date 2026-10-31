@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-30T23:28:09.000767+00:00",
+  "updated": "2026-10-31T02:39:51.851397+00:00",
   "articles": [
+    {
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "date": "Sat, 31 Oct 2026 01:20:05 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
       "summary": "The AI logistics startup will bolster the CRM giant's Missionforce defense platform.",
@@ -150,14 +158,6 @@
       "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
       "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
       "date": "Fri, 30 Oct 2026 01:20:48 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’",
-      "summary": "The success of blockbuster hits like \"Project Hail Mary\" and \"Verity\" is only part of the story, Amazon's CEO says.",
-      "link": "https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/",
-      "date": "Thu, 29 Oct 2026 23:44:56 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
