@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-31T02:39:51.851397+00:00",
+  "updated": "2026-10-31T09:17:44.315230+00:00",
   "articles": [
+    {
+      "title": "Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up",
+      "summary": "The money behind the money is thrilled, mostly.",
+      "link": "https://techcrunch.com/2026/10/30/pile-ins-payouts-and-pacing-pressure-the-investors-behind-the-vcs-open-up/",
+      "date": "Sat, 31 Oct 2026 04:16:50 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
       "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
@@ -150,14 +158,6 @@
       "summary": "Waymo will begin testing self-driving versions of Toyota's electric bZ4X vehicles in Japan next year as part of a broader partnership with the automaker.",
       "link": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
       "date": "Fri, 30 Oct 2026 07:01:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
-      "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
-      "date": "Fri, 30 Oct 2026 01:20:48 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
