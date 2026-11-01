@@ -1,8 +1,24 @@
 {
-  "updated": "2026-11-01T15:46:01.490268+00:00",
+  "updated": "2026-11-01T20:11:52.966252+00:00",
   "articles": [
     {
-      "title": "Pixel 11 Pro Fold: Sturdy rectengale in a wide wide world",
+      "title": "TechCrunch Mobility: A new, bigger AV boom is here",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "link": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+      "date": "Sun, 01 Nov 2026 17:04:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Binance resumes withdrawals following $6.3 billion breach",
+      "summary": "The cryptocurrency exchange said it's now covered 95% of the stolen assets.",
+      "link": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+      "date": "Sun, 01 Nov 2026 16:20:10 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Pixel 11 Pro Fold: Sturdy rectangle in a wide wide world",
       "summary": "Google made a sturdy phone, but there is increasing competition in the foldable world.",
       "link": "https://techcrunch.com/2026/11/01/pixel-11-pro-fold-sturdy-rectengale-in-a-wide-wide-world/",
       "date": "Sun, 01 Nov 2026 15:00:00 +0000",
@@ -142,22 +158,6 @@
       "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
       "link": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
       "date": "Fri, 30 Oct 2026 21:17:40 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
-      "summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal &#038; Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
-      "link": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
-      "date": "Fri, 30 Oct 2026 19:55:13 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Satlyt takes another step toward turning satellites into space data centers",
-      "summary": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites,  into virtual data centers.",
-      "link": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
-      "date": "Fri, 30 Oct 2026 18:01:24 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
