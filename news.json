@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-01T23:45:12.068281+00:00",
+  "updated": "2026-11-02T04:35:42.787928+00:00",
   "articles": [
+    {
+      "title": "Borrowed reading: stories from our extended colleagues",
+      "summary": "Five stories worth your time from our extended colleagues at CIO, Computerworld, Macworld, and PCWorld.",
+      "link": "https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/",
+      "date": "Mon, 02 Nov 2026 04:23:48 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
       "summary": "Data centers are deeply unpopular. But what if we called them something else?",
@@ -150,14 +158,6 @@
       "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
       "link": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
       "date": "Fri, 30 Oct 2026 21:52:03 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Applebee’s exposed customers’ personal data after leaving database password in app",
-      "summary": "EXCLUSIVE: A security researcher discovered the hardcoded credential in Applebee's app, allowing unrestricted access to customers' personal data.",
-      "link": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
-      "date": "Fri, 30 Oct 2026 21:48:53 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
