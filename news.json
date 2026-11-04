@@ -1,6 +1,70 @@
 {
-  "updated": "2026-11-03T19:05:40.909224+00:00",
+  "updated": "2026-11-04T00:04:28.579198+00:00",
   "articles": [
+    {
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "date": "Tue, 03 Nov 2026 22:41:03 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Data centers are turning to old jet engines as the wait for power grows",
+      "summary": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
+      "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "date": "Tue, 03 Nov 2026 22:19:53 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
+      "link": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "date": "Tue, 03 Nov 2026 21:43:08 +0000",
+      "source": "TechCrunch",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+      "summary": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever.",
+      "link": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+      "date": "Tue, 03 Nov 2026 21:05:55 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Orbital Matter 3D-printed the first rigid beam in the vacuum of space",
+      "summary": "An in-space construction first could be an enabler for the space data centers of the future.",
+      "link": "https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/",
+      "date": "Tue, 03 Nov 2026 20:57:17 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
+      "summary": "Cybersecurity experts have long warned of the persistent and patient threat from North Korea's long-running hacks. The world's largest crypto exchange was still caught off-guard.",
+      "link": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/",
+      "date": "Tue, 03 Nov 2026 19:45:48 +0000",
+      "source": "TechCrunch",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "summary": "The five-year-old startup raised a $1.3  billion round led by Bessemer.",
+      "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "date": "Tue, 03 Nov 2026 19:34:43 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Reddit tests ads in search results as traffic declines and growth concerns mount",
+      "summary": "The new ad placements could help Reddit squeeze more revenue from existing users as Google's AI search changes how people discover its content.",
+      "link": "https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/",
+      "date": "Tue, 03 Nov 2026 19:24:37 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Ten years later, ‘Pokémon Go to the polls’ still haunts the internet",
       "summary": "Hillary Clinton's 2016 political gaffe has become an irony-shrouded rallying cry for jaded young voters who still dare to hope for change.",
@@ -74,7 +138,7 @@
       "category": "Technology"
     },
     {
-      "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on Nov. 4",
+      "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on November 4",
       "summary": "On Nov. 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door.",
       "link": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
       "date": "Tue, 03 Nov 2026 14:30:00 +0000",
@@ -94,70 +158,6 @@
       "summary": "Evertrue Capital announces $17M debut fund to back early-stage AI and fintech.",
       "link": "https://techcrunch.com/2026/11/03/yvonne-bajela-is-bringing-17m-in-fresh-capital-to-europes-startup-scene/",
       "date": "Tue, 03 Nov 2026 08:01:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
-      "summary": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
-      "link": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
-      "date": "Tue, 03 Nov 2026 07:20:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
-      "link": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
-      "date": "Tue, 03 Nov 2026 03:30:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
-      "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
-      "link": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-      "date": "Tue, 03 Nov 2026 01:49:52 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
-      "summary": "A Kyiv startup’s pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds of Russian drones, though Russian moves toward digital video and AI-guided drones that emit no signals could make the victory short-lived.",
-      "link": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/",
-      "date": "Tue, 03 Nov 2026 01:12:55 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-      "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
-      "link": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-      "date": "Tue, 03 Nov 2026 00:35:52 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Hinge tests a cheaper plan as users become more fed up paying for dating apps",
-      "summary": "At a time when people are increasingly tired of dating apps, Hinge is testing a cheaper subscription plan.",
-      "link": "https://techcrunch.com/2026/11/02/hinge-tests-a-cheaper-plan-as-users-become-more-fed-up-paying-for-dating-apps/",
-      "date": "Tue, 03 Nov 2026 00:14:51 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve",
-      "summary": "Apple says iPhone Duo production is ramping up, but it still can't say when supply will catch up with demand as shipping delays stretch into next year.",
-      "link": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/",
-      "date": "Mon, 02 Nov 2026 23:25:32 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-      "summary": "The one-year-old startup is now valued at $300 million.",
-      "link": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
-      "date": "Mon, 02 Nov 2026 23:13:53 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
