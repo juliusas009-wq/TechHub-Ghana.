@@ -1,6 +1,38 @@
 {
-  "updated": "2026-11-06T18:13:45.209369+00:00",
+  "updated": "2026-11-06T23:23:28.179393+00:00",
   "articles": [
+    {
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "date": "Fri, 06 Nov 2026 22:53:46 +0000",
+      "source": "TechCrunch",
+      "category": "Artificial Intelligence"
+    },
+    {
+      "title": "The Duo apps are coming, says Apple",
+      "summary": "There are now 100K Duo-optimized apps, says Apple, and thousands more arrive daily.",
+      "link": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
+      "date": "Fri, 06 Nov 2026 21:38:05 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+      "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "date": "Fri, 06 Nov 2026 18:44:38 +0000",
+      "source": "TechCrunch",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "date": "Fri, 06 Nov 2026 18:44:20 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "After the midterms, is the AI industry in for a rough two years?",
       "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a [&#8230;]",
@@ -59,7 +91,7 @@
     },
     {
       "title": "Tesla will stop making the Cybertruck in 2027",
-      "summary": "Elon Musk said the company will use the factory space to make more Cybercabs.",
+      "summary": "The decision to wind down the EV comes after just a few short years of underwhelming sales. Elon Musk said the company will use the factory space to make more Cybercabs.",
       "link": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
       "date": "Fri, 06 Nov 2026 11:50:10 +0000",
       "source": "TechCrunch",
@@ -128,38 +160,6 @@
       "date": "Thu, 05 Nov 2026 19:12:39 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "OpenAI released a new cybersecurity model. Is that enough?",
-      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
-      "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-      "date": "Thu, 05 Nov 2026 19:06:12 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "US government warns of ‘ongoing cyber threat’ amid mass hacks of industrial retail and military freezers",
-      "summary": "A joint U.S. government statement says the hacks are affecting the food, transportation, and healthcare industries after reports of global mass hacks.",
-      "link": "https://techcrunch.com/2026/11/05/u-s-government-warns-of-ongoing-cyber-threat-amid-mass-hacks-of-industrial-retail-and-military-freezers/",
-      "date": "Thu, 05 Nov 2026 18:48:34 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-      "summary": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
-      "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-      "date": "Thu, 05 Nov 2026 18:02:27 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "The ex-Secret Service agent who flipped a hacker is now raising a second $250M cybersecurity fund",
-      "summary": "Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for Brightmind Partners.",
-      "link": "https://techcrunch.com/2026/11/05/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
-      "date": "Thu, 05 Nov 2026 18:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Cybersecurity"
     },
     {
       "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
