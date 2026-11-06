@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-06T03:11:47.993907+00:00",
+  "updated": "2026-11-06T11:19:36.633996+00:00",
   "articles": [
+    {
+      "title": "At least 10 local governments have moved to drop Flock’s surveillance cameras since summer",
+      "summary": "The concerns range from privacy to how data is shared (and with whom) to procurement concerns.",
+      "link": "https://techcrunch.com/2026/11/05/at-least-10-local-governments-have-moved-to-drop-flocks-surveillance-cameras-since-summer/",
+      "date": "Fri, 06 Nov 2026 07:18:44 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
+      "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "date": "Fri, 06 Nov 2026 06:28:32 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "The New York Times reportedly in talks to buy Letterboxd for $330 million",
       "summary": "Letterboxd, an online platform for movie lovers, has grown dramatically in recent years.",
@@ -146,19 +162,11 @@
       "category": "Programming"
     },
     {
-      "title": "Instagram brings Edits to desktop to take on CapCut",
-      "summary": "The move puts Edits in more direct competition with ByteDance's CapCut, the video-editing app Meta sought to challenge when it launched Edits last year.",
-      "link": "https://techcrunch.com/2026/11/05/instagram-brings-edits-to-desktop-to-take-on-capcut/",
-      "date": "Thu, 05 Nov 2026 15:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "ElevenLabs now lets users publish AI-generated music directly on SoundCloud",
-      "summary": "ElevenLabs said more than 25 million tracks have been generated using its music models.",
-      "link": "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/",
-      "date": "Thu, 05 Nov 2026 15:00:00 +0000",
-      "source": "TechCrunch",
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed&#8230;",
+      "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "date": "Fri, 06 Nov 2026 10:00:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -232,14 +240,6 @@
       "date": "Tue, 03 Nov 2026 10:43:41 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
-    },
-    {
-      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That&#8230;",
-      "link": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
-      "date": "Tue, 03 Nov 2026 04:18:47 +0000",
-      "source": "MIT Technology Review",
-      "category": "Artificial Intelligence"
     }
   ]
 }
