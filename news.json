@@ -1,6 +1,70 @@
 {
-  "updated": "2026-11-06T11:19:36.633996+00:00",
+  "updated": "2026-11-06T18:13:45.209369+00:00",
   "articles": [
+    {
+      "title": "After the midterms, is the AI industry in for a rough two years?",
+      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a [&#8230;]",
+      "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "date": "Fri, 06 Nov 2026 17:23:52 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
+      "summary": "The Pentagon has conditionally approved a $250 million loan to help 6K scale up its microwave-plasma battery material manufacturing process.",
+      "link": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
+      "date": "Fri, 06 Nov 2026 16:50:01 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Fox completes its $22B acquisition of Roku",
+      "summary": "A few months after DOJ investigators were probing the deal, Fox just completed its $22B acquisition of the streaming giant Roku.",
+      "link": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/",
+      "date": "Fri, 06 Nov 2026 16:05:36 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+      "link": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "date": "Fri, 06 Nov 2026 15:54:47 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+      "summary": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+      "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "date": "Fri, 06 Nov 2026 14:10:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Underdog shows off a 32MB speech model in new demo",
+      "summary": "Despite its small size, Underdog's new model can generate both speech and music.",
+      "link": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+      "date": "Fri, 06 Nov 2026 13:02:16 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Physicl raises $10M to make the digital world real enough for robots",
+      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+      "link": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "date": "Fri, 06 Nov 2026 13:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Tesla will stop making the Cybertruck in 2027",
+      "summary": "Elon Musk said the company will use the factory space to make more Cybercabs.",
+      "link": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+      "date": "Fri, 06 Nov 2026 11:50:10 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "At least 10 local governments have moved to drop Flock’s surveillance cameras since summer",
       "summary": "The concerns range from privacy to how data is shared (and with whom) to procurement concerns.",
@@ -98,68 +162,12 @@
       "category": "Cybersecurity"
     },
     {
-      "title": "Claude can now analyze your spending with its new Personal Finance tool",
-      "summary": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
-      "link": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
-      "date": "Thu, 05 Nov 2026 18:00:00 +0000",
-      "source": "TechCrunch",
+      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in&#8230;",
+      "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "date": "Fri, 06 Nov 2026 13:10:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
-    },
-    {
-      "title": "Harbinger raises $240M after expanding into defense",
-      "summary": "The Los Angeles-based startup has now raised more than $650 million, and is working on electric trucks, emergency vehicles, and a driverless platform for the military.",
-      "link": "https://techcrunch.com/2026/11/05/harbinger-raises-240m-after-expanding-into-defense/",
-      "date": "Thu, 05 Nov 2026 17:52:44 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Food delivery startup Wonder files for IPO as it explores its next big bite",
-      "summary": "Following years of fundraising, acquisitions, and expansion, food delivery startup Wonder is moving closer to becoming a publicly traded company.",
-      "link": "https://techcrunch.com/2026/11/05/food-delivery-startup-wonder-files-for-ipo-as-it-explores-its-next-big-bite/",
-      "date": "Thu, 05 Nov 2026 17:11:48 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Axiom Math wants to keep AI slop out of mathematics",
-      "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
-      "link": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
-      "date": "Thu, 05 Nov 2026 16:16:45 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Bluesky hit peak usage for the year on election night",
-      "summary": "Bluesky CEO Toni Schneider said posts and likes doubled during to the U.S. midterm elections on Tuesday.",
-      "link": "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night/",
-      "date": "Thu, 05 Nov 2026 15:44:58 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Zipline hits $21.5B valuation as Walmart expands bet on drone delivery",
-      "summary": "Zipline raised $1.5 billion and ramped up its partnership with Walmart.",
-      "link": "https://techcrunch.com/2026/11/05/zipline-hits-21-5b-valuation-as-walmart-expands-bet-on-drone-delivery/",
-      "date": "Thu, 05 Nov 2026 15:40:34 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "TikTok quietly launches a stand-alone TikTok Shop app",
-      "summary": "The app will offer personalized product recommendations, shopping through livestreams and short-form videos, app-exclusive deals, in-app checkout, order tracking, and customer support.",
-      "link": "https://techcrunch.com/2026/11/05/tiktok-quietly-launches-a-standalone-tiktok-shop-app/",
-      "date": "Thu, 05 Nov 2026 15:33:58 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
-      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
-      "link": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-      "date": "Thu, 05 Nov 2026 15:19:05 +0000",
-      "source": "TechCrunch",
-      "category": "Programming"
     },
     {
       "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
@@ -230,14 +238,6 @@
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to&#8230;",
       "link": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
       "date": "Tue, 03 Nov 2026 13:10:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "How “reverse game theory” could keep AI agents in check",
-      "summary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,&#8230;",
-      "link": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-      "date": "Tue, 03 Nov 2026 10:43:41 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
     }
