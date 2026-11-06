@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-05T22:45:51.429522+00:00",
+  "updated": "2026-11-06T03:11:47.993907+00:00",
   "articles": [
+    {
+      "title": "The New York Times reportedly in talks to buy Letterboxd for $330 million",
+      "summary": "Letterboxd, an online platform for movie lovers, has grown dramatically in recent years.",
+      "link": "https://techcrunch.com/2026/11/05/the-new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330-million/",
+      "date": "Fri, 06 Nov 2026 00:07:18 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Meta, Google, and TikTok sue California AG over teen social media law",
+      "summary": "If it goes into effect next year, this California law would restrict social media access for children under 16.",
+      "link": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/",
+      "date": "Fri, 06 Nov 2026 00:01:38 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
       "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
@@ -142,22 +158,6 @@
       "summary": "ElevenLabs said more than 25 million tracks have been generated using its music models.",
       "link": "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/",
       "date": "Thu, 05 Nov 2026 15:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
-      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
-      "link": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
-      "date": "Thu, 05 Nov 2026 14:42:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "RadianX promises solar-powered devices that never need charging",
-      "summary": "Today’s portable devices are too hungry to run on traditional solar panels, but RadianX says its perovskite cells promise to make charging obsolete in some cases.",
-      "link": "https://techcrunch.com/2026/11/05/radianx-promises-solar-powered-devices-that-never-need-charging/",
-      "date": "Thu, 05 Nov 2026 14:00:00 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
