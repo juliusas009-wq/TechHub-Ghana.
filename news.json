@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-06T23:23:28.179393+00:00",
+  "updated": "2026-11-07T03:01:22.767358+00:00",
   "articles": [
+    {
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "date": "Sat, 07 Nov 2026 01:40:28 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
       "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
@@ -11,7 +19,7 @@
     },
     {
       "title": "The Duo apps are coming, says Apple",
-      "summary": "There are now 100K Duo-optimized apps, says Apple, and thousands more arrive daily.",
+      "summary": "There are now 100,000 Duo-optimized apps, says Apple, and thousands more arrive daily.",
       "link": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
       "date": "Fri, 06 Nov 2026 21:38:05 +0000",
       "source": "TechCrunch",
@@ -150,14 +158,6 @@
       "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
       "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
       "date": "Thu, 05 Nov 2026 19:48:28 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
-      "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-      "date": "Thu, 05 Nov 2026 19:12:39 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
