@@ -1,6 +1,46 @@
 {
-  "updated": "2026-11-08T18:39:37.732097+00:00",
+  "updated": "2026-11-08T22:39:45.442590+00:00",
   "articles": [
+    {
+      "title": "Apps to distract you from the endless cycle of doomscrolling",
+      "summary": "It's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive.",
+      "link": "https://techcrunch.com/2026/11/08/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/",
+      "date": "Sun, 08 Nov 2026 22:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "summary": "In a memo to the company, Huang admitted that he had an affair.",
+      "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "date": "Sun, 08 Nov 2026 21:00:11 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "If Snap’s Specs are still ridiculously expensive, they’re also a lot more comfortable than they used to be",
+      "summary": "Snap's Specs, which have been in development for many years now, are going to market this fall. Will they be a hit with users?",
+      "link": "https://techcrunch.com/2026/11/08/if-snaps-specs-are-still-ridiculously-expensive-theyre-also-a-lot-more-comfortable-than-they-used-to-be/",
+      "date": "Sun, 08 Nov 2026 21:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Coordinated disturbances haunt grids worldwide. Here’s how researchers solved the mystery.",
+      "summary": "Mystery solved: Coordinated power drops have been haunting power grid worldwide, but a team of researchers in Germany found the culprit.",
+      "link": "https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/",
+      "date": "Sun, 08 Nov 2026 20:30:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Sequoia partners reportedly blindsided when Roelof Botha joined SpaceX board",
+      "summary": "A new report claims Sequoia's recent changes undo the legacy of the firm's former steward.",
+      "link": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/",
+      "date": "Sun, 08 Nov 2026 19:51:30 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "SNL has a new impression of Elon Musk, ‘the worst thing South Africa has ever done’",
       "summary": "SNL seems to have its knives out for tech executives.",
@@ -120,46 +160,6 @@
       "date": "Fri, 06 Nov 2026 18:44:38 +0000",
       "source": "TechCrunch",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
-      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "date": "Fri, 06 Nov 2026 18:44:20 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "After the midterms, is the AI industry in for a rough two years?",
-      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a [&#8230;]",
-      "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "date": "Fri, 06 Nov 2026 17:23:52 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
-      "summary": "The Pentagon has conditionally approved a $250 million loan to help 6K scale up its microwave-plasma battery material manufacturing process.",
-      "link": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
-      "date": "Fri, 06 Nov 2026 16:50:01 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Fox completes its $22B acquisition of Roku",
-      "summary": "A few months after DOJ investigators were probing the deal, Fox just completed its $22B acquisition of the streaming giant Roku.",
-      "link": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/",
-      "date": "Fri, 06 Nov 2026 16:05:36 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
-      "link": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "date": "Fri, 06 Nov 2026 15:54:47 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
     },
     {
       "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
