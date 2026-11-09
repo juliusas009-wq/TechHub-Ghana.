@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-09T02:22:49.946221+00:00",
+  "updated": "2026-11-09T10:04:54.255646+00:00",
   "articles": [
+    {
+      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+      "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+      "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "date": "Mon, 09 Nov 2026 05:26:29 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Apps to distract you from the endless cycle of doomscrolling",
       "summary": "It's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive.",
@@ -152,14 +160,6 @@
       "date": "Fri, 06 Nov 2026 21:38:05 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
-      "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "date": "Fri, 06 Nov 2026 18:44:38 +0000",
-      "source": "TechCrunch",
-      "category": "Cybersecurity"
     },
     {
       "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
