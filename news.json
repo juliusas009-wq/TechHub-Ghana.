@@ -1,6 +1,30 @@
 {
-  "updated": "2026-11-10T03:17:01.225806+00:00",
+  "updated": "2026-11-10T11:31:06.491538+00:00",
   "articles": [
+    {
+      "title": "Otter AI can now follow conversations across 30+ languages",
+      "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+      "link": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "date": "Tue, 10 Nov 2026 07:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "California’s proposed ‘billionaire tax’ fails to pass",
+      "summary": "California voters rejected Proposition 40, the one-time 5% tax on billionaires, the AP reported Monday. Tech leaders outspent backers roughly 10 to 1 to defeat it, and the founders and economists TechCrunch interviewed before the vote were split on whether it would have driven out wealthy residents or just trimmed their fortunes.",
+      "link": "https://techcrunch.com/2026/11/09/californias-proposed-billionaire-tax-fails-to-pass/",
+      "date": "Tue, 10 Nov 2026 05:18:43 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Jensen Huang’s alleged honeypot scandal has inspired some top-notch memes",
+      "summary": "The internet is having a field day with Nvidia's Jensen Huang's alleged honeypot scandal.",
+      "link": "https://techcrunch.com/2026/11/09/jensen-huangs-alleged-honeypot-scandal-has-inspired-some-top-notch-memes/",
+      "date": "Tue, 10 Nov 2026 04:34:15 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Anthropic reportedly plans to move forward with IPO plans",
       "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
@@ -136,30 +160,6 @@
       "date": "Mon, 09 Nov 2026 15:32:27 +0000",
       "source": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "title": "Waymo robotaxis kept illegally passing school buses after software fix, feds say",
-      "summary": "The update to Waymo's self-driving system was rolled out nearly a year ago.",
-      "link": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/",
-      "date": "Mon, 09 Nov 2026 15:24:59 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Meet Drops, the new music app bringing back the fun of sharing songs with friends",
-      "summary": "The new music discovery app lets users scroll through 10- to 30-second snippets of songs, comment, and share with friends.",
-      "link": "https://techcrunch.com/2026/11/09/meet-drops-the-new-music-app-bringing-back-the-fun-of-sharing-songs-with-friends/",
-      "date": "Mon, 09 Nov 2026 14:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
-      "summary": "Automattic aims to compete with the likes of Lovable with Spacefast.",
-      "link": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
-      "date": "Mon, 09 Nov 2026 14:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Programming"
     },
     {
       "title": "The backlash about data centers might really just be about electricity",
