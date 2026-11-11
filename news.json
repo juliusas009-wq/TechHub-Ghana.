@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-11T00:09:36.101168+00:00",
+  "updated": "2026-11-11T06:55:09.562863+00:00",
   "articles": [
+    {
+      "title": "X launches its own clipping feature to spur influencer engagement",
+      "summary": "X is jumping into clipping, the popular practice of cutting long videos into short, shareable clips that can go viral.",
+      "link": "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement/",
+      "date": "Wed, 11 Nov 2026 01:02:13 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
       "summary": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
@@ -150,14 +158,6 @@
       "summary": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
       "link": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
       "date": "Tue, 10 Nov 2026 14:05:10 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
-      "summary": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
-      "link": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-      "date": "Tue, 10 Nov 2026 14:01:39 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
