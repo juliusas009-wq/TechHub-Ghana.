@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-11T06:55:09.562863+00:00",
+  "updated": "2026-11-11T14:55:13.422393+00:00",
   "articles": [
+    {
+      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+      "summary": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+      "link": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "date": "Wed, 11 Nov 2026 14:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+      "summary": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
+      "link": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+      "date": "Wed, 11 Nov 2026 07:30:51 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "X launches its own clipping feature to spur influencer engagement",
       "summary": "X is jumping into clipping, the popular practice of cutting long videos into short, shareable clips that can go viral.",
@@ -146,19 +162,11 @@
       "category": "Technology"
     },
     {
-      "title": "New WhatsApp head wants to make the app easier to use, give its AI more chops",
-      "summary": "Kunal Shah said the company wants to make voice notes, groups, stickers, and video \"simpler and more expressive.\"",
-      "link": "https://techcrunch.com/2026/11/10/new-whatsapp-head-wants-to-make-the-app-easier-to-use-give-its-ai-more-chops/",
-      "date": "Tue, 10 Nov 2026 15:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
-      "summary": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
-      "link": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
-      "date": "Tue, 10 Nov 2026 14:05:10 +0000",
-      "source": "TechCrunch",
+      "title": "The Download: preserving minds and weighing open AI risks",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Six wild ideas for perpetuating your mind As we age, we forget most of what we’ve experienced, yet there’s still undeniable continuity: At 30, or 50, or 70, you will still&#8230;",
+      "link": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+      "date": "Wed, 11 Nov 2026 13:10:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -230,14 +238,6 @@
       "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed&#8230;",
       "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
       "date": "Fri, 06 Nov 2026 10:00:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s&#8230;",
-      "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
-      "date": "Thu, 05 Nov 2026 13:10:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
     }
