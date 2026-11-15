@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-14T20:25:59.944956+00:00",
+  "updated": "2026-11-15T00:04:56.316689+00:00",
   "articles": [
+    {
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "date": "Sat, 14 Nov 2026 21:41:22 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
       "summary": "Even Elon Musk said the monthly fee is \"too high.\"",
@@ -150,14 +158,6 @@
       "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
       "link": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
       "date": "Thu, 12 Nov 2026 22:42:51 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Muse can now place calls to US businesses — if you pay",
-      "summary": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
-      "link": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
-      "date": "Thu, 12 Nov 2026 22:22:28 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
