@@ -1,6 +1,38 @@
 {
-  "updated": "2026-11-19T05:59:55.956938+00:00",
+  "updated": "2026-11-19T15:38:14.032957+00:00",
   "articles": [
+    {
+      "title": "U.K government forced to disclose secret Apple backdoor order",
+      "summary": "The U.K. tribunal's ruling rejected London's claim that disclosing the order would be damaging to national security.",
+      "link": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
+      "date": "Thu, 19 Nov 2026 15:32:20 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+      "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "date": "Thu, 19 Nov 2026 14:54:39 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Nimble enters the item-tracking market with eco-friendly luggage tags and keychains",
+      "summary": "As Google takes on Apple in the item-tracking market, Nimble is hoping its trackable wallets, keychains, luggage tags, and passport covers stand out.",
+      "link": "https://techcrunch.com/2026/11/19/nimble-enters-the-item-tracking-market-with-eco-friendly-luggage-tags-and-keychains/",
+      "date": "Thu, 19 Nov 2026 14:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Superhuman pushes its Go assistant everywhere",
+      "summary": "Superhuman is making Go its central agent and making it available in Docs and Mail",
+      "link": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+      "date": "Thu, 19 Nov 2026 14:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
       "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
@@ -130,35 +162,27 @@
       "category": "Technology"
     },
     {
-      "title": "David Ellison says HBO will air critical Elon Musk documentary despite his $1B investment in Skydance",
-      "summary": "Following news of the investment, questions emerged over how Musk's sizable stake in the company might affect Skydance's plans to distribute a documentary that is highly critical of him.",
-      "link": "https://techcrunch.com/2026/11/18/david-ellison-says-hbo-will-air-critical-elon-musk-documentary-despite-1b-investment-in-skydance/",
-      "date": "Wed, 18 Nov 2026 17:30:56 +0000",
-      "source": "TechCrunch",
+      "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A human liver has been kept alive outside the body for seven weeks, setting a record Researchers in Australia claim they’ve kept a human liver alive on life support outside the&#8230;",
+      "link": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
+      "date": "Thu, 19 Nov 2026 13:10:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
-      "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
-      "summary": "Sam Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
-      "link": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
-      "date": "Wed, 18 Nov 2026 16:59:00 +0000",
-      "source": "TechCrunch",
+      "title": "A human liver has been kept alive outside the body for a record seven weeks",
+      "summary": "Researchers in Australia claim they’ve kept a human liver alive, on life support, outside the body for seven weeks, opening up speculative new possibilities in biomedical engineering. The feat, whose details are pending publication, was carried out in Sydney after a team led by surgeon and inventor Carlo Pulitano connected a donated liver to a&#8230;",
+      "link": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
+      "date": "Thu, 19 Nov 2026 12:00:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
-      "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
-      "summary": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
-      "link": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
-      "date": "Wed, 18 Nov 2026 16:14:09 +0000",
-      "source": "TechCrunch",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "Sony’s updated turntable is an easy entry into the world of vinyl",
-      "summary": "Sony's updated turntable for beginners features automatic playback, USB connectivity, and aptX Adaptive Bluetooth.",
-      "link": "https://techcrunch.com/2026/11/18/sonys-updated-turntable-is-an-easy-entry-into-the-world-of-vinyl/",
-      "date": "Wed, 18 Nov 2026 16:00:00 +0000",
-      "source": "TechCrunch",
+      "title": "What a billion-dollar deal says about the US battery market",
+      "summary": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a possible key to smaller, lighter batteries. It’s a deal that Sila says could be worth more than&#8230;",
+      "link": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
+      "date": "Thu, 19 Nov 2026 11:00:00 +0000",
+      "source": "MIT Technology Review",
       "category": "Technology"
     },
     {
@@ -214,30 +238,6 @@
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The open-source movement wants Jensen Huang back A petition to reinstate Jensen Huang as Nvidia CEO has attracted more than 115,000 signatures, including Elon Musk, but comb through the names, and&#8230;",
       "link": "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
       "date": "Tue, 17 Nov 2026 13:10:00 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "The open-source movement wants Jensen Huang back",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia&#8230;",
-      "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-      "date": "Mon, 16 Nov 2026 18:38:47 +0000",
-      "source": "MIT Technology Review",
-      "category": "Technology"
-    },
-    {
-      "title": "Building trustworthy AI by fencing it in, not predicting it",
-      "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do&#8230;",
-      "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-      "date": "Mon, 16 Nov 2026 16:04:28 +0000",
-      "source": "MIT Technology Review",
-      "category": "Artificial Intelligence"
-    },
-    {
-      "title": "The Download: testing tech promises and searching for cognitive immortality",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future? In the Impossible issue of MIT Technology Review, our series “Are&#8230;",
-      "link": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
-      "date": "Mon, 16 Nov 2026 13:10:00 +0000",
       "source": "MIT Technology Review",
       "category": "Technology"
     }
