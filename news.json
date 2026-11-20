@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-20T03:51:56.415335+00:00",
+  "updated": "2026-11-20T12:30:42.515410+00:00",
   "articles": [
+    {
+      "title": "The U.S. national cyber director is stepping down",
+      "summary": "The news comes as businesses across the country report a flurry of technical outages, the causes of which are still unknown.",
+      "link": "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down/",
+      "date": "Fri, 20 Nov 2026 09:14:19 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Apple may be developing its own AI agent that runs your Mac",
       "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
@@ -150,14 +158,6 @@
       "summary": "Superhuman is making Go its central agent and making it available in Docs and Mail.",
       "link": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
       "date": "Thu, 19 Nov 2026 14:00:00 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
-      "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-      "date": "Thu, 19 Nov 2026 00:42:56 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
