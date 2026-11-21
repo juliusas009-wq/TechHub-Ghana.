@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-21T01:58:14.610751+00:00",
+  "updated": "2026-11-21T09:31:47.609779+00:00",
   "articles": [
+    {
+      "title": "Startup sues Apple in India over tap-to-share contacts feature",
+      "summary": "A U.S. startup is seeking $162 million in damages and an injunction to impact iPhone and Apple Watch imports to India.",
+      "link": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/",
+      "date": "Sat, 21 Nov 2026 04:00:00 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now",
       "summary": "Techies are building technology that can advance all aspects of the world — but can they protect their hearts? That's the vulnerability that honey pots exploit.",
@@ -150,14 +158,6 @@
       "summary": "Uber is testing the new program in three U.S. cities.",
       "link": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/",
       "date": "Thu, 19 Nov 2026 21:33:24 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "link": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "date": "Thu, 19 Nov 2026 20:18:49 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
