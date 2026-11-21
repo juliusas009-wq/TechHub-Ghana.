@@ -1,6 +1,30 @@
 {
-  "updated": "2026-11-21T17:06:37.694394+00:00",
+  "updated": "2026-11-21T22:16:04.213300+00:00",
   "articles": [
+    {
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "date": "Sat, 21 Nov 2026 21:37:10 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "A tale of two Nvidias",
+      "summary": "We got two very different pictures of Nvidia —  the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "date": "Sat, 21 Nov 2026 21:07:42 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Trump says reported FBI database hack is ‘not good’",
+      "summary": "The FBI is reportedly investigating a hack of the National Crime Information Center.",
+      "link": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
+      "date": "Sat, 21 Nov 2026 18:44:53 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Here are the top AI agents that can live in your text messages",
       "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
@@ -134,30 +158,6 @@
       "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
       "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
       "date": "Fri, 20 Nov 2026 00:43:50 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Anthropic rival says companies can (mostly) skip the pricey models",
-      "summary": "On the day Anthropic went public, Fireworks AI’s co-founder made the case for open source models as a cheaper alternative, and addressed the breaches that have cost the company some customers’ trust.",
-      "link": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
-      "date": "Fri, 20 Nov 2026 00:26:03 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
-      "summary": "SpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones.",
-      "link": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
-      "date": "Thu, 19 Nov 2026 23:37:56 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
-      "summary": "IconSwapper brings your Mac's app icons to life with real-time data, animations, and playful customizations that make your desktop more fun.",
-      "link": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
-      "date": "Thu, 19 Nov 2026 22:33:26 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
