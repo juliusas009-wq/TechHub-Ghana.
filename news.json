@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-22T23:28:45.347084+00:00",
+  "updated": "2026-11-23T03:55:47.248338+00:00",
   "articles": [
+    {
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "date": "Mon, 23 Nov 2026 01:25:53 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "‘You Can See Everything’ has made more than $100M worldwide",
       "summary": "The new Elizabeth Holmes documentary is just beginning to roll out internationally.",
@@ -150,14 +158,6 @@
       "summary": "Intuit acquired the company in 2021 for roughly $12 billion, so it looks like Bending Spoons is getting quite a bargain.",
       "link": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/",
       "date": "Fri, 20 Nov 2026 16:16:06 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "A transcription firm used by police, prosecutors, and tech giants exposed customer data online",
-      "summary": "Exclusive: A simple security lapse exposed transcriptions of police interviews and bodycam footage on a cloud server without a password.",
-      "link": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/",
-      "date": "Fri, 20 Nov 2026 15:46:07 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
