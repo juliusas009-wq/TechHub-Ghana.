@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-24T22:40:09.912216+00:00",
+  "updated": "2026-11-25T05:13:33.726820+00:00",
   "articles": [
+    {
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
+      "link": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "date": "Wed, 25 Nov 2026 00:12:02 +0000",
+      "source": "TechCrunch",
+      "category": "Cloud Computing"
+    },
+    {
+      "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+      "summary": "Huang faces ongoing questions about his relationship with Alice Huang, an executive with alleged ties to Chinese intelligence who previously worked for a company that has been accused of illegally diverting Nvidia chips to China.",
+      "link": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
+      "date": "Wed, 25 Nov 2026 00:10:27 +0000",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
     {
       "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
       "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
@@ -142,22 +158,6 @@
       "summary": "Figma and its CEO are being sued by a current employee for alleged sexual harassment and discrimination.",
       "link": "https://techcrunch.com/2026/11/23/figma-employee-sues-alleging-company-forced-her-to-confront-harassers/",
       "date": "Mon, 23 Nov 2026 23:07:49 +0000",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
-      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-      "date": "Mon, 23 Nov 2026 22:05:50 +0000",
-      "source": "TechCrunch",
-      "category": "Programming"
-    },
-    {
-      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
-      "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
-      "date": "Mon, 23 Nov 2026 22:02:05 +0000",
       "source": "TechCrunch",
       "category": "Technology"
     },
